@@ -1,12 +1,13 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿html{height:100%}
+
+body {
+  height:100%
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    float:right;
+    width:700px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +22,12 @@ input,
 select,
 textarea {
     max-width: 280px;
+    height:400px;
+}
+
+
+.main-left {width:312px;
+                float:left;
+           background-color:#212833;
+           height:100%;
 }
