@@ -8,10 +8,10 @@ using System.Web.Http;
 
 namespace WebApi.Controllers
 {
-    public class ReaderController : ApiController
+    public class ReadersController : ApiController
     {
         static List<ReaderModel> DummyReaders = new List<ReaderModel>();
-        static ReaderController()
+        static ReadersController()
         {
             DummyReaders = GenerateReaders();
         }
@@ -31,6 +31,7 @@ namespace WebApi.Controllers
         // POST: api/Reader
         public void Post([FromBody]ReaderModel value)
         {
+            DummyReaders.Add(value);
         }
 
         // PUT: api/Reader/5

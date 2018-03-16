@@ -13,13 +13,24 @@ namespace WebApi
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+         //   routes.MapRoute(
+         //    name: "Readers",
+         //    url: "Readers/{id}",
+         //    defaults: new
+         //    {
+         //        controller = "Reader",
+         //        action = "Get",
+         //        id = UrlParameter.Optional
+         //    }
+         //);
+
             routes.MapRoute(
-                name: "Readers",
-                url: "Readers/{id}",
+                name: "Default",
+                url: "{controller}/{action}/{id}",
                 defaults: new
                 {
-                    controller = "Reader",
-                    action="Get",
+                    controller = "Home",
+                    action = "Index",
                     id = UrlParameter.Optional
                 }
             );
