@@ -48,6 +48,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Pluralsight\Transcript\HTTP Fundamentals.docx" />
+    <None Include="Pluralsight\Transcript\Notes.docx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pluralsight\Notes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

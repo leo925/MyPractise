@@ -1,0 +1,5 @@
+﻿Most user agents, aka web browsers will not make requests in a serial one by one fashion, instead they can open multiple, parallel, connections to a server.
+Hopefully that will cut the amount of time needed to display the images in half, but it's not always perfect like that.(cut in half).
+So, for example, in IE eight you can now have up to six concurrent connections per host.(up to:达到(某数量、规格等) 多达；直到 );
+
+
