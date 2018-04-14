@@ -3,3 +3,11 @@ Hopefully that will cut the amount of time needed to display the images in half,
 So, for example, in IE eight you can now have up to six concurrent connections per host.(up to:达到(某数量、规格等) 多达；直到 );
 a URL cannot restrict the client or the server to a specific type of technology. (restrict to)
 
+ If you have too many connections open it can saturate (浸透，使湿透；使饱和，使充满) and congest the network,
+ If people or things saturate a place or object, they fill it completely so that no more can be added. 使饱和; 使充满
+ If someone or something is saturated, they become extremely wet. 使湿透
+ In the early days of the web
+ That(persistent connection) leaves the browser with an already open socket it can use to continue making requests to the server, without the overhead of opening a new socket.
+ they typically reduce memory usage, reduce CPU usage, reduce network congestion, reduce latency, they generally improve the response time of a page, but like everything in software there is always a downside.
+
+
