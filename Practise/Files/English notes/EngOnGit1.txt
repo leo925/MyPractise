@@ -9,5 +9,7 @@ a URL cannot restrict the client or the server to a specific type of technology.
  In the early days of the web
  That(persistent connection) leaves the browser with an already open socket it can use to continue making requests to the server, without the overhead of opening a new socket.
  they typically reduce memory usage, reduce CPU usage, reduce network congestion, reduce latency, they generally improve the response time of a page, but like everything in software there is always a downside.
-
+ And likewise, when the application creates the HTTP response message, the server also has a chance to interact with that message on the way out.
+ For example, a server knows that the client supports gzip compression, because a client can advertise that fact through an accept encoding header in the HTTP request.
+ client:Accept-Encoding: gzip, deflate  server:Content-Encoding: gzip  or Content-Encoding: compress  or Content-Encoding: deflate
 

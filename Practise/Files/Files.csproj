@@ -48,11 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Pluralsight\Notes\http\http cache basics1.docx" />
+    <None Include="Pluralsight\Notes\http\http cache basics2.docx" />
+    <None Include="Pluralsight\Notes\http\服务器缓存的实现过程详解.docx" />
     <None Include="Pluralsight\Transcript\HTTP Fundamentals.docx" />
-    <None Include="Pluralsight\Transcript\Notes.docx" />
+    <None Include="Pluralsight\Notes\http\Notes_HTTP Fundamentals.docx" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Pluralsight\Notes\" />
+    <Content Include="English notes\EngOnGit1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

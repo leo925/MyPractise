@@ -10,6 +10,7 @@ namespace Practise.Controllers
     public class CuisineController : Controller
     {
         // GET: Cuisine
+        [OutputCache(Duration =20,CacheProfile ="myCatch",VaryByParam ="name")]
         public ActionResult Search(string name)
         {
             if (name == "file")
@@ -19,6 +20,7 @@ namespace Practise.Controllers
             }
             else
             {
+                Response.Cache.SetCacheability(HttpCacheability.Private);
                 return View();
             }
             
