@@ -12,4 +12,5 @@ a URL cannot restrict the client or the server to a specific type of technology.
  And likewise, when the application creates the HTTP response message, the server also has a chance to interact with that message on the way out.
  For example, a server knows that the client supports gzip compression, because a client can advertise that fact through an accept encoding header in the HTTP request.
  client:Accept-Encoding: gzip, deflate  server:Content-Encoding: gzip  or Content-Encoding: compress  or Content-Encoding: deflate
-
+  each request response transaction is independent of any previous or future transaction.
+the viewstate is included in the post to the server which can recreate the Web form just like it was when it last left the server by deserializing that value 
