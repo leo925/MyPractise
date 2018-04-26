@@ -14,3 +14,15 @@ a URL cannot restrict the client or the server to a specific type of technology.
  client:Accept-Encoding: gzip, deflate  server:Content-Encoding: gzip  or Content-Encoding: compress  or Content-Encoding: deflate
   each request response transaction is independent of any previous or future transaction.
 the viewstate is included in the post to the server which can recreate the Web form just like it was when it last left the server by deserializing that value 
+HTTPs requires the server to have a cryptographic  [,krɪptə'græfɪk]  certificate
+cryptograph: ['krɪptəʊɡrɑːf] 密码，密文
+cryptography [krɪp'tɑgrəfi] 密码学；密码使用法
+First of all, all traffic over HTTPs is encrypted in the request and the response. That includes the HTTP headers and the message body and basically everything except the host name. That means that the URL 
+path and the URL query string is encrypted as well as all cookies. So HTTPs prevents session high jacking because no eavesdroppers can inspect a message and steal a cookie.
+Now a browser can use that certificate to validate that it is truly talking to the server that it thinks it's talking to. 
+
+
+
+
+
+
