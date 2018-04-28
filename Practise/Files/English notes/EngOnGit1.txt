@@ -7,7 +7,7 @@ a URL cannot restrict the client or the server to a specific type of technology.
  If people or things saturate a place or object, they fill it completely so that no more can be added. 使饱和; 使充满
  If someone or something is saturated, they become extremely wet. 使湿透
  In the early days of the web
- That(persistent connection) leaves the browser with an already open socket it can use to continue making requests to the server, without the overhead of opening a new socket.
+ That(persistent connection) leaves the browser with an already open socket it can use to continue making requests to the server, without the overhead(*) of opening a new socket.
  they typically reduce memory usage, reduce CPU usage, reduce network congestion, reduce latency, they generally improve the response time of a page, but like everything in software there is always a downside.
  And likewise, when the application creates the HTTP response message, the server also has a chance to interact with that message on the way out.
  For example, a server knows that the client supports gzip compression, because a client can advertise that fact through an accept encoding header in the HTTP request.
@@ -20,7 +20,28 @@ cryptography [krɪp'tɑgrəfi] 密码学；密码使用法
 First of all, all traffic over HTTPs is encrypted in the request and the response. That includes the HTTP headers and the message body and basically everything except the host name. That means that the URL 
 path and the URL query string is encrypted as well as all cookies. So HTTPs prevents session high jacking because no eavesdroppers can inspect a message and steal a cookie.
 Now a browser can use that certificate to validate that it is truly talking to the server that it thinks it's talking to. 
+HTTPs traffic is also impossible to cache in a public cache because once a message is encrypted, it's intended for(*) a single user.
+transport layer security  = TLS  /  Secure Sockets Layer=SSL
+And now this is the last module of the course. I hope you enjoyed the material and that you were able to take away an in-depth（*） knowledge of HTTP and how it works.
+there is a complementary attribute called tear down ( setup in UT) 
+So in building one web page like that a browser will typically make multiple HTTP requests to retrieve all the resources needed for that one page to display properly in the browser. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
 
 
 
