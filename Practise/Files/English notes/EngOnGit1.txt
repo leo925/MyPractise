@@ -25,10 +25,11 @@ transport layer security  = TLS  /  Secure Sockets Layer=SSL
 And now this is the last module of the course. I hope you enjoyed the material and that you were able to take away an in-depth（*） knowledge of HTTP and how it works.
 there is a complementary attribute called tear down ( setup in UT) 
 So in building one web page like that a browser will typically make multiple HTTP requests to retrieve all the resources needed for that one page to display properly in the browser. 
-
-
-
-
+I can even take that link and hand it to someone else and if they follow that link they, too, will be taken to that particular spot so that this particular section of the resource appears on the page instead of starting at the very top of the page 
+If you've been following along so far, then you'd be able to look at this URL and know that it has a scheme, which is HTTP, and that's required; a host name called host, that's also required;
+ a port of 8,080; a URL path called path; a query string, q equals query; and finally a fragment.
+ A URL should be as easy to communicate through email as it is to put on a billboard or a bumper sticker(*) or a business card. 
+ A bumper sticker is a small piece of paper or plastic with words or pictures on it, designed for sticking onto the back of your car. It usually has a political, religious, or humorous message. 保险杠贴纸
 
 
 
