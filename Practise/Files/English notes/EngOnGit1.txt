@@ -30,15 +30,15 @@ If you've been following along so far, then you'd be able to look at this URL an
  a port of 8,080; a URL path called path; a query string, q equals query; and finally a fragment.
  A URL should be as easy to communicate through email as it is to put on a billboard or a bumper sticker(*) or a business card. 
  A bumper sticker is a small piece of paper or plastic with words or pictures on it, designed for sticking onto the back of your car. It usually has a political, religious, or humorous message. 保险杠贴纸
-
-
-
-
-
-
-
-
-
+ guidepost ,   road sign , 意思:查bing图片
+ the space character is considered unsafe because spaces are hard to read. They can mistakenly(*) appear/disappear when a URL is in printed form.
+ Other unsafe characters include the pound sign because it's used to delimit a fragment. That doesn't mean that you cannot use a pound sign in a URL; it just means that the pound sign can only be used in its reserved(*) position which is to delimit a fragment.
+ Another unsafe character is the caret because it isn't always transmitted correctly through the network.
+ case insensitive:不区分大小写   lower/upper case alphabet
+ 20 is the hexadecimal value for the space character in the US ASCII character set.
+ so a percent encoding is basically taking that hexadecimal value, putting a percent in front and then replacing a character in the URL with that percent encoded value.
+On the service side, you should run dynamically created URLs through the encoding algorithm just in case one of the unsafe characters will appear in the URL. 
+In order for a host to properly serve a resource and in order for the client to properly display a resource
 
 
 
