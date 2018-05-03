@@ -40,6 +40,22 @@ If you've been following along so far, then you'd be able to look at this URL an
 On the service side, you should run dynamically created URLs through the encoding algorithm just in case one of the unsafe characters will appear in the URL. 
 In order for a host to properly serve a resource and in order for the client to properly display a resource
 
+mvc 4
+The first time that you launch Visual Studio, it might take a little extra time to perform some initialization. But every start-up(startup **) after this will be considerably faster.
+There is no file extensions present(*).
+** adapt to
+make div width adapt automatically to contents 
+
+We also have a meta view port tag by default and this is important for mobile devices. You can think of this as an instruction for how the page should render. So, without this meta tag,
+ a mobile browser will assume that your page needs over 900 pixels to display properly. So, it will zoom out to fit all of the content on the screen. But because it's so zoomed out, 
+ the user cannot work with the site until they zoom in. But with this tag in place, we are telling a mobile browser that our site will adapt to(*) the width of the device. 
+ So, please don't assume anything about how many pixels we need. 
+ I want to close the browser and return to Visual Studio to start poking around(随意探索;闲逛) inside of this project.
+ Three of these folders have a special significance
+ The ASP.NET MVC framework derives its name from the model view controller design pattern.
+  A stimulus is something that encourages activity in people or things. 刺激物
+  A controller is a software component that will be the target for some external stimulus(*). In the case of a web application that external stimulus(*) is usually an incoming HTTP request.
+
 
 
 end
