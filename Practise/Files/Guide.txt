@@ -13,4 +13,12 @@ next time play pc game: May , 4th
                        
 
 
+
+
+http  => asp.net mvc and html css basics   1.5 months??
+
+=> EF 12 days
+=> sql server  15 days
+=>
+
 end 
