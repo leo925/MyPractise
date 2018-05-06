@@ -51,6 +51,8 @@
     <None Include="Pluralsight\Notes\http\http cache basics1.docx" />
     <None Include="Pluralsight\Notes\http\http cache basics2.docx" />
     <None Include="Pluralsight\Notes\http\服务器缓存的实现过程详解.docx" />
+    <None Include="Pluralsight\Transcript\Building Applications with ASP.NET MVC 4.docx" />
+    <None Include="Pluralsight\Transcript\HTML Fundamentals.docx" />
     <None Include="Pluralsight\Transcript\HTTP Fundamentals.docx" />
     <None Include="Pluralsight\Notes\http\Notes_HTTP Fundamentals.docx" />
   </ItemGroup>

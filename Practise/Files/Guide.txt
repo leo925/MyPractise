@@ -15,10 +15,19 @@ next time play pc game: May , 4th
 
 
 
-http  => asp.net mvc and html css basics   1.5 months??
+http  => 
+html fundamentals and my practise: 4 days
+css fundamentals : 4 days
+html5 fundamentals and my html5 book: 15 days?
 
-=> EF 12 days
-=> sql server  15 days
-=>
+<building app with mvc>:10 days
+<mmvc 4 fundamental>: 8 days
+<sql server >??
 
-end 
+EF: 7days  
+
+
+logs:
+date     content     hours
+5.6:                               
+                             
