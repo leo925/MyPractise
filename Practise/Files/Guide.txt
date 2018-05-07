@@ -28,6 +28,17 @@ EF: 7days
 
 
 logs:
-date     content     hours
-5.6:                               
-                             
+date     content                hours
+5.6:     html fundamental       3                  
+5.7      same                                          
+
+
+
+
+
+
+
+
+
+
+end

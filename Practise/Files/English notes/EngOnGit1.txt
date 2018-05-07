@@ -46,9 +46,20 @@ this is a ready-made(*) product you can use to create web application.
 (vertical-align:middle)it tells the browser to vertically align the image in the middle.
 you can nest(*) things like this : div p { color:blue}
 
+*********
+html fundamentals:
+We could also append a named anchor on to the H ref for another page and navigate into that page to the named anchor. 
+So if we follow(** see definition below) a link to this named anchor then we should come to this terminology section. 
+If you follow a path, route, or set of signs, you go somewhere using the path, route, or signs to direct you. 沿着…走
+So what I'm doing is saying take me to that page and further take me down into the named anchor within that particular page
+If I go back and change this(TH) to a TD in here, you'll see it just shows up left justified(*左对齐).
+
+. You can see that's going to show up now and you'll notice the way these things are lining up(对齐 see below). So we have a row in the heading and we have two different table headers,
+ so we've got two columns and then in the footer we have a row, we just have the one column and so you'll notice down here that adds flowing underneath the first column of the headers
+  and then this second column is standing out here all in(网上查，on one's one:独立的/地) its own. 
 
 
-
+*If you line one thing up with another, or one thing lines up with another, the first thing is moved into its correct position in relation to the second. You can also say that two things line up, or are lined up. 与…对齐; 对齐
 
 
 
