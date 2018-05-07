@@ -3,16 +3,16 @@ Hopefully that will cut the amount of time needed to display the images in half,
 So, for example, in IE eight you can now have up to six concurrent connections per host.(up to:达到(某数量、规格等) 多达；直到 );
 a URL cannot restrict the client or the server to a specific type of technology. (restrict to)
 
- If you have too many connections open it can saturate (浸透，使湿透；使饱和，使充满) and congest the network,
- If people or things saturate a place or object, they fill it completely so that no more can be added. 使饱和; 使充满
- If someone or something is saturated, they become extremely wet. 使湿透
- In the early days of the web
- That(persistent connection) leaves the browser with an already open socket it can use to continue making requests to the server, without the overhead(*) of opening a new socket.
- they typically reduce memory usage, reduce CPU usage, reduce network congestion, reduce latency, they generally improve the response time of a page, but like everything in software there is always a downside.
- And likewise, when the application creates the HTTP response message, the server also has a chance to interact with that message on the way out.
- For example, a server knows that the client supports gzip compression, because a client can advertise that fact through an accept encoding header in the HTTP request.
- client:Accept-Encoding: gzip, deflate  server:Content-Encoding: gzip  or Content-Encoding: compress  or Content-Encoding: deflate
-  each request response transaction is independent of any previous or future transaction.
+If you have too many connections open it can saturate (浸透，使湿透；使饱和，使充满) and congest the network,
+If people or things saturate a place or object, they fill it completely so that no more can be added. 使饱和; 使充满
+If someone or something is saturated, they become extremely wet. 使湿透
+In the early days of the web
+That(persistent connection) leaves the browser with an already open socket it can use to continue making requests to the server, without the overhead(*) of opening a new socket.
+they typically reduce memory usage, reduce CPU usage, reduce network congestion, reduce latency, they generally improve the response time of a page, but like everything in software there is always a downside.
+And likewise, when the application creates the HTTP response message, the server also has a chance to interact with that message on the way out.
+For example, a server knows that the client supports gzip compression, because a client can advertise that fact through an accept encoding header in the HTTP request.
+client:Accept-Encoding: gzip, deflate  server:Content-Encoding: gzip  or Content-Encoding: compress  or Content-Encoding: deflate
+each request response transaction is independent of any previous or future transaction.
 the viewstate is included in the post to the server which can recreate the Web form just like it was when it last left the server by deserializing that value 
 HTTPs requires the server to have a cryptographic  [,krɪptə'græfɪk]  certificate
 cryptograph: ['krɪptəʊɡrɑːf] 密码，密文
@@ -27,18 +27,31 @@ there is a complementary attribute called tear down ( setup in UT)
 So in building one web page like that a browser will typically make multiple HTTP requests to retrieve all the resources needed for that one page to display properly in the browser. 
 I can even take that link and hand it to someone else and if they follow that link they, too, will be taken to that particular spot so that this particular section of the resource appears on the page instead of starting at the very top of the page 
 If you've been following along so far, then you'd be able to look at this URL and know that it has a scheme, which is HTTP, and that's required; a host name called host, that's also required;
- a port of 8,080; a URL path called path; a query string, q equals query; and finally a fragment.
- A URL should be as easy to communicate through email as it is to put on a billboard or a bumper sticker(*) or a business card. 
- A bumper sticker is a small piece of paper or plastic with words or pictures on it, designed for sticking onto the back of your car. It usually has a political, religious, or humorous message. 保险杠贴纸
- guidepost ,   road sign , 意思:查bing图片
- the space character is considered unsafe because spaces are hard to read. They can mistakenly(*) appear/disappear when a URL is in printed form.
- Other unsafe characters include the pound sign because it's used to delimit a fragment. That doesn't mean that you cannot use a pound sign in a URL; it just means that the pound sign can only be used in its reserved(*) position which is to delimit a fragment.
- Another unsafe character is the caret because it isn't always transmitted correctly through the network.
- case insensitive:不区分大小写   lower/upper case alphabet
- 20 is the hexadecimal value for the space character in the US ASCII character set.
- so a percent encoding is basically taking that hexadecimal value, putting a percent in front and then replacing a character in the URL with that percent encoded value.
+a port of 8,080; a URL path called path; a query string, q equals query; and finally a fragment.
+A URL should be as easy to communicate through email as it is to put on a billboard or a bumper sticker(*) or a business card. 
+A bumper sticker is a small piece of paper or plastic with words or pictures on it, designed for sticking onto the back of your car. It usually has a political, religious, or humorous message. 保险杠贴纸
+guidepost ,   road sign , 意思:查bing图片
+the space character is considered unsafe because spaces are hard to read. They can mistakenly(*) appear/disappear when a URL is in printed form.
+Other unsafe characters include the pound sign because it's used to delimit a fragment. That doesn't mean that you cannot use a pound sign in a URL; it just means that the pound sign can only be used in its reserved(*) position which is to delimit a fragment.
+Another unsafe character is the caret because it isn't always transmitted correctly through the network.
+case insensitive:不区分大小写   lower/upper case alphabet
+20 is the hexadecimal value for the space character in the US ASCII character set.
+so a percent encoding is basically taking that hexadecimal value, putting a percent in front and then replacing a character in the URL with that percent encoded value.
 On the service side, you should run dynamically created URLs through the encoding algorithm just in case one of the unsafe characters will appear in the URL. 
 In order for a host to properly serve a resource and in order for the client to properly display a resource
+
+*****the big picture
+see the html that this page is made of.
+this is a ready-made(*) product you can use to create web application.
+(vertical-align:middle)it tells the browser to vertically align the image in the middle.
+you can nest(*) things like this : div p { color:blue}
+
+
+
+
+
+
+
 
 mvc 4
 The first time that you launch Visual Studio, it might take a little extra time to perform some initialization. But every start-up(startup **) after this will be considerably faster.
@@ -47,14 +60,19 @@ There is no file extensions present(*).
 make div width adapt automatically to contents 
 
 We also have a meta view port tag by default and this is important for mobile devices. You can think of this as an instruction for how the page should render. So, without this meta tag,
- a mobile browser will assume that your page needs over 900 pixels to display properly. So, it will zoom out to fit all of the content on the screen. But because it's so zoomed out, 
- the user cannot work with the site until they zoom in. But with this tag in place, we are telling a mobile browser that our site will adapt to(*) the width of the device. 
- So, please don't assume anything about how many pixels we need. 
- I want to close the browser and return to Visual Studio to start poking around(随意探索;闲逛) inside of this project.
- Three of these folders have a special significance
- The ASP.NET MVC framework derives its name from the model view controller design pattern.
-  A stimulus is something that encourages activity in people or things. 刺激物
-  A controller is a software component that will be the target for some external stimulus(*). In the case of a web application that external stimulus(*) is usually an incoming HTTP request.
+a mobile browser will assume that your page needs over 900 pixels to display properly. So, it will zoom out to fit all of the content on the screen. But because it's so zoomed out, 
+the user cannot work with the site until they zoom in. But with this tag in place, we are telling a mobile browser that our site will adapt to(*) the width of the device. 
+So, please don't assume anything about how many pixels we need. 
+I want to close the browser and return to Visual Studio to start poking around(随意探索;闲逛) inside of this project.
+Three of these folders have a special significance
+The ASP.NET MVC framework derives its name from the model view controller design pattern.
+A stimulus is something that encourages activity in people or things. 刺激物
+A controller is a software component that will be the target for some external stimulus(*). In the case of a web application that external stimulus(*) is usually an incoming HTTP request.
+That isolation that you achieve with the MVC pattern makes it easy to maintain and change your application moving forward because the code inside of each of these pieces is very focused and easier to understand.
+I do want to point out that the MVC design pattern doesn't dictate what type of data access you use.
+There is no large obstructions here that try to shield you from knowing things like what HTTP verb is being used to place a request.
+
+
 
 
 
