@@ -57,10 +57,9 @@ If I go back and change this(TH) to a TD in here, you'll see it just shows up le
 . You can see that's going to show up now and you'll notice the way these things are lining up(对齐 see below). So we have a row in the heading and we have two different table headers,
  so we've got two columns and then in the footer we have a row, we just have the one column and so you'll notice down here that adds flowing underneath the first column of the headers
   and then this second column is standing out here all in(网上查，on one's one:独立的/地) its own. 
-
-
 *If you line one thing up with another, or one thing lines up with another, the first thing is moved into its correct position in relation to the second. You can also say that two things line up, or are lined up. 与…对齐; 对齐
-
+We've got our table with some rows in it, but not everything's going to fit(*) nicely. We've seen that our table footer for example had that one simple column and it was
+ always going to be left justified(*) and, and always lined up(*) with those first columns
 
 
 
@@ -82,8 +81,9 @@ A controller is a software component that will be the target for some external s
 That isolation that you achieve with the MVC pattern makes it easy to maintain and change your application moving forward because the code inside of each of these pieces is very focused and easier to understand.
 I do want to point out that the MVC design pattern doesn't dictate what type of data access you use.
 There is no large obstructions here that try to shield you from knowing things like what HTTP verb is being used to place a request.
-
-
+A tripod /ˈtraɪpɒd/  is a stand with three legs that is used to support something such as a camera or a telescope. 三脚架
+A stand is an object or piece of furniture that is designed for supporting or holding a particular kind of thing. 托架
+The teapot came with(come with/go with 感觉 有配对的意思) a stand to catch the drips.
 
 
 
