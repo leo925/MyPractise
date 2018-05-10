@@ -85,6 +85,31 @@ A tripod /ˈtraɪpɒd/  is a stand with three legs that is used to support somet
 A stand is an object or piece of furniture that is designed for supporting or holding a particular kind of thing. 托架
 The teapot came with(come with/go with 感觉 有配对的意思) a stand to catch the drips.
 
+And that was just intended to(是用来) simulate some sort of data access. 
+This particular element, the div, by default is going to be treated as a block level container and it's going to render, it's going to render on its own next kind of logical line or space in the document. 
+You can see that IAS gives me the warning that SSL is not enabled and credentials will be sent in clear(*) text,So for that reason basic authentication is rarely used without secure HTTP                       
+You can allow access to all anonymous users or restrict access that the only specific users or groups can access a particular file or directory
+one security concern around session identifiers is how they can open up(* see below) the possibility of someone high jacking some other user's session.
+If something opens up opportunities or possibilities, or if they open up, they are created. 提供 (机会); (机会、可能性) 出现                        
+When specifying sizes, CSS offers a wide array of measurements(**量度制).                        
+Some of these property values are set using dedicated keywords                            
+The background color, by the way, is specified in hexadecimal rgb format                        
+For now I'll just tell you that that(padding) particular setting will push the content of a web page further away from the edge of the containing window by 10 pixels
+This site provides a table allowing you to cross reference(***) specific CSS features against different versions of IE, Chrome, Safari, Opera, and Firefox. 
+It's important to understand a little bit about the specifications because they do evolve and one of the unfortunate characteristics of CSS is that you'll find varying support among the different browsers.
+my definition list for terminology is down here lower and you can't actually see it when we're on the top of the page
+probably had a mismatch on my casing(大小写) there. 
+now we get squares off to the side(list prefix)
+piling the snow off to the side to allow me to drive out of the barn                        
+we can nest those Ordered and Unordered Lists to give us those sublists as well.
+notice that I have spacing here so that the first and last lines are indented(****)                       
+                    
+                
+
+          
+
+
+
 
 
 end
