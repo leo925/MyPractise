@@ -55,13 +55,11 @@ So what I'm doing is saying take me to that page and further take me down into t
 If I go back and change this(TH) to a TD in here, you'll see it just shows up left justified(*左对齐).
 
 . You can see that's going to show up now and you'll notice the way these things are lining up(对齐 see below). So we have a row in the heading and we have two different table headers,
- so we've got two columns and then in the footer we have a row, we just have the one column and so you'll notice down here that adds flowing underneath the first column of the headers
-  and then this second column is standing out here all in(网上查，on one's one:独立的/地) its own. 
+so we've got two columns and then in the footer we have a row, we just have the one column and so you'll notice down here that adds flowing underneath the first column of the headers
+and then this second column is standing out here all in(网上查，on one's one:独立的/地) its own. 
 *If you line one thing up with another, or one thing lines up with another, the first thing is moved into its correct position in relation to the second. You can also say that two things line up, or are lined up. 与…对齐; 对齐
 We've got our table with some rows in it, but not everything's going to fit(*) nicely. We've seen that our table footer for example had that one simple column and it was
- always going to be left justified(*) and, and always lined up(*) with those first columns
-
-
+always going to be left justified(*) and, and always lined up(*) with those first columns
 
 mvc 4
 The first time that you launch Visual Studio, it might take a little extra time to perform some initialization. But every start-up(startup **) after this will be considerably faster.
@@ -91,7 +89,9 @@ You can see that IAS gives me the warning that SSL is not enabled and credential
 You can allow access to all anonymous users or restrict access that the only specific users or groups can access a particular file or directory
 one security concern around session identifiers is how they can open up(* see below) the possibility of someone high jacking some other user's session.
 If something opens up opportunities or possibilities, or if they open up, they are created. 提供 (机会); (机会、可能性) 出现                        
-When specifying sizes, CSS offers a wide array of measurements(**量度制).                        
+When specifying sizes, CSS offers a wide array of measurements(**量度制). 
+you'll first have to pick between absolute or relative units.
+A unit of measurement is a fixed standard quantity, length, or weight that is used for measuring things. The quart, the inch, and the ounce are all units. (计量用的) 单位                        
 Some of these property values are set using dedicated keywords                            
 The background color, by the way, is specified in hexadecimal rgb format                        
 For now I'll just tell you that that(padding) particular setting will push the content of a web page further away from the edge of the containing window by 10 pixels
@@ -105,8 +105,22 @@ we can nest those Ordered and Unordered Lists to give us those sublists as well.
 notice that I have spacing here so that the first and last lines are indented(****)                       
 select list items that the mouse is currently hovering over.                    
 And also it's a little bit ugly to have both the black border on the bottom of a list item and also an underline under the hyperlink.                
- If I wanted to get rid of that what I could say is that the anchor tags inside of a list item should have a text-decoration of none as opposed to underline, 
-          
+If I wanted to get rid of that what I could say is that the anchor tags inside of a list item should have a text-decoration of none as opposed to underline, 
+you'll first have to pick between absolute or relative units.          
+Relative units, like percentages or the keywords larger or smaller or ems, they allow you set a font size based on some baseline(**)
+A baseline is a value or starting point on a scale with which other values can be compared. (价值的)基准
+h1 tag is going to be well beyond(**远远超过) 1.2ems.
+we can see that versionInfo = actually is on a different line than the line that ends here with a semicolon.
+But web browsers generally don't respect(**有考虑;关心,的意思) things like tabs and new lines and carriage returns inside of HTML code.
+What they're trying to do is take that text and get /as much of it on one line/  as possible.
+[my scentences]:what we are going to is take those apples and eat / as many of them today / as possible.
+You can say with all due respect when you are politely disagreeing with someone or criticizing them. 请恕我冒犯礼貌
+letter-spacing: When I refresh you can see that all of the letters have been pushed apart.
+word-spacing: which is the space between words and you can see that 'using' and 'FileVersionInfo' are now much further apart than they were by default.
+If I refresh you can see how it spaced some of those sentences out, 
+space out:(使)间隔开，(在…中间)拉开间隔：;加宽(字或行之间) 的距离 =>(this     is     my        book)
+text-align:justify: so that the right edge of the text is always/ as close to the margin /as possible
+line-height: let's try 2.2ems, you can see how those lines move apart
 
 
 
