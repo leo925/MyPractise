@@ -103,9 +103,9 @@ now we get squares off to the side(list prefix)
 piling the snow off to the side to allow me to drive out of the barn                        
 we can nest those Ordered and Unordered Lists to give us those sublists as well.
 notice that I have spacing here so that the first and last lines are indented(****)                       
-                    
-                
-
+select list items that the mouse is currently hovering over.                    
+And also it's a little bit ugly to have both the black border on the bottom of a list item and also an underline under the hyperlink.                
+ If I wanted to get rid of that what I could say is that the anchor tags inside of a list item should have a text-decoration of none as opposed to underline, 
           
 
 
