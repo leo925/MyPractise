@@ -136,7 +136,7 @@ we have quite a bit of padding that is pushing the content inwards away from the
 should have a text-decoration of none as opposed to underline
 the width setting is no longer in effect. We have some elements displaying that are obviously less than 150 pixels and this is because you cannot set the width of an inline element. They are going to expand so that all their content fits inside in the padding and the border, but that's it. If we wanted these elements to be inline, but still have block characteristics like being able to set the width, that's another display setting, which is inline-block. 
 they display inline and will stretch across the page until you run out of space and then they'll bounce down to the next line.                              
-                                                             
+****traffic restrictions based on the last digit of license plate numbers                                                 
                         
                         
 
