@@ -121,7 +121,7 @@ If I refresh you can see how it spaced some of those sentences out,
 space out:(使)间隔开，(在…中间)拉开间隔：;加宽(字或行之间) 的距离 =>(this     is     my        book)
 text-align:justify: so that the right edge of the text is always/ as close to the margin /as possible
 line-height: let's try 2.2ems, you can see how those lines move apart
-
+top 20 pixels, left 50 pixels:  what it's going to do is move down an additional 20 pixels and left an additional 50 pixels from where it should have been
 
 
 
