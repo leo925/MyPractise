@@ -56,8 +56,11 @@
     <None Include="Pluralsight\Transcript\HTML Fundamentals.docx" />
     <None Include="Pluralsight\Transcript\HTTP Fundamentals.docx" />
     <None Include="Pluralsight\Notes\http\Notes_HTTP Fundamentals.docx" />
+    <None Include="Pluralsight\Transcript\JavaScript Fundamentals.docx" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Pluralsight\Transcript\NewFolder1\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="English notes\EngOnGit1.txt" />
     <Content Include="English notes\HarryPotter.txt" />
