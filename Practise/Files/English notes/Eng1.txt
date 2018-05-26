@@ -1,0 +1,95 @@
+﻿Mass:质量（物理）: In physics, the mass of an object is the amount of physical matter that it has. 质量
+Material:Material things are related to possessions or money, rather than to more abstract things such as ideas or values. 物质的=>  material pursuing/persuit
+If you stroke someone or something, you move your hand slowly and gently over them. 轻抚
+The strokes of a pen or brush are the movements or marks that you make with it when you are writing or painting. 笔画
+If someone has a stroke, a blood vessel in their brain bursts or becomes blocked, which may kill them or make them unable to move one side of their body. 中风
+Someone who is cunning has the ability to achieve things in a clever way, often by deceiving other people. 狡猾的
+progress: 动词读作prəˈgrɛs。     in progress, make progress, 
+automobile 美 [ˌɔtəmoˈbil ] An automobile is a car.
+practicality   ['præktɪ'kæləti] 实用性，实际性 The practicalities of a situation are the practical aspects of it, as opposed to its theoretical  [,θiə'rɛtɪkəl] aspects. 现实
+The practical aspects of something involve real situations and events, rather than just ideas and theories. 实际的/ 实用的
+A shed is a small building that is used for storing things such as garden tools. (用于存放园艺工具等的) 棚屋
+A shed is a large shelter or building, for example, at a train station, port, or factory. (车站、港口、工厂等的) 棚式建筑    落 (叶); 脱 (发); 蜕 (皮)
+If you shed tears, you cry. 落 (泪)
+When there is frost or a frost, the temperature outside falls below freezing point and the ground becomes covered in ice crystals. 霜
+A critic is a person who writes about and expresses opinions about things such as books, movies, music, or art. 评论家
+Mather was a film critic for many years.
+马瑟做过多年的电影评论家。
+N-COUNT Someone who is a critic of a person or system disapproves of them and criticizes them publicly. 批评者
+A dynamo 'daɪnəmo  is a device that uses the movement of a machine or vehicle to produce electricity. 发电机  A dynamo transforms mechanical energy into electricity.
+
+The volume of an object is the amount of space that it contains or occupies. 容积A volume is one book in a series of books. (书籍的) 卷
+The volume of a radio, television, or sound system is the loudness of the sound it produces音量
+Sales volumn:销量
+You use tremendous to emphasize how strong a feeling or quality is, or how large an amount is. 非常的; 巨大的强调 
+
+I felt a tremendous pressure on my chest.
+Severe punishments or criticisms are very strong or harsh. (惩罚、批评) 严厉的
+  You use severe  [səˈvɪr]to indicate that something bad or undesirable is great or intense. 严重的  severity [sə'vɛrəti]
+If you say that someone or something degenerates, you mean that they become worse in some way, for example, weaker, lower in quality, or more dangerous. 退化; 恶化; 堕落
+jonts:关节
+ sour: 馊的，酸的
+Vapour consists of tiny drops of water or other liquids in the air, that appear as mist. 蒸汽
+You can use realm to refer to any area of activity, interest, or thought. (活动、兴趣、思想的) 领域
+Elastic is a rubber material that stretches when you pull it and returns to its original size and shape when you let it go. 
+Elastic is often used in clothes to make them fit tightly(**紧密贴合), for example, around the waist. 松紧带
+Something that is elastic is able to stretch easily and then return to its original size and shape. 有弹性的
+A flexible object or material can be bent easily without breaking. 柔韧的
+direction: 使用说明 (方向，指导 )
+erect:（很多意思), erect a bridge/hourse,  straight and upright, 竖立
+I assure you that we can make it, I ensure that we can make it.
+His performance yesterday morning assured him of(*****) a record eighth medal.
+Parentheses are a pair of curved marks that you put around words or numbers to indicate that they are additional, separate, or less important. (This sentence is in parentheses.) 括号
+put around:把...包起来
+When a painting, sculpture, or object of interest is exhibited, it is put in a public place such as a museum or art gallery so that people can come to look at it. You can also say that animals are exhibitedin a zoo. 展览
+If someone or something shows a particular quality, feeling, or type of behaviour, you can say that they exhibit it. 表现出
+take sth for sth: 把...认为是...,把...当成   What did they take us for?
+他们把我们当成什么了?    把…误认为，误以为…是…： We took her for her younger sister.
+Later, he admitted that the payments had indeed been made.
+A steep slope rises at a very sharp angle and is difficult to go up. 陡峭的
+A cliff is a high area of land with a very steep side, especially one next to the sea. (尤其指靠海的) 悬崖
+When something rolls or when you roll it, it moves along a surface, turning over many times. 滚动
+turn over: 移交给；翻阅；把…翻过来；发动；营业额达到；反复考虑       
+移交：hand over
+If you are puffing, you are breathing loudly and quickly with your mouth open because you are out of breath(上气不接下气) after a lot of physical effort. 喘粗气
+I know nothing about boxing, but I could see he was unfit, because he was puffing.
+gasp for breath:呼吸十分困难， 上气不接下气
+A puff of something such as air or smoke is a small amount of it that is blown out from somewhere. 一股
+ Puff is also a noun. 一口烟   I took a puff on the cigarette and started coughing.
+The brim of a hat is the wide part that sticks outward at the bottom. (帽) 檐(沿);(任何东西的)边缘;
+flee away/from,   fleet
+fisher=fisherman,   fishery:渔业
+A parachute is a device that enables a person to jump from an aircraft and float safely to the ground. It consists of a large piece of thin cloth attached to your body by strings. 降落伞
+ If people proclaim something, they formally make it known to the public. 宣布   annouce, declare 
+intellectual[,ɪntə'lɛktʃuəl]:  知识分子,  intellectual development:智力发育
+ Intellect is the ability to understand or deal with ideas and information. 智力
+If you knit something, especially an article of clothing, you make it from wool or a similar thread by using two knitting needles or a machine. 编织
+sacred, holy:c
+if the requirement of double-check locking arises in case of implementing a Singleton, the best way is to use the System.Lazy<T>
+
+pan:平底锅 pot:深而圆的锅   teapot: A teapot is a container with a lid, a handle, and a spout, used for making and serving tea. 茶壶
+kettle:     A kettle is a covered container that you use for boiling water. It has a handle, and a spout for the water to come out of. 水壶
+
+Divulge a secrete [di'vʌldʒ]
+dairy: ['dɛri]  dairy food: 乳制品 dairy industry乳品业，乳品加工业；乳制品行业
+bottom out : 降到最低点
+ If someone beats a record or achievement, they do better than it. 打破 (纪录等)
+ A stake is a pointed wooden post which is pushed into the ground, for example in order to support a young tree. 桩
+The stakes involved in a contest or a risky action are the things that can be gained or lost. (竞赛、冒险行为中的) 赌注
+ If you stake something such as your money or your reputation on the result of something, you risk your money or reputation on it. 以 (金钱、名誉等) 下赌注
+undertake:从事；着手，开始进行;担任(工作等)；接受(任务等)；承担：undertake:承担人
+internet traffic:网络流量
+A spark is a tiny bright piece of burning material that flies up from something that is burning. 火花
+ A spark is a flash of light caused by electricity. It often makes a loud sound. 电火花
+If a star or a light twinkles, it shines with an unsteady light which rapidly and constantly changes from bright to faint. 闪烁
+When you are on board a train, ship, or aircraft, you are on it or in it. 在 (火车、轮船或飞机) 上
+wellcome aborad.
+A board is a flat, thin, rectangular piece of wood or plastic which is used for a particular purpose. (木头的或塑料的) 板
+embark on:登上船(或飞机、汽车等);开始(工作)；着手，从事  :embark on a steamer He's embarking on a new career as a writer.
+The gist of a speech, conversation, or piece of writing is its general meaning. 要点
+ A tramp is a person who has no home or job, and very little money. Tramps go from place to place, and get food or money by asking people or by doing casual work. 流浪汉    casual work:临时工
+ drifter
+ If you tramp somewhere, you walk there slowly and with regular, heavy steps, for a long time. 脚步沉重地缓缓行走; 踏
+ T You use league to make comparisons between different people or things, especially in terms of their quality. 级别; 水平
+league: 联盟; 协会；(各种运动队的) 联盟；级别; 水平  you are out of her league:(你和她不在一个级别上)你配不上她
+just for my own peace of mind:只图个心安
