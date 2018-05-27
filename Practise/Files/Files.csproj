@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="English notes\Eng1.txt" />
+    <Content Include="English notes\Eng2.txt" />
     <Content Include="English notes\EngOnGit1.txt" />
     <Content Include="English notes\HarryPotter.txt" />
     <Content Include="Guide.txt" />

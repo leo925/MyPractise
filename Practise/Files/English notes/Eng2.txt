@@ -1,0 +1,204 @@
+﻿英语2
+Growth will accelerate to 2.9 percent next year.增长明年将加快到2.9%。
+A lens [lɛnz] is a thin curved piece of glass or plastic used in things such as cameras, telescopes, and pairs of glasses. You look through a lens in order to make things look larger, smaller, or clearer. 镜头
+contact lenses:隐形眼镜
+ If you adapt to a new situation or adapt yourself to it, you change your ideas or behaviour in order to deal with it successfully. 适应/改编
+A cricket is a small jumping insect that produces short, loud sounds by rubbing its wings together. 蟋蟀
+ Locusts are large insects, similar to grasshoppers, that live mainly in hot areas and often cause serious damage to crops. 蝗虫
+A reward is something that you are given, for example because you have behaved well, worked hard, or provided a service to the community. 奖励
+A reward is a sum of money offered to anyone who can give information about lost or stolen property, a missing person, or someone who is wanted by the police. 赏金
+The rewards of something are the benefits that you receive as a result of doing or having that thing. 回报
+ A petition 美 [pə'tɪʃən] is a formal request made to a court of law for some legal action to be taken. 诉状; (向法院提出的) 申请 
+  A petition is a document signed by a lot of people that asks a government or other official group to do a particular thing. 请愿书
+If you say that someone or something is indispensable, you mean that they are absolutely essential and other people or things cannot function without them. 必不可少的  
+  dispensable : adj. 可有可无的；非必要的
+ A maple ['meɪp(ə)l]or a maple tree is a tree with five-pointed leaves which turn bright red or gold in the fall. 枫树
+To strangle someone means to kill them by squeezing their throat tightly so that they cannot breathe. 扼死
+ If you graze a part of your body, you injure your skin by scraping against something. 擦破皮 / (轻轻)擦过，掠过，擦磨：
+the (css)rule with the grestest weight will take precedence（****）['presidəns]
+The earthquake was preceded [prɪ'sid] by a loud roar and lasted 20 seconds.
+
+the refresh link is just a few pixels off between the two browsers
+A fire hydrant is a pipe in the street from which firefighters can obtain water for putting out a fire. 消防栓
+transport: To transport people or goods somewhere is to take them from one place to another in a vehicle. 运送
+Transport refers to any vehicle that you can travel in or carry goods in. 交通工具   在计算里，表示传输:transport system
+world wide web consortium:  w3c  A consortium is a group of people or firms who have agreed to cooperate with each other. 联盟
+remember, rules that have a higher number here will win out over rules that target the same elements but have a lower number.
+that comes in after the rule that was imported that said paragraphs should have a gray background
+you can specify as many fonts as you like in a  comma delimited list and the brower will use the first that matches.
+curriclum kəˈrɪkjʊləm :A curriculum is all the different courses of study that are taught in a school, college, or university. 总课程    curriculum schedule课程表 curriculum vitae（拉）简历 [kəˌrɪkjələm'vitaɪ] curriculum reform课程改革
+If you carve an object, you make it by cutting it out of a substance such as wood or stone. If you carve something such as wood or stone into an object, you make the object by cutting it out. 雕刻
+If you carve writing or a design on an object, you cut it into the surface of the object. 刻上
+consortium [kənˈsɔrʃiəm]  A consortium is a group of people or firms who have agreed to cooperate with each other. 联盟
+intrinsic /ɪnˈtrɪnsɪk/ If something has intrinsic value or intrinsic interest, it is valuable or interesting because of its basic nature or character, and not because of its connection with other things. 内在的; 本质的
+e.g.: these values are intrinsically of different types,(42,"42")
+stylistic staɪ'lɪstɪk   (文学、音乐或艺术作品) 风格上的  it is purely a stylistic thing to use single quote or double qoutes to delimit string in javascript.
+let and const are block scoping declarations rather than function scoping declaration like var is.
+you have the bracket(beginning) at the end where some people bring it down and have it at the beginning.  
+ A bolt is a long metal object that screws into a nut(螺母) and is used to fasten things together. 螺钉
+T A bolt on a door or window is a metal bar that you can slide across in order to fasten the door or window. (门或窗的)闩
+(a function) when I need it, I can just call out to it and it will run
+a*b    speak as  ' a times b '
+I mistake you for your sister.
+(jquery, attribute selector)  check a specific attribute for a value, and found that based upon the value
+one after the other/ one after another:  一个接一个地，相继地
+js has the codes: object.defineProperty(cat,'name',{writable:false})
+                          cat.name='sth';
+I am able to change the value of a property of the object that the name property is pointing to
+
+
+Next Adjacent Selector (“prev + next”)
+
+Selects all next elements matching “next” that are immediately preceded by a sibling “prev”.
+
+Next Siblings Selector (“prev ~ siblings”)
+
+Selects all sibling elements that follow after the “prev” element, have the same parent, and match the filtering “siblings” selector.
+
+$( "a[hreflang|='en']" ).
+Selects elements that have the specified attribute with a value either equal to a given string or starting with that string followed by a hyphen (-).
+
+"span:first-of-type"
+Description: Selects all elements that are the first among siblings of the same element name.
+"td:gt(4)"  Select all elements at an (given)index greater than index within the matched set
+you are peeling or if your skin is peeling, small pieces of skin are coming off, usually because you have been burned by the sun. (人) 脱皮; (皮) 脱落
+A blunt knife or blade is no longer sharp and does not cut well. 不锋利的
+If you are blunt(plainspoken), you say exactly what you think without trying to be polite. 直言不讳的
+Oars are long poles with a wide, flat blade at one end which are used for rowing a boat. 桨
+pedal:踏板 The pedals on a bicycle are the two parts that you push with your feet in order to make the bicycle move. (自行车的) 踏板
+some where is densely polulated,  shanghai is a large city with a dense population
+any public method is this controller class is addressable depending on routing config
+He spooned instant coffee into two of the mugs.
+Russians who have all along（**） taken an anti-U.S. stance(立场) may start to think differently
+Your stance on a particular matter is your attitude to it. (对某事的) 态度; 立场
+trivial/trifling matters,  on such a trifle.  a piece of cake
+When an idea gets across or when you get it across, you succeed in making other people understand it. 被理解; 把…讲清楚
+sorry I hadn't got my words across.
+cell: 细胞 cellular:细胞的；蜂窝(电信)=>wifi(lan), cellular=>wifi and plugin-card  , 
+hotspot: turn cellular conntion into wifi connection
+There was a deep-rooted racial prejudice long before the two countries went to war.
+早在两国交战之前就有了根深蒂固的种族偏见。
+ethnic minority:少数民族   ethical:道德的;伦理的
+I went and bought about six dollars' worth of potato chips.
+cholesterol  kə'lɛstərɔl (注意读音)最后的是trol  胆固醇
+obese: o'bis If someone is obese, they are extremely fat. 肥胖的
+If you describe someone as farsighted, you admire them because they understand what is likely to happen in the future, and therefore make wise decisions and plans. 有远见的表赞许
+shortsighted: 目光短浅的；近视的
+The keypad on a telephone is the set of buttons that you press in order to operate it. Some other machines, such as ATMs, also have a keypad. (电话机等上的) 小键盘
+In basketball, football, or hockey, a forward is a player whose usual position is in the opponents' half of the field, and whose usual job is to attack or score goals. (篮球、足球、曲棍球等运动的) 前锋
+A toilet is a large bowl with a seat, or a platform with a hole, which is connected to a water system and which you use when you want to get rid of urine or faeces  ['fisiz] from your body. 抽水马桶
+midnight snack
+He says "there is a lot of anxiety in Beijing that Russians who have all along taken an anti-U.S. stance may start to think differently."     all along:自始至终
+multinational adj. 跨国公司的；多国的n. 跨国公司
+the voice is broken or choppy
+ A villain is someone who deliberately harms other people or breaks the law in order to get what he or she wants. 恶棍
+sedentary ˈsɛdəntərɪ     Someone who has a sedentary lifestyle or job sits down a lot of the time and does not do much exercise. 需要久坐的  Obesity and a sedentary lifestyle has been linked with an increased risk of heart disease.
+ I worked as a Customer Service Representative in several Call Center Company for 5 years, wherein[wɛr'ɪn] I am handling US and Australian calls.   
+ rule of thumb: 经验法则  census/censor/
+entail :If one thing entails another, it involves it or causes it. 牵连; 导致 my job(salesman entails a lot of speaking)
+persimmon,pɚ'sɪmən, let it ripen 放熟  chestnut:粟子  jujube dʒudʒub 枣子  red date:红枣
+scoot sth over:把...移过去一点 [from pluralsight]:scoot that(codes) over a little bit
+Could you move over a little bit：你能挪一挪吗: could you move over this way/that way a little bit?
+(***)mandatory retirement age
+I open my mouth and pant, longing['lɔŋɪŋ]  for your commands  , gasp：喘气
+记:A leopard is a type of large, wild cat. Leopards have yellow fur and black spots, and live in Africa and Asia. 豹（panther,黑豹)
+crustacean  [krʌ'steʃən]甲壳动物 The antennae of something such as an insect or crustacean are the two long, thin parts attached to its head that it uses to feel things with. 触角
+discipline:处罚
+spiral: a shape which winds around and around, with each curve above or outside the previous one.     wind the string around the finger
+To dispel an idea or feeling that people have means to stop them having it. 消除 (想法或感觉)
+The sun dispelled the dense fog. That fine performance dispelled any doubts about his abilities.
+A fuse is a safety device in an electric plug or circuit. It contains a piece of wire which melts when there is a fault so that the flow of electricity stops. 保险丝
+Steam is the hot mist that forms when water boils.Steam vehicles and machines are operated using steam as a means of power. 蒸汽
+(**)If something gives off or gives out a gas, heat, or a smell, it produces it and sends it out into the air. 散发出 (气体、热量或气味)
+canal: a stretch of water that has been made for boat to travel or to bring water to an area
+The apparatus is spotlessly clean 仪器上一尘不染
+Ginseng , Aemrican ginseng
+Inborn qualities are natural ones that you are born with. 天生的  =>natural-born
+what would you do if you received a complaint from citizen of an attempted bribery from a police offcer
+statutory [stætʃʊˌtɔrɪ] paid annual leave
+ If you consent to something, you agree to do it or to allow it to be done. 同意
+he finally consents to go
+closet,cabinet,wardrobe,
+A cabinet is a cupboard used for storing things such as medicine or alcoholic drinks or for displaying decorative things in. 贮藏橱; 陈列柜
+cupboard:美 ['kʌbɚd] n. 碗柜；食橱
+ A deposit is a sum of money which you pay when you start renting something. The money is returned to you if you do not damage what you have rented. 押金   存款
+earnest money:定金 down payment:定金；首付款    remaining sum:余额
+go dutch:aa制
+underling:下属(不满，感觉像走狗)
+ If something such as a person's stomach bulges, it sticks out，=》project
+projection:有凸出物的意思 ，projector:投影仪
+喷出：eject,spray,spout(喷出，喷口), erupt:喷发；爆发
+ If violence or fighting erupts, it suddenly begins or gets worse in an unexpected, violent way. 爆发
+arctic pole/ocean  antarctic pole/ocean
+direction:使用说明  specification:说明书；规格
+The market is reckoned to be worth $1.4 bn in the U.S. alone.仅在美国价值估计就有14亿美元。
+ If something is reckoned to be a particular figure, it is calculated to be roughly that amount. 估算
+ Reeds are tall plants that grow in large groups in shallow water or on ground that is always wet and soft. They have strong, hollow stems that can be used for making things such as mats or baskets. 
+spoil:扫兴；变质  spoiler:剧透
+profile:个人资料，简介 in profile:从侧面 high/low profile:高/低调
+Your profile is the outline of your face as it is seen when someone is looking at you from the side. (面部的) 侧面轮廓
+accuracy/precision: 精确度
+An acrobat ˈækrəˌbæt is an entertainer 表演艺人 who performs difficult physical acts such as jumping and balancing, especially in a circus. 杂技演员
+Moderate exercise subserves digestion
+Our efforts were not in vain: in vain:白费，徙然
+capitalism,capitalist country/ socialism, socialist country
+bad-tempered/irritable
+Carriage is the cost of transporting or delivering goods. 运输费用    马车
+货物 ：cargo, freight
+If something is security for a loan, you promise to give that thing to the person who lends you money, if you fail to pay the money back. 抵押品
+A guarantee is money or something valuable that you give to someone to show that you will do what you have promised. 担保物,抵押品
+If you mortgage your house or land, you use it as a guarantee to a company in order to borrow money from them. 抵押贷款
+despite that ....      in spite of sth   
+regardless of :不管/不顾  regardless of religion,color, creed,  
+ he will go regardless of high risk:不顾risk
+delightful:令人愉快的，高兴的
+绳索：cord,rope  Cord is strong, thick string. 绳索
+oven:烤箱=>烤炉  stove:灶炉  furnace A furnace is a container or enclosed space in which a very hot fire is made, for example, to melt metal, burn rubbish, or produce heat for a building or house. 熔炉; 火炉
+subtract =  deduct
+tumble: 跌倒，暴跌   shortcoming weakness, disadvantage
+tame: 驯服的;v:驯服  
+residential area:住宅区  residence:居处片
+neglect(n/v:疏忽),  omission:n 疏忽
+(water) faucet:水龙头 = tap
+An amount or effect that is negligible is so small that it is not worth considering or worrying about. 微不足道的
+young generation don't observe these cultures: observe除了观察 ，还有遵从 的意思 
+ A nail is a thin piece of metal with one pointed end and one flat end. You hit the flat end with a hammer in order to push the nail into something such as a wall. 钉子
+ If you nail something somewhere, you fasten it there using one or more nails. (用钉子) 钉住
+top-rank(ing), first-rank  假发:wig, hairpiece,   rug:小地毯    
+芽:shoot, sprout
+The colour in this material does not fade.   Beauty will fade, but not goodness 美貌会凋谢，但美德不会
+petrol station, gasoline station: 加油站
+If you do something lest something unpleasant should happen, you do it to try to prevent the unpleasant thing from happening. 以防
+ A pastime is something that you do in your spare time because you enjoy it or are interested in it. 消遣
+metal: iron, steel(stainless steel),brass,bronze,aluminum
+Fatigue is a feeling of extreme physical or mental tiredness. 疲惫
+Plague or the plague is a very infectious disease that usually results in death. The patient has a severe fever and swellings on his or her body. 瘟疫
+If someone boasts about something that they have done or that they own, they talk about it very proudly, in a way that other people may find irritating or offensive. 吹嘘表不满
+If you brag, you say in a very proud way that you have something or have done something. 吹嘘说; 吹嘘表不满
+roast, bake:烤  flesh:肉，果肉
+fury,rage:狂怒  furious:狂怒的
+When there is unity(solidarity  [,sɑlɪ'dærəti]), people are in agreement and act together for a particular purpose. 团结; 一致  /统一
+stand united/  unite as one:团结一致
+ If a group of people show solidarity, they show support for each other or for another group, especially in political or international affairs. 团结一致; 相互支持
+
+d
+df
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
