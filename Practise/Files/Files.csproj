@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="English notes\Eng3.docx" />
     <None Include="Pluralsight\Notes\http\http cache basics1.docx" />
     <None Include="Pluralsight\Notes\http\http cache basics2.docx" />
     <None Include="Pluralsight\Notes\http\服务器缓存的实现过程详解.docx" />
@@ -64,6 +65,7 @@
   <ItemGroup>
     <Content Include="English notes\Eng1.txt" />
     <Content Include="English notes\Eng2.txt" />
+    <Content Include="English notes\Eng4.txt" />
     <Content Include="English notes\EngOnGit1.txt" />
     <Content Include="English notes\HarryPotter.txt" />
     <Content Include="Guide.txt" />

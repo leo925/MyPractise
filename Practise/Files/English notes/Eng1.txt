@@ -93,3 +93,6 @@ The gist of a speech, conversation, or piece of writing is its general meaning. 
  T You use league to make comparisons between different people or things, especially in terms of their quality. 级别; 水平
 league: 联盟; 协会；(各种运动队的) 联盟；级别; 水平  you are out of her league:(你和她不在一个级别上)你配不上她
 just for my own peace of mind:只图个心安
+
+
+pwd: abc 123
