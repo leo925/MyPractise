@@ -197,7 +197,25 @@ a round vegetable with thin green leaves eaten raw in salads,   eat it raw...
 
 
 
+---------javascript fundamentals begin
 
+Generally you can just put some code in a file and run it, and in the case of JavaScript, the file that you put code in is typically a web page, though not always.
+ despite that syntax it's not got a lot in common with Java,
+Nearly every computer in the world has a JavaScript interpreter
+exercise a little bit of caution
+I'd say maybe 1000 balls is pretty much using up all the resources on my machine, 
+tt's been awhile since I've done any Java programming(有一段时间没写java了), but I understand that JavaScript comments work the same as Java comments
+single line comment is just a line of text beginning with two forward slash characters
+It's also possible to do multiline comments. The starting character is forward slash star.Everything from there until star forward slash is considered to be part of the comment.
+In a previous module I talked about JavaScript variables and their weakly typed nature. Variables are declared with the var keyword and don't have a type until a value is assigned to the variable, and at that point the type is inferred from the value.
+ this can introduce some subtle and unintended behaviors
+ Global variables should be avoided because they introduce coupling between parts of your application that access the shared global variable,
+ One important thing to note about null is that when it's used in a Boolean expression(***) it evaluates to false
+  One of the most common reasons to encounter undefined is when a non-existent object property is requested. 
+
+
+
+---------javascript fundamentals  end 
 
 end
 

@@ -20,5 +20,14 @@ The other banks are going to be very eager to help, provided that they see that 
 如果他有一个具体的计划，其他的银行才会非常渴望提供资助 
 provided:. 假如；倘若       
 Poland  ['pəulənd] 波兰   Polish:'pəʊlɪʃ 波兰的；波兰人的；波兰语的
-
+Generally you can just put some code in a file and run it, and in the case of JavaScript, the file that you put code in is typically a web page, though not always.
+ despite that syntax it's not got a lot in common with Java,
+Nearly every computer in the world has a JavaScript interpreter
+exercise a little bit of caution
+I'd say maybe 1000 balls is pretty much using up all the resources on my machine, 
+tt's been awhile since I've done any Java programming(有一段时间没写java了), but I understand that JavaScript comments work the same as Java comments
+single line comment is just a line of text beginning with two forward slash characters
+It's also possible to do multiline comments. The starting character is forward slash star.Everything from there until star forward slash is considered to be part of the comment.
+In a previous module I talked about JavaScript variables and their weakly typed nature. Variables are declared with the var keyword and don't have a type until a value is assigned to the variable, and at that point the type is inferred from the value.
+ this can introduce some subtle and unintended behaviors
 
