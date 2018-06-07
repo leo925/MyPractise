@@ -208,14 +208,48 @@ tt's been awhile since I've done any Java programming(有一段时间没写java�
 single line comment is just a line of text beginning with two forward slash characters
 It's also possible to do multiline comments. The starting character is forward slash star.Everything from there until star forward slash is considered to be part of the comment.
 In a previous module I talked about JavaScript variables and their weakly typed nature. Variables are declared with the var keyword and don't have a type until a value is assigned to the variable, and at that point the type is inferred from the value.
- this can introduce some subtle and unintended behaviors
- Global variables should be avoided because they introduce coupling between parts of your application that access the shared global variable,
- One important thing to note about null is that when it's used in a Boolean expression(***) it evaluates to false
-  One of the most common reasons to encounter undefined is when a non-existent object property is requested. 
+this can introduce some subtle and unintended behaviors
+Global variables should be avoided because they introduce coupling between parts of your application that access the shared global variable,
+One important thing to note about null is that when it's used in a Boolean expression(***) it evaluates to false
+One of the most common reasons to encounter undefined is when a non-existent object property is requested. 
+The same thing holds for(** 适用 ) numbers as well.                  
+if we call toString on a regular expression and this is the regular expression literal notation(**)
+(***)The reason this is bad is it introduces a whole class of bugs including this one here that I've included for an example where I'm testing 
+--whether the empty string is equal to the number 0
+so we'd expect this output here "undefined evaluates to false," which we can see(***) happens.
+(********) we're looping through every item within the arguments object.  /  loop through each item
+it behaves like an array in that it's indexable(**) like an array,
+
+
 
 
 
 ---------javascript fundamentals  end 
+
+Unlike applying padding or margin when the paragraph moves, it's not going to try to push anything out of its way, it's literally just going to jump and sit on top of the other thing.
+Muggy weather is unpleasantly warm and damp. (天气) 闷热而潮湿的
+The voltage of an electrical current is its force measured in volts. 电压
+An ampere is a unit used for measuring electric current. The abbreviation amp is also used. 安培   
+Could you give me a couple of fives for this ten-dollar bill/note?
+A place that is bustling or bustling with people or activity is full of people who are very busy or lively. 熙熙攘攘的
+He carelessly trod the lady beetle underfoot.
+speed hump
+Coordination is the ability to use the different parts of your body together efficiently. (身体各部位的) 协调能力
+I really want to push this part, this content area, down 115 pixels
+make it into a header that spans across both columns across the top. 
+even if the user scrolls the window down,                      
+Static positioning stacks up elements one after the other down the page. 
+
+                   
+
+                
+                
+
+
+
+     
+
+
 
 end
 
