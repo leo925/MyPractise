@@ -219,8 +219,8 @@ if we call toString on a regular expression and this is the regular expression l
 so we'd expect this output here "undefined evaluates to false," which we can see(***) happens.
 (********) we're looping through every item within the arguments object.  /  loop through each item
 it behaves like an array in that it's indexable(**) like an array,
-
-
+The == and != operators do type coercion.
+ If I change one of those objects it's not reflected in the other.
 
 
 
