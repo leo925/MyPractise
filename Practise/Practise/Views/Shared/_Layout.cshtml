@@ -6,8 +6,10 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/Css")
     @Scripts.Render("~/bundles/modernizr")
+
 </head>
 <body>
+
     <div id="divMainLeft" class="main-left">
         this is the left
 
@@ -18,10 +20,11 @@
     </div>
     <div class="container body-content" >
         <div>
-            this is it!
-            <audio controls="controls" src="~/Assets/audio/children-gun-girl-uzi-shooting.mp3" autoplay="autoplay" volume="0.1"></audio>
+             <!-- audio test-->
+            @*<audio controls="controls" src="~/Assets/audio/children-gun-girl-uzi-shooting.mp3" autoplay="autoplay" volume="0.1"></audio>*@
         </div>
         @RenderBody()
+
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>

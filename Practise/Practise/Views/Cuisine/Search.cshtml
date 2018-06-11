@@ -1,4 +1,6 @@
 ﻿
+
+
 @{
     ViewBag.Title = "Search";
 }
@@ -18,3 +20,20 @@
 
 }
 
+@section scripts{
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var ints = [12, 1, 2, 3, 4, "a"];
+        var MyObj = { name: "leo", age: 18 };
+
+        var myInts = new Array(12, 13, 15);
+        for (var i in MyObj) {
+            console.log(MyObj[i]);
+
+        }
+
+    });
+</script>
+}
