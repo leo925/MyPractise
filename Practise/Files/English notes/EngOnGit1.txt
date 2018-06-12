@@ -221,7 +221,12 @@ so we'd expect this output here "undefined evaluates to false," which we can see
 it behaves like an array in that it's indexable(**) like an array,
 The == and != operators do type coercion.
  If I change one of those objects it's not reflected in the other.
-
+ . When an exception is thrown, execution stops at that point and control is passed up the call stack until the exception is handled or until the top of the call stack is reached.
+ (E): If the catch block is given an argument, the value of that argument will be set to the exception object that was given to the throw statement. 
+ (e): A finally block can also be attached to the try/catch block, and it's used to guarantee execution of a set of statements.
+ (e):One of the most common reasons to encounter undefined is when a non-existent object property is requested.
+  One quirk(怪事; 趣事) that can throw off(使犯错误；使产生错觉；使迷惑) beginners is that when using the object literal notation that we've previously discussed you 
+  --have to remember that properties are assigned using this colon syntax, not using equals.
 
 
 ---------javascript fundamentals  end 
