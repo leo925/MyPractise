@@ -20,5 +20,19 @@ The other banks are going to be very eager to help, provided that they see that 
 如果他有一个具体的计划，其他的银行才会非常渴望提供资助 
 provided:. 假如；倘若       
 Poland  ['pəulənd] 波兰   Polish:'pəʊlɪʃ 波兰的；波兰人的；波兰语的
+He tried to play down(贬低) my part in the work and play up(突出；强调) his own.
+and the second notation, string2, encloses the string in apostrophes (**[ə'pɑstrəfi].
+If you enclose(**还有包装的意思 ) something with a letter, you put it in the same envelope as the letter. (随信) 附上
+I have enclosed a cheque for £100. 
+you can see in the first example because the string is enclosed in quotation marks I'm able to include an apostrophe in the string without escaping,
+and in the second example the string includes quotation marks, and I don't have to escape them because the string is delimited by apostrophes. 
+Escape sequences(**) are used to represent certain special characters within string literals and character literals.
+JavaScript string escape sequences begin with the backslash character
+Unicode characters can be included by using \u and then the code representing the character
+search term(**): Computers. a word or other term used to electronically retrieve data, Web pages, or other information from files, databases, etc.: 
+When you search the shopping website, ads relating to your search terms will appear along with your search results.
+
+
+
 
 
