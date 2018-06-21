@@ -72,6 +72,7 @@
     <Content Include="English notes\Friends6.txt" />
     <Content Include="English notes\HarryPotter.txt" />
     <Content Include="Guide.txt" />
+    <Content Include="work notes\active work notes 1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
