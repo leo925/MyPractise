@@ -1,0 +1,145 @@
+﻿
+
+
+ <ItemsControl x:Name="DistanceRaceConfigItemsControl" ItemsSource="{Binding DistanceRaceConfigs}" >
+                                                <ItemsControl.ItemsPanel>
+                                                    <ItemsPanelTemplate>
+                                                        <StackPanel Orientation="Vertical"/>
+                                                    </ItemsPanelTemplate>
+                                                </ItemsControl.ItemsPanel>
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <DockPanel Margin="0,0,0,30" >
+                                                            <mahappsControls:Tile Command="{Binding DistanceSettingCommand}" Margin="0" Width="80" Height="100" VerticalAlignment="Top"  BorderBrush="Transparent">
+                                                                <mahappsControls:Tile.Style>
+                                                                    <Style TargetType="mahappsControls:Tile">
+                                                                        <Setter Property="Cursor" Value="Hand"></Setter>
+                                                                        <Setter Property="Background" Value="#47505E"></Setter>
+                                                                        <Style.Triggers>
+                                                                            <Trigger Property="IsMouseOver" Value="True">
+                                                                                <Setter Property="Background" Value="#009DDA"></Setter>
+                                                                            </Trigger>
+                                                                        </Style.Triggers>
+                                                                    </Style>
+                                                                </mahappsControls:Tile.Style>
+                                                                <Grid Width="80" Height="100">
+                                                                    <Grid.RowDefinitions>
+                                                                        <RowDefinition Height="*" />
+                                                                        <RowDefinition Height="Auto" />
+                                                                    </Grid.RowDefinitions>
+                                                                    <Grid>
+                                                                        <Border Margin="10,10,0,0" Width="24" Height="24" HorizontalAlignment="Left" VerticalAlignment="Top">
+                                                                            <Grid>
+                                                                                <Path Data="F1M11.243,1.5L9.743,1.5 9.743,0 11.243,0z M14.243,1.5L12.743,1.5 12.743,0 14.243,0z M16.971,1.705C16.576,1.568,16.165,1.5,15.743,1.5L15.743,0C16.332,0,16.909,0.097,17.46,0.287z M18.9,3.223C18.671,2.869,18.389,2.561,18.06,2.301L18.989,1.123C19.446,1.484,19.84,1.916,20.16,2.408z M20.97,5.746L19.475,5.609C19.487,5.488 19.493,5.37 19.493,5.25 19.493,4.951 19.458,4.652 19.388,4.363L20.847,4.012C20.943,4.416 20.993,4.832 20.993,5.25 20.993,5.417 20.984,5.582 20.97,5.746 M19.543,8.874L18.459,7.837C18.747,7.535,18.982,7.189,19.155,6.809L20.52,7.433C20.275,7.966,19.947,8.451,19.543,8.874 M16.489,10.449L16.278,8.963C16.691,8.904,17.089,8.777,17.461,8.586L18.15,9.918C17.628,10.188,17.069,10.367,16.489,10.449 M8.887,10.5L7.387,10.5 7.387,9 8.887,9z M11.887,10.5L10.387,10.5 10.387,9 11.887,9z M14.888,10.5L13.388,10.5 13.388,9 14.888,9z M4.53,10.566L4.256,9.092C4.575,9.032,4.905,9,5.243,9L5.887,9 5.887,10.5 5.243,10.5C4.999,10.5,4.761,10.523,4.53,10.566 M2.408,11.793L1.275,10.809C1.66,10.367,2.111,9.994,2.617,9.701L3.369,11C3.007,11.209,2.683,11.477,2.408,11.793 M1.498,14.07L0,13.996C0.028,13.41,0.153,12.838,0.369,12.297L1.762,12.854C1.607,13.24,1.518,13.649,1.498,14.07 M0.964,17.294C0.622,16.813,0.367,16.286,0.203,15.725L1.643,15.307C1.76,15.706,1.943,16.082,2.186,16.427z M3.759,19.287C3.197,19.122,2.672,18.865,2.195,18.525L3.065,17.305C3.406,17.547,3.783,17.73,4.184,17.85z M6.954,19.5L5.454,19.5 5.454,18 6.954,18z M9.954,19.5L8.454,19.5 8.454,18 9.954,18z M12.954,19.5L11.454,19.5 11.454,18 12.954,18z" Fill="White" Height="19.5" Canvas.Left="116.757" Canvas.Top="849" Width="20.993"/>
+                                                                                <Path Data="F1M3.75,0C1.679,0 0,1.679 0,3.75 0,5.821 1.679,7.5 3.75,7.5 5.821,7.5 7.5,5.821 7.5,3.75 7.5,1.679 5.821,0 3.75,0 M3.75,1.5C4.991,1.5 6,2.51 6,3.75 6,4.99 4.991,6 3.75,6 2.509,6 1.5,4.99 1.5,3.75 1.5,2.51 2.509,1.5 3.75,1.5" Fill="White" Height="7.5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="7.5"/>
+                                                                                <Path Data="F1M6.5,0L0,0 0,4.5 0,8 2,8 2,5 6.5,5 5,2.5z" Fill="White" Height="8" Canvas.Left="132" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="6.5"/>
+                                                                            </Grid>
+                                                                        </Border>
+                                                                        <Path Name="pathSetting" Data="F1M8.468,8.485C8.906,8.047 9.14,7.5 9.14,6.875 9.14,6.25 8.906,5.704 8.468,5.25 8.015,4.813 7.468,4.579 6.843,4.579 6.218,4.579 5.671,4.813 5.234,5.25 4.796,5.704 4.578,6.25 4.578,6.875 4.578,7.5 4.796,8.047 5.234,8.485 5.671,8.938 6.218,9.157 6.843,9.157 7.468,9.157 8.015,8.938 8.468,8.485 M13.718,5.891L13.718,7.875C13.718,7.954 13.687,8.016 13.64,8.079 13.593,8.141 13.531,8.188 13.468,8.188L11.812,8.438C11.687,8.766 11.578,9.032 11.468,9.25 11.671,9.563 11.984,9.969 12.421,10.485 12.484,10.563 12.515,10.641 12.515,10.719 12.515,10.797 12.484,10.86 12.421,10.922 12.265,11.141 11.968,11.469 11.546,11.891 11.109,12.313 10.828,12.516 10.703,12.516 10.625,12.516 10.546,12.5 10.468,12.438L9.234,11.469C8.968,11.61 8.703,11.719 8.421,11.813 8.328,12.625 8.234,13.172 8.171,13.469 8.125,13.625 8.015,13.719 7.843,13.719L5.859,13.719C5.765,13.719 5.703,13.688 5.64,13.641 5.578,13.578 5.546,13.516 5.546,13.454L5.296,11.813C5,11.719,4.734,11.61,4.484,11.485L3.234,12.438C3.171,12.5 3.093,12.516 3.015,12.516 2.921,12.516 2.843,12.485 2.781,12.422 2.031,11.75 1.531,11.25 1.312,10.922 1.265,10.86 1.25,10.797 1.25,10.719 1.25,10.657 1.265,10.578 1.328,10.5 1.406,10.375 1.546,10.188 1.765,9.907 1.984,9.641 2.14,9.438 2.265,9.282 2.093,9 1.968,8.704 1.89,8.407L0.265,8.157C0.171,8.157 0.109,8.11 0.062,8.047 0.015,7.985 0,7.922 0,7.844L0,5.86C0,5.797 0.015,5.719 0.062,5.657 0.109,5.594 0.171,5.547 0.234,5.532L1.906,5.282C1.984,5.016 2.093,4.75 2.25,4.469 2,4.125 1.687,3.719 1.296,3.235 1.234,3.172 1.203,3.094 1.203,3.016 1.203,2.954 1.218,2.891 1.281,2.813 1.437,2.594 1.718,2.282 2.156,1.86 2.593,1.438 2.875,1.219 3.015,1.219 3.078,1.219 3.156,1.25 3.234,1.297L4.468,2.25C4.718,2.125 5,2.016 5.281,1.922 5.375,1.11 5.453,0.563 5.546,0.25 5.578,0.094 5.687,0 5.859,0L7.843,0C7.921,0 8,0.032 8.062,0.079 8.125,0.141 8.156,0.204 8.171,0.282L8.421,1.922C8.703,2.016,8.968,2.125,9.218,2.25L10.484,1.297C10.546,1.25 10.609,1.219 10.703,1.219 10.781,1.219 10.859,1.25 10.921,1.297 11.687,2.016 12.187,2.516 12.406,2.813 12.437,2.875 12.468,2.938 12.468,3.016 12.468,3.094 12.437,3.157 12.39,3.219 12.296,3.344 12.156,3.547 11.937,3.813 11.718,4.094 11.546,4.297 11.453,4.438 11.609,4.75 11.734,5.032 11.828,5.313L13.453,5.563C13.531,5.594 13.593,5.625 13.64,5.688 13.687,5.75 13.718,5.829 13.718,5.891" Fill="White" 
+                                                                              Width="16" Height="16" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,10,8,0" Stretch="UniformToFill" ></Path> 
+                                                                    </Grid> 
+                                                                    <TextBlock Grid.Row="1" Margin="10,0,10,10" VerticalAlignment="Bottom" Text="{Binding OriginalDistanceName}" FontSize="15" MaxHeight="40" TextTrimming="CharacterEllipsis" Style="{StaticResource CaptionTextStyle}">
+                                                                        <TextBlock.ToolTip>
+                                                                            <ToolTip Visibility="{Binding RelativeSource={RelativeSource Self}, Path=PlacementTarget, Converter={StaticResource trimmedVisibilityConverter}}">
+                                                                                <ToolTip.Content>
+                                                                                    <TextBlock Text="{Binding OriginalDistanceName}"/>
+                                                                                </ToolTip.Content>
+                                                                            </ToolTip>
+                                                                        </TextBlock.ToolTip>
+                                                        </TextBlock>
+                                                                </Grid>
+                                                            </mahappsControls:Tile>
+                                                            <ItemsControl ItemsSource="{Binding RaceSections}" AlternationCount="{Binding RaceSections.Count}">
+                                                                <ItemsControl.ItemsPanel>
+                                                                    <ItemsPanelTemplate>
+                                                                        <Grid Margin="6,0,0,0" local:NewRaceConfigurationView.ColumnsPercentage="{Binding RaceSections}" />   *****************see back end codes below!!!!
+                                                                    </ItemsPanelTemplate>
+                                                                </ItemsControl.ItemsPanel>
+                                                                <ItemsControl.ItemContainerStyle>   *******************************************
+                                                                    <Style TargetType="ContentPresenter">
+                                                                        <Setter Property="Grid.Column" Value="{Binding RelativeSource={RelativeSource Mode=Self}, Path=(ItemsControl.AlternationIndex)}" />
+                                                                        <Setter Property="Margin" Value="6,0,6,0" />
+                                                                    </Style>
+                                                                </ItemsControl.ItemContainerStyle>
+                                                                <ItemsControl.ItemTemplate>
+                                                                    <DataTemplate>
+                                                                        <Border BorderThickness="1,1,1,1"  Style="{StaticResource DottedBorderStyle}">
+                                                                            <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Left">
+                                                                                <StackPanel.Resources>
+                                                                                    <CollectionViewSource x:Key="ReadFunctions" Source="{Binding ReadFunctions}"/>
+                                                                                </StackPanel.Resources>
+                                                                                <ItemsControl>
+                                                                                    <ItemsControl.ItemContainerStyle>   *************
+                                                                                        <Style>
+                                                                                            <Setter Property="WrapPanel.ZIndex" Value="{Binding ZIndex}" />
+                                                                                            <Setter Property="WrapPanel.Margin" Value="0,10,0,10" />
+                                                                                        </Style>
+                                                                                    </ItemsControl.ItemContainerStyle>
+                                                                                    <ItemsControl.ItemsSource>
+                                                                                        <CompositeCollection>  **********************
+                                                                                            <CollectionContainer Collection="{Binding Source={StaticResource ReadFunctions}}"/>
+                                                                                            <Canvas  MinWidth="100" Height="78" Background="Transparent">
+                                                                                                <Button Canvas.Top="-11" Canvas.Left="1" Command="{Binding AddReaderFunctionCommand}" Style="{StaticResource AddReaderFunctionBtnStyle}"></Button>
+                                                                                            </Canvas>
+                                                                                        </CompositeCollection>
+                                                                                    </ItemsControl.ItemsSource>
+                                                                                    <ItemsControl.ItemsPanel>
+                                                                                        <ItemsPanelTemplate>
+                                                                                            <WrapPanel Orientation="Horizontal" Margin="5,0,0,0"/>
+                                                                                        </ItemsPanelTemplate>
+                                                                                    </ItemsControl.ItemsPanel>
+                                                                                    <ItemsControl.ItemTemplate>
+                                                                                        <DataTemplate>
+                                                                                            <Controls:ReaderFunction Focusable="True"/>
+                                                                                        </DataTemplate>
+                                                                                    </ItemsControl.ItemTemplate>
+                                                                                </ItemsControl>
+                                                                            </StackPanel>
+                                                                        </Border>
+                                                                    </DataTemplate>
+                                                                </ItemsControl.ItemTemplate>
+                                                            </ItemsControl>
+                                                        </DockPanel>
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+
+
+  public static readonly DependencyProperty ColumnsPercentageProperty = DependencyProperty.RegisterAttached(
+            "ColumnsPercentage", typeof(ObservableCollection<RaceSectionViewModel>), typeof(NewRaceConfigurationView),
+            new PropertyMetadata(null, ColumnsPercentageChanged));
+
+        public static ObservableCollection<RaceSectionViewModel> GetColumnsPercentage(DependencyObject obj)
+        {
+            return (ObservableCollection<RaceSectionViewModel>)obj.GetValue(ColumnsPercentageProperty);
+        }
+
+        public static void SetColumnsPercentage(DependencyObject obj, ObservableCollection<RaceSectionViewModel> value)
+        {
+            obj.SetValue(ColumnsPercentageProperty, value);
+        }
+
+        public static void ColumnsPercentageChanged(
+            DependencyObject obj, DependencyPropertyChangedEventArgs e)  *********e.new value 来自：local:NewRaceConfigurationView.ColumnsPercentage="{Binding RaceSections}" />  ，  在这里，就是RaceSecitons(1,2,3...)
+        {
+            if (!(obj is Grid) || (ObservableCollection<RaceSectionViewModel>)e.NewValue == null)
+                return;
+
+            var grid = (Grid)obj;
+            grid.ColumnDefinitions.Clear();
+
+            var gridLengthConverter = new GridLengthConverter();
+            foreach (var perc in (ObservableCollection<RaceSectionViewModel>)e.NewValue)
+            {
+                grid.ColumnDefinitions.Add(new ColumnDefinition() { Width = (GridLength)gridLengthConverter.ConvertFrom(perc.Width) });
+            }
+        }
+
+
+
+
+
+
+
+
+

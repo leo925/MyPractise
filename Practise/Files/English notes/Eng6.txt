@@ -31,16 +31,21 @@ JavaScript string escape sequences begin with the backslash character
 Unicode characters can be included by using \u and then the code representing the character
 search term(**): Computers. a word or other term used to electronically retrieve data, Web pages, or other information from files, databases, etc.: 
 When you search the shopping website, ads relating to your search terms will appear along with your search results.
+The first parameter to the slice method is the index of the first character you want to take,
+and the second parameter to the slice method is one greater than the index of the last character that you want to take.
 小数： decimal， or decimal fraction
 A decimal is a fraction that is written in the form of a dot followed by one or more numbers which represent tenths, hundredths, and so on: for example, .5, .51, .517. 小数
 tenth, hundredth: 小数点后第一, 二位  
 multiplication,division, and modulus(取模),    22 %(读mod)  3   
- The other alternative to avoid this problem of inexact decimal fractions is to work with whole numbers. This is commonly used when working with money. 
- Instead of working with parts of dollars, instead we convert everything into cents.
-
-
-
-
+The other alternative to avoid this problem of inexact decimal fractions is to work with whole numbers. This is commonly used when working with money. 
+Instead of working with parts of dollars, instead we convert everything into cents.
+When you write a regular expression, most characters match themselves(***). There's also a thing called character classes(**character class), which is where a special character or
+set of characters is used to match certain groups such as backslash lowercase W will match any word character,
+Square brackets is used to denote a set of characters.(like [a-z])
+The dot character matches any character, and curly braces are quantifiers.  quantifier:语法学】数量词(如 eight, ten, much, many, few)
+The backslash character escapes special characters,
+So, you can see it's come out(**come out) bold because of the strong tags. 
+we see the text highlighted. It's leaving off(**refer to You dao) the strong tags.
 
 
 
