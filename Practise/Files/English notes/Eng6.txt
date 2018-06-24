@@ -46,6 +46,13 @@ The dot character matches any character, and curly braces are quantifiers.  quan
 The backslash character escapes special characters,
 So, you can see it's come out(**come out) bold because of the strong tags. 
 we see the text highlighted. It's leaving off(**refer to You dao) the strong tags.
+ we can use this square bracket notation to access array elements by their position in the array beginning at 0 for the first element
+ the array literal syntax is the square brackets with items in between(*****).
+ There's a global function called eval that interprets strings of JavaScript code.
+
+
+
+
 
 
 
