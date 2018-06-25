@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pluralsight\Transcript\NewFolder1\" />
+    <Folder Include="tech passages\wpf\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="English notes\Eng1.txt" />
