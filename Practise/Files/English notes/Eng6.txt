@@ -49,11 +49,13 @@ we see the text highlighted. It's leaving off(**refer to You dao) the strong tag
  we can use this square bracket notation to access array elements by their position in the array beginning at 0 for the first element
  the array literal syntax is the square brackets with items in between(*****).
  There's a global function called eval that interprets strings of JavaScript code.
-
-
-
-
-
+A logarithm tells you what power a base number must be raised to in order to produce a given value
+punctuation marks: comma , colon : semicolon  ;   full stop/period .  exclamation mark  !  question mark  ?  quotation marks "  
+apostrophe  '   dash - tilde ~   plus mark +  minus mark -     at sign @  backslash \    vertical bar |    ampersand  &
+asterisk  *   square brackets []  parentheses  ()  curly braces {}   logical operator || && !    caret  ^   pound sign # 
+("cat"==="cat") the same thing holds for(适用) numbers as well.,    16===16 is true
+ A window is a glass-covered opening above a counter, for example, in a bank, post office, train station, or museum, which the person serving you sits behind. (银行、邮局、火车站、博物馆等提供服务的) 窗口
+ ticket window:售票窗口
 
 
 
