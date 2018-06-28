@@ -56,6 +56,6 @@ asterisk  *   square brackets []  parentheses  ()  curly braces {}   logical ope
 ("cat"==="cat") the same thing holds for(适用) numbers as well.,    16===16 is true
  A window is a glass-covered opening above a counter, for example, in a bank, post office, train station, or museum, which the person serving you sits behind. (银行、邮局、火车站、博物馆等提供服务的) 窗口
  ticket window:售票窗口
-
+Using 120 hours [for each stage of English fluency] is a rather traditional approach to course book learning
 
 
