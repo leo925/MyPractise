@@ -58,5 +58,14 @@ asterisk  *   square brackets []  parentheses  ()  curly braces {}   logical ope
  ticket window:售票窗口
 Using 120 hours [for each stage of English fluency] is a rather traditional approach to course book learning(**)
 (js)All function returns true when the function given to all returns true for each item in the source array.
+ but you should normally use the aforementioned(*) approach.
+ strict equality === , strict inequality  !==  , 
+ normal equality convert values of different types before comparing them as with strict equality
+ if both values have the same type, then the following assertions hold(**):  undefined===undefined   ;  null ===null;
+ logical operators: && ,||,!  
+ short circuiting:the second operand is not evaluated if the first operand already determines the result.   'abc' || 123  => abc  ; true || console.log("hello!")
+ exponent: 2(指数3, 3 is the exponent)=8     calculate 3 to the power of 2  ,  raise 4 to the power of 3(I made up)
+ with number literals , the dot for accessing a property must be distinguished from the decimal dot.
+ double quotes(*) are used exclusively(**) for strings in some lanuages(jave,c);
 
 
