@@ -83,10 +83,21 @@ It ranks second in the world by annual ridership with 3.53 billion rides deliver
   the Shanghai Grand Theatre and Yan'an Park on People's Square. It has the second largest number of exits (totalling 17) in the stations of the metro system.
   Like many other metro systems in the world (Shanghai Metro) uses a distance-based fare system.
   Single-Journey(**) tickets can be purchased from ticket vending machines(**), and at some stations, at a ticket window. Single-ride(**) tickets are embedded with RFID contactless(**) chips. 
-  When entering the system riders tap(**) the ticket against a scanner above the turnstile, and on exit they insert the ticket into a slot where it is stored and recycled.
-  *****A turnstile['tɝnstaɪl], also called a baffle gate or turnstyle, is a form of gate which allows one person to pass at a time. It can also be made so as to enforce one-way(**) traffic of people, 
-  and in addition, it can restrict passage only to people who insert a coin, a ticket, a pass, or similar. Thus a turnstile can be used in the case of paid access
-   (sometimes called a faregate or ticket barrier when used for this purpose), for example to access public transport, a pay toilet, or to restrict access to authorized people, 
-   for example in the lobby of an office building.
+When entering the system riders tap(**) the ticket against a scanner above the turnstile, and on exit they insert the ticket into a slot where it is stored and recycled.
+*****A turnstile['tɝnstaɪl], also called a baffle gate or turnstyle, is a form of gate which allows one person to pass at a time. It can also be made so as to enforce one-way(**) traffic of people, 
+and in addition, it can restrict passage only to people who insert a coin, a ticket, a pass, or similar. Thus a turnstile can be used in the case of paid access
+(sometimes called a faregate or ticket barrier when used for this purpose), for example to access public transport, a pay toilet, or to restrict access to authorized people, 
+for example in the lobby of an office building.
+compete in the tournament phase(vs. qualification phase) for the title at venues(***) within the host nation(s) over a period of about a month.
+If a person or team wins a particular title(***), they win a sports competition that is held regularly. Usually a person keeps a title until someone else defeats them. (体育比赛的) 冠军
+(brail....)The other World Cup winners are Germany and Italy, with four titles each
+the cumulative audience of all matches of the 2006 World Cup was estimated to be 26.29 billion with an estimated 715.1 million people watching the final match, a ninth of the entire population of the planet
+There are two stages: the group stage followed by the knockout(KO) stage.
+Each group plays a round-robin tournament, in which each team is scheduled for three matches against other teams(every team) in the same group
+A round-robin is a sports competition in which each player or team plays against every other player or team. 循环赛
+The last round(*) of matches of each group is scheduled at the same time to preserve fairness among all four teams
+The top two teams from each group advance to the knockout stage. Points are used to rank the teams within a group
+Since 1994, three points have been awarded for a win, one for a draw and none for a loss 
+
 
 
