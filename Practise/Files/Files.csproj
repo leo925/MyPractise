@@ -64,6 +64,7 @@
     <Folder Include="tech passages\wpf\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="English notes\10 tips.txt" />
     <Content Include="English notes\Eng1.txt" />
     <Content Include="English notes\Eng2.txt" />
     <Content Include="English notes\Eng4.txt" />
