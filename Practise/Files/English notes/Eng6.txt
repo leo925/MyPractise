@@ -98,6 +98,17 @@ A round-robin is a sports competition in which each player or team plays against
 The last round(*) of matches of each group is scheduled at the same time to preserve fairness among all four teams
 The top two teams from each group advance to the knockout stage. Points are used to rank the teams within a group
 Since 1994, three points have been awarded for a win, one for a draw and none for a loss 
-
+***football pitch/field
+The longer sides are called touchlines. The other opposing sides are called the goal lines.
+The corners of the pitch are marked by corner flags.
+ attempted to standardise the size of the football pitch for international matches and set the official dimensions of a pitch to 105 m long by 68 m wide.[5]
+ Although the term goal line is often taken to mean only that part of the line between the goalposts, in fact it refers to the complete line at either end of the pitch, from one corner flag to the other
+ Goals are placed at the centre of each goal-line.These consist of two upright posts placed equidistant from the corner flagposts, joined at the top by a horizontal crossbar.
+  The inner edges of the posts must be 7.32 metres (8 yd) apart, and the lower edge of the crossbar must be 2.44 metres (8 ft) above the ground
+  Rules regarding the shape of goalposts and crossbars are somewhat more lenient(**)
+  but they must conform to a shape that does not pose(***) a threat to players.
+  own goal:
+  (** a very logn sentence)A goal may, however, be ruled illegal (and void by the referee) if the player who scored or a member of his team commits an offence under any of the laws between the time the ball was previously out of play and the goal being scored. 
+  The pitch is typically made of turf(***) (grass) or artificial turf, although amateur and recreational teams often play on dirt fields.
 
 
