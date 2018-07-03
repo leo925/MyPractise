@@ -58,6 +58,7 @@
     <None Include="Pluralsight\Transcript\HTTP Fundamentals.docx" />
     <None Include="Pluralsight\Notes\http\Notes_HTTP Fundamentals.docx" />
     <None Include="Pluralsight\Transcript\JavaScript Fundamentals.docx" />
+    <None Include="Pluralsight\Transcript\jquery fundamentals.docx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pluralsight\Transcript\NewFolder1\" />
@@ -74,6 +75,7 @@
     <Content Include="English notes\Friends6.txt" />
     <Content Include="English notes\HarryPotter.txt" />
     <Content Include="Guide.txt" />
+    <Content Include="Pluralsight\Transcript\jquery fundamental.txt" />
     <Content Include="work notes\active work notes 1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

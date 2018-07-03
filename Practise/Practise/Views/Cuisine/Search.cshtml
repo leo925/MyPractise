@@ -6,6 +6,11 @@
 }
 
 <h2>Search</h2>
+<div id="divBlue" style="background-color:blue;width:100%;">
+    <div>this is the blue div </div>
+    <div>this is another div </div>
+    <div>this is another div </div>
+</div>
 
 <div> download please click</div>
 @Html.ActionLink("please click to download","search",new
@@ -24,11 +29,17 @@
 
 <script type="text/javascript">
     //javascript practise
+    
     $(document).ready(function () {
-        console.log((0.001+0.005));
-
+        var txt = $("#divBlue").text();//"<strong>hello blue!!!!!!!!!</strong>"
+        var htl = $("#divBlue").html();
+        $("div div").each(function (i, element) {
+            var element = $(element);
+            element.css("background-color", "yellow");
+        });
+        console.log($("div > div").length);
+        console.log(htl);
     });
-
 
    
 </script>
