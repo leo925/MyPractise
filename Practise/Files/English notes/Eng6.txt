@@ -36,7 +36,7 @@ and the second parameter to the slice method is one greater than the index of th
 小数： decimal， or decimal fraction
 A decimal is a fraction that is written in the form of a dot followed by one or more numbers which represent tenths, hundredths, and so on: for example, .5, .51, .517. 小数
 tenth, hundredth: 小数点后第一, 二位  
-multiplication,division, and modulus(取模),    22 %(读mod)  3   
+JavaScript provides the standard numerical operators ... multiplication,division, and modulus(取模),    22 %(读mod)  3   
 The other alternative to avoid this problem of inexact decimal fractions is to work with whole numbers. This is commonly used when working with money. 
 Instead of working with parts of dollars, instead we convert everything into cents.
 When you write a regular expression, most characters match themselves(***). There's also a thing called character classes(**character class), which is where a special character or
@@ -110,5 +110,9 @@ The corners of the pitch are marked by corner flags.
   own goal:
   (** a very logn sentence)A goal may, however, be ruled illegal (and void by the referee) if the player who scored or a member of his team commits an offence under any of the laws between the time the ball was previously out of play and the goal being scored. 
   The pitch is typically made of turf(***) (grass) or artificial turf, although amateur and recreational teams often play on dirt fields.
+   It's convenient because you don't have to think about the type of the numbers that you're working with, but there's a tradeoff(**权衡；折衷；) because decimal fractions are not exact. 
+   The number type also has a handy(**) method toFixed, which returns the number fix(fixed??) to n decimal places.
+
+
 
 
