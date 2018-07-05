@@ -76,13 +76,13 @@ The Shanghai Metro system is the world's largest rapid transit system by route l
 Zhangjiang Tram(*) :张江有道电车
 The Shanghai Metro system is the world's largest rapid transit system by route length totaling 644 kilometres. It is the second largest by number of stations with 393 stations on 16 lines.
 It ranks second in the world by annual ridership with 3.53 billion rides delivered in 2017. The daily ridership record was set at 12.355 million on March 23, 2018.[2] Over 10 million people use the system
- on an average workday(???).
- The operating hours(**) for most Shanghai metro stations starts between 5:00 to 6:00 in the morning and ends between 22:30 to 23:00
- The busiest station in Shanghai Metro system is People's Square station (Lines 1, 2 and 8). As the interchange station for three lines, it is extremely crowded during peak hours(**). 
- It remains busy during the rest of the day as it is located near major shopping and tourist destinations such as East Nanjing Road, a pedestrian street, as well as the Shanghai Museum, People's Park,
-  the Shanghai Grand Theatre and Yan'an Park on People's Square. It has the second largest number of exits (totalling 17) in the stations of the metro system.
-  Like many other metro systems in the world (Shanghai Metro) uses a distance-based fare system.
-  Single-Journey(**) tickets can be purchased from ticket vending machines(**), and at some stations, at a ticket window. Single-ride(**) tickets are embedded with RFID contactless(**) chips. 
+on an average workday(???).
+The operating hours(**) for most Shanghai metro stations starts between 5:00 to 6:00 in the morning and ends between 22:30 to 23:00
+The busiest station in Shanghai Metro system is People's Square station (Lines 1, 2 and 8). As the interchange station for three lines, it is extremely crowded during peak hours(**). 
+It remains busy during the rest of the day as it is located near major shopping and tourist destinations such as East Nanjing Road, a pedestrian street, as well as the Shanghai Museum, People's Park,
+the Shanghai Grand Theatre and Yan'an Park on People's Square. It has the second largest number of exits (totalling 17) in the stations of the metro system.
+Like many other metro systems in the world (Shanghai Metro) uses a distance-based fare system.
+Single-Journey(**) tickets can be purchased from ticket vending machines(**), and at some stations, at a ticket window. Single-ride(**) tickets are embedded with RFID contactless(**) chips. 
 When entering the system riders tap(**) the ticket against a scanner above the turnstile, and on exit they insert the ticket into a slot where it is stored and recycled.
 *****A turnstile['tɝnstaɪl], also called a baffle gate or turnstyle, is a form of gate which allows one person to pass at a time. It can also be made so as to enforce one-way(**) traffic of people, 
 and in addition, it can restrict passage only to people who insert a coin, a ticket, a pass, or similar. Thus a turnstile can be used in the case of paid access
@@ -101,17 +101,27 @@ Since 1994, three points have been awarded for a win, one for a draw and none fo
 ***football pitch/field
 The longer sides are called touchlines. The other opposing sides are called the goal lines.
 The corners of the pitch are marked by corner flags.
- attempted to standardise the size of the football pitch for international matches and set the official dimensions of a pitch to 105 m long by 68 m wide.[5]
- Although the term goal line is often taken to mean only that part of the line between the goalposts, in fact it refers to the complete line at either end of the pitch, from one corner flag to the other
- Goals are placed at the centre of each goal-line.These consist of two upright posts placed equidistant from the corner flagposts, joined at the top by a horizontal crossbar.
-  The inner edges of the posts must be 7.32 metres (8 yd) apart, and the lower edge of the crossbar must be 2.44 metres (8 ft) above the ground
-  Rules regarding the shape of goalposts and crossbars are somewhat more lenient(**)
-  but they must conform to a shape that does not pose(***) a threat to players.
-  own goal:
-  (** a very logn sentence)A goal may, however, be ruled illegal (and void by the referee) if the player who scored or a member of his team commits an offence under any of the laws between the time the ball was previously out of play and the goal being scored. 
-  The pitch is typically made of turf(***) (grass) or artificial turf, although amateur and recreational teams often play on dirt fields.
-   It's convenient because you don't have to think about the type of the numbers that you're working with, but there's a tradeoff(**权衡；折衷；) because decimal fractions are not exact. 
-   The number type also has a handy(**) method toFixed, which returns the number fix(fixed??) to n decimal places.
+attempted to standardise the size of the football pitch for international matches and set the official dimensions of a pitch to 105 m long by 68 m wide.[5]
+Although the term goal line is often taken to mean only that part of the line between the goalposts, in fact it refers to the complete line at either end of the pitch, from one corner flag to the other
+Goals are placed at the centre of each goal-line.These consist of two upright posts placed equidistant from the corner flagposts, joined at the top by a horizontal crossbar.
+The inner edges of the posts must be 7.32 metres (8 yd) apart, and the lower edge of the crossbar must be 2.44 metres (8 ft) above the ground
+Rules regarding the shape of goalposts and crossbars are somewhat more lenient(**)
+but they must conform to a shape that does not pose(***) a threat to players.
+own goal:
+(** a very logn sentence)A goal may, however, be ruled illegal (and void by the referee) if the player who scored or a member of his team commits an offence under any of the laws between the time the ball was previously out of play and the goal being scored. 
+The pitch is typically made of turf(***) (grass) or artificial turf, although amateur and recreational teams often play on dirt fields.
+It's convenient because you don't have to think about the type of the numbers that you're working with, but there's a tradeoff(**权衡；折衷；) because decimal fractions are not exact. 
+The number type also has a handy(**) method toFixed, which returns the number fix(fixed??) to n decimal places.
+people often prefer a well-thought-out answer to a rushed one.
+but expecting the same standards from yourself when speaking in a foreign language may not be very realistic.
+you can find tag by id, sometimes, you want to check a specific attribute for a value, and then find that(tags) based on the value
+next up(接下来) in the our tour of jquery selectors is selecting input 
+
+
+
+
+
+
 
 
 
