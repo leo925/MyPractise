@@ -116,10 +116,10 @@ people often prefer a well-thought-out answer to a rushed one.
 but expecting the same standards from yourself when speaking in a foreign language may not be very realistic.
 you can find tag by id, sometimes, you want to check a specific attribute for a value, and then find that(tags) based on the value
 next up(接下来) in the our tour of jquery selectors is selecting input 
-
-
-
-
+we'll take it up a notch(*更上一层) in this module.
+we'll go into a bit of detail there.
+(juqery each , second parameter) it also pass you the actual element that it's looping through
+you kind of get an equivalent of what a for loop would do
 
 
 
