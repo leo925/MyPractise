@@ -4,51 +4,60 @@
 @{
     ViewBag.Title = "Search";
 }
+<form method="post" enctype="multipart/form-data">
+    <h2>Search</h2>
+    <div id="divBlue" style="width:100%;">
+        <button value="click me" style="min-height:30px;">click xxx</button>
+        <input type="button" value="click ...." style="max-height:30px;" />
+        <textarea id="txt">dfffffff</textarea>
+        <select style="max-height:30px;">
+            <option value="cn">china</option>
+            <option value="az">AZ</option>
+        </select>
 
-<h2>Search</h2>
-<div id="divBlue" style="width:100%;">
-    <button value="click me" style="min-height:30px;">click xxx</button>
-    <input type="button" value="click ...." style="max-height:30px;" />
-    <textarea id="txt">dfffffff</textarea>
-    <select style="max-height:30px;">
-        <option value="cn">china</option>
-        <option value="az" >AZ</option>
-    </select>
-   
-    <div>this is the blue div </div>
-    <div>this is another div </div>
-    <div>this is another div </div>
-    <table>
-        <tr>
-            <td>11</td>
-            <td>12</td><td>13</td>
-        </tr>
-        <tr>
-            <td>21</td>
-            <td id="id22">22</td>
-            <td><div>
-                23</div></td>
-        </tr>
-    </table>
-</div>
-<div>
-    <div class="blue" leo-with="100">this is the div1</div>
-    <div id="div2" title="div2" class="red">this is the div2</div>
-    <div id="div3" title="div">this is the div3
-        <div id="div31" title="tdiv3">inner div
-        </div>
+        <div>this is the blue div </div>
+        <div>this is another div </div>
+        <div>this is another div </div>
+        <table>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td id="id22">22</td>
+                <td>
+                    <div>
+                        23
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
-    <div id="div4" leo-with>this is the div4</div>
-    <div id="div5">this is the div4</div>
-</div>
+    <div>
+        <div class="blue" leo-with="100">this is the div1</div>
+        <div id="div2" title="div2" class="red">this is the div2</div>
+        <div id="div3" title="div">
+            this is the div3
+            <div id="div31" title="tdiv3">
+                inner div
+            </div>
+        </div>
+        <div id="div4" leo-with>this is the div4</div>
+        <div id="div5">this is the div4</div>
+    </div>
+    <input type="text" id="input1" />
+    <input type="text" id="input2" />
+    <input type="submit" value="act" id="btnAct" style="height:20px;" />
 
-<div> download please click</div>
-@Html.ActionLink("please click to download","search",new
+    <div> download please click</div>
+    @Html.ActionLink("please click to download", "search", new
 {
-    name="file"
+    name = "file"
 })
 
-
+</form>
 
 @if (IsPost)
 {
@@ -72,10 +81,16 @@
     
     $(document).ready(function () {
      
-        var nodes = $('button');
-        alert(nodes.length);
-        nodes.each(function () {
-            console.log("........."+$(this).val());
+        $("#input1").on("dblclick", function (eventObj)
+        {
+            alert("ddd");
+            
+        });
+
+        $("#input2").keydown(function (eventObj) {
+            var e = eventObj.keyCode;
+            console.log(e);
+           
         });
         
     });
