@@ -6,35 +6,6 @@
 }
 <form method="post" enctype="multipart/form-data">
     <h2>Search</h2>
-    <div id="divBlue" style="width:100%;">
-        <button value="click me" style="min-height:30px;">click xxx</button>
-        <input type="button" value="click ...." style="max-height:30px;" />
-        <textarea id="txt">dfffffff</textarea>
-        <select style="max-height:30px;">
-            <option value="cn">china</option>
-            <option value="az">AZ</option>
-        </select>
-
-        <div>this is the blue div </div>
-        <div>this is another div </div>
-        <div>this is another div </div>
-        <table>
-            <tr>
-                <td>11</td>
-                <td>12</td>
-                <td>13</td>
-            </tr>
-            <tr>
-                <td>21</td>
-                <td id="id22">22</td>
-                <td>
-                    <div>
-                        23
-                    </div>
-                </td>
-            </tr>
-        </table>
-    </div>
     <div>
         <div class="blue" leo-with="100">this is the div1</div>
         <div id="div2" title="div2" class="red">this is the div2</div>
@@ -50,6 +21,7 @@
     <input type="text" id="input1" />
     <input type="text" id="input2" />
     <input type="submit" value="act" id="btnAct" style="height:20px;" />
+    <div class="classX">please mouse over me</div>
 
     <div> download please click</div>
     @Html.ActionLink("please click to download", "search", new
@@ -80,19 +52,20 @@
     //javascript practise
     
     $(document).ready(function () {
-     
-        $("#input1").on("dblclick", function (eventObj)
-        {
-            alert("ddd");
-            
+        $(".classX").on("dblclick mouseenter mouseleave mouseup", function (e) {
+          
+            if (e.type == "mouseup") {
+
+                $(this).text("x:" + e.pageX + "   y:" + e.pageY);
+            }
+            else {
+                $(this).toggleClass("blue");
+            }
+
         });
 
-        $("#input2").keydown(function (eventObj) {
-            var e = eventObj.keyCode;
-            console.log(e);
-           
-        });
-        
+
+
     });
 
    
