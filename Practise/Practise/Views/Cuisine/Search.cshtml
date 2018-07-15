@@ -22,7 +22,23 @@
     <input type="text" id="input2" />
     <input type="submit" value="act" id="btnAct" style="height:20px;" />
     <div class="classX">please mouse over me</div>
-
+    <table id="mytable">
+      <thead>
+          <tr>
+              <th>col1</th>
+              <th>col2</th>
+              <th>col3</th>
+          </tr>
+      </thead>
+        <tbody>
+            <tr>
+                <td>11</td><td>12</td><td>13</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <input type="button" value="add a row" id="btnAddRow" style="height:20px;width:120px"/>
+    </div>
     <div> download please click</div>
     @Html.ActionLink("please click to download", "search", new
 {
@@ -52,20 +68,17 @@
     //javascript practise
     
     $(document).ready(function () {
-        $(".classX").on("dblclick mouseenter mouseleave mouseup", function (e) {
-          
-            if (e.type == "mouseup") {
-
-                $(this).text("x:" + e.pageX + "   y:" + e.pageY);
-            }
-            else {
-                $(this).toggleClass("blue");
-            }
-
+       
+        $("#mytable").on("click",'tr',function () {
+            console.log($(this).html());
         });
+        
 
-
-
+        $("#btnAddRow").click(function (eventObj) {
+            $("#mytable tbody").append("<tr><td>dfdf1111</td><td>dfd222f</td><td>dfd333f</td></tr>");
+            console.log($(eventObj.target).val());
+        });
+      
     });
 
    
