@@ -148,4 +148,4 @@ If you bid for something that is being sold, you offer to pay a particular amoun
 V-I 不及物动词 If a company tenders for something, it makes a formal offer to supply goods or do a job for a particular price. 投标
 N-VAR 有变体名词 A tender is a formal offer to supply goods or to do a particular job, and a statement of the price that you or your company will charge.
  If a contract is put out to tender, formal offers are invited. If a company wins a tender, their offer is accepted. 投标
-
+  A rule of thumb is a rule or principle that you follow which is not based on exact calculations, but rather(***) on experience. 经验法则
