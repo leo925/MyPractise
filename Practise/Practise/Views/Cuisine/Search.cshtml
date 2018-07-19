@@ -39,6 +39,12 @@
     <div>
         <input type="button" value="add a row" id="btnAddRow" style="height:20px;width:120px"/>
     </div>
+    <div>
+        below is from load function
+        <div id="divLoad">
+
+        </div>
+    </div>
     <div> download please click</div>
     @Html.ActionLink("please click to download", "search", new
 {
@@ -66,19 +72,23 @@
 
 <script type="text/javascript">
     //javascript practise
-    
-    $(document).ready(function () {
-       
-        $("#mytable").on("click",'tr',function () {
-            console.log($(this).html());
-        });
-        
 
-        $("#btnAddRow").click(function (eventObj) {
-            $("#mytable tbody").append("<tr><td>dfdf1111</td><td>dfd222f</td><td>dfd333f</td></tr>");
-            console.log($(eventObj.target).val());
-        });
-      
+    $.extend({
+        MyAdd: function (a, b) {
+            return a + b;
+        }
+    })
+
+    $.fn.extend({
+        TheType: function () {
+            return typeof this  ;
+        }
+    })
+    
+    $(document).ready(function () {      
+
+        var tt= $(document).TheType();
+        console.log(tt);
     });
 
    
