@@ -85,10 +85,16 @@
         }
     })
     
-    $(document).ready(function () {      
+    $(document).ready(function () {
+        $.ajaxSettings.async = false;
+        $.getJSON("http://localhost:58350/api/readers", function (data, status, xhr) {
+            $.each(data, function (i,d) {
 
-        var tt= $(document).TheType();
-        console.log(tt);
+                console.log(d.Id + "   " + d["Name"]);
+            });
+        });
+        console.log("call ed ajax11111111111");
+
     });
 
    

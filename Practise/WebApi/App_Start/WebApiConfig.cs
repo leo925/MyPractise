@@ -22,6 +22,8 @@ namespace WebApi
                     id = RouteParameter.Optional
                 }
             );
+
+            config.EnableCors();
         }
     }
 }
