@@ -86,16 +86,20 @@
     })
     
     $(document).ready(function () {
-        $.ajaxSettings.async = false;
-        $.getJSON("http://localhost:58350/api/readers", function (data, status, xhr) {
-            console.log(data);
-            var jsonD = JSON.parse(data);
-            $.each(jsonD, function (i, d) {
+        //$.ajaxSettings.async = false;
+        //$.getJSON("http://localhost:58350/api/readers", function (data, status, xhr) {
+        //    console.log(data);
+        //    $.each(data, function (i, d) {
 
-                console.log(d.Id + "   " + d["Name"]);
-            });
+        //        console.log(d.Id + "   " + d["Name"]);
+        //    });
+        //});
+        //console.log("call ed ajax111222211");
+
+
+        $.post("http://localhost:58350/api/readers", { Id: 4, Name:"newReader"}, function (data) {
+            console.log("post success:"+data);
         });
-        console.log("call ed ajax111222211");
 
     });
 

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Routing;
 
 namespace Practise.Controllers
 {
@@ -13,6 +14,9 @@ namespace Practise.Controllers
         //[OutputCache(Duration =20,CacheProfile ="myCatch",VaryByParam ="name")]
         public ActionResult Search(string name)
         {
+             
+            var c = RouteData.Values["controller"];
+            var p = RouteData.Values["name"];
             if (name == "file")
             {
                 var path = Server.MapPath("~/Assets/Files/readme.txt");

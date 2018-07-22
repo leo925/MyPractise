@@ -6,6 +6,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
+using System.Web.Routing;
 
 namespace WebApi.Controllers
 {
@@ -31,20 +32,29 @@ namespace WebApi.Controllers
         }
 
         // POST: api/Reader
-        public void Post([FromBody]ReaderModel value)
+        public HttpResponseMessage Post([FromBody]ReaderModel value)
         {
+            var c = Request.GetRouteData().Values["controller"];
             DummyReaders.Add(value);
+            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, value);
+            return response;
         }
+
+        //[HttpPost]
+        //public void AddReader([FromBody] ReaderModel value)
+        //{
+
+        //}
 
         // PUT: api/Reader/5
         public void Put(int id, [FromBody]string value)
         {
         }
 
-        // DELETE: api/Reader/5
-        public void Delete(int id)
-        {
-        }
+        //// DELETE: api/Reader/5
+        //public void Delete(int id)
+        //{
+        //}
 
         private static List<ReaderModel> GenerateReaders()
         {
@@ -61,5 +71,11 @@ namespace WebApi.Controllers
             }
             return readers;
         }
+    }
+
+    public enum MyStatus
+    {
+        Ok, 
+        Failed
     }
 }
