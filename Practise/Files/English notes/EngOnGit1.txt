@@ -231,6 +231,19 @@ The == and != operators do type coercion.
 
 ---------javascript fundamentals  end 
 
+-----------------------css posiitoning starts------------------
+fixed:
+abolute:  we have divContainer whose position is default(static), and divInside, if divInside 's position is absolute, and top is 50px; it is moved 50 px from top relative to window ;
+if divContainer's position is also absolute, divInside is 50 px from top relative to divContainer.
+         when with position absolute and bottom 0, it's moving it 0 pixel from the bottom of the window, not from the bottom of its original position
+relative: with relative position, the tag is not being taken out of document flow;and the orginal space is maintained
+*** if the container div 's position is set to absolute/relative(没有试fix), and the inner div 's position is absolute, the inner div responds to container instead of the window
+static:
+
+
+
+--------------------------------css posiitoning end  -------------------------------
+
 Unlike applying padding or margin when the paragraph moves, it's not going to try to push anything out of its way, it's literally just going to jump and sit on top of the other thing.
 Muggy weather is unpleasantly warm and damp. (天气) 闷热而潮湿的
 The voltage of an electrical current is its force measured in volts. 电压
