@@ -1,0 +1,63 @@
+﻿
+ public ActionResult Search(string name)
+        {
+
+  var path = Server.MapPath("~/Assets/Files/readme.txt"); 
+                return File(new FileStream(path, FileMode.Open), "application/octet-stream","downloaded");
+
+
+				}
+
+		如果是要在浏览器中打开文件：
+		 return File(new FileStream(path, FileMode.Open),"text/plain","down name");
+
+
+		 以下有空可以试下:  ===========>有web api 下载方法
+
+
+		 Asp.net mvc 下载文件 
+
+前言
+最近有需求需要下载文件，可能是image的图片，也可能是pdf报告，也可能是微软的word或者excel文件。
+这里就整理了asp.net mvc 和asp.net webapi 下载的方法
+ASP.NET MVC 下载
+在mvc中，control的returnresult有FileResult，描述如下：
+System.Web.Mvc.FileResult
+      System.Web.Mvc.FileContentResult
+      System.Web.Mvc.FilePathResult
+      System.Web.Mvc.FileStreamResult
+ 下载的时候，因为要根据文件来设置其MimiType，如果是NET 4.5则可能使用一下代码：
+MimeMapping.GetMimeMapping(fileName)
+准备完毕只好，一下就是controller下载的方法：
+public FileResult MyFile()
+{
+    string root = Server.MapPath("~/App_Data");
+    string fileName = "test.jpg";
+    string filePath = Path.Combine(root, fileName);
+    string s= MimeMapping.GetMimeMapping(fileName);
+            
+    return File(filePath, s, Path.GetFileName(filePath));
+}
+asp.net webapi 下载
+webapi的下载和mvc不太一样，webapi需要设置返回的header等一系列属性：
+[HttpGet]
+public HttpResponseMessage Get(string name)
+{
+    var root = System.Web.HttpContext.Current.Server.MapPath("~/App_Data");
+    string fileName = name;
+    string path = Path.Combine(root, fileName);
+    HttpResponseMessage result = new HttpResponseMessage(HttpStatusCode.OK);
+    var stream = new FileStream(path, FileMode.Open);
+    result.Content = new StreamContent(stream);
+    result.Content.Headers.ContentDisposition = new ContentDispositionHeaderValue("attachment");
+    result.Content.Headers.ContentDisposition.FileName = fileName;
+    //result.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+    result.Content.Headers.ContentType = new MediaTypeHeaderValue(MimeMapping.GetMimeMapping(fileName));
+    result.Content.Headers.ContentLength = stream.Length;
+    return result;
+
+
+
+
+
+

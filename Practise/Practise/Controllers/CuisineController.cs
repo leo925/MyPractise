@@ -19,8 +19,8 @@ namespace Practise.Controllers
             var p = RouteData.Values["name"];
             if (name == "file")
             {
-                var path = Server.MapPath("~/Assets/Files/readme.txt");
-                return File(new FileStream(path, FileMode.Open),"text/plain","down name");
+                var path = Server.MapPath("~/Assets/Files/readme.txt"); 
+                return File(new FileStream(path, FileMode.Open), "application/octet-stream","downloaded");
             }
             else
             {

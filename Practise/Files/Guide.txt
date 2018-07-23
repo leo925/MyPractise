@@ -26,12 +26,15 @@ http
 html fundamentals and my practise: 5 days
 css fundamentals : 5 days
 javascript fundamentals:
-======>my javascript book review and practise:  5days??  6.25 
+my javascript book review and practise:  5days??  6.25 
 jquery book and practise:
 html5 fundamentals and my html5 book: 15 days?
 
-<building app with mvc>:10 days
+======><building app with mvc>:10 days
 <mmvc 4 fundamental>: 8 days
+<mvc 5 fundamental>
+<build app with mvc 5>
+
 <sql server >??
 
 EF: 7days  
