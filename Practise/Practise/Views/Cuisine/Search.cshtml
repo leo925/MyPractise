@@ -7,6 +7,9 @@
 <form method="post" enctype="multipart/form-data">
     <h2>Search</h2>
     <div>
+        <input type="button" id="btnGetData" value="get data" />
+    </div>
+    <div>
         <div class="blue" leo-with="100">this is the div1</div>
         <div id="div2" title="div2" class="red">this is the div2</div>
         <div id="div3" title="div">
@@ -50,6 +53,7 @@
 {
     name = "file"
 })
+
 
 </form>
 
@@ -97,8 +101,16 @@
         //console.log("call ed ajax111222211");
 
 
-        $.post("http://localhost:58350/api/readers", { Id: 4, Name:"newReader"}, function (data) {
-            console.log("post success:"+data);
+        //$.post("http://localhost:58350/api/readers", { Id: 4, Name:"newReader"}, function (data) {
+        //    console.log("post success:"+data);
+        //});
+
+        
+        $("#btnGetData").click(function () {
+            console.log("call get data");
+            $.get("getdata", function (d, status, xhr) {
+                console.log(d.Name);
+            },'json');
         });
 
     });

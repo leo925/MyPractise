@@ -19,8 +19,16 @@ namespace Practise.Controllers
             var p = RouteData.Values["name"];
             if (name == "file")
             {
-                var path = Server.MapPath("~/Assets/Files/readme.txt"); 
-                return File(new FileStream(path, FileMode.Open), "application/octet-stream","downloaded");
+                var path = Server.MapPath("~/Assets/Files/readme.txt");
+                return File(new FileStream(path, FileMode.Open), "application/octet-stream", "downloaded");
+            }
+            else if (name == "getdata")
+            {
+                return Json(new
+                {
+                    Name = "leo",
+                    age = 19
+                }, JsonRequestBehavior.AllowGet);
             }
             else
             {
@@ -28,6 +36,16 @@ namespace Practise.Controllers
                 return View();
             }
             
+        }
+
+
+        public ActionResult GetData()
+        {
+            return Json(new
+            {
+                Name="leo",
+                age=19
+            }, JsonRequestBehavior.AllowGet);
         }
     }
 }
