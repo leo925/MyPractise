@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pluralsight\Transcript\NewFolder1\" />
+    <Folder Include="tech passages\web\http\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="English notes\10 tips.txt" />
@@ -77,6 +78,7 @@
     <Content Include="English notes\HarryPotter.txt" />
     <Content Include="Guide.txt" />
     <Content Include="Pluralsight\Transcript\jquery fundamental.txt" />
+    <Content Include="tech passages\web\web 前端\css 换行  overflow.txt" />
     <Content Include="tech passages\web\others\下载文件.txt" />
     <Content Include="tech passages\wpf\WPF中XAML中使用String.Format格式化字符串示例 .txt" />
     <Content Include="work notes\active work notes 1.txt" />

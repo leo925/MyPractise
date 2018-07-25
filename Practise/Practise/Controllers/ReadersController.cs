@@ -10,7 +10,7 @@ namespace Practise.Controllers
     public class ReadersController : Controller
     {
         // GET: Readers
-         [Authorize]
+         [OutputCache(Duration =20)]
         public ActionResult Index()
         {
             List<ReaderModel> readers = GenerateReaders();
