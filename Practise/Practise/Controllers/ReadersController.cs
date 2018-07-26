@@ -1,4 +1,5 @@
 ﻿using Models;
+using Practise.Filters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,11 @@ using System.Web.Mvc;
 
 namespace Practise.Controllers
 {
+    [LogFilterAttribute]
     public class ReadersController : Controller
     {
         // GET: Readers
-         [OutputCache(Duration =20)]
+        
         public ActionResult Index()
         {
             List<ReaderModel> readers = GenerateReaders();
