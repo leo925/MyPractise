@@ -103,7 +103,7 @@ namespace Practise.Controllers
 
                 ReaderModel reader = new ReaderModel()
                 {
-                    Name = "<script>alert(11)</script>", // + i.ToString(),
+                    Name = "reader " + i.ToString(),
                     IP = "10,1,10," + i.ToString(),
                     Port = i,
                     Id = i

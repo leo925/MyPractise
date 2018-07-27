@@ -6,8 +6,8 @@ body {
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    float:right;
-    width:700px;
+    margin:0px 0px 0px 310px;
+    
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -26,8 +26,9 @@ textarea {
 }
 
 
-.main-left {width:312px;
-                float:left;
-           background-color:#212833;
-           height:100%;
+.main-left {
+    width: 312px;
+    float:left;
+    background-color: #212833;
+    height:100%;
 }

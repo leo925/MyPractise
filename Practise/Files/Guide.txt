@@ -58,7 +58,9 @@ https://api.jquery.com/  jquery api
 https://www.w3schools.com/howto/howto_css_overlay.asp   w3school
 
 
-learning Items from plural sight: Domain-Driven Design Fundamentals
+learning Items from plural sight:
+    Domain-Driven Design Fundamentals  
+web layout:	 https://app.pluralsight.com/library/search?q=web+layout
 
 
 end

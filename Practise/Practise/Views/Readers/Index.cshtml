@@ -1,43 +1,60 @@
 ﻿@model IEnumerable<Models.ReaderModel>
+    <style>
+        .divReaderItem {
+            border:1px dotted #00ffff;
+            display:inline-block;
+            margin:2px;
+        }
+
+        .readerHover{
+            background-color:aquamarine;
+            cursor:pointer;
+
+        }
+    </style>
 
 @{
     ViewBag.Title = "readers List";
+    var firstReader = Model.FirstOrDefault();
 }
 
-<h2>@ViewBag.Title</h2>
+<h2>@ViewBag.Title   </h2>
 
 <p>@Html.ActionLink("create new","Create")</p>
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Id)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.IP)
-        </th>
-    </tr>
-  @foreach (var item in Model)
-  {
-  
-      <tr>
-          <td>
-              @Html.DisplayFor(modelItem => item.Id)
-          </td>
-          <td>
-             @Html.Raw(item.Name)
-             @*@Html.DisplayFor(modelItem => item.Name)*@
-          </td>
-          <td>
-              @Html.DisplayFor(modelItem => item.IP)
-          </td>
-      </tr>
-  }
-</table>
+@if (firstReader != null)
+{
+    <h3>this is the first reader</h3>
+    <span>@firstReader.Name</span>
+}
+
+
+<div>
+    @foreach (var item in Model)
+    {
+        <div class="divReaderItem">
+            <h4 id="hName">@item.Name</h4>
+            <span>@item.Id</span>
+            <p>@item.IP</p>
+        </div>
+    }
+</div>
+
+
+@section scripts  {
 
 <script>
-    alert(11)
+    $(document).ready(function () {
+        $(".divReaderItem").hover(function () {
+           
+            $(this).toggleClass("readerHover");
+        }).click(function () {
+            alert("click me:" + $(this).children("#hName").text());
+        });
+ 
+
+
+    });
 </script>
+
+    }
