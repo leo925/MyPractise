@@ -15,7 +15,7 @@ namespace Practise.Controllers
         
         public ActionResult Index()
         {
-            List<ReaderModel> readers = GenerateReaders();
+            List<ReaderModel> readers = DummyReaders;
 
             return View(readers);
         }
@@ -94,15 +94,16 @@ namespace Practise.Controllers
             }
         }
 
-
+        public static List<ReaderModel> DummyReaders = GenerateReaders();
         private static List<ReaderModel> GenerateReaders()
         {
             List<ReaderModel> readers = new List<ReaderModel>();
             for (int i = 0; i < 15; i++)
             {
+
                 ReaderModel reader = new ReaderModel()
                 {
-                    Name = "reader" + i.ToString(),
+                    Name = "<script>alert(11)</script>", // + i.ToString(),
                     IP = "10,1,10," + i.ToString(),
                     Port = i,
                     Id = i
