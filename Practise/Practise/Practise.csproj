@@ -175,6 +175,7 @@
     <Compile Include="Controllers\CuisineController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ReadersController.cs" />
+    <Compile Include="Db\MyPractiseDb.cs" />
     <Compile Include="Filters\LogFilterAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

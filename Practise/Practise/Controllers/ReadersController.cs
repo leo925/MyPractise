@@ -1,4 +1,5 @@
 ﻿using Models;
+using Practise.Db;
 using Practise.Filters;
 using System;
 using System.Collections.Generic;
@@ -11,12 +12,13 @@ namespace Practise.Controllers
     [LogFilterAttribute]
     public class ReadersController : Controller
     {
+
+        MyPractiseDb _db =new Db.MyPractiseDb();
         // GET: Readers
-        
         public ActionResult Index()
         {
-            List<ReaderModel> readers = DummyReaders;
-
+            //ssList<ReaderModel> readers = DummyReaders;
+            var readers = _db.Readers.ToList();
             return View(readers);
         }
 
@@ -116,5 +118,15 @@ namespace Practise.Controllers
             }
             return readers;
         }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (_db != null)
+            {
+                _db.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
     }
 }
