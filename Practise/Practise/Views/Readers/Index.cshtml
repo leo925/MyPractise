@@ -1,16 +1,6 @@
 ﻿@model IEnumerable<Models.ReaderModel>
     <style>
-        .divReaderItem {
-            border:1px dotted #00ffff;
-            display:inline-block;
-            margin:2px;
-        }
 
-        .readerHover{
-            background-color:aquamarine;
-            cursor:pointer;
-
-        }
     </style>
 
 @{
@@ -32,11 +22,7 @@
 <div>
     @foreach (var item in Model)
     {
-        <div class="divReaderItem">
-            <h4 id="hName">@item.Name</h4>
-            <span>@item.Id</span>
-            <p>@item.IP</p>
-        </div>
+     @Html.Partial("_Reader",item)  
     }
 </div>
 

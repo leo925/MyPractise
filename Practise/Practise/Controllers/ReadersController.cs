@@ -20,7 +20,11 @@ namespace Practise.Controllers
             return View(readers);
         }
 
-       
+        public ActionResult FirstReader()
+        {
+            var first = DummyReaders.FirstOrDefault();
+            return PartialView("_Reader", first);
+        }
 
         // GET: Readers/Details/5
         public ActionResult Details(int id)
