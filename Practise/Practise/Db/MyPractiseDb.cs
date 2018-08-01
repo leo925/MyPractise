@@ -18,6 +18,12 @@ namespace Practise.Db
             set;
         }
 
-       
+       public DbSet<ReaderDetails> ReaderDetails
+        {
+            get;set;
+        }
     }
+
+
+
 }

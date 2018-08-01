@@ -267,9 +267,10 @@ and the incrementer, which is a statement that is run on every iteration.
 end
 
 
+-----------------------building application with asp.net mvc 4
 you can also come ascross(*偶然碰到) a situation you want to display something that is not part of you model(layout),this frequently comes up(发生) with your layout view
 It's(layout view) used on pages that display restaurant reviews but it will also be used on pages that display restaurants or allow a user to register and log in.
  And all of those other scenarios, they do not involve restaurant reviews. So I cannot strongly type this layout view to a particular model.
-
-
-
+ can I have it initially populate some data for me into that database
+ migrations are a feature of EF that allow you to configure database schemas with c sharp code, seed you database with c#
+ and migrations can track changes that you're making in your entity classes.

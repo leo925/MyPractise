@@ -37,7 +37,50 @@ namespace Models
             get; set;
         }
 
+        public int TestSeedField
+        {
+            get; set;
+        }
 
+    }
+
+
+    public class ReaderDetails
+    {
+        public int Id
+        {
+            get; set;
+        }
+
+        public int Owner
+        {
+            get; set;
+        }
+
+        public string Des
+        {
+            get; set;
+        }
+
+        public int ReaderId
+        {
+            get; set;
+        }
+
+        public int AddField
+        {
+            get; set;
+        }
+
+        public int AddField222
+        {
+            get; set;
+        }
+
+        public int AddField333
+        {
+            get; set;
+        }
     }
     
 }
