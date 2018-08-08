@@ -14,7 +14,11 @@ namespace Practise.Migrations
 
         protected override void Seed(Practise.Db.MyPractiseDb context)
         {
-            
+            context.Readers.AddOrUpdate(c =>c.Name,new Models.ReaderModel()
+            {
+                Name="seed reader1", IP="1.1.1.1", Port=80, ReaderType="lite"
+            }
+          );
         }
     }
 }

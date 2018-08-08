@@ -37,11 +37,6 @@ namespace Models
             get; set;
         }
 
-        public int TestSeedField
-        {
-            get; set;
-        }
-
     }
 
 
@@ -66,21 +61,8 @@ namespace Models
         {
             get; set;
         }
-
-        public int AddField
-        {
-            get; set;
-        }
-
-        public int AddField222
-        {
-            get; set;
-        }
-
-        public int AddField333
-        {
-            get; set;
-        }
+        
+        
     }
     
 }

@@ -274,3 +274,9 @@ It's(layout view) used on pages that display restaurant reviews but it will also
  can I have it initially populate some data for me into that database
  migrations are a feature of EF that allow you to configure database schemas with c sharp code, seed you database with c#
  and migrations can track changes that you're making in your entity classes.
+ web browers tend to bring everything else to a halt when they encounter a script tag.
+ and it(data migration) can keep the database schema in sync with the changes that you make in your c# code
+
+
+
+ -----------------------building application with asp.net mvc 4   end
