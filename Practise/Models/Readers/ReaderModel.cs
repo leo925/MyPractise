@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -37,6 +38,10 @@ namespace Models
             get; set;
         }
 
+        public ICollection<ReaderReviewModel> Reviews
+        {
+            get; set;
+        }
     }
 
 
@@ -64,5 +69,34 @@ namespace Models
         
         
     }
-    
+
+    public class ReaderReviewModel
+    {
+        public int Id
+        {
+            get; set;
+        }
+
+        public decimal Rating
+        {
+            get; set;
+        }
+
+        public string Content
+        {
+            get; set;
+        }
+
+        [ForeignKey("Reader")]
+        public int ReaderId
+        {
+            get; set;
+        }
+
+        public ReaderModel Reader
+        {
+            get; set;
+        }
+    }
+
 }

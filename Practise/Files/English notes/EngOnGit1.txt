@@ -39,6 +39,8 @@ case insensitive:不区分大小写   lower/upper case alphabet
 so a percent encoding is basically taking that hexadecimal value, putting a percent in front and then replacing a character in the URL with that percent encoded value.
 On the service side, you should run dynamically created URLs through the encoding algorithm just in case one of the unsafe characters will appear in the URL. 
 In order for a host to properly serve a resource and in order for the client to properly display a resource
+Demarcate, delimit, we should demarcate our responsibility
+
 
 *****the big picture
 see the html that this page is made of.

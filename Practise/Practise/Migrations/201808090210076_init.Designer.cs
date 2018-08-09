@@ -7,13 +7,13 @@ namespace Practise.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class MyPractiseDb1 : IMigrationMetadata
+    public sealed partial class init : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(MyPractiseDb1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(init));
         
         string IMigrationMetadata.Id
         {
-            get { return "201808070215032_MyPractiseDb1"; }
+            get { return "201808090210076_init"; }
         }
         
         string IMigrationMetadata.Source

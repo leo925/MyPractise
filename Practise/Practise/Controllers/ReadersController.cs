@@ -17,36 +17,36 @@ namespace Practise.Controllers
         // GET: Readers
         public ActionResult Index()
         {
-            string[] leftOverArray = allLeftOvers.Split(new[] { "," }, StringSplitOptions.RemoveEmptyEntries);
-            var length = leftOverArray.Length;
-            var intLeftOverArray = leftOverArray.ToList().Select<string, int>(str =>
-            {
-                return int.Parse(str);
-            }).ToList();
+            //string[] leftOverArray = allLeftOvers.Split(new[] { "," }, StringSplitOptions.RemoveEmptyEntries);
+            //var length = leftOverArray.Length;
+            //var intLeftOverArray = leftOverArray.ToList().Select<string, int>(str =>
+            //{
+            //    return int.Parse(str);
+            //}).ToList();
 
-            var max = intLeftOverArray.Max();
-            var sections = Math.Ceiling((double)max / 100);
-            Dictionary<int, int> SectionCountDic = new Dictionary<int, int>();
-            for (int i = 0; i < sections; i++)
-            {
+            //var max = intLeftOverArray.Max();
+            //var sections = Math.Ceiling((double)max / 100);
+            //Dictionary<int, int> SectionCountDic = new Dictionary<int, int>();
+            //for (int i = 0; i < sections; i++)
+            //{
 
-            }
+            //}
 
-            foreach (var leftOver in intLeftOverArray)
-            {
-                int section = leftOver / 30 + 1;
-                if (!SectionCountDic.Keys.Contains(section))
-                {
-                    SectionCountDic.Add(section, 1);
-                }
-                else
-                {
-                    var newValue = SectionCountDic[section] + 1;
-                    SectionCountDic[section] = newValue;
-                }
-            }
+            //foreach (var leftOver in intLeftOverArray)
+            //{
+            //    int section = leftOver / 30 + 1;
+            //    if (!SectionCountDic.Keys.Contains(section))
+            //    {
+            //        SectionCountDic.Add(section, 1);
+            //    }
+            //    else
+            //    {
+            //        var newValue = SectionCountDic[section] + 1;
+            //        SectionCountDic[section] = newValue;
+            //    }
+            //}
 
-            var orderDic = SectionCountDic.OrderByDescending(d => d.Value).ToList();
+            //var orderDic = SectionCountDic.OrderByDescending(d => d.Value).ToList();
 
 
             //ssList<ReaderModel> readers = DummyReaders;

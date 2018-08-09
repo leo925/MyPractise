@@ -9,16 +9,30 @@ namespace Practise.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(Practise.Db.MyPractiseDb context)
         {
-            context.Readers.AddOrUpdate(c =>c.Name,new Models.ReaderModel()
+
+
+            context.Readers.AddOrUpdate(c => c.Name, new Models.ReaderModel()
             {
-                Name="seed reader1", IP="1.1.1.1", Port=80, ReaderType="lite"
+                Name = "seed reader1",
+                IP = "1.1.1.1",
+                Port = 80,
+                ReaderType = "lite"
             }
-          );
+                     );
+
+            context.ReaderReviews.AddOrUpdate(new Models.ReaderReviewModel()
+            {
+                ReaderId = 1,
+                Content = "it's a good reader",
+                Rating = 10
+            });
+
+
         }
     }
 }

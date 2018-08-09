@@ -22,6 +22,11 @@ namespace Practise.Db
         {
             get;set;
         }
+
+        public DbSet<ReaderReviewModel> ReaderReviews
+        {
+            get;set;
+        }
     }
 
 

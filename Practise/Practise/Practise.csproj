@@ -180,21 +180,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201808070205443_MyPractiseDb.cs" />
-    <Compile Include="Migrations\201808070205443_MyPractiseDb.Designer.cs">
-      <DependentUpon>201808070205443_MyPractiseDb.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201808070215032_MyPractiseDb1.cs" />
-    <Compile Include="Migrations\201808070215032_MyPractiseDb1.Designer.cs">
-      <DependentUpon>201808070215032_MyPractiseDb1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201808070218513_MyPractiseDb2.cs" />
-    <Compile Include="Migrations\201808070218513_MyPractiseDb2.Designer.cs">
-      <DependentUpon>201808070218513_MyPractiseDb2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201808080821373_MyPractiseDb3.cs" />
-    <Compile Include="Migrations\201808080821373_MyPractiseDb3.Designer.cs">
-      <DependentUpon>201808080821373_MyPractiseDb3.cs</DependentUpon>
+    <Compile Include="Migrations\201808090210076_init.cs" />
+    <Compile Include="Migrations\201808090210076_init.Designer.cs">
+      <DependentUpon>201808090210076_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -273,17 +261,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201808070205443_MyPractiseDb.resx">
-      <DependentUpon>201808070205443_MyPractiseDb.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808070215032_MyPractiseDb1.resx">
-      <DependentUpon>201808070215032_MyPractiseDb1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808070218513_MyPractiseDb2.resx">
-      <DependentUpon>201808070218513_MyPractiseDb2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201808080821373_MyPractiseDb3.resx">
-      <DependentUpon>201808080821373_MyPractiseDb3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201808090210076_init.resx">
+      <DependentUpon>201808090210076_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
