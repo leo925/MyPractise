@@ -38,7 +38,7 @@ namespace Models
             get; set;
         }
 
-        public ICollection<ReaderReviewModel> Reviews
+        public virtual ICollection<ReaderReviewModel> Reviews
         {
             get; set;
         }

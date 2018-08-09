@@ -17,11 +17,18 @@
         <a target="_blank" href="http://www.baidu.com">blank</a>
         <a target="_self" href="http://www.baidu.com">self</a>
         <a target="_top" href="http://www.baidu.com">top</a>
+        <ul class="nav nav-tabs">
+            <!--nav导航的基础样式-->
+            <li>@Html.ActionLink("readers", "Index", "Reader")</li>
+            <li><a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow">香蕉</a></li>
+            <li><a href="#" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow">橘子</a></li>
+        </ul>
+
         <div>
             @Html.Action("FirstReader","Readers")
         </div>
     </div>
-    <div class="body-content" >
+    <div class="body-content" style="float:left">
         <div>
              <!-- audio test-->
             @*<audio controls="controls" src="~/Assets/audio/children-gun-girl-uzi-shooting.mp3" autoplay="autoplay" volume="0.1"></audio>*@

@@ -1,0 +1,17 @@
+﻿@model  Models.ReaderModel
+
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Reviews fro @Model.Name</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+@Html.Partial("_Reviews",Model.Reviews)
+
+ 
