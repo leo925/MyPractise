@@ -9,7 +9,10 @@
 <h2>Reviews fro @Model.Name</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "Create",new
+{
+    ReaderId=Model.Id
+})
 </p>
 
 @Html.Partial("_Reviews",Model.Reviews)

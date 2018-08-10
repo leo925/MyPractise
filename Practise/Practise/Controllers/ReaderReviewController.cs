@@ -15,10 +15,10 @@ namespace Practise.Controllers
     {
         private MyPractiseDb db = new MyPractiseDb();
 
-        // GET: ReaderReviewModels
-        public ActionResult Index([Bind(Prefix ="id")]int readerId)
+       [HttpGet]
+        public ActionResult Index([Bind(Prefix ="id")]int ReaderId)
         {
-            var reader = db.Readers.Find(readerId);
+            var reader = db.Readers.Find(ReaderId);
             if (reader != null)
             {
                 return View(reader);
@@ -26,7 +26,29 @@ namespace Practise.Controllers
             return HttpNotFound();
         }
 
-      
+        [HttpGet]
+        public ActionResult Create(int ReaderId)
+        {
+            return View(new ReaderReviewModel() {
+                 ReaderId= ReaderId
+            });
+        }
+
+        [HttpPost]
+        public ActionResult Create(ReaderReviewModel review)
+        {
+            if(this.ModelState.IsValid)
+            {
+                db.ReaderReviews.Add(review);
+                db.SaveChanges();
+                return RedirectToAction("Index",new
+                {
+                    id=review.ReaderId
+                });
+            }
+            return View(review);
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
