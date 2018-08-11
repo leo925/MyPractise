@@ -251,6 +251,7 @@
     <Content Include="Views\ReaderReview\Index.cshtml" />
     <Content Include="Views\ReaderReview\_Reviews.cshtml" />
     <Content Include="Views\ReaderReview\Create.cshtml" />
+    <Content Include="Views\ReaderReview\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

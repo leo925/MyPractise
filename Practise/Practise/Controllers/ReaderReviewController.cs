@@ -49,6 +49,29 @@ namespace Practise.Controllers
             return View(review);
         }
 
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            var review = db.ReaderReviews.Find(id);
+            if (review != null)
+            {
+                return View(review);
+            }
+            return  RedirectToAction("Index","Reader");
+        }
+
+        [HttpPost]
+        public ActionResult Edit(ReaderReviewModel review)
+        {
+            if(ModelState.IsValid)
+            {
+                db.Entry(review).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index", new {id=review.ReaderId });
+            }
+            return View(review);
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
