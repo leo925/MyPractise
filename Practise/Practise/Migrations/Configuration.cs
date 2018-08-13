@@ -9,7 +9,7 @@ namespace Practise.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(Practise.Db.MyPractiseDb context)

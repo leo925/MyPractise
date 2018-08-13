@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -77,11 +78,13 @@ namespace Models
             get; set;
         }
 
-        public decimal Rating
+        [Range(1,10)]
+        public int Rating
         {
             get; set;
         }
-
+        [StringLength(1024)]
+        [Display(Name ="revew content")]
         public string Content
         {
             get; set;
@@ -97,6 +100,7 @@ namespace Models
         {
             get; set;
         }
+        
     }
 
 }
