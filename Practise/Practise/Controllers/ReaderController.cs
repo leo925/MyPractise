@@ -16,9 +16,12 @@ namespace Practise.Controllers
         private MyPractiseDb db = new MyPractiseDb();
 
         // GET: Reader
-        public ActionResult Index()
+        public ActionResult Index(string searchTerm=null)
         {
-            return View(db.Readers.ToList());
+            var model = db.Readers.OrderByDescending(r => r.Reviews.Average(review => review.Rating))
+                .Where(r=>searchTerm==null ||  r.Name.Contains(searchTerm))
+                .Take(100);
+            return View(model);
         }
 
         // GET: Reader/Details/5

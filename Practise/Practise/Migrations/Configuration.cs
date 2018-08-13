@@ -14,8 +14,6 @@ namespace Practise.Migrations
 
         protected override void Seed(Practise.Db.MyPractiseDb context)
         {
-
-
             context.Readers.AddOrUpdate(c => c.Name, new Models.ReaderModel()
             {
                 Name = "seed reader1",
@@ -32,6 +30,19 @@ namespace Practise.Migrations
                 Rating = 10
             });
 
+           var toDelete=  context.Readers.Where(r => r.Name == "reader");
+            context.Readers.RemoveRange(toDelete);
+            for (int i = 0; i < 1000; i++)
+            {
+                context.Readers.AddOrUpdate(c => c.Name, new Models.ReaderModel()
+                {
+                    Name = "reader"+i.ToString(),
+                    IP = "1.1.1.1",
+                    Port = 80,
+                    ReaderType = "lite"
+                }
+                    );
+            }
 
         }
     }
