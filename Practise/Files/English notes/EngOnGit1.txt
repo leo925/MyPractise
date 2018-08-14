@@ -277,8 +277,9 @@ It's(layout view) used on pages that display restaurant reviews but it will also
  migrations are a feature of EF that allow you to configure database schemas with c sharp code, seed you database with c#
  and migrations can track changes that you're making in your entity classes.
  web browers tend to bring everything else to a halt when they encounter a script tag.
- and it(data migration) can keep the database schema in sync with the changes that you make in your c# code
-
+ and it(data migration) can keep the database schema in sync with the changes that you make in your c# code.
+ (validation) there's nothing that constrains(**) the rating to any sort of  scale(**).
+ there's also nothing restricts them from entering a body with 1000 characters
 
 
  -----------------------building application with asp.net mvc 4   end
