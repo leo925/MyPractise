@@ -21,6 +21,10 @@ namespace Practise.Controllers
             var model = db.Readers.OrderByDescending(r => r.Reviews.Average(review => review.Rating))
                 .Where(r=>searchTerm==null ||  r.Name.Contains(searchTerm))
                 .Take(100);
+            if (Request.IsAjaxRequest())
+            {
+                return PartialView("_ReadersView", model);
+            }            
             return View(model);
         }
 

@@ -6,7 +6,7 @@ namespace Practise.Migrations
     public partial class init : DbMigration
     {
         public override void Up()
-        {
+        {         
             CreateTable(
                 "dbo.ReaderDetails",
                 c => new
