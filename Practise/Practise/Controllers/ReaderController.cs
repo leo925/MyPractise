@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.Mvc;
 using Models;
 using Practise.Db;
+using System.Threading;
 
 namespace Practise.Controllers
 {
@@ -18,6 +19,8 @@ namespace Practise.Controllers
         // GET: Reader
         public ActionResult Index(string searchTerm=null)
         {
+            var c = Thread.CurrentThread.CurrentCulture;
+            var c2 = Thread.CurrentThread.CurrentUICulture;
             var model = db.Readers.OrderByDescending(r => r.Reviews.Average(review => review.Rating))
                 .Where(r=>searchTerm==null ||  r.Name.Contains(searchTerm))
                 .Take(100);

@@ -50,6 +50,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="English notes\Eng3.docx" />
+    <None Include="tech passages\web\aspnet\iis express局域网调试.docx" />
     <None Include="tech passages\web\aspnet\Is ASP.NET MVC 5 incompatible with the WebMatrix SimpleMembershipProvider.docx" />
     <None Include="tech passages\web\http\http cache basics1.docx" />
     <None Include="tech passages\web\http\http cache basics2.docx" />

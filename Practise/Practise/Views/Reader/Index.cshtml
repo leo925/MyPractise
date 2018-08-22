@@ -2,6 +2,9 @@
 
 @{
     ViewBag.Title = "Index";
+    var c = 10.0;
+    var d = DateTime.Now;
+
 }
 
 <h2>Index</h2>
@@ -10,6 +13,12 @@
     <input type="text" name="searchTerm" style="height:32px;" />
     <input type="submit" value="search" style="height:32px;" />
 </form>
+<div>
+    @c.ToString("c");
+</div>
+<div>
+    @d.ToShortDateString();
+</div>
 
 
 @*@using (Ajax.BeginForm(new AjaxOptions() { InsertionMode = InsertionMode.Replace, UpdateTargetId = "updatedDiv", HttpMethod = "get" }))
