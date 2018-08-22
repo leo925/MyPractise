@@ -196,7 +196,7 @@ spinach, celery,   lettuce , mushroom,cucumber, pumpkin,cauliflower, broccoli,on
 shallot([ʃə'lɑt]大/小葱,google上图是大葱,不是很明确),chinese chives( [tʃaɪvz] 韭菜)
 a round vegetable with thin green leaves eaten raw in salads,   eat it raw...
 Please join me in congratulating Evan on his new role.
-
+I can wear flip flops(**人字拖) at office
 
 
 ---------javascript fundamentals begin
@@ -280,6 +280,10 @@ It's(layout view) used on pages that display restaurant reviews but it will also
  and it(data migration) can keep the database schema in sync with the changes that you make in your c# code.
  (validation) there's nothing that constrains(**) the rating to any sort of  scale(**).
  there's also nothing restricts them from entering a body with 1000 characters
+
+ Vary by * to cache for every permutation(  ['pɝmjʊ'teʃən] *) of all parameters.
+Vary by 'none' to always cache the same content
+Vary by 'name' to cache for every value of name parameter 
 
 
  -----------------------building application with asp.net mvc 4   end

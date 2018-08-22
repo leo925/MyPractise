@@ -24,7 +24,8 @@ namespace Practise.Controllers
             if (Request.IsAjaxRequest())
             {
                 return PartialView("_ReadersView", model);
-            }            
+            }
+           
             return View(model);
         }
 
