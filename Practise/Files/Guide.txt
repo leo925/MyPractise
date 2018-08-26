@@ -40,10 +40,23 @@ html5 fundamentals and my html5 book: 15 days?
 EF: 7days  
 
 
-logs:
-date     content                hours
-5.6:     html fundamental       3                  
-5.7      same                                          
+I can't learn every techniques, I have to restrict these techs I have to learn, they are 
+css layout, 
+html basic, 
+mvc basic
+ef basic, 
+sql 
+sql performance tuning
+jquery basic, 
+web socket
+
+
+
+and I think that's enough!!!!!
+
+
+
+
 
 defects: narrow minded, not persistent
 model:Lu zhi shun, he is really a good model I should follow, he is so strong and proficient at Kongfu but he is not arrogant, he always respects and admire others who are also good at KongFu
@@ -62,5 +75,7 @@ learning Items from plural sight:
     Domain-Driven Design Fundamentals  
 web layout:	 https://app.pluralsight.com/library/search?q=web+layout
 
-
+ef:  entity framework performance, 
+entity framework in the enterprise
+entity framework migration for  .. => automating deployments
 end

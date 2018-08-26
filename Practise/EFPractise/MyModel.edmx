@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MyPractiseDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ReaderDetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Owner" Type="int" Nullable="false" />
+          <Property Name="Des" Type="nvarchar(max)" />
+          <Property Name="ReaderId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ReaderModels">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="IP" Type="nvarchar(max)" />
+          <Property Name="Port" Type="int" Nullable="false" />
+          <Property Name="ConnectionStatus" Type="int" Nullable="false" />
+          <Property Name="ReaderType" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK_ReaderDetails_ReaderModels">
+          <End Role="ReaderModels" Type="Self.ReaderModels" Multiplicity="1" />
+          <End Role="ReaderDetails" Type="Self.ReaderDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ReaderModels">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ReaderDetails">
+              <PropertyRef Name="ReaderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MyPractiseDBModelStoreContainer">
+          <EntitySet Name="ReaderDetails" EntityType="Self.ReaderDetails" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ReaderModels" EntityType="Self.ReaderModels" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_ReaderDetails_ReaderModels" Association="Self.FK_ReaderDetails_ReaderModels">
+            <End Role="ReaderModels" EntitySet="ReaderModels" />
+            <End Role="ReaderDetails" EntitySet="ReaderDetails" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MyPractiseDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ReaderDetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Owner" Type="Int32" Nullable="false" />
+          <Property Name="Dess" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ReaderId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="ReaderModels" Relationship="MyPractiseDBModel.FK_ReaderDetails_ReaderModels" FromRole="ReaderDetails" ToRole="ReaderModels" />
+        </EntityType>
+        <EntityType Name="ReaderModels">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="IP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Port" Type="Int32" Nullable="false" />
+          <Property Name="ConnectionStatus" Type="Int32" Nullable="false" />
+          <Property Name="ReaderType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ReaderDetails" Relationship="MyPractiseDBModel.FK_ReaderDetails_ReaderModels" FromRole="ReaderModels" ToRole="ReaderDetails" />
+        </EntityType>
+        <EntityContainer Name="MyPractiseDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ReaderDetails" EntityType="Self.ReaderDetails" />
+          <EntitySet Name="ReaderModels" EntityType="Self.ReaderModels" />
+          <AssociationSet Name="FK_ReaderDetails_ReaderModels" Association="MyPractiseDBModel.FK_ReaderDetails_ReaderModels">
+            <End Role="ReaderModels" EntitySet="ReaderModels" />
+            <End Role="ReaderDetails" EntitySet="ReaderDetails" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="FK_ReaderDetails_ReaderModels">
+          <End Type="MyPractiseDBModel.ReaderModels" Role="ReaderModels" Multiplicity="1" />
+          <End Type="MyPractiseDBModel.ReaderDetails" Role="ReaderDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ReaderModels">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ReaderDetails">
+              <PropertyRef Name="ReaderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MyPractiseDBModelStoreContainer" CdmEntityContainer="MyPractiseDBEntities">
+          <EntitySetMapping Name="ReaderDetails">
+            <EntityTypeMapping TypeName="MyPractiseDBModel.ReaderDetails">
+              <MappingFragment StoreEntitySet="ReaderDetails">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Owner" ColumnName="Owner" />
+                <ScalarProperty Name="Dess" ColumnName="Des" />
+                <ScalarProperty Name="ReaderId" ColumnName="ReaderId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ReaderModels">
+            <EntityTypeMapping TypeName="MyPractiseDBModel.ReaderModels">
+              <MappingFragment StoreEntitySet="ReaderModels">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="IP" ColumnName="IP" />
+                <ScalarProperty Name="Port" ColumnName="Port" />
+                <ScalarProperty Name="ConnectionStatus" ColumnName="ConnectionStatus" />
+                <ScalarProperty Name="ReaderType" ColumnName="ReaderType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

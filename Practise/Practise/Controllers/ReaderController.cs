@@ -21,6 +21,7 @@ namespace Practise.Controllers
         {
             var c = Thread.CurrentThread.CurrentCulture;
             var c2 = Thread.CurrentThread.CurrentUICulture;
+            
             var model = db.Readers.OrderByDescending(r => r.Reviews.Average(review => review.Rating))
                 .Where(r=>searchTerm==null ||  r.Name.Contains(searchTerm))
                 .Take(100);
