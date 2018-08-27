@@ -285,5 +285,9 @@ It's(layout view) used on pages that display restaurant reviews but it will also
 Vary by 'none' to always cache the same content
 Vary by 'name' to cache for every value of name parameter 
 
+(**)These configuration settings then are inherited downwards and the configuration in effect for your application is a combination of all the configuration files. 
+(**e.g, under views folder, we have web.config)And we can even inside of our own application have web.config files that override settings for a specific directory.
+
+
 
  -----------------------building application with asp.net mvc 4   end
