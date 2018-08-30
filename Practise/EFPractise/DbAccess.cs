@@ -8,13 +8,30 @@ namespace EFPractise
 {
     public class DbAccess
     {
-        private void Ma()
+        public void Test()
         {
-            using (var entities = new EFPractise.MyPractiseDBEntities())
-            {
-                entities.ReaderDetails.Add(new EFPractise.ReaderDetails());
+           /// App_Start.EntityFrameworkProfilerBootstrapper.PreStart();
 
-                entities.SaveChanges();
+            Select();
+
+
+            //using (var entities = new EFPractise.MyPractiseDBEntities())
+            //{
+            //    entities.ReaderDetails.Add(new EFPractise.ReaderDetails());
+
+            //    entities.SSelectMethodaveChanges();
+            //}
+        }
+
+        public void Select()
+        {
+            using (var context = new MyPractiseDBEntities())
+            {
+                var allReaders = context.ReaderModels.Take(20).ToList();
+                foreach (var reader in allReaders)
+                {
+                    Console.WriteLine(reader.ReaderName);
+                }
             }
         }
     }

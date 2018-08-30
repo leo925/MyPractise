@@ -64,7 +64,7 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ReaderName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="IP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Port" Type="Int32" Nullable="false" />
           <Property Name="ConnectionStatus" Type="Int32" Nullable="false" />
@@ -111,7 +111,7 @@
             <EntityTypeMapping TypeName="MyPractiseDBModel.ReaderModels">
               <MappingFragment StoreEntitySet="ReaderModels">
                 <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ReaderName" ColumnName="Name" />
                 <ScalarProperty Name="IP" ColumnName="IP" />
                 <ScalarProperty Name="Port" ColumnName="Port" />
                 <ScalarProperty Name="ConnectionStatus" ColumnName="ConnectionStatus" />
