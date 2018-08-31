@@ -50,6 +50,8 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="English notes\Eng3.docx" />
+    <None Include="tech passages\EF\# Code First 配置 %28一些命令和基础 %29.docx" />
+    <None Include="tech passages\EF\Pluralsight snapshot.docx" />
     <None Include="tech passages\web\aspnet\iis express局域网调试.docx" />
     <None Include="tech passages\web\aspnet\Is ASP.NET MVC 5 incompatible with the WebMatrix SimpleMembershipProvider.docx" />
     <None Include="tech passages\web\http\http cache basics1.docx" />
@@ -85,6 +87,7 @@
     <Content Include="tech passages\web\others\下载文件.txt" />
     <Content Include="tech passages\wpf\WPF中XAML中使用String.Format格式化字符串示例 .txt" />
     <Content Include="work notes\active work notes 1.txt" />
+    <Content Include="work notes\good code%28backend%291.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
