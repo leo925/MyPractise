@@ -8,6 +8,13 @@
         <EntityTypeShape EntityType="MyPractiseDBModel.ReaderDetails" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="MyPractiseDBModel.ReaderModels" Width="1.5" PointX="4.25" PointY="0.875" IsExpanded="true" />
         <AssociationConnector Association="MyPractiseDBModel.FK_ReaderDetails_ReaderModels" />
+        <EntityTypeShape EntityType="MyPractiseDBModel.Participant" Width="1.5" PointX="0.75" PointY="7.875" />
+        <EntityTypeShape EntityType="MyPractiseDBModel.ReaderReviewModel" Width="1.5" PointX="6.875" PointY="1.125" />
+        <EntityTypeShape EntityType="MyPractiseDBModel.Registration" Width="1.5" PointX="3" PointY="4.875" />
+        <EntityTypeShape EntityType="MyPractiseDBModel.XEvent" Width="1.5" PointX="0.75" PointY="5.125" />
+        <AssociationConnector Association="MyPractiseDBModel.FK_dbo_Registrations_dbo_Participants_ParticipantId" />
+        <AssociationConnector Association="MyPractiseDBModel.FK_dbo_ReaderReviewModels_dbo_ReaderModels_ReaderId" />
+        <AssociationConnector Association="MyPractiseDBModel.FK_dbo_Registrations_dbo_XEvents_EventId" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

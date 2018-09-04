@@ -17,6 +17,7 @@ namespace EFPractise
         public ReaderModels()
         {
             this.ReaderDetails = new HashSet<ReaderDetails>();
+            this.ReaderReviewModels = new HashSet<ReaderReviewModel>();
         }
     
         public int Id { get; set; }
@@ -27,5 +28,6 @@ namespace EFPractise
         public string ReaderType { get; set; }
     
         public virtual ICollection<ReaderDetails> ReaderDetails { get; set; }
+        public virtual ICollection<ReaderReviewModel> ReaderReviewModels { get; set; }
     }
 }

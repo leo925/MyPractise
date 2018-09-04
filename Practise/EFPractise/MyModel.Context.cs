@@ -27,5 +27,9 @@ namespace EFPractise
     
         public DbSet<ReaderDetails> ReaderDetails { get; set; }
         public DbSet<ReaderModels> ReaderModels { get; set; }
+        public DbSet<Participant> Participants { get; set; }
+        public DbSet<ReaderReviewModel> ReaderReviewModels { get; set; }
+        public DbSet<Registration> Registrations { get; set; }
+        public DbSet<XEvent> XEvents { get; set; }
     }
 }
