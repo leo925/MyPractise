@@ -27,6 +27,22 @@ namespace Practise.Db
         {
             get;set;
         }
+
+        public DbSet<Participant> Participants
+        {
+            get;set;
+        }
+
+        public DbSet<Registration> Registrations
+        {
+            get;set;
+        }
+
+        public DbSet<XEvent> Races
+        {
+            get; set;
+        }
+
     }
 
 

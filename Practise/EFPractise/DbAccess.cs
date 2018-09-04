@@ -10,17 +10,7 @@ namespace EFPractise
     {
         public void Test()
         {
-           /// App_Start.EntityFrameworkProfilerBootstrapper.PreStart();
-
             Select();
-
-
-            //using (var entities = new EFPractise.MyPractiseDBEntities())
-            //{
-            //    entities.ReaderDetails.Add(new EFPractise.ReaderDetails());
-
-            //    entities.SSelectMethodaveChanges();
-            //}
         }
 
         public void Select()
@@ -38,12 +28,12 @@ namespace EFPractise
 
 
                 
-                var reader3 = context.ReaderModels.Find(1004);
+                var reader3 = context.ReaderModels.Find(1);
                 reader3.ReaderName = "good reade666";
 
 
 
-                var reader2 = context.ReaderModels.Find(1005);
+                var reader2 = context.ReaderModels.Find(2);
                 reader2.ReaderName = "good reade2888";
                 context.SaveChanges();
           
