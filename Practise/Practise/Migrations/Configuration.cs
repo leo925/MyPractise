@@ -43,7 +43,44 @@ namespace Practise.Migrations
                 }
                     );
             }
+            //participant
+            context.Participants.AddOrUpdate(r => r.Id, new Models.Participant()
+            {
+                Id = 1,
+                Age = 22,
+                FirstName = "Jim",
+                LastName = "wang"
+            });
+            context.Participants.AddOrUpdate(r => r.Id, new Models.Participant()
+            {
+                Id = 2,
+                Age = 22,
+                FirstName = "Tom",
+                LastName = "Jiang"
+            });
+            //race
+            context.Races.AddOrUpdate(r => r.Id, new Models.XEvent() {
+                 Id=1, EventName="isf marathon"
+            });
+            //registration
+            context.Registrations.AddOrUpdate(r => r.Id, new Models.Registration() {
+                  EventId=1, ParticipantId=1, Id=1
+            });
+
+            context.Registrations.AddOrUpdate(r => r.Id, new Models.Registration()
+            {
+                EventId = 1,
+                ParticipantId =2,
+                Id = 2
+            });
 
         }
     }
 }
+
+/*
+ 
+  select * from dbo.Participants p left join dbo.Registrations r
+  on p.Id=r.ParticipantId 
+  left join dbo.XEvents e on e.Id=r.EventId
+     */
