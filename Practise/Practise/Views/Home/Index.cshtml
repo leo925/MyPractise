@@ -30,18 +30,30 @@
     </div>
 </div>
 <script>
+
+    var foo="bar" ;
     //let and var
     $(function () {
-         
+        log(foo) ;
+        Bar() ;
+        log(foo) ;
     });
 
-    function TestApplyAndCall()
+    function Bar()
     {
-    
+        var foo="Baz"
+        log(foo)  ;
+    }
+
+    function Baz(foo)
+    {
+        foo="Bam" ;
+        bam="yay" ;
     }
 
 
 
+//above : tests for advanced js
     function TestThis()
     {
         var t= this ===window;
