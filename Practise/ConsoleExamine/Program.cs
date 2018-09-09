@@ -11,8 +11,8 @@ namespace ConsoleExamine
     {
         static void Main(string[] args)
         {
-            var pc = Environment.ProcessorCount;
-            Test();
+            ThreadTestor t = new ConsoleExamine.ThreadTestor();
+            t.TestThreadingUsa();
             Console.Read();
         }
 
