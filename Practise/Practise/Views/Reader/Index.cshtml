@@ -36,3 +36,30 @@
  @Html.Partial("_ReadersView", Model)
 </div>
 
+<script>
+    $(function () {
+        TestCallAndApply();
+
+    });
+
+    function TestCallAndApply()
+    {
+        let o = {
+            name: 'default',
+            displayName: function (prefix) {
+                console.log(prefix+this.name);
+            }
+        }
+
+        var newObj = { name: "new name" };
+
+        o.displayName.call(newObj,"hello, call! ");
+        console.log('................');
+        o.displayName.apply(newObj,['hello,apply!']);
+
+    }
+
+
+
+
+</script>

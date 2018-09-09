@@ -76,6 +76,7 @@ https://www.w3schools.com/howto/howto_css_overlay.asp   w3school
 
 learning Items from plural sight:
     Domain-Driven Design Fundamentals  
+	Modern Software Architecture: Domain Models, CQRS, and Event Sourcing
 web layout:	 https://app.pluralsight.com/library/search?q=web+layout
 
 ef:  entity framework performance, 

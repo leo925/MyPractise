@@ -25,7 +25,7 @@ namespace Practise.Migrations
 
             context.ReaderReviews.AddOrUpdate(new Models.ReaderReviewModel()
             {
-                ReaderId = 1,
+                ReaderId =3,
                 Content = "it's a good reader",
                 Rating = 10
             });

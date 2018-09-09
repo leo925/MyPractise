@@ -11,6 +11,7 @@ namespace ConsoleExamine
     {
         static void Main(string[] args)
         {
+            var pc = Environment.ProcessorCount;
             Test();
             Console.Read();
         }
