@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFPractise", "EFPractise\EF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExamine", "ConsoleExamine\ConsoleExamine.csproj", "{9BCE2FFB-F757-4ECF-86BB-750F29C09873}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTestor", "WpfTestor\WpfTestor.csproj", "{B9198533-C18D-44E3-B064-D358653370C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9BCE2FFB-F757-4ECF-86BB-750F29C09873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BCE2FFB-F757-4ECF-86BB-750F29C09873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BCE2FFB-F757-4ECF-86BB-750F29C09873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9198533-C18D-44E3-B064-D358653370C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9198533-C18D-44E3-B064-D358653370C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9198533-C18D-44E3-B064-D358653370C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9198533-C18D-44E3-B064-D358653370C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

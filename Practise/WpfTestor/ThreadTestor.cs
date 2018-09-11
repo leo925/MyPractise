@@ -17,6 +17,38 @@ namespace ConsoleExamine
 
         //test delegate poll and waiteone
 
+        public void TestAsyncResult()
+        {
+            MyDel del = new MyDel(() =>
+            {
+                Thread.Sleep(5000);
+                Console.WriteLine("my delegated method completed!!!");
+                var isback = Thread.CurrentThread.IsBackground;
+             });
+
+            var ir =  del.BeginInvoke((obj) =>
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("ahah, this is the call back!");
+                var isback = Thread.CurrentThread.IsBackground;
+            }, "good");
+
+            //while (ir.IsCompleted == false)////this will block the ui 
+            //{
+            //    {//this will block the ui 
+            //        Thread.Sleep(500);
+            //        Console.WriteLine("watinging!!!");
+            //        var isback = Thread.CurrentThread.IsBackground;
+            //    }
+            //}
+
+            while (ir.AsyncWaitHandle.WaitOne(4000) == false)//this method also block the calling thread(in this case , the main thread)
+            {
+                Console.WriteLine("watinging!!!");
+            }
+        }
+
+
         public void BasicSyncLockTest()
         {
             Monitor.TryEnter(obj, 2000);

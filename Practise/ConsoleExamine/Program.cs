@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ConsoleExamine
@@ -11,8 +12,9 @@ namespace ConsoleExamine
     {
         static void Main(string[] args)
         {
-            ThreadTestor t = new ConsoleExamine.ThreadTestor();
-            t.TestThreadingUsa();
+
+         
+
             Console.Read();
         }
 
