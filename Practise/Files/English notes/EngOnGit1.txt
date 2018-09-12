@@ -200,6 +200,8 @@ I can wear flip flops(**人字拖) at office
 If you are referring to pants that are longer than shorts but not as long as trousers we call it capri pants or 3/4(three quarter pants)
 Capri pants (also known as three quarter pants, capris, crop pants....) are pants that are longer than shorts but are not as long as trousers.
  They typically come down to between knee and calf(小牛；小腿**) or ankle length.
+ image carousel ['kærə'sɛl] 旋转木马；行李传送带
+ typography [taɪ'pɑgrəfi] n. 排印；[印刷] 活版印刷术；印刷格式   calligraphy   美 [kə'lɪɡrəfi]  n. 书法；笔迹
 
 ---------javascript fundamentals begin
 
