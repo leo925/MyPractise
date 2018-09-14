@@ -1,0 +1,34 @@
+﻿the image will shink because the column it is inside is shrininking 
+and the text is rearranging and re-laying itself on the screen, because it doesn't have as much horizontal width as it did before 
+
+and let me stretch the broser  back  out, and jsut so you can see if i inspct elemtn on span 1, you can see the width here is 6 percent and change 
+this is the classic design trade-off, do u want the content to be reaed, as the brwose resizes, and keep thing on the scerren, 
+in the case, you want to stick with a fixed grid, 
+
+resonsive design is a movement that is pick up steam over the past years, sinc more and more phone ont he  the internet re using  tablets, phone, to browse the web 
+
+and the peope are using all sorts of screen sizes, we want to create an optum viewing  exp the for each of them 
+optim meaning we to keep the content eashy to read, 
+we want to keep the site usrable by having na links availbe, we don;t want to forece a mobile user 
+to soom in , zoom out , scroll and pan to get around 
+and the same tiem, the user with large sceen we  want the web site to look good for them to  
+
+and the babluser vistes the site, we want it to look good in   landscape-mode
+and when they rotate the tablet  90 degree   to look at it in protrait mode, we want it to look good too 
+on css f tha enables this responsive design is the  media query feature, the query looks like code you see on the scerrn, 
+that sth oyu find in responsive bt style sheet, 
+the will aply style to a docu,net only  when the scren has a width between 768  and 979 px
+that 's the range of many tablets in portrait mode, 
+inside that media query , insdie of the curly braces, u can writhe as many styles as you want ,these tylses hide things, show things, make things
+smaller than usual, or larger than usual, 
+you can over snything from the default fontsize to container size, to wolumn width, and there are many more queries you can use other than just min ans max width
+
+
+
+
+
+
+
+
+
+

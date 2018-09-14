@@ -203,6 +203,9 @@ Capri pants (also known as three quarter pants, capris, crop pants....) are pant
  image carousel ['kærə'sɛl] 旋转木马；行李传送带
  typography [taɪ'pɑgrəfi] n. 排印；[印刷] 活版印刷术；印刷格式   calligraphy   美 [kə'lɪɡrəfi]  n. 书法；笔迹
  so you can see clearly the column and the space or the gutter, as(***) it's commonly called in the design world
+ and the text is rearranging and re-laying itself on the screen, because it doesn't have as much horizontal width as it did before 
+ we want it to look good in landscape-mode 横向方式  相反的是:portrait mode 肖像模式;纵向模式
+and when they rotate the tablet 90 degree (****) to look at it in protrait mode(**), we want it to look good too 
 
 
 
