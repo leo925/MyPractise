@@ -22,13 +22,14 @@ that 's the range of many tablets in portrait mode,
 inside that media query , insdie of the curly braces, u can writhe as many styles as you want ,these tylses hide things, show things, make things
 smaller than usual, or larger than usual, 
 you can over snything from the default fontsize to container size, to wolumn width, and there are many more queries you can use other than just min ans max width
+but those are 2 queries almost always  use in the responsive design,  
+bt take care of those  media query        for you ,    in fact they have already defined 5 diferen categroies of  screnn width, 
+every thing from the phone-sized screen that is 480 px below,  
+to a large display that wil be anyghing that have more than 1200 px horitally 
 
+width dferen size o
 
-
-
-
-
-
+fo in we swa the contian had the size of  940 px, if we use bt resonsive  style sheet , bt would change from 940 to 1170px if the web page is showing on a larger display
 
 
 
