@@ -31,5 +31,39 @@ width dferen size o
 
 fo in we swa the contian had the size of  940 px, if we use bt resonsive  style sheet , bt would change from 940 to 1170px if the web page is showing on a larger display
 
+the col width in this table is showing the width of  span1 coulun of course you double that for  span 2 column and so on  
+
+the gutter width is the space between columns
+
+
+i notice the colunm widths on screens with less the 767 px become fluid , that they are  percentagebased, 
+ ans as we  saw  they can shripkk and grow ,
+  but i should also point out all the coluns on this scren size  lose thier flow and stack up on each other , they are gotin to  lay out vertically on the page
+
+  back in our sample i just want to refresh your  memory how this currently  behave in diddferenct befoere we add in any respnvisev elements
+  we have on the top , we have fluid grid on the bottom, and if i shink the browse down to about the width of a smart phone's screen
+  ou can see that the fix grid stays in the fixed 940 px contianer, a lot of content is now off to the right that forces the user to scroll, pan or zoom
+
+  and the flu has it's own sets of proble, yes it keeps any tihg in the screen, beut it can't make colunn, like those span1 columns
+   they are so smaller liek ths psan they are not usable any more, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

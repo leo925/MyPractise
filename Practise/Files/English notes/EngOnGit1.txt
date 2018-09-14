@@ -206,7 +206,7 @@ Capri pants (also known as three quarter pants, capris, crop pants....) are pant
  and the text is rearranging and re-laying itself on the screen, because it doesn't have as much horizontal width as it did before 
  we want it to look good in landscape-mode 横向方式  相反的是:portrait mode 肖像模式;纵向模式
 and when they rotate the tablet 90 degree (****) to look at it in protrait mode(**), we want it to look good too 
-
+a lot of content is now off to the right that forces the user to scroll, pan(**平移) or zoom
 
 
 
@@ -240,6 +240,9 @@ The == and != operators do type coercion.
  (e):One of the most common reasons to encounter undefined is when a non-existent object property is requested.
   One quirk(怪事; 趣事) that can throw off(使犯错误；使产生错觉；使迷惑) beginners is that when using the object literal notation that we've previously discussed you 
   --have to remember that properties are assigned using this colon syntax, not using equals.
+  He had an error but he was receptive(对新思想或建议) 乐于接受的 to correction.
+  chic: [ʃɪk]  chick ornaments    boutique  A boutique is a small shop that sells fashionable/chic clothes, shoes, or jewellery.
+   
 
 
 ---------javascript fundamentals  end 
