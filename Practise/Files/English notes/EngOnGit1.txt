@@ -40,6 +40,13 @@ so a percent encoding is basically taking that hexadecimal value, putting a perc
 On the service side, you should run dynamically created URLs through the encoding algorithm just in case one of the unsafe characters will appear in the URL. 
 In order for a host to properly serve a resource and in order for the client to properly display a resource
 Demarcate, delimit, we should demarcate our responsibility
+**scale:（有关比例的用法）：a miniature garden, with little pagodas [pə'ɡodə](佛)塔 and bridges all to scale. 
+ …一个盆景，里面的小宝塔和小桥也都是按比例制作的。
+ instead of relying on fluid columns to scale(按比例缩放??) the imiages for you.
+ golden ratio/ golden mean ; you have to think about sth like golden mean.
+ you want your textual content to be inviting(诱人的；有魅力的 and not turn away(把…拒之门外) readers.
+  If you turn someone away, you do not allow them to enter your country, home, or other place. 把…拒之门外
+  screen reader:屏幕阅读器
 
 
 *****the big picture
@@ -242,6 +249,8 @@ The == and != operators do type coercion.
   --have to remember that properties are assigned using this colon syntax, not using equals.
   He had an error but he was receptive(对新思想或建议) 乐于接受的 to correction.
   chic: [ʃɪk]  chick ornaments    boutique  A boutique is a small shop that sells fashionable/chic clothes, shoes, or jewellery.
+  in other words if the browser is 3000 px wide, I want it to stay flush right(右对齐) or flush left and expand the columns so they takes up space, 
+ a span12 column would be 100% width while span1 would be around 6%  or so(大约，左右)
    
 
 
