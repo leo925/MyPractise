@@ -214,8 +214,9 @@ Capri pants (also known as three quarter pants, capris, crop pants....) are pant
  we want it to look good in landscape-mode 横向方式  相反的是:portrait mode 肖像模式;纵向模式
 and when they rotate the tablet 90 degree (****) to look at it in protrait mode(**), we want it to look good too 
 a lot of content is now off to the right that forces the user to scroll, pan(**平移) or zoom
-
-
+you should have good  work ethic
+I want to show you some adddional variations(**) on button group(A variation on something is the same 
+thing presented in a slightly different form. (某一事物) 略有变化的形式)
 
 ---------javascript fundamentals begin
 
