@@ -47,9 +47,22 @@ i notice the colunm widths on screens with less the 767 px become fluid , that t
   and the flu has it's own sets of proble, yes it keeps any tihg in the screen, beut it can't make colunn, like those span1 columns
    they are so smaller liek ths psan they are not usable any more, 
 
+   ubin that case, there 's a class called tabbable you can use, jsut very similar to nave tabs
+   but also a little diffrent, 
+   so if i format this code and alos fix it up so we dont ahve rows inside of our spans
+
+    then what wie wil see is we have a div with a class of tabbable, we have an unorder list  
+	that will be our nav tab, it's goint to be 2 tabs inside of here, tab1, 2, 
+	those are both using anhor tag inside list items as   you would expect, 
+
+	\
+	\
 
 
 
+
+	at home
+	... with different bg color, so it calls attention (***引起注意/引起注意) to itsel
 
 
 

@@ -47,6 +47,7 @@ Demarcate, delimit, we should demarcate our responsibility
  you want your textual content to be inviting(诱人的；有魅力的 and not turn away(把…拒之门外) readers.
   If you turn someone away, you do not allow them to enter your country, home, or other place. 把…拒之门外
   screen reader:屏幕阅读器
+  if it can find some data text (data-loading-text='saving') to substitute into(**) the button
 
 
 *****the big picture
