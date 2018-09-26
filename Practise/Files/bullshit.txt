@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿the image will shink because the column it is inside is shrininking 
 and the text is rearranging and re-laying itself on the screen, because it doesn't have as much horizontal width as it did before 
 
@@ -78,5 +79,251 @@ i notice the colunm widths on screens with less the 767 px become fluid , that t
 
 
 
+=======
+﻿
+
+let's build a drop down menu, a simple dropdown menu with btstrap,  what i want is a link on the screen, 
+and when the user licks on the link , i don't want to nav to somewhere , perform some acton, 
+i jsut want i tto drop down a list of options that a yser can select 
+ot nav to somewhere or perform some aciton, 
+this dp compen requerist some interactivity, it needs response to a click event, 
+and b of that, there's 3 requriements in this page, 
+first of all , we do have to include the basic twitter bt stle sheet , we always need that, 
+but now, we also need to include the jquery library, and the bt js librabry which has a depency on jqueyr, 
+i am going to put these 2 scripts at the top of the page, but you can aslo include them at the bottom of the page if you want, 
+the way you may build a drop down menu is to first have a div, it's going to encapulate every thing, it's going to 
+have a class 'dropdown', this is my anchor tag, that's the text i want to display, i want the user to click on this to open a , 
+and to do that, i jsut need to add a class , i am going to call it the drop down toggle, 
+this is what toggles the mune open aand closed, 
+and i am goin to add data-toggle attri, equals drop down, 
+think of that essentailly as a flag, that  wuld be bt js is goint to look for, and 
+and it can hook into to click event on the anchor tag, and make sth apeear or disappear, 
+
+and now i just need to menu, menu is most css framwork are  modoled using an ordered list, 
+because each menu item is just a list item, and once w ehav ea colleciton of lis titem, we can use css to make them appear vetial 
+horital , or disappear all together, i wil give the unorder list the calss of 'dropdwon menu', 
+so this represents the menu i want to drop down, and then i 'll build simple items with anchor tags inside, 
+no special styles required here, i jus tneed the text and the link i need, we ill have pluralishit link, and may be 
+we wil lmake amazon link, amaxon.com, and that's all i need, that's the simplest drop down , possible
+now i lick this, you get a drop down list,  
+and this drop list works similar to maony of the componets in bs,  there's a sort of expected html structure you are toing to have, 
+tytpecall, a div encapsulat the entire componet, and there are some sub-peice in side 
+those pieces are identified by specific classes, what should appear, what should drop down,  shold de on the left hand side or the ri
+
+we'll this agaio and again , you can actualy use this drop down list in diffrent places, 
+not just alone in a page like this, but also inside of a buttion , inside of a navigation bar, 
+
+now, one thing that is a litter unfor about this drop down list menu is it kind of seanks up on the user, 
+there's no indicaiton that when i lick here , sth is goin to appear,  it's be nicer if i put a indicator here 
+to hint the user that is sth  behind this link , and an easy way to do that, is just   add a span with lcass of caret, 
+this deesn't requre any content inside this span, jst addong the markup and refreshing, 
+i get a little drop down here,  and the way this works is sort of smart, 
+this isn't a character, this isn't an icon, it's in the  twitter icons
+i fyou look at the bootstrap css file for caret,  you iwll the caret is sth has no height , no width, 
+butn and no content, but it doesn't ahve a border, and the border is cleverly defined so that we get thsi downward pointing bracket, 
+it's esscential what is left behind after you overlay a right and left transparent border
+this is one of the modern tricks you will see css frameworks uses
+and in fact u'll find entire sites devoted to avoinding imgs and build shapes with css borders, 
+because once you can bild a triangle like this, you can conbine triangles to biuld almost every thin,s 
+and can combin trigle with css3 rounded  corners to make some really interesting effects, 
+but i did add some atr to the markup to improve the accessibility , namely i andd the role = menu to 
+identifty  the content here soth that  offer choices and aria labeby attr to associtate 
+i also se tthe tab index to negative value for the menu item in the  drop down metn, this prvents the tab key from naving to this hy
+instaead the tab key hav thought the top level links in the page
+and you can use the arrow key if you want to nav the menu iwth key borad, 
+so tab ,,,  tab, down arre, p a, and i can hit enter to seelct that item
+with attrs like role are very improtn i fyou want to build an acdible  applicaton that woark nicely with screen readers, 
+the dividers are simply a list item with class of divider, and you put that in the menu, 
+and now you ahve to opertunity to gropu commands, or separte commands that are a  litte special, separte them form the rest of the items
+and ifn you have sub menu, and the sub menu wiil open iwht a lick or a hover, 
+and the markup a submenu is siply an unorderlist that is nested inside of  a parent list item, and it has a class drop down menu, 
+the parent item also needs to have a calss 'dropdown-submenu, and now we have see all the basics of menu in bt, 
+so du this model we 'll se menus again and again as we place menu in nav bar , split buttions or other places, 
+--------------
+now let's look at buttion with menues, i am goint start off by reminding you about the button menu class
+we've see before ,but i am showing it agion,  for 2 reasons, \
+1 resiona is that addidng a menu to a button requirest the butotn gruop , but also i want to show you soem adddional 
+variations on button group, a button group allows us to work in a inline set of buttions , 
+the gron on the top in the browser windw is not in a button group  
+that's wyh y the spcaing is little bit  differtn  than the buttions below, which are in a btn group, 
+so i should palce these buttions in a buton group, but just to show you sth new, there's also a buttion gropu  vertical 
+that's what the vertical group looks like, and you can see the shading is apply appropriately to the left of all butions, 
+and now you see how it lines up with other but group, 
+and if i want to have 2 grops assocted a little closer, i can put them both inside of a container, a div that has 
+a btn tool bar class  , you can watch as i  refresh   and the spacing bewettn these, some of it disappears, 
+
+that gives the toobar   effect with  segmented sets of different commands you can exeute by click on the butotn 
+another p of butotn toolbar is  build bution you can create druop down menu iwth the butotn 
+this is n't very much diff than we saw previousely , what we have is a btn toolbar, and inside of that is a btn group,  
+therew'an anchor tag thati is a dropdown  toggle , but it's also now a buttion has a caret in it , 
+and then an order list is the drop down menu, 
+we can use any of the  classes we looked at in the last modul, for instance, i can make this a primary butiton, 
+and also, respect the sizing calssses we saw in the previous module, so i can make this somewaht larger butiton, 
+the drop down menu that appears , by the way, can have everthing we saw erlier, s oyou can add the divier, you can have sub menu
+sth the i didn't mention before is that we can have menu drop up instead of dorp down, 
+and i can do that by adding the droppu class to the btngropu , ,and refresh you can see the caret is now pointing upward, , 
+when i lick is drop -up the menu insead of drop down,  we can also build button iwth 2 actions, 
+there can be a primary action when the user clicks the buttion, and we can also optn eht drop down listh when the user click the caret, 
+
+in the ui world, this type of buttion is known as split butiton, this not a split butiton ytes, but it's easy to convert it to split button
+  to mke  a split butito, we actuall need 2 butitons, and i am goin to take this anchor tag, and copty , i t, 
+  and this would be a primary button, what i need is give that butiton the calss, it' s no longer going to be a drop-down toggle
+  and inseead, it's jsut  going to be the butn , and we ucan give it the larger size, 
+  it doesn't need  data toggle, it not need the href, be presumarly when user click , they are goin to hav to swhere, 
+  o rthe cy hook in to the click event of js script,  when they lick this part of the butiton, perform some aciton on the page,  
+
+  and this but doesn't need to care , so  i am goona remvoe  the caret, and format the code a little bit, \
+  and now ti spart is the caret,that 's all we  need, we don't need to text indise here, sand just save the page and refresh, 
+  and one more thingk is to make this butito a little larger,  everytig here is appearing properly ,wand 
+  and now i am goint to clin on this part of button,  we can nav to swhere, if i just lick on the caret, i get the drop down menu, 
+  so that's the split butiton,   and if we were to  make that bution the parimary bution  and instead of the other one
+  by adding btn pr to both anchor tags,  then the styling isappropriately applied, so and thee's a slight subtl border there between
+   the caret and the regu butns
+
+   the bs nav bar is a componet designed for you to build the  primary navgational area of you site, 
+   like everth ing else rlated, it does revolve aorund  an unorderlist of menu items
+   but there is a little more html structur, ininvolded, and there is a few new  tricks you can play with 
+   here is a page with technical article inside, most of the ocntent is in grids, so there's a span 10 colomn here on the left 
+   that contains text content, contains some imae,some  code listing 
+   andthere's a span2 column on the right with nav list, 
+   we just looled at the nav list, we are using a sort of secondary  nav list area here, 
+   and the span 10 span 2 colunmn , we taed about these when  we  talkded about layout with bs in the bs layout module, 
+   but here at the top , these are our primary nav links ,  only it doesn't look very nice, 
+    let's trun this into a  nav bar,  the first thing i would do is add nav to my unordered list, 
+	 of yoi have seen the lcass before, it's invoved in most of the nav menu item conponents, 
+	 it simply remvoe the bullets and add a slight hover effect, and now i can put all of this inside of a nav bar, 
+	 that  's simly a contianing div  or nave element, what a nav bar wild do is lay these thing horitall, 
+	 and to privide a bit of separation between the nav bar and the rest of the contetn, and make it  stand out a little bit, 
+	 i can have an inner div that wraps my unorder list, it's goin to be given the class navbar-inner, 
+	save and refresh, and now i have a border and  in   offset from the content a lit, 
+	that looks a lot nicer, it looks mare nav al , and quite often when you build nav bar like this, 
+	you also want some text inside of the nav bar that represents you site name, your product name, you brand name, 
+	contains a link to your homepage and the main areaof the siteyou can do that, 
+	you can do that, just by adding an anchor class, this is going to be 'the sample site', this anchor tag has the class brand, 
+	and so is freature that a little more prominently, but still fits here inside of the nav bar , it's a linck i can lick on to go wherever i want to go , 
+	and this is a bais styling of nav bar, here is some class es ou can add to make it appear differently, 
+	fist of all , on the nav bar itsel, i could say this is a mav static top , 
+	but , nav bar static top does remove some of the margin that's between the nav bar and the rest of your content, 
+	but in addiotn to static posiotn, which when i scroll down the page, sth that is statically psiitoned scoll off the top of the page, 
+	if i want to key that nav alwasy on the top , and i can use fixed positoning, 
+	i can say nav bar fixed top , therew's alos nav bar fixed botot, i fyo want to keep sth on the bootom of the screen,  
+	and frefresh ,now i can scroll, andnthe nav boar stays there, but now it is a fixed element that's not in the 
+	normal flow, my content  lifts up , and the nav is unforly hidding some of my ocntent, 
+	so whenever you use th fixed posiitoning, at list with tha nav bar , you need to add some margin to the body, 
+	about 40 px will do , so there's sth you will do in the stylesheet, and by haivng 40px margin, 
+
+	no all of my contetn is push underneath the nav bar, yoiu can also make th stand ot a little bit, 
+	goint og remove navbar fix, because i am not a big fan of fixed nav bar, and i am ogint to add nav bar inverse, 
+	i could have inserse nav bar if i watned, wat inverse dones is to invert the color, 
+	now the nav bar stands out a little bit form the rest of the ocntent that's on the page, 
+	and like other menus we 've seen, in bs,  you can add sth that drop down, so i am gont to paste some a ocde that looks familiar
+
+	it's alist item iwth class drop down, inside of the link i can click on the dropdown the menu
+	and here is menu that will appear when click the link, 
+	all things that we 'ave seen before this modeule, and if i refresh all will havior hopefully, just like you expecte,d 
+	you can also put forms inside of your nav bar, so quite common htat sone want to see a   search form in your nav bar, 
+	so i wil have a form with input type eques search, aside that is a big serach buttion, 
+	place that inside of the nav bar, the spacing is little bit  strang, 
+	but we can fix that up with some   some adiitonal classes , there are special classes for forms inside of the nav bar, 
+	there's a nav-bar -form ,navbar-swerch, so this i s a search form i 'll say  navbar-search, 
+	 i am also gion to say pull -right, we havesee the before, it's goin to push all of thsi to the right side to the screen
+	 and input-addpend allows the search button to append itself to the text input box, 
+	 looking a little bit better now, but one thing keep in mind when you buiding a nav bar, 
+	 how is it going to work on a mibole screen, in anohter word,
+	  this looks great  stretching out on a big destop display in a  plurasight vedio,  
+	  but what will happen when it's on a   on b tablet or smart phone
+	  now it starts to scrnch up and it takes a lot of vertical space spcace, 
+	  and that might not look very good in a smart phone, the first ithi is to add in bs respovive tyel sheet 
+	  we talkd about responve design previsously when we looked at this  in the layout model, 
+
+	  bt res culd also impact how your nav bar works , if you put  the right  compnaent inside, 
+	  but the ifrst thing you have t decid  is when the screen is so small, what do i really need to dispay at this point, and 
+	  what do i hid,  what i wouldwant to dislay this this point on the screen of  the size is just the brand link, so the sample .
+	  and perhpahs hide everything else  or cloaspe it down so you user can get to the other artile, blogs, and about, 
+	  but i don't want to  take up any vertical space, 
+	  wel to do that, I ll come back to html, and these area i want to hid i am going to warp them all inside of a div that 
+	  has   classes of nave clopplase, collapse, htat' wrap my menu items, that 's goin to warp search form, 
+	  an di put a closing div tag dow here at the bottom, a contorl N,d to formmat things up , 
+	  and if i just that sgtep and save, and refresh, and now on the smart phone, these tings simply collapse, 
+	  also on small  tablet;  so collpase or go go away completely
+	  what if i want user to be able to get into those ting; a typical bs approach is to add a little it of ui here 
+	  out isde of the collpasible eleemtn, sth that a use can lick on or expand on ?
+	  it dones' have nay text in side, simply using thre icions stacked on top of each other 
+	  whchil you will see what  effect  that procude in a second, if a user click on this , 
+	  the data togel and targ attr are set up, let the bs konw what need to go is go to find out the nav copplased , 
+	  and either expand it or copplased it when the user click on this link
+	  so no js required,at leat i didn't write any js,   but in order ofr  this to work , agian
+youi need bs  responvie and bs jasvascip fiel which requers jquery , so save this page one more ting, 
+
+and these are what the three bars icon will come out to look like , i can lick on that , 
+it expand down the menu , i can get to it ,i can  caplas it when my screen is mostly contetn, and on a 
+ , full dispay,the little piece of ui will go away , and i can  work iwth  the link directly , 
+so that'a little bit  of responsive design  you can add to your navigation bar,  
+and somewhat related to the otpic of nav bar are bread crumbs , 
+so what can i put on the page so the user know  wehre thay are in the hiarchy o fmy site, 
+ bs dones have a bread crumb class that you can apply ,  if i come into  , lte's say the  container,
+  and before the article title, i wil paste in another unorder list,this has a class of breadcrumb, 
+and inside of htee, it's just bacially the hiearchy the user folloed to get to this particular url
+and inside of articles , added some spans with the class of  divider, and the  baisic ui you will get will look like this
+and just one more top realted to naviation, if this is the first page of article, 
+i may want to have a page contorn on the top of the scrren,or on  the bottom of the scrren, or the top and the bottom
+and bs also privides panitation class and some pager  controls, let's paste in a bit of html code, 
+now i'll put it at the top of the screen, that contains some page numbers or links of page nubmers, 
+agian , it's all centered around an unorderlist of links, this tiem the list is inside of a div with clas spaniation, 
+all you need ofr a pager to diaplsy , i also add panation-center to move it to the  cernt of the container , 
+ou can do paniaiton right to righ-align it, or leass off that class off  entiery to left align it
+and thee's diferent pagination size you can  leave off pagen- large to get the default size, but here's large, samll, mini, 
+so paniation-mini, items inside can be marded as diable, in that  case i problay want to render it with  the span 
+so it dones look clickable and alos  proly then  not have the h ref on the   span tag, 
+many of them revolve around the use of lists, lists of links
+
+here are some of other componetns in bs you may find intereting, not all of them are interactive, but they do requrei 
+some html structure,v e.g, the hero uni , the hero unit is sth you might have as a teaser at the home page of your sight
+it consitst of a big billboard text with sub title  underneath, and yo can include a large buttion to encourage the visitor to lick that and try sth out, 
+there rere unit it selft  you   construct at it just using a div iwth the class of hero-unit, 
+insde you cna have a header tag for the big text  and parahgraph for the bustitle, the defaut fontsize for the reguar text 
+inside a hero unit is  18px, everythins larger in the hero unit, as yo ucan see also , it   also a subtly diferrent bg color, 
+alos in the sidebar of the page,you can see the labels and badges of bs,  
+labels are text inside of a  slightly rounded box, there's dee color you can aply for defat, suce, wanring , info and inverse lable, 
+
+and if I flip over inott he edtior and go to the bootom of the page, you can see  how to construct lable, 
+so the default label is just a span iwth class of label, you can also ahve label-warning, warign, import , info  , inverse,
+inverse of course being the opposite of the  default color scheme, 
+
+so what's the best way to get started  writing a html5  page , ro , you can just code by hand, 
+and the syntax is actually pretty simple, but it might do you well to get acquainted with htoml boilerplate,  
+the idea here is that there is structure, evelemt and  valued that are needed for  just about  every html5 page
+and the boilerplate makes it super simple to get started on the page, 
+so let's take a look at h5 boilerplater .com, so here we are on the site,  and as you can tell i'ts  billed sa the 
+web's most populate front-end tmeplate, so once yo get here, you can down load the latest biuld, or get a custom build
+and we;ll look at both of thoes; so as we i scool down a little bit, you can see what's included in the boilerplate, 
+so you can see it comes with analytics and icons, and  packages with  juqeyr and modernizr
+but the most importat part is in fact that normalize css, what n css does is that it takes maony of styles ralated in 
+inconsistences amoung brwoers and resert them to ocmmon values or normalize them , 
+to give an explae of why this is mportant, let's say you're relatively positioning a eleemnt inside   the body of a pag,e 
+every browser would have the same default settings applied to the body element after apllying the normalize css, 
+this ensure that your elemnet will show up at the same spot on the page no matter what brower you are using at the time 
+and this is a huge help since you  then know every thing would be consistent among dfrr brwoers, 
+and as i scroll down , you the idea of some big names that are using the html5boilerplate, 
+let's look at the package to see what comes when you download the defulat version of html 5 boilerplate, 
+when you open up the accomapnying zip file, you see a series of fiels and folders, 
+so like i said before, one of the the fist things yo uget is normalize css, 
+thjers are the rules applied to create consistence among differ browsers for all of the basic elemnt on the page, 
+so to take it just a step further, main css applies some basic stying ot the page, 
+and as it says here, is have an opinionated default
+and all of this is set to giv eyou a solid baseline for you to begin styling your doc 
+the doc a number of deff markdown doc you can read and hlep you learn how to use the boilerplate  better
+and then some imgs and some js files,  the real meat of it , is in index.html, 
+
+
+
+
+
+
+
+one article each day ,  40 mins, 
+dictation 2 hours, 
+that's enough, 
+>>>>>>> Stashed changes
 
 

@@ -1,6 +1,4 @@
-﻿ 六月24日决定一个新任务： 接下来的一周养成一个新的习惯： 每时每刻，充分利用第一分钟，每一个学习的机会， 认真学习， 习惯很重要， 不要懒惰（这是我30年来的一个缺点)
- 不要玩游戏了，它只能伤身，伤神，影响健康，工作，学习，多想想如果成为技术牛人的成就感。
-
+﻿
 
 it's time to strive!!!!  read this at each morning and evening.
 
@@ -73,6 +71,8 @@ chrome, google account: gylong@yeah.net ,   pppp: same as skype
 51job : abcabc123
 https://api.jquery.com/  jquery api
 https://www.w3schools.com/howto/howto_css_overlay.asp   w3school
+https://caniuse.com/
+https://html5boilerplate.com/
 
 
 learning Items from plural sight:
@@ -120,5 +120,7 @@ end
 所以要先有200小时的有效输入并且找熟悉的材料，但这件事本身比听写简单一点。如果没有几百小时有效输入的基础，听写的是不熟悉的材料，句子又臭又长，
 您能坚持听写三个月每天3个小时，我也敬您一条汉子。
 
-
+ 建议：1000小时听写！材料无需多（控制好生词量）！最好同时进行“听读”和复述。对于过了语言最佳学习期的我们，你要坚信，学语言一定是痛苦的
+ 。而最笨的方法往往是最好的方法（想想达芬奇的学画经历） 最后，允许我再次引用新东方某位老师的至理名言：“听写是提高听力的唯一手段”。
+  “你们根本不知道这句话有多经典。”
 

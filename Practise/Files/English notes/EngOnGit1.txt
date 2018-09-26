@@ -218,6 +218,13 @@ a lot of content is now off to the right that forces the user to scroll, pan(**�
 you should have good  work ethic
 I want to show you some adddional variations(**) on button group(A variation on something is the same 
 thing presented in a slightly different form. (某一事物) 略有变化的形式)
+bootstrap navigation:it does revolve around  an unordered list of menu items
+ If you say that one thing revolves around another thing, you mean that the second thing is the main feature or focus of the first thing. 以…为中心
+  (***)when i scroll down the page, sth that is statically positioned scrolls off (**)the top of the page, 
+A “breadcrumb” (or “breadcrumb trail”) is a type of secondary navigation scheme that reveals the user’s location in a website or Web application.
+many(navbar,paniation) of them revolve around the use of lists
+the idea here is that there is structure, element and values that are needed for just about(**几乎，差不多)  every html5 page
+... with different bg color, so it calls attention (***引起注意/引起注意) to itself
 
 ---------javascript fundamentals begin
 
