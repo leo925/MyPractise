@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+﻿<<<<<<< Updated upstream
 ﻿the image will shink because the column it is inside is shrininking 
 and the text is rearranging and re-laying itself on the screen, because it doesn't have as much horizontal width as it did before 
 
@@ -55,31 +55,7 @@ i notice the colunm widths on screens with less the 767 px become fluid , that t
     then what wie wil see is we have a div with a class of tabbable, we have an unorder list  
 	that will be our nav tab, it's goint to be 2 tabs inside of here, tab1, 2, 
 	those are both using anhor tag inside list items as   you would expect, 
-
-	\
-	\
-
-
-
-
-	at home
-	... with different bg color, so it calls attention (***引起注意/引起注意) to itsel
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
+	 
 ﻿
 
 let's build a drop down menu, a simple dropdown menu with btstrap,  what i want is a link on the screen, 
@@ -315,15 +291,35 @@ and all of this is set to giv eyou a solid baseline for you to begin styling you
 the doc a number of deff markdown doc you can read and hlep you learn how to use the boilerplate  better
 and then some imgs and some js files,  the real meat of it , is in index.html, 
 
+with this sample , i am doing the same exact thing, i am o generating the fibonacci seriers
+except htis time i am using web worker instead of having the logic process witin the ui thread, 
+so , you notice the little changes i made to the butito is that instead of have an animated gif just kind of 
+spin on and on, I 've hidden it to begin with, 
+and that's just b,, the previous sample i want you to see it is spinning and then how it iwll stop  moving
+but to make this a real world, what i did is i made it so   i only show that animated gif   when it's actullay thinking, 
+so  agion , if we  llok at the compared to the other one, if we getnerte 10 , it's pretty fast, 
+even quite faster than before, i f we 20, pretty fast, ok that's fine, 
+we started to hit some problem when we were getting  into a serires of 40
+so let's gerearte that seraires of 40, you nteice i can still select, i can licke in the box there,  
+the animated gif ocntinued to run and now i have the series of 40, so what iwll hpaaen if i made this 50
+so i 'll generate this series agiaon, i can continue to do things with the browser window, 
+i can click into text box, you can see how the btn background hightlight changes
+so as this continues to process the series, you 'll notice that the page is just completely  responsive, 
+i wish you could hear my processor is spining right now, it's owkron overtime to generate thoese series
+
+but i can asssure you that even as this has beening runing and it'll run for quite some tiem in order to  gen the seriex
+i won't end up with any sort of unrepsonve script errors.  the processin giwll just ocninute= in the backgoru, working
+happily in its own area, an d i can continue to work and interact iwth th eui thread, 
+just as if none of the prcessing is happoing
+so let's go ahead and take at look at the code invovoed in order to introdue the worder
+so the structure of the page is examly the same as what you saw before, 
+i got my textbox ,my btn, my animated gif
 
 
 
 
 
 
-one article each day ,  40 mins, 
-dictation 2 hours, 
-that's enough, 
->>>>>>> Stashed changes
 
 
+ 

@@ -15,10 +15,10 @@ namespace ConsoleExamine
         {
 
 
+            DesignPatternTestor testor = new DesignPatternTestor();
+            testor.TestAdapter();
 
-            TestEvent();
-            Console.Read();
-             
+
 
         }
 
@@ -43,6 +43,7 @@ namespace ConsoleExamine
                 manual.Reset();
             }
             Console.WriteLine("complete waiting");
+
         }
 
         private static void TestMutex()

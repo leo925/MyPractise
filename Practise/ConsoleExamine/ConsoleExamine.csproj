@@ -51,6 +51,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\AbstractFacotry.cs" />
+    <Compile Include="DesignPatterns\Adapter.cs" />
+    <Compile Include="DesignPatterns\FacotryMethod.cs" />
+    <Compile Include="DesignPatterns\Singleton.cs" />
+    <Compile Include="DesignPatterns\Testor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThreadTestor.cs" />

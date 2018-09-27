@@ -124,3 +124,35 @@ end
  。而最笨的方法往往是最好的方法（想想达芬奇的学画经历） 最后，允许我再次引用新东方某位老师的至理名言：“听写是提高听力的唯一手段”。
   “你们根本不知道这句话有多经典。”
 
+
+  preparation for IV:
+
+  sql server(cluster and non-cluster index, sp, trigger, curor, transaction and isolation level) sql : 9
+
+  dotnet framework(my book, i need 4 hours to go throug):9
+
+  threading(clr book , and others):9
+
+  web api(plural sight , and practise):6
+
+  wcf(basic, just old materials):
+
+  windows service(basics):5
+
+  asp.net mvc:7 
+
+  css(position  static, ...):6
+
+  html5(web worker, socket): 7
+
+  good english
+
+  design pattern(practise some commonly used ones):8
+
+  prism, unity, and Unit test: 8
+
+
+
+
+
+
