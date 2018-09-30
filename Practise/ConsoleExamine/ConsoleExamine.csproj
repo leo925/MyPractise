@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="DesignPatterns\AbstractFacotry.cs" />
     <Compile Include="DesignPatterns\Adapter.cs" />
+    <Compile Include="DesignPatterns\Dispose.cs" />
     <Compile Include="DesignPatterns\Decorator.cs" />
     <Compile Include="DesignPatterns\FacotryMethod.cs" />
     <Compile Include="DesignPatterns\Observer.cs" />

@@ -60,6 +60,12 @@ namespace ConsoleExamine
 
         }
 
+        public void TestDispose()
+        {
+            DisposableComponent com = new DisposableComponent();
+            com.Dispose();
+        }
+
 
 
     }
