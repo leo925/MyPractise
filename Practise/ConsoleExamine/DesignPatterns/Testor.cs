@@ -34,5 +34,33 @@ namespace ConsoleExamine
 
             new InheritNewWork().DoWork("bb");
         }
+
+        public void TestObserver()
+        {
+            GetDataHelper h = new GetDataHelper();
+            h.AddCom(new Com2());
+            h.GetData();
+        }
+
+        public void TestDecorator()
+        {
+            HouseDecorator decorator = new ChildrenHouseDecorator(new House());
+            decorator.Decorate();
+        }
+
+        public void TestStrategy()
+        {
+            StudentScoreStrategy scoreStrategy = new PrimaryStudentScore(100);
+            scoreStrategy.GetScore();
+
+            StudentScoreStrategy collegeScoreStrategy = new CollegeStudentScore(80, 30);
+
+            collegeScoreStrategy.GetScore();
+
+
+        }
+
+
+
     }
 }

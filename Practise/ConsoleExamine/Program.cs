@@ -16,7 +16,7 @@ namespace ConsoleExamine
 
 
             DesignPatternTestor testor = new DesignPatternTestor();
-            testor.TestAdapter();
+            testor.TestStrategy();
 
 
 

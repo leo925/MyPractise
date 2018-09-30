@@ -225,6 +225,11 @@ A “breadcrumb” (or “breadcrumb trail”) is a type of secondary navigation
 many(navbar,paniation) of them revolve around the use of lists
 the idea here is that there is structure, element and values that are needed for just about(**几乎，差不多)  every html5 page
 ... with different bg color, so it calls attention (***引起注意/引起注意) to itself
+turning point/ tipping point:转折点
+
+
+
+
 
 ---------javascript fundamentals begin
 

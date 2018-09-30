@@ -127,11 +127,11 @@ end
 
   preparation for IV:
 
-  sql server(cluster and non-cluster index, sp, trigger, curor, transaction and isolation level) sql : 9
+  sql server(cluster and non-cluster index, sp, trigger, curor, transaction and isolation level) sql : 9       
 
   dotnet framework(my book, i need 4 hours to go throug):9
 
-  threading(clr book , and others):9
+  threading(clr book , and others):9         
 
   web api(plural sight , and practise):6
 
@@ -147,7 +147,7 @@ end
 
   good english
 
-  design pattern(practise some commonly used ones):8
+  design pattern(practise some commonly used ones):8       xxxxxxxxxxxxxxxxxxxxxx
 
   prism, unity, and Unit test: 8
 
