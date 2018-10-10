@@ -316,7 +316,23 @@ so the structure of the page is examly the same as what you saw before,
 i got my textbox ,my btn, my animated gif
 
 
+一个叫department的表，里面只有一个字段name,一共有4条纪录，分别是a,b,c,d,对应四个球对，现在四个球对进行比赛，用一条sql语句显示所有可能的比赛组合.
+你先按你自己的想法做一下，看结果有我的这个简单吗？
 
+a
+b
+c
+d
+
+ab
+ac
+ad
+
+select name from department
+
+：select a.name, b.name 
+from team a, team b 
+where a.name < b.name
 
 
 

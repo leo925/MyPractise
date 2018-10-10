@@ -20,7 +20,7 @@ namespace ConsoleExamine
             r = (object.ReferenceEquals(a, b));
            r=(object.ReferenceEquals(b, c));
 
-
+           
 
             DesignPatternTestor testor = new DesignPatternTestor();
             testor.TestDispose();
@@ -82,6 +82,34 @@ namespace ConsoleExamine
             DbAccess dbAccess = new DbAccess();
             dbAccess.Test();
         }
+    }
+
+    public abstract class AClass
+    {
+        public void Good()
+        {
+            string str = "good";
+        }
+    }
+
+    public interface IA
+    {
+        void M1();
+    }
+    public abstract class AA : IA
+    {
+        public abstract void M1();
+    }
+
+    public struct SA
+    {
+        public int rating { get; set; }
+
+        public void M1()
+        {
+            this.rating = 1;
+        }
+
     }
 }
 
