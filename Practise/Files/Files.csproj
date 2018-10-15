@@ -69,7 +69,7 @@
     <None Include="tech passages\web\web 前端\Web API 2 对 CORS 的支持 .docx" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pluralsight\Transcript\NewFolder1\" />
+    <Folder Include="Pluralsight\Transcript\notes\db\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bullshit.txt" />

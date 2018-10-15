@@ -20,13 +20,32 @@ so, 3 hours for english use, and 2 hours for learning pluralsight with english ,
 english use is very important, today , I learned queue number, house fund, traffic restriciton based on the last digit of license plate numbers.
 
 
-http  
-html fundamentals and my practise: 5 days
-css fundamentals : 5 days
-javascript fundamentals:
-my javascript book review and practise:  5days??  6.25 
-jquery book and practise:
-html5 fundamentals and my html5 book: 15 days?
+************************************those skills I have to know
+
+sql , sql server,        xxxxxx
+
+threading,    xxxxx
+
+dotnet framework,  xxxxxxxxx
+
+asp.net mvc, (....)  
+
+js, jquery, 
+
+bootstrap, html basis, css basic   xxxxxxx
+
+wcf, wep api,    
+
+wpf , mvvm,   xxxxxxxx
+
+design pattern , good abstract oriented program   xxxxxxxx
+
+very good english  
+
+that's enough
+
+***********************************************
+
 
 ======><building app with mvc>:10 days
 <mmvc 4 fundamental>: 8 days
@@ -151,9 +170,6 @@ end
 
   prism, unity, and Unit test: 8
 
-
-  sql：横纵表, 
-  web worker/web socket: 
 
 
 
