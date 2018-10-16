@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clr\ClrTestor.cs" />
+    <Compile Include="clr\TypeConversion.cs" />
     <Compile Include="DesignPatterns\AbstractFacotry.cs" />
     <Compile Include="DesignPatterns\Adapter.cs" />
     <Compile Include="DesignPatterns\Dispose.cs" />

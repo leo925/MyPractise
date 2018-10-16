@@ -29,10 +29,22 @@ namespace WpfTestor
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            new Thread(() => {
+                var isback = Thread.CurrentThread.IsBackground;
+            }).Start();
 
-            ThreadTestor testor = new ThreadTestor();
-            testor.TestAsyncResult();
+            Task.Run(() => {
+               var isback=  Thread.CurrentThread.IsBackground;
+               
+                while (true)
+                {
+
+                    string str = "";
+                }
+            });
+
+            //ThreadTestor testor = new ThreadTestor();
+            //testor.TestAsyncResult();
 
 
         }

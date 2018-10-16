@@ -13,16 +13,14 @@ namespace ConsoleExamine
         static Mutex m;
         static void Main(string[] args)
         {
-            string a = "abeqwec";
-            string b = "abeqwe" + "c";
-            string c = "abeqwec";
-            bool r=(object.ReferenceEquals(a, c));
-            r = (object.ReferenceEquals(a, b));
-           r=(object.ReferenceEquals(b, c));
+            throw new Exception("aa");
+            ClrTestor clrTestor = new ClrTestor();
+            clrTestor.TestDelegate();
 
            
 
-            DesignPatternTestor testor = new DesignPatternTestor();
+
+               DesignPatternTestor testor = new DesignPatternTestor();
             testor.TestDispose();
             GC.Collect();
             Console.Read();
