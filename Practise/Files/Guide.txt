@@ -170,6 +170,75 @@ end
 
   prism, unity, and Unit test: 8
 
+  oct, 16th: 
+  I can't learn very thing well, so , i list some items here:
+
+ @ js: closure and practise, 
+ @ mvc: view and controller , and practise
+ @ jquery:go through my chinese book  with 1 hour 
+ @ unity to build a ut framework!!!!   wed after noon:
+
+ @sql need more practise,,,,,,
+
+  sql , c#, dotnet framework, thread, 
+
+
+  Tuesday : evening:
+            mvc (controller and views) :just have time to learn now, don't practise
+			sql practise: curor, trigger, sp, ,  performance tuning
+			 
+
+  wedense day:
+          morning: jquery basic,  
+          after noon:
+
+          eveninging: sql practise, advanced sql , practise, 
+
+
+  thursday:
+          morning:  unity basic, and UT using unity
+          after noon:
+          eveninging: CLR, 
+
+
+  friday: 
+        pedning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

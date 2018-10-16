@@ -316,23 +316,63 @@ so the structure of the page is examly the same as what you saw before,
 i got my textbox ,my btn, my animated gif
 
 
-一个叫department的表，里面只有一个字段name,一共有4条纪录，分别是a,b,c,d,对应四个球对，现在四个球对进行比赛，用一条sql语句显示所有可能的比赛组合.
-你先按你自己的想法做一下，看结果有我的这个简单吗？
+when staying along, only english in mind
 
-a
-b
-c
-d
+8:0 -9:30   1.5 hours 
 
-ab
-ac
-ad
+10: -11  1 hour
 
-select name from department
+in the after noon:  1,  4, 5,    3 hours
 
-：select a.name, b.name 
-from team a, team b 
-where a.name < b.name
+5:30 to 6:30 on the way  1 hour??
+
+7: to 8 english pod,  1 hours???
+
+in the evening:  9, 10,11,   1 hour   
+
+7 hours roughly,   *22   154 hours   6 hours in the weekend * 4   
+170 roughly a month,       
+
+dictation:   1 at office, 1 at home , at least,  2 at least,  
+then 4 o5 5 hours in thinking in englihs, or speaking to my self with english, so   
+6 hours a days, 
+
+
+so what are anylytic funcitons, wwll, let's talk about aggregate functions at first, recall that aggregate functions are freinds, they are aggregation functions.
+are things like count, sum ,min, and msx, so on and so forth, when you mostly use those with a group by clase in order to produece summariztion down to  
+like saye,   gender, wathever, I tend to refer to sum and count as being used in an   aggregate sense  , and the reson i saying because 
+when we talk about analytic functions,   count and sum can be used in an analytic sense, os i try to break this up to aggreaagte sense and anylytic sense, 
+and it'll be obvious in the code which is chihc, well now normally with aggreagtion functions resulting number of rows is usually less than the 
+number of imoncong rows . so for example, here is a nice funnel with a count funciton there,  very expensive hollywood proced graphic there
+we have 5 males and 2 femailes fy9ng to the funnel, and when we do a group by by gender, we are going t owind up with  2rows, 
+one for femailes and one for maels, so using the count funtions   we are gonna wind up with 2 , indictonatng thre are 2 femails
+this is somthing   sql programmers do on  a daily baiss, and it's a second nature to us. so let's talk about aggregation functions, 
+so, analytic functions perform group-by like summerization similar to the  aggregatie  counterpart
+but they also allow us in the more complrex mode to access data in a none-sequential way
+the way I like to thin of  sql is you   sart at  the top of the table wherever of the top of the table means, 
+you move to the next row, then the neext row, and so on and so forth till you go to the bootom of the table, 
+
+analytic functions allow you to , agin in a more complex mode, to acess data non-sequentially , and agin you can use funcitons like count and fum, and 
+ min ,max, avg, adn so one in an aggregate sense, now let just stop here and mention that, some of you may be thinking, oh mygod, odesn the count 
+ mean sth defferent?  
+ with thet analytic function , the reuslting row count is the same as  number of rows comming in 
+ analytic functions are great also because the allow you simply sql code , no crazy inner join needed, and fo rexampl 
+ and i 'll show you an exmaple of this in the motivational expale #1, , you will skeptics there, 
+ and you can eleimate intermediat table, which is graet , rahtehr than having im tables or  in -lines views fyling all over the place.
+  analytic functions allow you to agion, the best thing, simply your sql code and eliminate intermediate table, 
+  os agin, let's take a look at our count funnel,  but in this case instead of being used in an aggreate sense, we are goonon use it in 
+  a analytic sense, we are gonna have our 7 rows fly in, the 5 males and 2 femails, but waht ocmes out, 7 rows, 5 males and 2 femails, 
+
+
+
+  butin  mvc we  use this routing enginee to diriect request to our controlers
+  to do this we give the routing engine a map to follow, using a map route api,a map route allows uo to provide a friendly name fo the route, a pattern 
+  for the route, and default parametersfor the route, 
+  the most important pieces to look at are the pattenr and the default, think about the goal of routing engine
+  its job is to examine the url and figure out where to send it for process, when it exams the url it needs to pick up pieces of data in that url,
+  little hints about where to send the request, in mvc, we want the url to specify the onctroler and action to invode, and perhaps other data, 
+
+
 
 
 
