@@ -12,17 +12,15 @@ namespace ConsoleExamine
     {
         static Mutex m;
         static void Main(string[] args)
-        {
-            throw new Exception("aa");
+        { 
             ClrTestor clrTestor = new ClrTestor();
-            clrTestor.TestDelegate();
-
+            clrTestor.TestN();
            
 
 
-               DesignPatternTestor testor = new DesignPatternTestor();
-            testor.TestDispose();
-            GC.Collect();
+            //  DesignPatternTestor testor = new DesignPatternTestor();
+            //testor.TestDispose();
+            //GC.Collect();
             Console.Read();
 
 

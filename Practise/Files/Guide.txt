@@ -187,7 +187,7 @@ end
             mvc (controller and views) :just have time to learn now, don't practise
 			sql practise: curor, trigger, sp, ,  performance tuning
 			 
-
+========>
   wedense day:
           morning: jquery basic,  
           after noon:

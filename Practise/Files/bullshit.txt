@@ -371,7 +371,8 @@ analytic functions allow you to , agin in a more complex mode, to acess data non
   the most important pieces to look at are the pattenr and the default, think about the goal of routing engine
   its job is to examine the url and figure out where to send it for process, when it exams the url it needs to pick up pieces of data in that url,
   little hints about where to send the request, in mvc, we want the url to specify the onctroler and action to invode, and perhaps other data, 
-
+   so we give routing enine a pattern it can use and apply to  find parameter  data in the url,
+   the words in the curly braces would be the parameter name
 
 
 
