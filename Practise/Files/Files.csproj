@@ -85,6 +85,7 @@
     <Content Include="English notes\HarryPotter.txt" />
     <Content Include="English notes\specialityEnglish\football.txt" />
     <Content Include="Guide.txt" />
+    <Content Include="tech passages\DB SQL\50 advanced sql.txt" />
     <Content Include="tech passages\EF\some command.txt" />
     <Content Include="Pluralsight\Transcript\jquery fundamental.txt" />
     <Content Include="tech passages\web\web 前端\css 换行  overflow.txt" />

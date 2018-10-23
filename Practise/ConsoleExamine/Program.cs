@@ -1,10 +1,13 @@
 ﻿using EFPractise;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace ConsoleExamine
 {
@@ -12,7 +15,18 @@ namespace ConsoleExamine
     {
         static Mutex m;
         static void Main(string[] args)
-        { 
+        {
+
+            Rectangle bounds = Screen.GetBounds(Point.Empty);
+            using (Bitmap bitmap = new Bitmap(bounds.Width, bounds.Height))
+            {
+                using (Graphics g = Graphics.FromImage(bitmap))
+                {
+                    g.CopyFromScreen(Point.Empty, Point.Empty, bounds.Size);
+                }
+                bitmap.Save("test.jpg", ImageFormat.Jpeg);
+            }
+
             ClrTestor clrTestor = new ClrTestor();
             clrTestor.TestN();
            

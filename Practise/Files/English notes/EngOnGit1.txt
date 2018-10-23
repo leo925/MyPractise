@@ -226,7 +226,12 @@ many(navbar,paniation) of them revolve around the use of lists
 the idea here is that there is structure, element and values that are needed for just about(**几乎，差不多)  every html5 page
 ... with different bg color, so it calls attention (***引起注意/引起注意) to itself
 turning point/ tipping point:转折点
-
+phonetic [fə'nɛtɪk] symbol ：音标
+. A double room will have one large bed whereas a twin room will have two separate beds. This is the main difference between double and twin room.
+your name has just slipped my mind
+i lost half of  my money in the stock market crash
+I’m in a lot of debt.
+Yeah, you know, I’ve got credit card bills, car payments, I’ve got to pay my mortgage; and on top of all that, I have to pay my son’s college tuition.
 
 
 
