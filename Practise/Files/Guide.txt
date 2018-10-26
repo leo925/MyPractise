@@ -144,6 +144,62 @@ end
   “你们根本不知道这句话有多经典。”
 
 
+
+  ****************************5 ways to improve listening English
+
+  A 5-Step Method to Improve Your Listening Skills
+
+Step 1: Listen to the Audio – No Reading!
+
+The first step in this method is to simply listen to the audio alone. Don’t read the text in advance and don’t follow along with it as you listen. The point here is to focus solely on your aural skills and see how much you can understand without any visual aid.
+
+Of course, unless you’re already at a very high level, this can be very difficult. Rather than trying to understand every single word, it’s better to focus on trying to understand the ‘gist’ of what’s being said.
+
+See if you can pick out some key words or phrases that might give you an idea of what’s being said and note them down. Find anything at all that you can cling on to and you’ll be able to use this as starting point to learn more from the context.
+
+Step 2: Repeat!
+
+It’s not time to look at the text just yet. Many learners make the mistake of turning to the text too quickly. However, the point here is to practice your listening skills so just stay focused on listening for the time being.
+
+On the first listen, you’ll probably have identified one or two key words or ideas. As you repeat the audio, listen carefully and see if you can pick out and words or phrases you may have missed the first time. By now you may already have some idea what this piece of audio is about, so use the context to your advantage. If you can’t figure out exactly what’s going on, don’t worry. Just note down any keywords you do understand or words that seem important.
+
+At this stage, I’d suggest listening at least three more times. With each listen, you can add a little more to your comprehension. Your goal should be to try and use all of your current knowledge in the language to understand as much as possible from the audio before you read the text. When you feel you’ve reached a point where there’s nothing more you can take from the recording, it’s time to move onto the next step.
+
+Step 3: Get Reading
+
+Now it’s time to look at the text. Read through it and check how much you understood from your listening. Did you get the ‘gist’ of it?
+
+As you read through the text, identify any new words you come across. See if you can guess the meaning of the words from their context; otherwise, look them up in a dictionary. If there are any new words that you think will be particularly useful for you in conversation, write them down and add them to your list of new vocabulary to learn.
+
+As well as new words you haven’t seen before, you’ll also likely find words in the text that you already know but didn’t understand! Some words can sound quite different when spoken together and at native level speed. Pay careful attention to these words and be sure to listen out for them when you repeat the audio.
+
+Step 4: Listen With the Text
+
+Once you’ve read through the text a few times and looked up any words you didn’t understand, you should be confident about its meaning. Next, I suggest listening again a couple of more times while you read along with the text.
+
+This is the one time during the process that you’re using aural and visual stimuli together, so take advantage of it. Try to connect the written words to the sounds and pay special attention to phrases or groups of words and how they’re pronounced.
+
+If there were a lot of new words in the text you’re working on, trying breaking the audio down into smaller chunks as you continue to repeat it. Rather than repeating the whole recording at once, you can work through paragraph by paragraph if you prefer.
+
+I tend to repeat this step at least twice to help build connections between the written and spoken words.
+
+Step 5: Listen Again Without the Text
+
+Finally, go back and listen again a few more times without the text. By this point, you should be able to understand almost everything quite well even without the visual aid of the text.
+
+Over the next few days, it’s good to listen back to the clip again whenever you have a chance. Download the recording to your phone so you can have a quick listen any time you get a few free minutes. With each extra repetition your comfort level will grow. Because you’re now able to understand the words and phrases you studied without any visual aid, you’ll also find it easier to recognise this vocabulary when it comes up conversations or in other recordings you listen to.
+
+In Conclusion: There’s no Quick Fix for Listening Skills
+
+Whether you’re learning a language or any other skill, there’s no magic solution.
+
+Improving your listening skills takes time and a lot of focused listening but if you work at it in the right way you can actually make significant improvements faster than you might think.
+
+
+
+****************************************5 ways to improve (****************************)
+
+
   preparation for IV:
 
   sql server(cluster and non-cluster index, sp, trigger, curor, transaction and isolation level) sql : 9       
