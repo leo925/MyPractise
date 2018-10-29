@@ -138,6 +138,96 @@
 
 
 
+		******************key words   old time offset control   start*******************************************
+		in the view model, i Have 
+		   TimeSpan? readerTimeOffset;
+        public TimeSpan? ReaderTimeOffset    //it's a normal time span property to hold the value(it it not being data-bound to time control)
+        {
+            get
+            {
+                return this.readerTimeOffset;
+            }
+            set
+            {
+                this.readerTimeOffset = value;
+               // this.OnPropertyChanged("ReaderTimeOffset");
+            }
+        }
+
+          private TimeOffsetControl readerOffsetControl;
+        public TimeOffsetControl ReaderOffsetControl  //here, we set the time control's time offset value so that it could display it properly
+        {
+            get
+            {
+                return readerOffsetControl;
+            }
+            set
+            {
+                if (value != null)
+                {
+                    value.ReaderTimeOffset = this.ReaderTimeOffset; //we pass data from db/memory to the control 
+                }
+                readerOffsetControl = value;
+            }
+        }
+
+		  readFunction.ReaderOffsetControl.ReCalculateTimeOffset();  //we pass the time offset value form offsetControl to our memory/variable, so on and so forth
+          TimeSpan? ts = readFunction.ReaderOffsetControl.ReaderTimeOffset;  
+
+	below codes is how we associate the control with out view model in MVVM 
+
+	    public static object GetReaderOffsetControl(DependencyObject obj)
+        {
+            return (object)obj.GetValue(ReaderOffsetControlProperty);
+        }
+
+        public static void SetReaderOffsetControl(DependencyObject obj, object value)
+        {
+            obj.SetValue(ReaderOffsetControlProperty, value);
+        }
+
+        // Using a DependencyProperty as the backing store for ReaderOffsetControl.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty ReaderOffsetControlProperty =
+            DependencyProperty.RegisterAttached("ReaderOffsetControl", typeof(object), typeof(ControlsParameterExtension), new PropertyMetadata(ReaderOffsetControlCallBack));
+
+        private static void ReaderOffsetControlCallBack(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            var timeControl = d as Controls.TimeOffsetControl;
+            if (timeControl != null && timeControl.DataContext != null)
+            {
+                var vm = timeControl.DataContext as ReaderFunctionItemViewModel;
+                if (vm != null)
+                {
+                    vm.ReaderOffsetControl = timeControl;  //******************** this is it 
+                }
+            }
+        }
+
+
+		
+		************************************key words   old time offset control   End   *******************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
