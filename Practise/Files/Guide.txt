@@ -265,16 +265,17 @@ Improving your listening skills takes time and a lot of focused listening but if
 
 
 
+		//will place in top words:
 
-
-
-
-
-
-
-
-
-
+		consignee:收件人
+		consignor:发货人
+		consignment:A consignment of goods is a load that is being delivered to a place or person. (货物) 批
+		e.g., we ordered 300 pairs, but there are only 200 in the consignment.
+		boutique [bu'tik]:时尚精品小店
+		courier:['kʊrɪɚ]  (deliveryman, not used the often??)
+		I'll have the correct order dispatched(*) today by express courier.
+		honor sb's commitment:履行承诺
+		the manufacturer's warranty(**) doesn't cover general 'wear and tear'(磨损) or misuse of the product
 
 
 
