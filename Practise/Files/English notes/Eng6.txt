@@ -12,7 +12,7 @@ I am gonna get some groceries in the grocery store/grocer's .
 vacuum the house/floor,  vacuum cleaner
 we penalize him with a （big)demerit record:记(大)过 
 in orbit在轨道上；在轨道上运行；[俚语]飘飘然
-earth orbit地球轨道
+earth orbit 地球轨道
 Bedding is sheets, blankets, and covers that are used on beds. 床上用品 bedding bag:被套
 commend/kəˈmɛnd/(表扬):I commended her for that action.
 commendable [kə'mɛndəbl]:值得表扬的
@@ -108,7 +108,8 @@ The inner edges of the posts must be 7.32 metres (8 yd) apart, and the lower edg
 Rules regarding the shape of goalposts and crossbars are somewhat more lenient(**)
 but they must conform to a shape that does not pose(***) a threat to players.
 own goal:
-(** a very logn sentence)A goal may, however, be ruled illegal (and void by the referee) if the player who scored or a member of his team commits an offence under any of the laws between the time the ball was previously out of play and the goal being scored. 
+(** a very logn sentence)A goal may, however, be ruled illegal (and void by the referee) if the player who scored or a member of his team commits an offence under any of the laws 
+--between the time the ball was previously out of play and the goal being scored. 
 The pitch is typically made of turf(***) (grass) or artificial turf, although amateur and recreational teams often play on dirt fields.
 It's convenient because you don't have to think about the type of the numbers that you're working with, but there's a tradeoff(**权衡；折衷；) because decimal fractions are not exact. 
 The number type also has a handy(**) method toFixed, which returns the number fix(fixed??) to n decimal places.
