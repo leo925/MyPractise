@@ -70,7 +70,7 @@ if the requirement of double-check locking arises in case of implementing a Sing
 pan:平底锅 pot:深而圆的锅   teapot: A teapot is a container with a lid, a handle, and a spout, used for making and serving tea. 茶壶
 kettle:     A kettle is a covered container that you use for boiling water. It has a handle, and a spout for the water to come out of. 水壶
 
-Divulge a secrete [di'vʌldʒ]
+Divulge a secrete [daɪ'vʌldʒ]
 dairy: ['dɛri]  dairy food: 乳制品 dairy industry乳品业，乳品加工业；乳制品行业
 bottom out : 降到最低点
  If someone beats a record or achievement, they do better than it. 打破 (纪录等)
