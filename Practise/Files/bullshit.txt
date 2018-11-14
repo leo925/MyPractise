@@ -553,6 +553,30 @@ analytic functions allow you to , agin in a more complex mode, to acess data non
   doc, i need glass
   far , x, e r, 3 , p??
 
+--  next monday:
+  why do you leave your present company?
+it's not that I want to leave my company, it's that I want to join anz bank, it's a very good company, one of the fortune top 500 , it's a good platform, i think i could learn more, 
+-- what's you best challenge 
+1. I have diffrent opinoin with my boss ,a very senior director , when i first join the team, I realized they are uning wpf, and binding ui control directly to domain object, there's no view model, 
+so talk a lot with my boss to persuade him to use mvvm in the project, at first, he refused and got a little impatient, but I gave some exmaples to him, and at last, one day, he told me , 
+yes, you are right, view modle is very neccesary, 
+2. another,  6 years ago, when i just join marykay corp, in the first month, there's a teach training, the trainer is form american, during the whole month, I worked with her in a small office, 
+at fisrt , i was anxious because of the language diffculty, so , I spend extra time after work to catch up those busi knowldege and techniques they are using in the project, 
+in the end, I learn those new stuff very fast, 
+
+strenth:
+--I always try to complete the tasks as well as i can, finishing a task is not just complete the function for now, I always consider the maintainability, scalibity, so , I am proactive, 
+i am an easy going ,patient person always ready to help others if the need me, 
+weakness:  
+___some times, when meet a problem, i always try to solve it by mysef, not because I don't want help form others, it's because  I want to learn from the troouble shootting process, 
+but , if I really can't make it , I will absolutely ask help from others.
+___ I am a little conservative and too prudent, e,g., there's a method being used wildly, and I find another better way to complete the function ,I won't rewrite it immidiately, 
+fankly, I will worry if I rewrite it, it will cause some potential problems, so  I will hestate to update it , 
+I am a little quiet, I like to keep calm and quiet when working
+
+
+
+
 
 
 
