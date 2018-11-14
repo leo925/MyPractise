@@ -554,9 +554,11 @@ analytic functions allow you to , agin in a more complex mode, to acess data non
   far , x, e r, 3 , p??
 
 --  next monday:
-  why do you leave your present company?
+
+
+****  why do you leave your present company?
 it's not that I want to leave my company, it's that I want to join anz bank, it's a very good company, one of the fortune top 500 , it's a good platform, i think i could learn more, 
--- what's you best challenge 
+****-- what's you best challenge 
 1. I have diffrent opinoin with my boss ,a very senior director , when i first join the team, I realized they are uning wpf, and binding ui control directly to domain object, there's no view model, 
 so talk a lot with my boss to persuade him to use mvvm in the project, at first, he refused and got a little impatient, but I gave some exmaples to him, and at last, one day, he told me , 
 yes, you are right, view modle is very neccesary, 
@@ -564,7 +566,7 @@ yes, you are right, view modle is very neccesary,
 at fisrt , i was anxious because of the language diffculty, so , I spend extra time after work to catch up those busi knowldege and techniques they are using in the project, 
 in the end, I learn those new stuff very fast, 
 
-strenth:
+strength:
 --I always try to complete the tasks as well as i can, finishing a task is not just complete the function for now, I always consider the maintainability, scalibity, so , I am proactive, 
 i am an easy going ,patient person always ready to help others if the need me, 
 weakness:  
@@ -575,6 +577,14 @@ fankly, I will worry if I rewrite it, it will cause some potential problems, so 
 I am a little quiet, I like to keep calm and quiet when working
 
 
+points:  (outlines:   database, communication , .net, mvc, wpf, )
+ wcf,                
+  sql server/sql, 
+mvc,           
+design pattern??            
+threading,     
+unity container,   
+ef,    
 
 
 
