@@ -8,11 +8,39 @@ using System.Threading.Tasks;
 
 namespace ConsoleExamine
 {
-    public class ClrTestor
-    {
+	public class ClrTestor
+	{
 
-        #region reflection
-        public class Reflectionee
+		public void TestXX()
+		{
+			int j=10;
+			Mxx(out j);
+		}
+
+		public void Mxx(out int v)
+		{
+			v = 55;
+		}
+
+		#region Theading
+		public void testLock(int i)
+		{
+			if (i < 1)
+				return;
+			lock (this)
+
+			{
+				if (i > 0)
+				{
+					i--;
+				}
+				testLock(i);
+			}
+		}
+		#endregion
+
+		#region reflection
+		public class Reflectionee
         {
             public Reflectionee() { }
 

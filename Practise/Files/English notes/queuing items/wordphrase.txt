@@ -22,5 +22,7 @@ hearing aid
 ultimatum  [,ʌltɪ'metəm]
 perseverance [,pɝsə'vɪrəns] 坚持不懈；不屈不挠
 
-
+HTTPs requires the server to have a cryptographic  [,krɪptə'græfɪk]  certificate        xxxxx
+cryptograph: ['krɪptəʊɡrɑːf] 密码，密文   xxx
+cryptography [krɪp'tɑgrəfi] 密码学；密码使用法   xxxx
 

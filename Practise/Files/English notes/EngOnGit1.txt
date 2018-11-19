@@ -23,16 +23,17 @@ Now a browser can use that certificate to validate that it is truly talking to t
 HTTPs traffic is also impossible to cache in a public cache because once a message is encrypted, it's intended for(*) a single user.
 transport layer security  = TLS  /  Secure Sockets Layer=SSL
 And now this is the last module of the course. I hope you enjoyed the material and that you were able to take away an in-depth（*） knowledge of HTTP and how it works.
-there is a complementary attribute called tear down ( setup in UT) 
+there is a complementary(*) attribute called tear down ( setup in UT) 
 So in building one web page like that a browser will typically make multiple HTTP requests to retrieve all the resources needed for that one page to display properly in the browser. 
 I can even take that link and hand it to someone else and if they follow that link they, too, will be taken to that particular spot so that this particular section of the resource appears on the page instead of starting at the very top of the page 
 If you've been following along so far, then you'd be able to look at this URL and know that it has a scheme, which is HTTP, and that's required; a host name called host, that's also required;
 a port of 8,080; a URL path called path; a query string, q equals query; and finally a fragment.
 A URL should be as easy to communicate through email as it is to put on a billboard or a bumper sticker(*) or a business card. 
 A bumper sticker is a small piece of paper or plastic with words or pictures on it, designed for sticking onto the back of your car. It usually has a political, religious, or humorous message. 保险杠贴纸
-guidepost ,   road sign , 意思:查bing图片
+guidepost , guide map,   road sign , 意思:查bing图片
 the space character is considered unsafe because spaces are hard to read. They can mistakenly(*) appear/disappear when a URL is in printed form.
-Other unsafe characters include the pound sign because it's used to delimit a fragment. That doesn't mean that you cannot use a pound sign in a URL; it just means that the pound sign can only be used in its reserved(*) position which is to delimit a fragment.
+Other unsafe characters include the pound sign because it's used to delimit a fragment. That doesn't mean that you cannot use a pound sign in a URL; 
+--it just means that the pound sign can only be used in its reserved(*) position which is to delimit a fragment.
 Another unsafe character is the caret because it isn't always transmitted correctly through the network.
 case insensitive:不区分大小写   lower/upper case alphabet
 20 is the hexadecimal value for the space character in the US ASCII character set.
@@ -44,7 +45,7 @@ Demarcate, delimit, we should demarcate our responsibility
  …一个盆景，里面的小宝塔和小桥也都是按比例制作的。
  instead of relying on fluid columns to scale(按比例缩放??) the imiages for you.
  golden ratio/ golden mean ; you have to think about sth like golden mean.
- you want your textual content to be inviting(诱人的；有魅力的 and not turn away(把…拒之门外) readers.
+ you want your textual content to be inviting(******诱人的；有魅力的 and not turn away(把…拒之门外) readers.
   If you turn someone away, you do not allow them to enter your country, home, or other place. 把…拒之门外
   screen reader:屏幕阅读器
   if it can find some data text (data-loading-text='saving') to substitute into(**) the button

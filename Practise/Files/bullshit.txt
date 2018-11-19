@@ -575,16 +575,7 @@ but , if I really can't make it , I will absolutely ask help from others.
 ___ I am a little conservative and too prudent, e,g., there's a method being used wildly, and I find another better way to complete the function ,I won't rewrite it immidiately, 
 fankly, I will worry if I rewrite it, it will cause some potential problems, so  I will hestate to update it , 
 I am a little quiet, I like to keep calm and quiet when working
-
-
-points:  (outlines:   database, communication , .net, mvc, wpf, )
- wcf,                
-  sql server/sql, 
-mvc,           
-design pattern??            
-threading,     
-unity container,   
-ef,    
+ 
 
 
 
@@ -594,14 +585,79 @@ ef,
 
 
 
+details:
+js class:  prototype
+js: closure
+
+EF: code first and db first??
+Utinity:
+
+
+thursday: sql, 
+friday: sql fine tuning, 
+saturday: clr, 
+sunday:clr, 
 
 
 
 
 
 
+quick_sort(int a[],int left, int right)
+{
+   if(left<right)
+   {
 
 
+   }
+}
+
+Partition(int a[],int left, int right)
+{
+    int baseNumber=a[left];
+    while(left < right)
+    {
+    while(left<right && a[right]>=baseNumber) j--;
+        if(l<r) a[left++]=a[right];
+    while(left<right && a[left]<basenumber)i++;
+         if(l<r) a[right--]=a[left];
+    }
+     a[l]=baseNumber;
+     return left;
+}
+  
+1,1,2,3,5,8,
+
+fab(index-1)
+
+fab(n)
+{
+if(n<0)
+   return 0;
+if(n<=1)
+    return 1;
+   return fab(n-1)+fab(n-2)
+}
+
+index=4  
+
+n=3   
+
+   f(2)+f(1)
+
+
+我相反，是从java转到C#的。刚开始工资一个月2000，无五险一金，2年后（将近2年）税前底薪+饭补20000一个月，有五险一金。当然我不是做APP的也不是做网站的，我是做游戏的，懂得小伙伴应该已经猜到了：Unity3D。至于为什么转，
+只能说是年少轻狂，当年网上偶然看到了Unity3D，发现自己真正喜欢的是写游戏，于是不顾后果自学1个月，然后转了...
+其实自己曾经也认为.net只是拖控件而已，后来水平高点了才发现，这只能说明我那时连java都只是皮毛...也就是CURD的水准才会这么想、如何正确认知
+1.先把java学好
+2.分清楚C#和.net
+3.控件只是一个选择，C#可以也像Java那样自己写...（自己都觉得当年这样想这个太SB了）
+4.在web、app等大部分应用上上java确实有很大优势，但不是Java语言比C#好（其实语言层面上其实java还差点，当然C#也就多些语法糖，语言上也不算大优势，其实这个真不重要）只是有开源优势，对，只是有开源优势！微软自己作死不开源，
+不跨平台，结果是被整个世界给蹂躏了，一个收费一个不收费，一个全平台，一个单平台，当然几乎整个世界的程序员都在用java开发插件、框架，出什么新东西都是java写的，然后还滚雪球，
+框架是java写的，那么框架的插件也是java写的，然后java生态就完爆.net。就是这样。
+5.目前C#好像也就游戏一块还可以，这还是Mono和Unity的功劳，人家帮你做好了跨平台，要不真是全瞎。
+6.好在微软目前意识到了，.net core开源、跨平台、拆分笨重的webform等等...可惜感觉现在改有点晚，不知道以后会怎么样...
+最后：除非是创造性技术，否则对程序员平均工资来说，什么语言都不太重要，而和用该语言/技术的行业/需求有关...
 
 
 
