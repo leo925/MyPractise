@@ -49,34 +49,6 @@ that's enough
 ***********************************************
 
 
-======><building app with mvc>:10 days
-<mmvc 4 fundamental>: 8 days
-<mvc 5 fundamental>
-<build app with mvc 5>
-
-<sql server >??
-
-EF: 7days  
-
-
-I can't learn every techniques, I have to restrict these techs I have to learn, they are 
-css layout, 
-html basic, 
-mvc basic
-ef basic, 
-sql 
-sql performance tuning
-jquery basic, 
-web socket
-
-
-
-and I think that's enough!!!!!
-
-
-
-
-
 defects: narrow minded, not persistent
 model:Lu zhi shun, he is really a good model I should follow, he is so strong and proficient at Kongfu but he is not arrogant, he always respects and admire others who are also good at KongFu
 
@@ -90,6 +62,11 @@ MICROSOFT SQL SERVER 2012 ENTERPRISE CORE 版（企业版）
 
 chrome, google account: gylong@yeah.net ,   pppp: same as skype
 51job : abcabc123
+    //user name:zhihang1984 pwd: abc123 email  anz inquery
+
+
+
+
 https://api.jquery.com/  jquery api
 https://www.w3schools.com/howto/howto_css_overlay.asp   w3school
 https://caniuse.com/
