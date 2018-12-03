@@ -4,6 +4,7 @@
            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
            mc:Ignorable="d"
+                 xmlns:infra="clr-namespace:SilverlightPractiseInfrastructure"
                  xmlns:prisms="http://www.codeplex.com/prism"
            xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
            d:DesignWidth="640" d:DesignHeight="480"
@@ -14,7 +15,7 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <ContentControl Grid.Row="0"  prisms:RegionManager.RegionName="HeaderRegion"></ContentControl>
-        <ContentControl Grid.Row="1"  prisms:RegionManager.RegionName="MainRegion"></ContentControl>
-        <TextBlock Text=" hello!" Grid.Row="1"></TextBlock>
+        <ContentControl Grid.Row="1"  prisms:RegionManager.RegionName="ContentRegion"></ContentControl>
+    
     </Grid>
 </navigation:Page>

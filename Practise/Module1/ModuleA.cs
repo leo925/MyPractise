@@ -1,6 +1,7 @@
 ﻿using Microsoft.Practices.Prism.Modularity;
 using Microsoft.Practices.Prism.Regions;
 using Microsoft.Practices.Unity;
+using SilverlightPractiseInfrastructure;
 using System;
 using System.Net;
 using System.Windows;
@@ -28,6 +29,7 @@ namespace Module1
         public void Initialize()
         {
             _regionManager.RegisterViewWithRegion("HeaderRegion", typeof(HeaderView));
+            _regionManager.RegisterViewWithRegion(RegionNames.ContentRegion, typeof(ViewA));
         }
     }
 }

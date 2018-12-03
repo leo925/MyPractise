@@ -39,11 +39,15 @@ namespace SilverlightPractise
                 ModuleType = moduleAType.AssemblyQualifiedName,
                  InitializationMode=  InitializationMode.WhenAvailable
             });
+
+           
+
+
         }
 
-        protected override IModuleCatalog CreateModuleCatalog()
-        {
-            return base.CreateModuleCatalog();
-        }
+        //protected override IModuleCatalog CreateModuleCatalog()
+        //{
+        //    return base.CreateModuleCatalog();
+        //}
     }
 }
