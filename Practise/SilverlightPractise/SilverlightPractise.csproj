@@ -62,8 +62,15 @@
     <Reference Include="Microsoft.Practices.Prism">
       <HintPath>libs\Microsoft.Practices.Prism.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Practices.Prism.Interactivity">
+      <HintPath>libs\Microsoft.Practices.Prism.Interactivity.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Practices.Prism.UnityExtensions">
       <HintPath>libs\Microsoft.Practices.Prism.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Microsoft.Practices.ServiceLocation.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Practices.Unity.Silverlight">
       <HintPath>libs\Microsoft.Practices.Unity.Silverlight.dll</HintPath>
@@ -139,6 +146,10 @@
     <Folder Include="libs\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Module1\Module1.csproj">
+      <Project>{80e0b00f-2d61-48fc-9e03-5be67008268c}</Project>
+      <Name>Module1</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SilverlightPractiseInfrastructure\SilverlightPractiseInfrastructure.csproj">
       <Project>{91b92b48-153c-419b-88c8-75faacf7a49d}</Project>
       <Name>SilverlightPractiseInfrastructure</Name>

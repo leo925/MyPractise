@@ -1,5 +1,7 @@
-﻿using Microsoft.Practices.Prism.UnityExtensions;
+﻿using Microsoft.Practices.Prism.Modularity;
+using Microsoft.Practices.Prism.UnityExtensions;
 using Microsoft.Practices.Unity;
+using Module1;
 using System;
 using System.Net;
 using System.Windows;
@@ -25,6 +27,23 @@ namespace SilverlightPractise
             base.InitializeShell();
             App.Current.RootVisual = (Page)Shell;
            
+        }
+
+        protected override void ConfigureModuleCatalog()
+        {
+            base.ConfigureModuleCatalog();
+            Type moduleAType = typeof(ModuleA);
+            ModuleCatalog.AddModule(new ModuleInfo()
+            {
+                ModuleName = moduleAType.Name,
+                ModuleType = moduleAType.AssemblyQualifiedName,
+                 InitializationMode=  InitializationMode.WhenAvailable
+            });
+        }
+
+        protected override IModuleCatalog CreateModuleCatalog()
+        {
+            return base.CreateModuleCatalog();
         }
     }
 }
