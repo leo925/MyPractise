@@ -67,6 +67,7 @@
     <None Include="Pluralsight\Transcript\jquery fundamentals.docx" />
     <None Include="tech passages\web\http\客户端和服务端缓存.docx" />
     <None Include="tech passages\web\web 前端\Web API 2 对 CORS 的支持 .docx" />
+    <None Include="tech passages\wpf silverlight prism\mvvm prism popup.docx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pluralsight\Transcript\notes\db\" />
@@ -92,7 +93,7 @@
     <Content Include="Pluralsight\Transcript\jquery fundamental.txt" />
     <Content Include="tech passages\web\web 前端\css 换行  overflow.txt" />
     <Content Include="tech passages\web\others\下载文件.txt" />
-    <Content Include="tech passages\wpf\WPF中XAML中使用String.Format格式化字符串示例 .txt" />
+    <Content Include="tech passages\wpf silverlight prism\WPF中XAML中使用String.Format格式化字符串示例 .txt" />
     <Content Include="work notes\active work notes 1.txt" />
     <Content Include="work notes\good code%28backend%291.txt" />
   </ItemGroup>
