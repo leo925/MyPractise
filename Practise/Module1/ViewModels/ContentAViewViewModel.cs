@@ -33,7 +33,7 @@ namespace Module1.ViewModels
 
         public string Message
         {
-            get { return "mesage for a from view model"; }
+            get { return "message for a from view model"; }
             set { message = value; }
         }
 
