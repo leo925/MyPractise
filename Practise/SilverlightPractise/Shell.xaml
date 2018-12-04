@@ -7,15 +7,22 @@
                  xmlns:infra="clr-namespace:SilverlightPractiseInfrastructure"
                  xmlns:prisms="http://www.codeplex.com/prism"
            xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
-           d:DesignWidth="640" d:DesignHeight="480"
            Title="Shell Page">
-    <Grid x:Name="LayoutRoot">
+    <Grid x:Name="LayoutRoot" HorizontalAlignment="Stretch">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="27*" MinHeight="200"></RowDefinition>
+            <RowDefinition Height="40*"/>
+            <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
-        <ContentControl Grid.Row="0"  prisms:RegionManager.RegionName="HeaderRegion"></ContentControl>
-        <ContentControl Grid.Row="1"  prisms:RegionManager.RegionName="ContentRegion"></ContentControl>
-    
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ContentControl Grid.Row="0"  prisms:RegionManager.RegionName="HeaderRegion" Margin="0,0,0,-27.5" Grid.RowSpan="2"></ContentControl>
+        <ContentControl  Grid.Row="1" HorizontalContentAlignment="Stretch"
+                        prisms:RegionManager.RegionName="ContentRegion" HorizontalAlignment="Stretch" Grid.RowSpan="2"  >
+
+        </ContentControl>
+
     </Grid>
 </navigation:Page>

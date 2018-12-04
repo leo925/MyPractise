@@ -9,12 +9,17 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 
-namespace SilverlightPractiseInfrastructure
+namespace SilverlightPractiseInfrastructure.MVVMInfra
 {
-    public static class RegionNames
+    public interface IViewModel
     {
-        public static string ContentRegion { get { return "ContentRegion"; } }
-
-        public static string HeaderRegionName { get { return "HeaderRegion"; } }
+        IView View{ get; set; }
     }
+
+    public interface IView
+    {
+        IViewModel ViewModel{get;set;}
+    }
+
+
 }

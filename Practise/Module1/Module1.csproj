@@ -74,6 +74,7 @@
     <Compile Include="ViewB.xaml.cs">
       <DependentUpon>ViewB.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewModels\ContentAViewViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="HeaderView.xaml">
