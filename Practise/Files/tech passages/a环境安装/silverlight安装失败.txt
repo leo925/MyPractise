@@ -1,0 +1,25 @@
+﻿o resolve this issue yourself, follow these steps: 1.Click Start and type Notepad in the Search box
+2.Double-click on Notepad from the list of results above
+3.Copy and then paste the following text into Notepad. 
+reg delete HKLM\Software\Microsoft\Silverlight /f
+reg delete HKEY_CLASSES_ROOT\Installer\Products\D7314F9862C648A4DB8BE2A5B47BE100 /f
+reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Installer\Products\D7314F9862C648A4DB8BE2A5B47BE100 /f
+reg delete HKEY_CLASSES_ROOT\TypeLib\{283C8576-0726-4DBC-9609-3F855162009A} /f
+reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\install.exe /f
+reg delete HKEY_CLASSES_ROOT\AgControl.AgControl /f
+reg delete HKEY_CLASSES_ROOT\AgControl.AgControl.5.1 /f
+reg delete HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{89F4137D-6C26-4A84-BDB8-2E5A4BB71E00} /f
+rmdir /s /q "%ProgramFiles%\Microsoft Silverlight"
+rmdir /s /q "%ProgramFiles(x86)%\Microsoft Silverlight"
+
+
+4.Click File and Save As and type CleanSilverlight.cmd
+5.In the Save astype box, click All Files (*.*)
+6.In the Save in box, click Desktop, and then click Save
+7.On the File menu, click Exit
+8.Right-click the CleanSilverlight.cmd file on your desktop and click Run as administrator
+9.When the uninstall completes, right-click the CleanSilverlight.cmd file on your desktop and click Run as administrator a second time
+10.Once the uninstall has completed, click the link below to install the latest version of Microsoft Silverlight
+
+http://www.microsoft.com/getsilverlight/get-started/install/default.aspx
+11.Delete the CleanSilverlight.cmd file from your desktop.
