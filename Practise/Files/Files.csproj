@@ -68,6 +68,7 @@
     <None Include="tech passages\web\http\客户端和服务端缓存.docx" />
     <None Include="tech passages\web\web 前端\Web API 2 对 CORS 的支持 .docx" />
     <None Include="tech passages\wpf silverlight prism\mvvm prism popup.docx" />
+    <None Include="tech passages\wpf silverlight prism\依赖注入\构造函数注入.docx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pluralsight\Transcript\notes\db\" />
@@ -95,6 +96,8 @@
     <Content Include="tech passages\web\web 前端\css 换行  overflow.txt" />
     <Content Include="tech passages\web\others\下载文件.txt" />
     <Content Include="tech passages\wpf silverlight prism\WPF中XAML中使用String.Format格式化字符串示例 .txt" />
+    <Content Include="tech passages\wpf silverlight prism\依赖注入\方法注入.txt" />
+    <Content Include="tech passages\wpf silverlight prism\依赖注入\属性注入.txt" />
     <Content Include="tech passages\z at work notes\active work notes 1.txt" />
     <Content Include="tech passages\z at work notes\good code%28backend%291.txt" />
   </ItemGroup>

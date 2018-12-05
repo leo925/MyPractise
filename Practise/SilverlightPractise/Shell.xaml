@@ -11,16 +11,14 @@
     <Grid x:Name="LayoutRoot" HorizontalAlignment="Stretch">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="27*" MinHeight="200"></RowDefinition>
-            <RowDefinition Height="40*"/>
-            <RowDefinition Height="0*"/>
+            <RowDefinition Height="*" MinHeight="200"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <ContentControl Grid.Row="0"  prisms:RegionManager.RegionName="HeaderRegion" Margin="0,0,0,-27.5" Grid.RowSpan="2"></ContentControl>
+        <ContentControl Grid.Row="0"  prisms:RegionManager.RegionName="HeaderRegion" ></ContentControl>
         <ContentControl  Grid.Row="1" HorizontalContentAlignment="Stretch"
-                        prisms:RegionManager.RegionName="ContentRegion" HorizontalAlignment="Stretch" Grid.RowSpan="2"  >
+                        prisms:RegionManager.RegionName="ContentRegion" HorizontalAlignment="Stretch"  >
 
         </ContentControl>
 

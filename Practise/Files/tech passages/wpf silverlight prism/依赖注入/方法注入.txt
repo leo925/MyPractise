@@ -1,0 +1,51 @@
+﻿用public修饰方法，方法注入也是跟构造函数类似代码修改如下
+
+  public class QlinStudent : IStudent
+    {
+        public string Name { get; set; }
+        private IClass ToClass { get; set; }
+        [InjectionMethod]
+        public void InitClass(IClass _class)
+        {
+            ToClass = _class;
+        }
+        public void ShowInfo()
+        {
+            Console.WriteLine("{0}就读班级：{1}", Name, ToClass.ClassName);
+        }
+    }
+
+编程方式注入不变，就是初始化时，注入值，如下：
+1
+
+5
+IUnityContainer container = new UnityContainer();
+container.RegisterType<IClass, EcClass>();         
+container.RegisterType<IStudent, QlinStudent>();
+IStudent student = container.Resolve<IStudent>();
+student.ShowInfo();
+
+配置文件方式：
+  <unity xmlns="http://schemas.microsoft.com/practices/2010/unity">
+    <!--引用命名空间-->
+    <namespace name="ConsoleApplication1.UnityDemo.Constructor5" />
+    <!--引用程序集-->
+    <assembly name="ConsoleApplication1" />
+    <!--容器-->
+    <container name="FirstClass">
+      <!--映射关系-->
+      <register type="IClass"  mapTo="CbClass">      
+      </register>
+      <register type="IClass" name="ec1" mapTo="EcClass">
+        <property name="ClassName" propertyType="System.String" value="电商051" />
+      </register>
+      <register type="IStudent"  mapTo="QlinStudent">
+        <property name="Name" propertyType="System.String" value="Qlin" />
+        <method name="InitClass">
+          <param name="_class" type="IClass">
+            <dependency name="ec1" type="EcClass"/>
+          </param>
+        </method>
+      </register>
+    </container>
+  </unity>
