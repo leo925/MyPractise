@@ -67,6 +67,7 @@
     <None Include="Pluralsight\Transcript\jquery fundamentals.docx" />
     <None Include="tech passages\web\http\客户端和服务端缓存.docx" />
     <None Include="tech passages\web\web 前端\Web API 2 对 CORS 的支持 .docx" />
+    <None Include="tech passages\wpf silverlight prism\introduction to prism _ pluralsight  notes.docx" />
     <None Include="tech passages\wpf silverlight prism\mvvm prism popup.docx" />
     <None Include="tech passages\wpf silverlight prism\依赖注入\构造函数注入.docx" />
   </ItemGroup>
