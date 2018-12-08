@@ -8,7 +8,7 @@
                  xmlns:prisms="http://www.codeplex.com/prism"
            xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
            Title="Shell Page">
-    <Grid x:Name="LayoutRoot" HorizontalAlignment="Stretch">
+    <Grid x:Name="LayoutRoot" HorizontalAlignment="Stretch" Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="*" MinHeight="200"></RowDefinition>
