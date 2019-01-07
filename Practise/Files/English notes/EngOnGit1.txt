@@ -51,6 +51,10 @@ Demarcate, delimit, we should demarcate our responsibility
   if it can find some data text (data-loading-text='saving') to substitute into(**) the button
 today , I learned queue number, house fund, traffic restriciton based on the last digit of license plate numbers.
 he was convicted of murder and scentenced to life imprisonment
+--ltrim and rtrim get rid of leading spaces and trailing spaces
+trailing wheel = rear wheel
+typically, you  pass in the string you want to look inside(***) of and then the string you're looking  for, in sql , it's backwards(**),   
+because that's typically in the adventure works database what that would indicate
 
 
 ****************************************老人与海****************************************
