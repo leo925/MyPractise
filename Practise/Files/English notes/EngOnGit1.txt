@@ -55,6 +55,24 @@ he was convicted of murder and scentenced to life imprisonment
 trailing wheel = rear wheel
 typically, you  pass in the string you want to look inside(***) of and then the string you're looking  for, in sql , it's backwards(**),   
 because that's typically in the adventure works database what that would indicate
+--so if i am doing a select where I got a colunm that's not inside of the aggreate where i am gonna get 
+back every single row for that column and i've got an aggregate which is going to give me back 
+one row , that poses a little bit of problem for sql , it doesn't know how to handle it , 
+building on(****) the commands and techniques learned up to this point , I will show you
+last, I'll wrap up the course with ideas for you to continue your learning.
+if you don't know powershell, and sose does,you may be up against them when you are looking for a job 
+that is looking for alpha numeric characters
+
+
+
+
+
+
+
+
+
+
+
 
 
 ****************************************老人与海****************************************

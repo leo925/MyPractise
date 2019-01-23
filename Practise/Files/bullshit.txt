@@ -556,26 +556,433 @@ analytic functions allow you to , agin in a more complex mode, to acess data non
 --  next monday:
 
 
-****  why do you leave your present company?
-it's not that I want to leave my company, it's that I want to join anz bank, it's a very good company, one of the fortune top 500 , it's a good platform, i think i could learn more, 
-****-- what's you best challenge 
-1. I have diffrent opinoin with my boss ,a very senior director , when i first join the team, I realized they are uning wpf, and binding ui control directly to domain object, there's no view model, 
-so talk a lot with my boss to persuade him to use mvvm in the project, at first, he refused and got a little impatient, but I gave some exmaples to him, and at last, one day, he told me , 
-yes, you are right, view modle is very neccesary, 
-2. another,  6 years ago, when i just join marykay corp, in the first month, there's a teach training, the trainer is form american, during the whole month, I worked with her in a small office, 
-at fisrt , i was anxious because of the language diffculty, so , I spend extra time after work to catch up those busi knowldege and techniques they are using in the project, 
-in the end, I learn those new stuff very fast, 
+so you can see the fact we just get 2004, and we  can do that, again,  the exact same way
+there's no diff bwtewwn calling either  function there 
+the biggest thing again about datepart is the functionality we can pass in the part we want 
 
-strength:
---I always try to complete the tasks as well as i can, finishing a task is not just complete the function for now, I always consider the maintainability, scalibity, so , I am proactive, 
-i am an easy going ,patient person always ready to help others if the need me, 
-weakness:  
-___some times, when meet a problem, i always try to solve it by mysef, not because I don't want help form others, it's because  I want to learn from the troouble shootting process, 
-but , if I really can't make it , I will absolutely ask help from others.
-___ I am a little conservative and too prudent, e,g., there's a method being used wildly, and I find another better way to complete the function ,I won't rewrite it immidiately, 
-fankly, I will worry if I rewrite it, it will cause some potential problems, so  I will hestate to update it , 
-I am a little quiet, I like to keep calm and quiet when working
+we also have the ability to modify , dates as well, where datediff will give diffrence between
+2 dates, date add will give us ability to add time a date, and then is date will give us ability to 
+deterime whether or not a value is a date, 
+so foe exmaple with datediff, what i can do is i can get a report on when the last time was 
+the when sb placed an order  , how long ago the happened to be . 
+so what i am gonna start with  is the managment studio, and i actually gonna make my life 
+a little earier here, i am gonn copy the bottom part of the query , that's gonna be the base
+for next query,  since we got lastname, our salesorder h ear, our contact, we got everything 
+we need, so let's just grab that, so i am going to do a little copy , open up a new querey window, 
+and let's just go ahead and paste that, 
+we are clicking right up top here, and let's say seelct, and then what we watn is we are gonna what 
+the datediff, so i am saying datediff, and it wants to know the the interval,
+ which in our case it 's goina  to be the day,  it wants'to know the start time, 
+so that'll again just be the max soh. orderdate, and it's gonna wants the end tiem,
+which is gonna be today, 
+so we'll say getdate, and then we ll say as days since last order and let's go ahead and exe that, 
+and you will sure enough now we get the total number of days since last order,   
+  brand new  to sql 2012, is whole series of different time functions , 
+date from part or time from part will both take 3 params that will build the date based on the 
+year ,day and  moth provided,  or time obj based on the hour min, second provided, 
+the eomonth , is a little function that could be quite helpful,cause what that will do is that wil l
+giv eyou the last day of the current month, so if you building some form of billing system, 
+need to know when the last day of the month is , eomonth, doen,  
+and the last not the least , is the parse function, and the parse function can convert a string to a date, 
+wl tallk more about convert function later on, xx, but i want to call out parse here, because the 
+goal of parse is for dates,or for numeric data types,   
+let's take a look at eomonth, 
+
+
+
+
+working with string is very import when you deal with any amout of data, regardless of 
+what that  data  is ,  ssql give us a  lot of functions that act upon data  
+form the top , you will notic  we have both charindex and patindex , 
+both of these are going to look for a string inside of another  
+the big difference  , however,between charindex and patindex, is charindex  will look inside 
+the entire string for whatever it is we happen to be lookinig for  
+well, patindex, take a pattern expression so using the _ and % that we learned earlier 
+when we  doing with like
+what's nice about patindex is it give us a little more control about how we are going to 
+perform our search, left and right will give the number of charactor starting from the left, 
+or starting from the right, where we specify an offset, 
+l and ltrim will give get rid of a leading spaces and trailing spaces respective, 
+
+now what i am gonna do is select  it out and just print it, lat's say select and i am gonna say 
+charindex to start, now, one of the things about chcaring and patindex 
+is that they behave a little differently than a lot of programming enviorment , 
+they typically, you  pass in the string you want to look inside of and then 
+the string you're looking  for, in sql , it's backwards,       
+so let's say that i want to look for the word 'speaker' inside of the expression, '
+sett..........' sth like that , now with , charindex, what this is gonna do , this is gonna return back 
+the location of the letter s in speaker, so , s exists at spot 45, now , 
+let's do the exact same thing with patindex, and let me just highlight this bottom one over here, 
+there we go, you will notice we get back 0, 0 means it wasn't able to find it, and you might be thinking
+wait why wouldn't i be able to find it , the reason that it wasn't  able to find it 
+is bacuse it's doint it base on a pattern, you notce , no percent sings, 
+so if i want to  look inside of the entire string, and what I have to do , is do percent signs, 
+and so now, this will look inside the entire string, giving us  back the exact same value  
+so patindex is gonna give you more control overe how you are gonna do your search, 
+it's opposed to charindex, 
+c, which desooide what cookie monster will tell you , is going to 
+be for currency not cookie,  and let's put togehter  kind of a basic query , 
+let's say select name from production product where list price is geater that 0, 
+kind of a very basic query, i execut this , sure enough  i am going to  get the correct name,  
+well let's say that i want to go one step  further
+that i also wanted to display how much each item costs,  will , one way that i can do this is 
+by sneacking back to my select line, saying plus costs plus and listprice, and you will notice 
+if i exe this, that unfortunately, this will fail out , it goning to tell me that it can't ocnver 
+the char value , which is what name is , it's a string , to money , which is what list price is , 
+and then if hyou keep reading it
+  actually tells me  char value has an incorrect syntax,
+the reason why this is happening is  because plus could be one of 2 things, 
+it could be string concatenation, which is what we  want it to be,    
+or could also be addition,  the issue is this, sql will also trying to convert to the most 
+restrivtive data type,   so what we have' seen, is the fact   
+the list price is money ,  which is certainly more restrictive than just string data, 
+and it 's trying to convert every thing to money 
+
+
+
+as the prevoius demo showed, we also need to be able to convert from on data type to another, 
+and sql gives us a couple of diff ways that we can do this,  
+one way in by using convert, and the big advantage to use convert is the fact 
+that we can provide a fromat string , so if am gonna ouptout this inot a string format , 
+may converting from a date, then there's a format number that i can pass in that 
+will tell sql how i want that to be displayed, the link appearing on the slide will list out 
+every single foramt for you, 
+cast, however, donesnt accept a fromat option, as a slightly differnetn syntax, you notice 
+that value as the datatype i want to convert  it to 
+and personally, that 's the one i like, i really like the cast opposed to convert, 
+i just think it reads a bit better,   we come back  and we do really the exactly same 
+domo we saw second ago, select and i am gonona type it out long hand, 
+
+althoug i do prefer sthat ,concat ,i love that, little things might make me hapapy, 
+from production products, you 'll notice agaion, error message, so what i am gonna is 
+i am gonna say cast listprice as nvarchar, nvarchar, in sql , is an string data type, 
+sometingk we will actually get TO in another lesson we talk about how to set up 
+and design tables, but in a nutshell here, the var is goin to be fro variable,
+variable length, the char is going to be for character,  and the n is going to be for unicode, 
+that actually pick n inside of unicode, so let's so, let's say, 
+nvarchar, i am saying I want to convert the list price to vaiable length, unicode, character string, 
+let's again add in wehre statement, 
+just to show we are doing something where, list price is bigger than 0, sure enough, 
+it's now converting that to nvarchar, and i can do the exact same thing here with converts, 
+but again, the differce is going to be  data type ,comma
+,and then the data that i want to convert, and i get the exact same results, 
+i think cast reads a little better, the problem with both cast and convert is that 
+if they fail we get error message, and this could be specially troublesome, 
+when we are dealing with user iniput, so how do i simply say hello give it a shot, and if 
+it donen't work give me a null value, this is where try and try convert coming to play
+
+now both of this  are going to give me back null if if the conversion fails 
+the differ is that try convert will use convert behind the scene , 
+try parse will use parse behind the scense, 
+ which we mentioned a bit earlier, 
+parse is going to be a little more flexible, in how it 's going to do its parsing, 
+and parse is built for converting strings into numeric or date types
+so we take a look at a realy quick examply 
+if i say , select, and let's say parse, we will say 1/100 / 2012 as dates,
+ you will notect this is going to error out, because it donen't have the ablilty to handle that 
+converesion, if i do a try parse here, you will notice now, it's going to give me bakc a null value, 
+so it's a little bit friendlier, and a little bit easier for me  to build a little bit of logic here, 
+so i can also go ahead and do some form of, liek a colesce , or parse , otherwise , on the result 
+and print sth out maybe a default value instead  
+
+
+
+
+
+
+last but not least, new inside of sql 2012, is a couple of logic functions, 
+choose where i can give a list of params, and will chose an item based on the inidex, 
+or , iif or instant if, which allows me to  perfom some form of check at the begining, 
+and  have either the second param  be returned if it is  ture, or the thired be returned 
+if it is false , and the best way to look at this this is actually going to see an action, 
+so choose, works like this, 
+first parm, is going to be the inidex, and then , we ave our list values, 
+now you might be looking at that, you might be going 'well, see the point in it, 
+well , the nice part of choose here is that it can be a little bit more flexible, 
+so if i want to be able to control which ouput i am gonna wind up getting form a query 
+otherwise, then i can do that with our chohose, so for example, maybe what we want is 
+that we want 1 to just give us the first name, we want another to give us the first name 
+and the last name, and then , we can do this in a order here, let's say from person contact, 
+so now     , because the fact that i ahve 3, i want you to notice that 
+we are getting back the  first name and the last nae, 
+let's just do an as name here, make our resuls look better, so nwo we are getting flexibility , 
+
+so now i can do i can say 1 , and now that is going give us first name, i can say 2 , that is going 
+to give us bakc the last name, so with on query i can easily control the data that i am now 
+getting back , so it just gives you more flexibility , with iif , what i can do is i can perform a 
+check , and then determine what i want to display or return, so e.g, i can do maybe sth like this, 
+so , if the list price is bigger than 0, i 'll go ahead and say , normal product, otherwose, 
+we 'll say interl components, 
+because that's typically in the adventure works database what that would indicate,  
+so well say as productinfo , and then let's also grab the  product name from production product, 
+so now , when we exe that , youll notice that we got our little  product info there, 
+and if i scroll on down to sth that's not 0 ,  having a lot zeros there, 
+keep on going and keep on going, there we go, it's line  on the bottom ,
+that we got our interla , 
+so choose and iff give us a lot of power and a lot more of capability  when it comes to 
+controlling the display that are going to wind up  getting 
+
+but first up, let's talk about the basics of aggregate functions , what's avaible to us, 
+and some of the diff rule that are in place when we 'reusing aggregate functions, 
+aggreate are used to perform calculations on data and typically it's going to be, well fovigve me, 
+some form of an aggreation, so we 're going to look for an averge , count, max or minial or 
+things like that, we going to be taking a lot of data, putting all that together in some form 
+of an aggreation, so ,e.g, i might be looking for the average sales per region, 
+maybe broken down based on region, mybe i am looking for high-priced prodcut inside 
+of each category, or i for the best performance salesperson, maybe per department, 
+or per sales territory or sth like that, those are the tupes of queries i am gonig to be able to 
+execute , because of the aggreate, now aggregates have a couple of basic rules we are gonna 
+be aware of , fist of tiem, is that no values are ignored and this can potentailly a problems, 
+  
+so, e.g, i perform a sum , what's going to happen is it's going to add up every  single row that has a 
+value if thser's any ting in there that would ahve a null, it's simpy going to be skipped, 
+so i might not be truely getting my answer that i am expecting , the exact thing hold true 
+if i decided to do an average,   
+then if i do an average it's gonna add up all the differnet non-null values, and then diviced by the 
+total number of non-values, so , if i had lets' say 10 rows, of which 3 of them are null, what will 
+would wind up happening is the 7 values athe are actually exstied, will be addup , and we will 
+device by 7 rather than dividing up by 10, 
+
+so my null are going to be ignored, you do want to keep that in mind, when you put aggrate value 
+on a select line, every single column must be inside of aggrate, or the  have to be 
+ inside of group by, and basic concpte get kind of two-fold
+
+
+no1, if i got my a non-aggreate among with other aggregate, what would i tell 
+sql to do exactly, aditionaly, an aggreate sort of by design, witout a group by , it 's going 
+to give me one value, there can only be one sume , for exampe , or only one max or only one min, 
+so if i am doing a select where I got a colunm that's not inside of the aggreate where i am gonna get 
+back every single row for that column and i've got an aggregate which is going to give me back 
+one row , that poses a little bit of problem for sql , it doesn't know how to handle it , 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+for a sccufull carreer in it, you need to know many things, how comput in network work, 
+how to work with user,  and how to trobleshot(xx) , just name a few, 
+to that end, ps is a tooll all it peopek should know, and that is the goal of this cour, i am ,,,, 
+and welcome to the powershell getting started in pluralsihgt, in this course , i will be teaching 
+you the basic of ps, so that you can hit th e ground running with useful ps  ninja skills  
+
+so i will start with introduction to the pw, as well as what you need to know to be sf thourght out 
+thie course, after the intro, i will move into buildng a fundament ps 
+i will cover taht you need to knwo like components of   ps, basic synamtax of commands and more, 
+then it's time to get work done, so i will shift gears and move to using ps 
+to  gather common info on user's computer,  
+
+i 'll focus on workinog on local sys for this module, then i 'sll spend the next module teaching the 
+basics on remoting with ps, es when owrking with end users
+ remoting is a most effective way get gather info and and do simple tasks on the user's system
+and all this leads to the goal of our course, buding a simpel inventory script using ps 
+
+and teaching the basics on ps along the way, building on the commands and techniques learned 
+up to this point , I will show you how to integrate them into a functional script, 
+that can save y ou time when you troubleshooting  end user or computer issues, 
+last, I'll wrap up the course with ideas for you to continue your learning.
+
+
+
+it's perfect for anyone that needs to learn ps to do  real world  tasks, 
+such as gathering  remote computer  info
+performing basic user taks, and troubleshootting system problem, so whehter yoaur an entry level
+it professional with some exp or it careear students just learning about computers or 1 level
+support technician who's working with customer, this is the coursee for you , 
+in fact, it 's reaaly for any one who has entry level interest in windows powersehll, and 
+wants to move up the it world, it's importnat you ahve some bandground knowdelge coming 
+to the course .first you should have a basic understanding of networkding, what is a ip address, 
+what is a port, how do computers communicate, then you need to have a basic undstanding of 
+windows client and windows service ,since ill be working thorug scenarioes
+using  windows 8.1 and windows server 2012, in an active direcotry  evn
+
+first , i 've donw a serrious of window s server fundamental fro pl that covers every thing and more 
+that you need from a windows operating system's perspective, 
+so ou can check this out , another option is a practial networking from ben piper, again, another 
+course form pl .com, so that's what oyu need to know, what you don't need to is 
+any type of scripting or programming langu 
+
+i fyou ahv this, more power to you as it will probaly sommth the path as i get into scripting and some 
+of the more complex comminds that include basic logic, 
+
+
+
+practical networking in pluralsight, 
+
+is it a command shell, is it a scripting language, wy yes it is, sort of , 
+while many peoelle see is as scriptiptn lang , or command line interface, these are only part of the pu
+puzle, it's really an execution enginee that provdes the ablilti for you to initerface with our 
+env using a variety eof tools, so it may be easier to show you than explain.so let's take a look at ps, 
+this is what people see as ps, this the command line inter, or cLI sheel where we can issue command, 
+where we can run script , we can also do many other things that we would do
+through the other standard windows cli, command.exe, so we can issue commands here, so 
+i f i want to see the services, i can do a get service, that's the comond  let for that , do a cls, 
+which does basically  clear the screen and brings me to the top  i i type in ISE, this will launch 
+another tool, wiindows ps ise, or integrated scriptiong env, this is another piece of ps, this aloows you 
+also to run command, if i go down to the ise window down here, we type in get-servers, we see 
+it runs our services, we can modify the size of the winidow if we want to see this beter, 
+
+this also alows us to create sscript, so the ise is the scripting engine that we want ot untilize 
+when we get into the scriptiong when we talk about this in  a few  modules, 
+so i get save this as a ps script, and we call this , m1 demo and it saves as .ps1 which is the ext for 
+ps.  so that's another tool for accessing ps to run command against the system, 
+so server manager is the centroalized maangement tool in serv4 2012, 
+and this alows to works with many of the things on windows server, this also runs ps, 
+every thing  that we are doing in here runs ps, so we choose add roles and features, that is 
+going to issue ps commands to do all of the in the bg, so , let's show you a example, 
+so we go to the active directory adminstery center ,which is another tool we can use to unitlize 
+ps, to work with our active directory env, so if i go into my active directory env here, i am ust 
+going to go into OU that i created from marketing here ,  and i am just going ehre, 
+i am creating a new user, i call this john, demo, jdeom of the upn, we will just make it simpel and 
+click ok, because we are not concerning about , ou know, what we are really creating, what 
+we are concerned about is that  this  is actulaly creating the user ,  so you create the user here, 
+now notice doiwn here it says windows ps history , so , I lick on the upper arrow, look at that, it shows 
+me all of the commands that are beening issued when i create the user   
+
+
+fitst, it's not going anywhere, ms is all on in ps regards to manamgement indowns, also, 
+i can be use to manage a lot of 3 part products suchc as vmware vsphere, 
+lots of companies are cocming out with sets of command that can be used to 
+
+manage their products using ps, because the y konw lots of admin are using ps in windos env, 
+second, every app form ms, from exchange to sql is built with ps as the basis of admistration
+by the product tema in ms, so when you use ggui tools i demon prevoiose , 
+i'ts using ps under the coveres xxxx to perform the work , 
+third , for the it pro, automation is the key to a long carreer and ps is the tool to do it 
+klearn to automate repetitive tasks , and you ahve a long shelf life in it
+for those who looking to take any ms cerficate exam, ps is a must know for your exam, there
+ are many things that just can't be perfromed throught the gui, and requrie ps, 
+ like complex search or active directory , as we as many taks office 365 
+ and asure requier the use of ps to get them down, and last, just about every one is earning 
+ and using it, if ou don't , someone esle surely will and you may be against them  
+ be up against 
+meone el
+ if you don't know powershell, and sose does,you may be up against them when you are looking for a job 
+
+ in this demo,we gonna see how esy it is to get info about services on compuerter, 
+ and send infomat to a  csv file to your boss, 
+ so this is jsut gonna generlay show you ,here's the power of powershell, and 
+ how we can use it toe make tasks eserir for us to do , so , let's get to a domo, 
+ so, let's your boss want's to know what service are currently running on the syste, 
+ he wants it in a report that's comma separeated value or csv format, so 
+  that then he  can open that in ms excel to work with the data, so let's see what happens 
+  when we try to work with that through gui, and then well take a took at ps, 
+  so i am gon go to the start menu, will go to admistrative tool and we will go down services, 
+  we open up our services, so that shows our services here, and it shows all of our urning and 
+  stopped  , and notice the status is bland for stop services, so you will see, ther'es all 
+  our stopped service, so how do we go and get that inot format we can use, os let's try right 
+  click here ,it syas export the list, so , let's try that, we ll exprt thet to a lit, 
+  and we just call it service1.csv,  
+
+  single commands are greate,the provide us info can do work and, and host of other
+  tings, however, the real power of ps comes in when using the pipeline, 
+  pipelines in ps is a way to sending opuout fom one command , into second command, 
+  and so on, this aloows us to do a more complex work from the sheel, so it's kind of 
+  like, we get sth, then we do sth , and then we oupput someething, this is the 
+  comon way we offten sue the pipeline, we get a piece of info , we do sth to the info, 
+  and the we outpout the info somehow, and a good of exaple of that would be 
+  get-service example, when we take get-service , we pipe that into werhe-object, 
+  llokkking for a status equals 'stopped', and then we pipeline that into out-file, 
+  so we can send that ooupout file into a text file, what we get int he end is a 
+  lift of service that are stopped and on a specific system, and we get that in a file, 
+  so that's how we use pipeline, and to use the pipeline effectively, we really need 
+  to know more aboue the data that we are getting, ps places all data we rececie 
+  from commands into a collection , a a tatlke as you can see here, to store the data, 
+  each row of the table is an obj, that has the speicific property or atts that 
+  are part of it, these proes all have that values stored in the table and we can 
+  access throught the ps console, so this is the stuff that we are looking for, 
+  so each one of these lines as you can see  is a service runing on the system, 
+  so we got the print spoolerservice, the wind pdates , and then the vouolumn shadow 
+  copy, each one of those objexts can be worked with and we can acess the table
+  iwtht he pipeine using ps to get the info we are looking for,  
+
+  so let's take a look at a basic exmaple of how to use pipeline in working with objes 
+  in ps, we are gonna be doing this thourgh the rest of our course, i am 
+  not gonna spena a huge amount of time for it , but i am gonna break it out ofr you , 
+  some of the basices so you can understand as we go forward, so the next command you 
+  are goona look at is get-member command, so we do a help get-member, because this 
+  command is goona help us be able to see what type of proeprtys we can work with 
+  from specific comamnd, so we can see get property and method s, so peroptyes are 
+  basically the things that are attached to an object that have value , methodsare 
+  things we can do to a specific obj, mostly , we are gonna work with properties , 
+  so we áre gonna focus on the properties, so i am goonna get out of here, so 
+  we are gona do a get-service, and we pipe this into get-member, and that's going 
+  to bring back for us a list of , let's go back here, and let's pipe this into more, 
+  and we can see this from the top down, so this is going to give us a list of names 
+  of all the differcent members, of this specific objet we get from get-service, 
+  so there's ome alias assoed iwth it, some methods, and then as we started getting 
+  into the bottom, we ahve proertes asso with it , so notice we have proerty with display 
+  name, proerthy for  the service name, and thsese mahy be string values, so they'd 
+  be alphanumeric, and notice thet some with can stop , can shutdown, that's a bool value, 
+  so that's gonna be a 1 or 0, which is important as we going through and filter, 
+  which si the process of taking an object, and working with the data to get out a 
+  specife sbuset, you need to make sure you understand waht type of data you are look 
+  at a specific property, so let's take a look at get-service, and waht i want to do is 
+  i want to select form the get-servcie, the object and jsut peroties of name and 
+  status , so you can do thet by useing select -object and put in the values separeated 
+  hy comma, so i put name, and then status, and so what that brings bakc for me 
+  is it brings mee back the servcie name, and the service status, 
+  i can slao so that and i can send that out to a file, so , that's the get sth, 
+  do sth, output sth portion, i can send out this to a file script servcie down here, and j
+
+  .txt, and that would send that to a file and will take a look at what that file 
+  looks like in notpead, so that gives ma a list of name and status , so m very 
+  simple example, but show you how you can seelct form differ peropertes from hyour 
+  \commands, and be able to view those and send those to a another file
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+
+
+
+
+
+
+
+
  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
