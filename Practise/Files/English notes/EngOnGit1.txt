@@ -62,14 +62,22 @@ building on(****) the commands and techniques learned up to this point , I will 
 last, I'll wrap up the course with ideas for you to continue your learning.
 if you don't know powershell, and sose does,you may be up against them when you are looking for a job 
 that is looking for alpha numeric characters
-
-
-
-
-
-
-
-
+scrum is unequivocal [,ʌnɪ'kwɪvəkl]  mean that it is completely clear and very firm. 明确的
+off-the-shelf tax accounting software 现成的，不用定制的
+after the limit we set is hit(****)(hit the limit), this setting controls how many minutes we stay in that state until recyling the pool
+I might not truely be getting the answer I expect, the exact same thing will hold true(**) if I do an average.
+sales people more than 30% under their quota???????????
+(sql having) so that's how I can limit to just specific groups.
+*************
+category           sub category   product   total
+null			null			null		123132
+clothing		null			null		123132
+clothing		bit-shorts		null		888
+=>and you will notice there's a null, what that is doing is that is showing us the total for every 
+single bit-shouts inside of clothing regardless of product type  
+keep it in mind that ties(***),if you use rank, will skip to next number
+trunc is equal to delete leave off(***) where statement.
+(table valued function):and then you your select statement immediately thereafter(**其后).
 
 
 

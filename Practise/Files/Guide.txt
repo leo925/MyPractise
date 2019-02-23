@@ -67,6 +67,9 @@ chrome, google account: gylong@yeah.net ,   pppp: same as skype
 51job : abcabc123
     //user name:zhihang1984 pwd: abc123 email  anz inquery
 
+	 交管:  id,  pwd: zaqxsw
+tax deduction:  leotax84     p: zaqxsw12
+
 
 
 
