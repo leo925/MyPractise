@@ -78,7 +78,8 @@ single bit-shouts inside of clothing regardless of product type
 keep it in mind that ties(***),if you use rank, will skip to next number
 trunc is equal to delete leave off(***) where statement.
 (table valued function):and then you your select statement immediately thereafter(**其后).
-
+there are very few  reasons not to enable compression as it gives us a nice performance boost with very few downsides
+dynamce compression may use a lot of cup power(*), especially under high load(**)
 
 
 
@@ -350,7 +351,7 @@ Static positioning stacks up elements one after the other down the page.
 The for statement consists of three parts after the for keyword. There's the loop initializer, which is run before the for statement; a condition, which is checked every time that
 the for statement is going to start a new iteration, and if the value is true then the block of the for statement is executed again, if it's false then the for statement is finished;
 and the incrementer, which is a statement that is run on every iteration. 
-               
+             
 
 
 end
