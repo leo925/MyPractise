@@ -13,15 +13,18 @@ vacuum the house/floor,  vacuum cleaner
 we penalize him with a （big)demerit record:记(大)过 
 in orbit在轨道上；在轨道上运行；[俚语]飘飘然
 earth orbit 地球轨道
-Bedding is sheets, blankets, and covers that are used on beds. 床上用品 bedding bag:被套
+Bedding is sheets, blankets, and covers that are used on beds. 床上用品 bedding bag:被套 quilt cover
+crib: baby bed
 commend/kəˈmɛnd/(表扬):I commended her for that action.
 commendable [kə'mɛndəbl]:值得表扬的
 The other banks are going to be very eager to help, provided that they see that he has a specific plan.
 如果他有一个具体的计划，其他的银行才会非常渴望提供资助 
 provided:. 假如；倘若       
-Poland  ['pəulənd] 波兰   Polish:'pəʊlɪʃ 波兰的；波兰人的；波兰语的
+Poland  ['pəulənd] 波兰   Polish:'pəʊlɪʃ 波兰的；波兰人的；波兰语的；n 波兰人
 He tried to play down(贬低) my part in the work and play up(突出；强调) his own.
 and the second notation, string2, encloses the string in apostrophes (**[ə'pɑstrəfi].
+An apostrophe is the mark ' when it is written to indicate that one or more letters have been left out of a word, as in "isn't" and "we'll." 
+It is also added to nouns to form possessives, as in "Mike's car." 撇号
 If you enclose(**还有包装的意思 ) something with a letter, you put it in the same envelope as the letter. (随信) 附上
 I have enclosed a cheque for £100. 
 you can see in the first example because the string is enclosed in quotation marks I'm able to include an apostrophe in the string without escaping,
@@ -52,7 +55,8 @@ we see the text highlighted. It's leaving off(**refer to You dao) the strong tag
 A logarithm tells you what power a base number must be raised to in order to produce a given value
 punctuation marks: comma , colon : semicolon  ;   full stop/period .  exclamation mark  !  question mark  ?  quotation marks "  
 apostrophe  '   dash - tilde ~   plus mark +  minus mark -     at sign @  backslash \    vertical bar |    ampersand  &
-asterisk  *   square brackets []  parentheses  ()  curly braces {}   logical operator || && !    caret  ^   pound sign # 
+asterisk  *   square brackets []  parentheses  ()  curly braces {}   logical operator || && !    caret  ^   pound sign #
+negation mark :  !(in c#) 
 ("cat"==="cat") the same thing holds for(适用) numbers as well.,    16===16 is true
  A window is a glass-covered opening above a counter, for example, in a bank, post office, train station, or museum, which the person serving you sits behind. (银行、邮局、火车站、博物馆等提供服务的) 窗口
  ticket window:售票窗口

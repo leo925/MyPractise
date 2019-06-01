@@ -12,7 +12,21 @@
  */
 
 
+/*
+ top words this week:
 
+ procrastination  [pro,kræstə'neʃən]  
+ apostrophe [ə'pɑstrəfi]
+ itinerary  [aɪ'tɪnərɛri]  The next place on our itinerary was Sedona. 
+ carbonated beverage
+ Many IPO's come out being very, very overvalued because they get so hyped up and investors are so taken in by the story 
+ insomnia
+ eccentric:  [ɪk'sɛntrɪk]  adj, n: 
+  Argentina's erratic inflation rate threatens to upset the plans. 
+  sanitation worker, sanitary inspection卫生检查；卫生检验 sanitary condition卫生条件；卫生状况  it's sanitized
+
+
+ */
 
 
 

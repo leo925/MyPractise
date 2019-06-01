@@ -79,15 +79,16 @@ keep it in mind that ties(***),if you use rank, will skip to next number
 trunc is equal to delete leave off(***) where statement.
 (table valued function):and then you your select statement immediately thereafter(**其后).
 there are very few  reasons not to enable compression as it gives us a nice performance boost with very few downsides
-dynamce compression may use a lot of cup power(*), especially under high load(**)
-
-
+dynamce compression may use a lot of CPU power(*), especially under high load(**)
+we config them to be archived after they are x days old.
+some non-traditional locale [lo'kæl]
 
 
 ****************************************老人与海****************************************
 
  he always went down to help him carry either the coiled lines or the gaff and harpoon and the sail that was furled around the mast.
-
+  When you furl something made of fabric such as an umbrella, sail, or flag, you roll or fold it up because it is not going to be used. 卷起; 叠起
+  An attempt was made to furl the headsail. 
 
 ****************************************老人与海 end****************************************
 
