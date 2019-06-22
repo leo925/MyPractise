@@ -24,6 +24,14 @@
  eccentric:  [ɪk'sɛntrɪk]  adj, n: 
   Argentina's erratic inflation rate threatens to upset the plans. 
   sanitation worker, sanitary inspection卫生检查；卫生检验 sanitary condition卫生条件；卫生状况  it's sanitized
+  A desolate  ['dɛsələt] place is empty of people and lacking in comfort. 荒凉的
+  omnipotent [ɑm'nɪpətənt] 无所不能的；全能的
+  He has devised a process for making gold wires which neither corrode nor oxidize. 
+  psychologist psychiatrist[saɪ'kaɪətrɪst] 精神病学家，精神病医生  psycho:精神病患者
+
+
+
+
 
 
  */

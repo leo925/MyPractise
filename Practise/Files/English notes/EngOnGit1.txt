@@ -79,10 +79,18 @@ keep it in mind that ties(***),if you use rank, will skip to next number
 trunc is equal to delete leave off(***) where statement.
 (table valued function):and then you your select statement immediately thereafter(**其后).
 there are very few  reasons not to enable compression as it gives us a nice performance boost with very few downsides
-dynamce compression may use a lot of CPU power(*), especially under high load(**)
+dynamic compression may use a lot of CPU power(*), especially under high load(**)
 we config them to be archived after they are x days old.
 some non-traditional locale [lo'kæl]
-
+He has devised a process for making gold wires which neither corrode nor oxidize. 
+ An oxide is a compound of oxygen and another chemical element. 氧化物
+ waxberry  杨梅  almond  ['ɑːmənd] 杏仁
+ stroller , trolley
+ Dena was enchanted by the house. (another meaning: 施魔法于)
+ 蒂纳被这幢房子给迷住了.
+ it's a full-blown production-ready web server like iis
+ medium 五成熟；rare一成/medium rare三成/medium五成/medium well七成/well-done是全熟。
+ he clammed up:拒不开口
 
 ****************************************老人与海****************************************
 
@@ -137,7 +145,7 @@ A stand is an object or piece of furniture that is designed for supporting or ho
 The teapot came with(come with/go with 感觉 有配对的意思) a stand to catch the drips.
 
 And that was just intended to(是用来) simulate some sort of data access. 
-This particular element, the div, by default is going to be treated as a block level container and it's going to render, it's going to render on its own next kind of logical line or space in the document. 
+div, by default is going to be treated as a block level container and it's going to render on its own next kind of logical line or space in the document. 
 You can see that IAS gives me the warning that SSL is not enabled and credentials will be sent in clear(*) text,So for that reason basic authentication is rarely used without secure HTTP                       
 You can allow access to all anonymous users or restrict access that the only specific users or groups can access a particular file or directory
 one security concern around session identifiers is how they can open up(* see below) the possibility of someone high jacking some other user's session.
@@ -182,17 +190,20 @@ not only does it not render, but there's also no space there to render it in.
 Inline elements are elements like span, they don't create more vertical space unless they're forced to. 
 Block elements always sit on top of each other by default.
 Well I'd have to take the width of the list element content, which is 150 pixels, I'd have to remember that there's a left border of 10 pixels, that puts us at(**) 160.                        
-Technically they will overlap until one of the margins touches the border of the other element, meaning you'll always have a margin that is the maximum amount of the bottom and top margins that are meeting.
+Technically they will overlap until one of the margins touches the border of the other element, meaning you'll always have a margin that is the maximum
+-- amount of the bottom and top margins that are meeting.
 Understanding how to size and arrange these boxes is a large step towards understanding web design with CSS.
 Each paragraph or div we create will appear underneath the previous div or paragraph. That's what we call the flow of a document, elements just flow downward. 
 we have quite a bit of padding that is pushing the content inwards away from the border. 
 should have a text-decoration of none as opposed to underline
-the width setting is no longer in effect. We have some elements displaying that are obviously less than 150 pixels and this is because you cannot set the width of an inline element. They are going to expand so that all their content fits inside in the padding and the border, but that's it. If we wanted these elements to be inline, but still have block characteristics like being able to set the width, that's another display setting, which is inline-block. 
+*****the width setting is no longer in effect. We have some elements displaying that are obviously less than 150 pixels and this is because you cannot set the width of an inline element. They are going to expand so that all their content fits inside in the padding and the border, but that's it. If we wanted these elements to be inline, but still have block characteristics like being able to set the width, that's another display setting, which is inline-block. 
 they display inline and will stretch across the page until you run out of space and then they'll bounce down to the next line.                              
 ****traffic restrictions based on the last digit of license plate numbers                                                 
 A floating element can shift to the left or to the right of a line and then allow content to flow along beside it.
 If a group of factory workers, nurses, or other people work shifts, they work for a set(规定的；固执的) period before being replaced by another group,
 --so that there is always a group working. Each of these set periods is called a shift.You can also use shift to refer to a group of workers who work together on a particular shift.                         
+Dave had to work a 12-hour shift yesterday.   early/late/night shift  I am on the early shift tomorrow
+
 That would move the div(A) to the left side of the line and will allow another div to float up(**) and appear to the right of that div(A)                        
 what if I wanted to move additional content up beside the image  
 move as far left as you can / the image moves as far to the right as it can 
@@ -218,7 +229,7 @@ be sparate=live apart: 分居
   A pad of paper is a number of pieces of paper attached together along the top or the side, so that each piece can be torn off when it has been used. 便笺簿  
   mouse pad
    a person or animal curls into a ball, they move into a position in which their body makes a rounded shape. 蜷作一团
-If one thing envelops ɪnˈvɛləp another, it covers or surrounds it completely. 包裹住(像快递包裹)
+If one thing envelops ['envələʊp] another, it covers or surrounds it completely. 包裹住(像快递包裹)
 A lodge is a house or hotel in the country or in the mountains where people stay on holiday, especially when they want to hunt or fish. (乡野中的度假) 屋舍; 旅馆
  If an object lodges somewhere, it becomes stuck there. 卡住   
  "How do you stick together with someone through 38 years -- not to mention the sickness?即使不说癌症的那些日子，你怎么可以和一个人生活38年毫无厌倦呢
@@ -382,3 +393,23 @@ that's not related to query, but the startup cost(**) of using entity framework 
 another drawback to include is that you can't limit or sort the related data, it's all or nothing, using projection to eagerloading can help you get around that.
 
  -----------------------building application with asp.net mvc 4   end
+
+
+ ----------------------------------------------asp.net core 2.x
+
+ a transient lifetime means a new instance of the type is created every time it is asked for
+ a scoped lifetime means the instance will live untill the web request is completely handled.
+ singleton lifetime means once an instance is created the same instance will be supplied every time untill the app closes. 
+
+
+
+
+
+
+
+
+
+
+
+
+
