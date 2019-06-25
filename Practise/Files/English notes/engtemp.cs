@@ -29,7 +29,24 @@
   He has devised a process for making gold wires which neither corrode nor oxidize. 
   psychologist psychiatrist[saɪ'kaɪətrɪst] 精神病学家，精神病医生  psycho:精神病患者
 
-
+  he consents to go
+  electric circuit
+  decorative :  display decorative things
+  What cargo 货物 are you carry on your ship
+  negligence  ['nɛɡlɪdʒəns] failure to take enough care over something that you are responsible for 疏忽
+  negligible  ['nɛɡlɪdʒəbl]
+  We have to act to preserve the unity of this nation
+  fanciful If you describe an idea as fanciful, you disapprove of it because you think it comes from someone's imagination, and is therefore unrealistic or unlikely to be true. 异想天开的
+  auditorium
+  the acid liquor is eroding the bone
+  impetus 美 ['ɪmpɪtəs] 动力s
+  awkward   -  clumsy
+  4 quarts constitute a gallon
+  national anthem
+  affable , amiable
+  of one's own accord   ,  of one's own(free) will 
+  The thought of such cruelty sickened her
+  illicit  affair/gain/activity
 
 
 
