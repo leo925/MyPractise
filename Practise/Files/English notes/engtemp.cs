@@ -32,7 +32,7 @@
   he consents to go
   electric circuit
   decorative :  display decorative things
-  What cargo 货物 are you carry on your ship
+  Please boat the cargo in half an hour.
   negligence  ['nɛɡlɪdʒəns] failure to take enough care over something that you are responsible for 疏忽
   negligible  ['nɛɡlɪdʒəbl]
   We have to act to preserve the unity of this nation
@@ -47,9 +47,34 @@
   of one's own accord   ,  of one's own(free) will 
   The thought of such cruelty sickened her
   illicit  affair/gain/activity
+  negligence  ['nɛɡlɪdʒəns]
+  (we've seen how to work with event short cut...)but behind the secnes these are actually delegating (**)to on
+  remain vigilant  ['vɪdʒələnt]
+  a barefoot boy
+  baggage/luggage carousel
 
-
-
+  from harry that need to recite:
+  you think it wise to trust sb with something as important as this?
+  he is twice as tall as a normal man and five times as wide
+  When people or animals snort, they breathe air noisily out through their noses.
+  Harry was on the point of unfolding his letter, it was jerked sharply out of his hand by uncle Verson."that's mine", Harry tried to snatch it back.
+  Vernon hold it high out of his reach./ place it high out of Simon's reach
+  today, he'd rather be back in his cupboard with that letter than up here without it.
+  Harry must've had more haircuts than the rest of boys in his class put together
+  grin/snigger
+  From downstairs came the sound of Dudley bawling at his mother
+  crumb:bread peices   crumble:  the rock is crumbling into the sea
+  The sea glints(*) in the sun.
+  wrinkle/crinkle
+  like a mouse being trodden['trɑdn] on   / tread on: 践踏；
+  take a gulp of tea/water:一大口
+  he couldn't take his eyes off(把视线移开) the giant.
+  he pointed the seat opposite(*) Harry.
+  An evergreen is a tree or bush that has green leaves all year long.
+  a birdcage, which held a parrot before.
+  frog spawn/  the frog is spawning in the river
+  I heard you coins tinkle/tinkling in you pocket
+  A car swished by  fast
 
  */
 

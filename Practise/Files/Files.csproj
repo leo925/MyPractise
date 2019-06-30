@@ -50,6 +50,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="English notes\Eng3.docx" />
+    <None Include="Pluralsight\Transcript\notes\.net core\pluralsight .net core 2.x with 2017\.net core 2.x with 2017 pluralsight.docx" />
     <None Include="Pluralsight\Transcript\What Every Developer Should Know About SQL Server Performance.docx" />
     <None Include="tech passages\DB SQL\CROSS APPLY 与 OUTER APPLY 连接查询.docx" />
     <None Include="tech passages\DB SQL\浅谈SQL Server事务与锁（上篇） .docx" />
@@ -74,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pluralsight\Transcript\notes\db\" />
+    <Folder Include="tech passages\.netcore\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bullshit.txt" />
