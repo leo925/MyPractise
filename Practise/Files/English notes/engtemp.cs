@@ -75,6 +75,45 @@
   frog spawn/  the frog is spawning in the river
   I heard you coins tinkle/tinkling in you pocket
   A car swished by  fast
+  binder clip(装订夹) paper clip 回形针
+  it was bad enough that he bullied Neville in his own classes, let alone(更不必说) doing it in front of other teachers.
+  But it'll be fascinating to study them from the wizarding point of view 
+  Go! Run! I'll hold him off
+  pretending to do up his shoelace
+  Harry had to exercise great care not to tread on anyone and cause a panic.
+  The resemblance between you(Harry and his dad) is uncanny
+  as June approached, the days became cloudless and sultry ['sʌltri](=muggy) 闷热潮湿的
+  vs smug: 自鸣得意的；自以为是的；  sag, sag , sag saggy, saggy , saggy
+  It was like watching a speeded-up film of a growing tree.
+  If you are lying prone, you are lying on your front. 面朝下的 ;俯卧
+He had a moment's indecision 优柔寡断；犹豫不决
+Fog was clouding  蒙蔽 his eyes 
+If you say that something clouds your view of a situation, you mean that it makes you unable to understand the situation or judge it properly. 蒙蔽
+The blinding light(*) was illuminating the grass around him.... The screaming had stopped, the cold was ebbing(*) [ɛb] away...
+With every ounce(一点点) of strength he could muster(召集；聚集)
+skirt around/steer clear of:绕开
+see off: after seeing Jackie off in the airport
+Bill's clothes would not have looked out of place(不合适的；不在适当的位置) at a rock concert,
+she had been very taken with Harry ever since his first visit   vs  be taken in:(fall for)
+Mr. Weasley was more of a hindrance  ['hɪndrəns] than a help
+handiwork(手工作品) artifact:手工艺品
+Harry himself was far more interested in hearing about the tournament than in worrying about deaths that had happened hundreds of years ago.
+Hermione got up, tiptoed to the compartment door, and slid it shut, blocking out(**) Malfoy's voice.
+puppetry, puppet, puppeteer
+being so tiny, his head hardly rose above anyone else's
+I don't think anyone under seventeen will stand a chance,
+to see what was causing the holdup.(Weng....)
+Fred and George set off for(*) the hospital wing.(school infirmary*********)
+sitting smugly beside 
+You told me to keep you posted
+on first-name terms 亲密关系的/ on good/close terms,e.g, he is on first-name terms with his boss.
+in an oddly husky(沙哑的; 深沉的) voice
+a forbidden potion that had turned him and Ron into living replicas  ['rɛplɪkə] 复制品
+He will need to be discreet  [dɪ'skrit] 谨慎的；小心的
+ the dog is wagging his tail madly
+  weary  ['wɪri]  疲倦的；厌烦的  wary['wɛri] 谨慎的 be wary of strangers.
+   There was no point in worrying Mrs. Dursley
+   that they come down to his hut on alternate evenings(**).(on alterate days)
 
  */
 
