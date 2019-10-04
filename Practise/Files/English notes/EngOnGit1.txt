@@ -91,8 +91,25 @@ He has devised a process for making gold wires which neither corrode nor oxidize
  it's a full-blown production-ready web server like iis
  medium 五成熟；rare一成/medium rare三成/medium五成/medium well七成/well-done是全熟。
  he clammed up:拒不开口
- Lift the Limit
+ Lift the Limit :  now the limit/limitation is lifted
  there's full-blown(***) production-ready web server like iis
+ I will leave the strong tag out when the threshold isn't met  =>else { <td>@model.total</td>}
+I swap(***) the static caption with viewbag caption.
+Note that when the parameter consists of multiple words with camelCasing, you write them in the tag with 
+dashes between the words.(<xxx>stats-caption='caption'</xxx>)
+the calling party( 一方) must know the implementation details of the web api,
+The smell of sawdust and glue pervaded(** 弥漫) the factory. 
+hand-made  , chinese-made
+As with (**)any war, there are winners and losers. That is also the case with(**) the trade war between China and the United States.
+ companies affected by high tariffs are looking to(**指望) manufacture their products elsewhere
+ xxx right ater the tarrifs went in place(**)
+ pediatrics  [,pidi'ætrɪks] 小儿科  pediatrician [,pidɪə'trɪʃən]儿科医生
+ aerobic [eə'rəʊbɪk] exercise 
+ Quartz writes that while America is one of the richest countries in the world, it also has one of the biggest 
+ -divides between the wealthy and the poor. 
+
+
+
 
 
 

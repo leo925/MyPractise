@@ -7,11 +7,7 @@
  --If the temperature is in the twenties, the temperature is between 20 and 29 degrees. 二十几
  They're both in their twenties / her early thirties
 
-
-
  */
-
-
 /*
  top words this week:
 
@@ -117,7 +113,26 @@ He will need to be discreet  [dɪ'skrit] 谨慎的；小心的
 
  */
 
+/*   to recite
+ If a country has a trade surplus, it exports more than it imports. 贸易顺差(trade deficit 相反)
+ It is the largest deficit of any country in the history of our world.
+ Trump said that with the increased tariffs he hopes to cut the trade deficit with China by $100 billion.
+The actions raised the possibility of a trade war between the two biggest economies and sent global stock markets lower.
+Boeing has said it expects China to buy aircraft worth(**) $1.1 trillion by 2036
+The U.S. recently placed tariffs of 25 percent on steel and 10 percent on aluminum imports. Some countries, 
+-including Canada and Mexico, are not subject to the new taxes.
 
+The United Nations reported last year that, since 2012, China has led the world in the number of tourists who travel
+to other countries.The U.N. said Chinese tourists spent $261 billion in foreign countries in 2016. That is more than 
+twice the amount that travelers from the U.S. spent.
+That group recommends children younger than 18 months should avoid screens other(**chule) than video conferences over the internet. 
+Sedentary behaviors, whether riding motorized transport rather than walking or cycling, sitting at a desk in school, watching TV 
+-or playing inactive screen-based games" are increasingly common
+In this age group of under-5s, it is currently 40 million children around the world (who) are overweight
+
+
+
+ */
 
 
 
