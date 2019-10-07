@@ -10,8 +10,10 @@ practicality   ['præktɪ'kæləti] 实用性，实际性 The practicalities of 
 The practical aspects of something involve real situations and events, rather than just ideas and theories. 实际的/ 实用的
 A shed is a small building that is used for storing things such as garden tools. (用于存放园艺工具等的) 棚屋
 A shed is a large shelter or building, for example, at a train station, port, or factory. (车站、港口、工厂等的) 棚式建筑    落 (叶); 脱 (发); 蜕 (皮)
+work shed(工棚)
 If you shed tears, you cry. 落 (泪)
 When there is frost or a frost, the temperature outside falls below freezing point and the ground becomes covered in ice crystals. 霜
+sleet:  Sleet is rain that is partly frozen
 A critic is a person who writes about and expresses opinions about things such as books, movies, music, or art. 评论家
 Mather was a film critic for many years.
 马瑟做过多年的电影评论家。
@@ -32,7 +34,7 @@ jonts:关节
 Vapour consists of tiny drops of water or other liquids in the air, that appear as mist. 蒸汽
 You can use realm to refer to any area of activity, interest, or thought. (活动、兴趣、思想的) 领域
 Elastic is a rubber material that stretches when you pull it and returns to its original size and shape when you let it go. 
-Elastic is often used in clothes to make them fit tightly(**紧密贴合), for example, around the waist. 松紧带
+-Elastic is often used in clothes to make them fit tightly(**紧密贴合), for example, around the waist. 松紧带
 Something that is elastic is able to stretch easily and then return to its original size and shape. 有弹性的
 A flexible object or material can be bent easily without breaking. 柔韧的
 direction: 使用说明 (方向，指导 )
@@ -41,7 +43,8 @@ I assure you that we can make it, I ensure that we can make it.
 His performance yesterday morning assured him of(*****) a record eighth medal.
 Parentheses are a pair of curved marks that you put around words or numbers to indicate that they are additional, separate, or less important. (This sentence is in parentheses.) 括号
 put around:把...包起来
-When a painting, sculpture, or object of interest is exhibited, it is put in a public place such as a museum or art gallery so that people can come to look at it. You can also say that animals are exhibitedin a zoo. 展览
+When a painting, sculpture, or object of interest is exhibited, it is put in a public place such as a museum or art gallery so that people can come to 
+-----look at it. You can also say that animals are exhibited in a zoo. 展览
 If someone or something shows a particular quality, feeling, or type of behaviour, you can say that they exhibit it. 表现出
 take sth for sth: 把...认为是...,把...当成   What did they take us for?
 他们把我们当成什么了?    把…误认为，误以为…是…： We took her for her younger sister.
@@ -77,6 +80,7 @@ bottom out : 降到最低点
  A stake is a pointed wooden post which is pushed into the ground, for example in order to support a young tree. 桩
 The stakes involved in a contest or a risky action are the things that can be gained or lost. (竞赛、冒险行为中的) 赌注
  If you stake something such as your money or your reputation on the result of something, you risk your money or reputation on it. 以 (金钱、名誉等) 下赌注
+ e.g.,stake everything on one move 孤注一掷     to stake money on sth 
 undertake:从事；着手，开始进行;担任(工作等)；接受(任务等)；承担：undertake:承担人
 internet traffic:网络流量
 A spark is a tiny bright piece of burning material that flies up from something that is burning. 火花

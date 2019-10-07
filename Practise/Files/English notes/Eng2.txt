@@ -15,6 +15,7 @@ If you say that someone or something is indispensable, you mean that they are ab
  A maple ['meɪp(ə)l]or a maple tree is a tree with five-pointed leaves which turn bright red or gold in the fall. 枫树
 To strangle someone means to kill them by squeezing their throat tightly so that they cannot breathe. 扼死
  If you graze a part of your body, you injure your skin by scraping against something. 擦破皮 / (轻轻)擦过，掠过，擦磨：
+ I had grazed my knees a little.   我的膝盖擦破了一点皮。
 the (css)rule with the grestest weight will take precedence（****）['presidəns]
 The earthquake was preceded [prɪ'sid] by a loud roar and lasted 20 seconds.
 
@@ -27,7 +28,8 @@ remember, rules that have a higher number here will win out over rules that targ
 that comes in after the rule that was imported that said paragraphs should have a gray background
 you can specify as many fonts as you like in a  comma delimited list and the brower will use the first that matches.
 curriclum kəˈrɪkjʊləm :A curriculum is all the different courses of study that are taught in a school, college, or university. 总课程    curriculum schedule课程表 curriculum vitae（拉）简历 [kəˌrɪkjələm'vitaɪ] curriculum reform课程改革
-If you carve an object, you make it by cutting it out of a substance such as wood or stone. If you carve something such as wood or stone into an object, you make the object by cutting it out. 雕刻
+If you carve an object, you make it by cutting it out of a substance such as wood or stone. 
+--If you carve something such as wood or stone into an object, you make the object by cutting it out. 雕刻
 If you carve writing or a design on an object, you cut it into the surface of the object. 刻上
 consortium [kənˈsɔrʃiəm]  A consortium is a group of people or firms who have agreed to cooperate with each other. 联盟
 intrinsic /ɪnˈtrɪnsɪk/ If something has intrinsic value or intrinsic interest, it is valuable or interesting because of its basic nature or character, and not because of its connection with other things. 内在的; 本质的
@@ -63,7 +65,7 @@ Description: Selects all elements that are the first among siblings of the same 
 "td:gt(4)"  Select all elements at an (given)index greater than index within the matched set
 you are peeling or if your skin is peeling, small pieces of skin are coming off, usually because you have been burned by the sun. (人) 脱皮; (皮) 脱落
 A blunt knife or blade is no longer sharp and does not cut well. 不锋利的
-If you are blunt(plainspoken), you say exactly what you think without trying to be polite. 直言不讳的
+If you are blunt(plainspoken,straightforward), you say exactly what you think without trying to be polite. 直言不讳的
 Oars are long poles with a wide, flat blade at one end which are used for rowing a boat. 桨
 pedal:踏板 The pedals on a bicycle are the two parts that you push with your feet in order to make the bicycle move. (自行车的) 踏板
 some where is densely polulated,  shanghai is a large city with a dense population
@@ -85,7 +87,8 @@ obese: o'bis If someone is obese, they are extremely fat. 肥胖的
 If you describe someone as farsighted, you admire them because they understand what is likely to happen in the future, and therefore make wise decisions and plans. 有远见的表赞许
 shortsighted: 目光短浅的；近视的
 The keypad on a telephone is the set of buttons that you press in order to operate it. Some other machines, such as ATMs, also have a keypad. (电话机等上的) 小键盘
-In basketball, football, or hockey, a forward is a player whose usual position is in the opponents' half of the field, and whose usual job is to attack or score goals. (篮球、足球、曲棍球等运动的) 前锋
+In basketball, football, or hockey, a forward is a player whose usual position is in the opponents' half of the field,
+--and whose usual job is to attack or score goals. (篮球、足球、曲棍球等运动的) 前锋 （back,left back 左后卫)
 A toilet is a large bowl with a seat, or a platform with a hole, which is connected to a water system and which you use when you want to get rid of urine or faeces  ['fisiz] from your body. 抽水马桶
 midnight snack
 He says "there is a lot of anxiety in Beijing that Russians who have all along taken an anti-U.S. stance may start to think differently."     all along:自始至终
@@ -102,7 +105,8 @@ Could you move over a little bit：你能挪一挪吗: could you move over this 
 (***)mandatory retirement age
 I open my mouth and pant, longing['lɔŋɪŋ]  for your commands  , gasp：喘气
 记:A leopard is a type of large, wild cat. Leopards have yellow fur and black spots, and live in Africa and Asia. 豹（panther,黑豹)
-crustacean  [krʌ'steʃən]甲壳动物 The antennae of something such as an insect or crustacean are the two long, thin parts attached to its head that it uses to feel things with. 触角
+crustacean  [krʌ'steʃən]甲壳动物 The antennae of something such as an insect or crustacean are the two long, thin parts 
+--attached to its head that it uses to feel things with. 触角
 discipline:处罚
 spiral: a shape which winds around and around, with each curve above or outside the previous one.     wind the string around the finger
 To dispel an idea or feeling that people have means to stop them having it. 消除 (想法或感觉)
