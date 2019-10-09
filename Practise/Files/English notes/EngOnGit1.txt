@@ -108,7 +108,7 @@ As with (**)any war, there are winners and losers. That is also the case with(**
  Quartz writes that while America is one of the richest countries in the world, it also has one of the biggest 
  -divides between the wealthy and the poor. 
  sensor faucet 
-
+ during registration(DI) you can determine what the lifetime should be of the instance
 
 
 
