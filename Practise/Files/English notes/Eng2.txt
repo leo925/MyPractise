@@ -111,13 +111,14 @@ discipline:处罚
 spiral: a shape which winds around and around, with each curve above or outside the previous one.     wind the string around the finger
 To dispel an idea or feeling that people have means to stop them having it. 消除 (想法或感觉)
 The sun dispelled the dense fog. That fine performance dispelled any doubts about his abilities.
-A fuse is a safety device in an electric plug or circuit. It contains a piece of wire which melts when there is a fault so that the flow of electricity stops. 保险丝
+A fuse is a safety device in an electric plug or circuit. It contains a piece of wire which melts when there is a fault
+--so that the flow of electricity stops. 保险丝
 Steam is the hot mist that forms when water boils.Steam vehicles and machines are operated using steam as a means of power. 蒸汽
 (**)If something gives off or gives out a gas, heat, or a smell, it produces it and sends it out into the air. 散发出 (气体、热量或气味)
 canal: a stretch of water that has been made for boat to travel or to bring water to an area
 The apparatus is spotlessly clean 仪器上一尘不染
 Ginseng , Aemrican ginseng
-Inborn qualities are natural ones that you are born with. 天生的  =>natural-born
+Inborn qualities are natural ones that you are born with. 天生的  =>natural-born: sb is a natural-born troublemaker
 what would you do if you received a complaint from citizen of an attempted bribery from a police offcer
 statutory [stætʃʊˌtɔrɪ] paid annual leave
  If you consent to something, you agree to do it or to allow it to be done. 同意
@@ -137,7 +138,8 @@ arctic pole/ocean  antarctic pole/ocean
 direction:使用说明  specification:说明书；规格
 The market is reckoned to be worth $1.4 bn in the U.S. alone.仅在美国价值估计就有14亿美元。
  If something is reckoned to be a particular figure, it is calculated to be roughly that amount. 估算
- Reeds are tall plants that grow in large groups in shallow water or on ground that is always wet and soft. They have strong, hollow stems that can be used for making things such as mats or baskets. 
+ Reeds are tall plants that grow in large groups in shallow water or on ground that is always wet and soft. 
+ --They have strong, hollow stems that can be used for making things such as mats or baskets. 
 spoil:扫兴；变质  spoiler:剧透
 profile:个人资料，简介 in profile:从侧面 high/low profile:高/低调
 Your profile is the outline of your face as it is seen when someone is looking at you from the side. (面部的) 侧面轮廓
@@ -157,11 +159,12 @@ regardless of :不管/不顾  regardless of religion,color, creed,
  he will go regardless of high risk:不顾risk
 delightful:令人愉快的，高兴的
 绳索：cord,rope  Cord is strong, thick string. 绳索
+Cord is wire covered in rubber or plastic which connects electrical equipment to an electricity supply. 电线 electrical cord
 oven:烤箱=>烤炉  stove:灶炉  furnace A furnace is a container or enclosed space in which a very hot fire is made, for example, to melt metal, burn rubbish, or produce heat for a building or house. 熔炉; 火炉
 subtract =  deduct
 tumble: 跌倒，暴跌   shortcoming weakness, disadvantage
 tame: 驯服的;v:驯服  
-residential area:住宅区  residence:居处片
+reside, resident, residential area:住宅区  residence:居处片   
 neglect(n/v:疏忽),  omission:n 疏忽
 (water) faucet:水龙头 = tap
 An amount or effect that is negligible is so small that it is not worth considering or worrying about. 微不足道的
