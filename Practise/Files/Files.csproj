@@ -50,6 +50,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="English notes\Eng3.docx" />
+    <None Include="notes\.net core\pluralsight .net core 2.x with 2017\.net core 2.x with 2017 pluralsight.docx" />
+    <None Include="notes\db\1.docx" />
+    <None Include="notes\Pluralsight.one" />
     <None Include="Pluralsight\notes\.net core\pluralsight .net core 2.x with 2017\.net core 2.x with 2017 pluralsight.docx" />
     <None Include="Pluralsight\notes\db\1.docx" />
     <None Include="Pluralsight\notes\Pluralsight.one" />
