@@ -109,9 +109,9 @@ As with (**)any war, there are winners and losers. That is also the case with(**
  -divides between the wealthy and the poor. 
  sensor faucet 
  during registration(DI) you can determine what the lifetime should be of the instance
-
-
-
+ rather than(**) specifying a calss, the UseStartup method is given the name of the assembly that it should use.
+ when you load configuration data from a platfrom-specific file, the settings override any existing data with the same names.
+ (****)the set of views to which a tag helper is applied depends on where the @addTagHelper expression is used.
 
 ****************************************老人与海****************************************
 

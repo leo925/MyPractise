@@ -17,6 +17,8 @@ namespace WebPage
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
+            
         }
 
         public IConfiguration Configuration { get; }
@@ -30,7 +32,11 @@ namespace WebPage
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
+            services.AddTransient<IMyService, MyService>();
+      
+            //services.AddTransient<IMyService>(p => {
 
+            //});
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
@@ -41,6 +47,7 @@ namespace WebPage
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
             }
             else
             {
@@ -51,7 +58,7 @@ namespace WebPage
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-
+   
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

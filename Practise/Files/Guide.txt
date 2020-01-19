@@ -1,7 +1,7 @@
-﻿* don't sell my current house, I like living here , and there's always a lot of trouble buying second-hand house
-* there's another 20 years when my son will considering buying a house, I don't need to worry things that far away
-* keep health, live longer, enjoy the life with family,take care of my wife and son focus on prgramming skill improvement.
-* attitude comes first, be optimistic,broad-minded(there are a lot of people in the world suffering),satisfied with current life, money/house is much less important
+﻿health and family are the most important, don't make myself into trouble by buying another bigger house
+keep learning tech with english, be skillful at both of them in order to have a better life/work
+be satisfied,optimistic,healthy, I am in a good situation now, pay only 3k for house a month and have savings now.
+as for big house, consider it when son goes to middle school
 
 
 Take study as my interest,hobby and mission.(if I want to work and live happily and easily)
@@ -65,8 +65,10 @@ that's enough
 defects: narrow minded, not persistent
 model:Lu zhi shun, he is really a good model I should follow, he is so strong and proficient at Kongfu but he is not arrogant, he always respects and admire others who are also good at KongFu
 
-
+novel rank: 
+english novel: http://novel.tingroom.com/
 C# english book download: http://www.allitebooks.org/pro-asp-net-core-mvc-2-7th-edition/
+   react and angulr with .net core : http://www.allitebooks.org/building-web-applications-with-visual-studio-2017/
 
 sql server 2012 key:
 
@@ -74,7 +76,7 @@ MICROSOFT SQL SERVER 2012 ENTERPRISE CORE 版（企业版）
 序列号：FH666-Y346V-7XFQ3-V69JM-RHW28
 
 chrome, google account: gylong@yeah.net ,   pppp: same as skype
-51job : abcabc123
+51job : abcabc123】=--
     //user name:zhihang1984 pwd: abc123 email  anz inquery
 
 	 交管:  id,  pwd: zaqxsw
@@ -238,23 +240,22 @@ Improving your listening skills takes time and a lot of focused listening but if
             mvc (controller and views) :just have time to learn now, don't practise
 			sql practise: curor, trigger, sp, ,  performance tuning
 			 
-========>
-  wedense day:
-          morning: jquery basic,  
-          after noon:
-
-          eveninging: sql practise, advanced sql , practise, 
 
 
-  thursday:
-          morning:  unity basic, and UT using unity
-          after noon:
-          eveninging: CLR, 
 
 
-  friday: 
-        pedning
 
+
+
+
+
+
+
+
+health and family are the most important, don't make myself into trouble by buying another bigger house
+keep learning tech with english, be skillful at both of them in order to have a better life/work
+be satisfied,optimistic,healthy, I am in a good situation now, pay only 3k for house a month and have savings now.
+知足者常乐,as for big house, consider it when son goes to middle school
 
 
 

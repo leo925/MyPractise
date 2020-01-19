@@ -26,24 +26,29 @@ namespace ASPCorePractise
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseStatusCodePages();
             }
 
-            app.Use(async (context,next) =>
-            {
-                logger.LogInformation("before second");
-                await context.Response.WriteAsync("Hello World!");
-                await next();
-                logger.LogInformation("after second");
-            });
+            //app.Use(async (context,next) =>
+            //{
+            //    logger.LogInformation("before second");
+            //    await context.Response.WriteAsync("Hello World!");
+            //    await next();
+            //    logger.LogInformation("after second");
+            //});
 
-            app.Run(async (context) =>
-            {
+            //app.Run(async (context) =>
+            //{
 
-                await context.Response.WriteAsync("second Hello World!");
+            //    await context.Response.WriteAsync("second Hello World!");
            
-            });
+            //});
+
+            var contentRootPath = env.ContentRootPath;
+            var webRoot = env.WebRootPath;
+
             app.UseMvc(routes => {
-                routes.MapRoute(name: "Default", template: "");
+                routes.MapRoute(name: "Default", template: "{controller=home}/{action=index}/{id?}");
             });//enough to set up the mvc middle ware
         }
     }
