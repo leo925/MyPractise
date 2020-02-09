@@ -12,7 +12,7 @@ namespace EFStudy.DataBaseContext
         public EFDatabaseContext(DbContextOptions<EFDatabaseContext> opts)
             : base(opts) { }
 
-        public DbSet<Product> Producs { get; set; }
+        public DbSet<Product> Products { get; set; }
 
     }
 }

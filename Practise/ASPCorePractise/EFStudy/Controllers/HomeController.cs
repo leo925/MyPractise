@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using EFStudy.Models;
 using EFStudy.DataBaseContext;
+using EFStudy.Repositories;
 
 namespace EFStudy.Controllers
 {
     public class HomeController : Controller
     {
-        private EFDatabaseContext context;
-        public HomeController(EFDatabaseContext ctx)
+        private IDataRepository repository;
+        public HomeController(IDataRepository repo)
         {
-            context = ctx;
+            repository = repo;
         }
         public IActionResult Index()
         {
-            var allProducts = context.Producs;
+            var allProducts = repository.GetProductsByPrice(25);
 
-            return View();
+            return View(allProducts);
         }
 
         public IActionResult About()
