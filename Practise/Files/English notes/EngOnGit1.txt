@@ -112,6 +112,10 @@ As with (**)any war, there are winners and losers. That is also the case with(**
  rather than(**) specifying a calss, the UseStartup method is given the name of the assembly that it should use.
  when you load configuration data from a platfrom-specific file, the settings override any existing data with the same names.
  (****)the set of views to which a tag helper is applied depends on where the @addTagHelper expression is used.
+ string interpolation  =>  string str= $ "{myFood} is so good"
+
+
+
 
 ****************************************老人与海****************************************
 

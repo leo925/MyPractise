@@ -98,6 +98,7 @@
     <Content Include="English notes\HarryPotter.txt" />
     <Content Include="English notes\queuing items\wordphrase.txt" />
     <Content Include="English notes\specialityEnglish\football.txt" />
+    <Content Include="English notes\Twilight.txt" />
     <Content Include="Guide.txt" />
     <Content Include="tech passages\a环境安装\silverlight安装失败.txt" />
     <Content Include="tech passages\DB SQL\50 advanced sql.txt" />
