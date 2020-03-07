@@ -41,7 +41,7 @@ SP= sp;
             var serv2 = this.SP.GetService(typeof(IMyService)) as IMyService;
             var other = new OtherClass(serv2);
             other.Show();
-            throw new Exception("test !");
+           // throw new Exception("test !");
 
             return View();
         }
