@@ -113,8 +113,13 @@ As with (**)any war, there are winners and losers. That is also the case with(**
  when you load configuration data from a platfrom-specific file, the settings override any existing data with the same names.
  (****)the set of views to which a tag helper is applied depends on where the @addTagHelper expression is used.
  string interpolation  =>  string str= $ "{myFood} is so good"
-
-
+ 1 em is the sizein pixels of the base fonts letter “M”
+ you would certainly like to obtain as high a price as possible whereas the purchaser would like to pay as little as possible.
+ --倒数:
+ the second to last:倒数第二   the second row to last
+ the last but one/two：倒数第二/三  we sit in the last row but 4 我们坐在倒数第五排。
+ to what folder we/it download the file, what will be the filename format which we download....
+ ones place, ones digit, tens place, tens digit.....
 
 
 ****************************************老人与海****************************************
