@@ -18,7 +18,7 @@ namespace WebPage
         {
             Configuration = configuration;
 
-            
+
         }
 
         public IConfiguration Configuration { get; }
@@ -33,7 +33,7 @@ namespace WebPage
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
             services.AddTransient<IMyService, MyService>();
-      
+
             //services.AddTransient<IMyService>(p => {
 
             //});
@@ -47,7 +47,7 @@ namespace WebPage
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                
+
             }
             else
             {
@@ -55,16 +55,19 @@ namespace WebPage
                 app.UseHsts();
             }
 
+            app.UseStatusCodePagesWithRedirects("/Home/Error");
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-   
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+
         }
     }
 }

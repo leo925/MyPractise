@@ -1,24 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Windows.Forms;
 
 namespace threed
 {
-    public partial class FormAnalyseNumber : Form
+    public class Analyzer
     {
-        public FormAnalyseNumber()
+        public static DataTable getDT()
         {
-            InitializeComponent();
+            DataTable dt = new DataTable();
+            dt.Columns.Add("index", typeof(int));
+            dt.Columns.Add("number");
+            dt.Columns.Add("count", typeof(int));
+
+            dt.Columns.Add("maxLeftout", typeof(int));
+            dt.Columns.Add("nowLeftout", typeof(int));
+            dt.Columns.Add("max-nowLeftout", typeof(int));
+            dt.Columns.Add("allLeftout");
+            return dt;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void M()
         {
-            DataTable dt = getDT(); 
+
+
+
+            DataTable dt = getDT();
 
             List<string> allNumberLIst = new List<string>();
             Random r = new Random();
@@ -54,7 +63,7 @@ namespace threed
                 foreach (DataRow dr in dtThreed.Rows)
                 {
                     nowLeftOut++;
-                  
+
                     if (dr["a"].ToString() + dr["b"].ToString() + dr["c"].ToString() == number)
                     {
                         count++;
@@ -83,33 +92,35 @@ namespace threed
                 }
                 string allLeftoutStr = "";
                 //sort  
-                    allLeftOut.Sort();
+                allLeftOut.Sort();
                 foreach (int lo in allLeftOut)
                 {
-                    allLeftoutStr += lo.ToString()+",";
+                    allLeftoutStr += lo.ToString() + ",";
                 }
 
                 dt.LoadDataRow(new object[] { index, number, count, maxLeftou, nowLeftOut, maxLeftou - nowLeftOut, allLeftoutStr }, true);
             }
 
-            this.dataGridView1.DataSource = dt;
+           // this.dataGridView1.DataSource = dt;
 
-           var sortedHundredLeftouts=  hundredLeftouts.OrderBy(h => h.Value).ToList();
+            var sortedHundredLeftouts = hundredLeftouts.OrderBy(h => h.Value).ToList();
             Console.Write(hundredLeftouts.Count);
+
+
+
         }
 
-        private DataTable getDT()
+        //exceelLevel：1: largest missing  2 means second largest missing
+        public void CalculateNumbers(int exceedLevel,int groupNumber)
         {
             DataTable dt = new DataTable();
-            dt.Columns.Add("index", typeof(int));
-            dt.Columns.Add("number");
-            dt.Columns.Add("count", typeof(int));
 
-            dt.Columns.Add("maxLeftout", typeof(int));
-            dt.Columns.Add("nowLeftout", typeof(int));
-            dt.Columns.Add("max-nowLeftout", typeof(int));
-            dt.Columns.Add("allLeftout");
-            return dt;
+            
+
         }
+
+        
+
+
     }
 }

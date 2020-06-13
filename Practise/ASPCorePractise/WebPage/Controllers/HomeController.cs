@@ -40,6 +40,7 @@ SP= sp;
             var testR = Serv.Show();
             var serv2 = this.SP.GetService(typeof(IMyService)) as IMyService;
             var other = new OtherClass(serv2);
+            throw new Exception("");
             other.Show();
            // throw new Exception("test !");
 

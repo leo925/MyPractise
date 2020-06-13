@@ -73,6 +73,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="common\Analyzer.cs" />
     <Compile Include="DataManage\FormImport.cs">
       <SubType>Form</SubType>
     </Compile>

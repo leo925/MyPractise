@@ -21,6 +21,8 @@ namespace threed.DataManage
         private void button1_Click(object sender, EventArgs e)
         {
             //https://www.55128.cn/zs/1_1.htm?startTerm=2018001&endTerm=2019001
+
+            //https://datachart.500.com/sd/history/history.shtml
             //2002001 526 073 0 1 1 3 1 1 1 7 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 1 1 1 1 1 3 1 1 1 1 1 1 10            
             string input = string.Empty;
             input = this.textBox1.Text.Trim() + Environment.NewLine;

@@ -4,7 +4,7 @@
     "inputFiles": [
       "wwwroot/js/site.js"
     ],
-    "minify": {"enabled": false}
+    "minify": {"enabled": true}
 
   }
 ]
