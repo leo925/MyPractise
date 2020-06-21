@@ -10,6 +10,8 @@ namespace ConsoleTest
         static void Main(string[] args)
         {
 
+            
+
             int v = 9;
 
             string str = v.ToString("000");

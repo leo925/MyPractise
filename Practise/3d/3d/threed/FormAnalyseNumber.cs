@@ -36,7 +36,9 @@ namespace threed
                     }
                 }
             }
+
             string sql = " select a,b,c,version from threed order by version asc ";
+            allNumberLIst.Sort();
             IDbConnection con = DataHelper.GetCon();
             DataTable dtThreed = DataHelper.ExecuteDataSet(con, sql, CommandType.Text).Tables[0];
             int nowLeftOut = 0;

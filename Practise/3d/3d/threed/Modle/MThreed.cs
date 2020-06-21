@@ -12,6 +12,13 @@ namespace threed.Modle
         public string b;
         public string c;
         public string version;
+  
+
+        public string MyProperty
+        {
+            get { return a + b + c; }
+        }
+
         public DateTime dt;
 
         private int count;

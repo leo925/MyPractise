@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
+using threed.Modle;
 
 namespace threed
 {
@@ -22,11 +23,9 @@ namespace threed
             return dt;
         }
 
-        public void M()
+        // IsReadData = false means retrieve data from simulating table
+        public DataTable RetrieveNumbers(string datatable=null)
         {
-
-
-
             DataTable dt = getDT();
 
             List<string> allNumberLIst = new List<string>();
@@ -45,7 +44,16 @@ namespace threed
                     }
                 }
             }
-            string sql = " select a,b,c,version from threed order by version asc ";
+
+            string sql = string.Empty;
+            if (string.IsNullOrEmpty(datatable))
+            {
+                sql = " select a,b,c,version from threed order by version asc ";
+            }
+            else
+            {
+                sql = string.Format(" select a,b,c,version from {0} order by version asc ", datatable);
+            }
             IDbConnection con = DataHelper.GetCon();
             DataTable dtThreed = DataHelper.ExecuteDataSet(con, sql, CommandType.Text).Tables[0];
             int nowLeftOut = 0;
@@ -105,17 +113,56 @@ namespace threed
 
             var sortedHundredLeftouts = hundredLeftouts.OrderBy(h => h.Value).ToList();
             Console.Write(hundredLeftouts.Count);
-
+            return dt;
 
 
         }
 
-        //exceelLevel：1: largest missing  2 means second largest missing
-        public void CalculateNumbers(int exceedLevel,int groupNumber)
+        //exceelLevel：1: means exceed largest missing , 2 means exceed second largest missing but not largest missing... etc.
+        public void ChooseNumbers(int exceedLevel,int groupNumber)
         {
-            DataTable dt = new DataTable();
+            DataTable dt = RetrieveNumbers();
 
-            
+            List<MThreed> chosenThreeds = Common.ConvertThreedModel(dt);
+            int lowerIndex = 0;
+            int upperIndex = 0;
+            //filter by exceedLevel
+            foreach (var threed in chosenThreeds)
+            {
+                bool match = true;
+               var allMissings= threed.AllMissings;
+                if (allMissings.Count < 1)
+                {
+                    continue;
+                }
+                var nowMissing = threed.NowMissing;
+                lowerIndex = allMissings.Count - exceedLevel -1 ;
+                upperIndex = allMissings.Count - exceedLevel ;
+
+                if (lowerIndex < 0 || upperIndex < 0)
+                {
+                    continue;
+                }
+
+                if (lowerIndex + 1 >= allMissings.Count)
+                {
+                    match = nowMissing >= allMissings[allMissings.Count - 1];
+                }
+                else
+                {
+                    match = nowMissing >= allMissings[lowerIndex] && nowMissing <= allMissings[upperIndex];
+                }
+                if (match)
+                {
+                    chosenThreeds.Add(threed);
+                }
+
+            }
+
+            chosenThreeds = chosenThreeds.OrderByDescending(t => t.Count).Take(groupNumber).ToList();
+
+
+
 
         }
 

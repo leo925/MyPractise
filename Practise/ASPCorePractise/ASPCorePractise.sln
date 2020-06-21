@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF", "EF", "{D8A54ED4-909F-4EC8-9FA6-0C0F8B9BF601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTestDbFirst", "WebTestDbFirst\WebTestDbFirst.csproj", "{289006ED-6068-4DD9-BE87-19428E016342}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTestDbFirst", "WebTestDbFirst\WebTestDbFirst.csproj", "{289006ED-6068-4DD9-BE87-19428E016342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMomentary", "WebMomentary\WebMomentary.csproj", "{3A937398-0097-486D-9361-50250244542D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{289006ED-6068-4DD9-BE87-19428E016342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{289006ED-6068-4DD9-BE87-19428E016342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{289006ED-6068-4DD9-BE87-19428E016342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A937398-0097-486D-9361-50250244542D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A937398-0097-486D-9361-50250244542D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A937398-0097-486D-9361-50250244542D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A937398-0097-486D-9361-50250244542D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

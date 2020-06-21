@@ -15,8 +15,13 @@ namespace threed
         public FormMain()
         {
             InitializeComponent();
+            Test();
         }
 
+        void Test() {
+            Analyzer a = new threed.Analyzer();
+           // a.ChooseNumbers(1, 30);
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             FormImport frm = new FormImport();
