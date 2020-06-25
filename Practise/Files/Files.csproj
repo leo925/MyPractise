@@ -58,6 +58,7 @@
     <None Include="notes\OneNote\temp.one" />
     <None Include="Pluralsight\Transcript\notes\.net core\pluralsight .net core 2.x with 2017\.net core 2.x with 2017 pluralsight.docx" />
     <None Include="Pluralsight\Transcript\What Every Developer Should Know About SQL Server Performance.docx" />
+    <None Include="tech passages\.netcore\ASP.NET Core 中间件%28StaticFiles%29的使用.docx" />
     <None Include="tech passages\DB SQL\CROSS APPLY 与 OUTER APPLY 连接查询.docx" />
     <None Include="tech passages\DB SQL\浅谈SQL Server事务与锁（上篇） .docx" />
     <None Include="tech passages\EF\# Code First 配置 %28一些命令和基础 %29.docx" />
@@ -81,7 +82,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pluralsight\Transcript\notes\db\" />
-    <Folder Include="tech passages\.netcore\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="bullshit.txt" />
