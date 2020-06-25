@@ -10,8 +10,10 @@ namespace WebMomentary.Controllers
 {
     public class HomeController : Controller
     {
+        [BindProperty(SupportsGet =true)]
+        public string TestBind { get; set; }
         public IActionResult Index()
-        {
+        { 
             return View();
         }
 
@@ -20,6 +22,7 @@ namespace WebMomentary.Controllers
             ViewData["Message"] = "Your application description page.";
 
             return View();
+
         }
 
         public IActionResult Contact()
