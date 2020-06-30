@@ -56,6 +56,7 @@
     <None Include="notes\OneNote\EF.one" />
     <None Include="notes\OneNote\study plan.one" />
     <None Include="notes\OneNote\temp.one" />
+    <None Include="Pluralsight\Transcript\ASP.NET Core Fundamentals.docx" />
     <None Include="Pluralsight\Transcript\notes\.net core\pluralsight .net core 2.x with 2017\.net core 2.x with 2017 pluralsight.docx" />
     <None Include="Pluralsight\Transcript\Understanding ASP.NET Core 2.x.docx" />
     <None Include="Pluralsight\Transcript\What Every Developer Should Know About SQL Server Performance.docx" />

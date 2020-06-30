@@ -70,6 +70,8 @@ english novel: http://novel.tingroom.com/
 C# english book download: http://www.allitebooks.org/pro-asp-net-core-mvc-2-7th-edition/
    react and angulr with .net core : http://www.allitebooks.org/building-web-applications-with-visual-studio-2017/
 
+   react starter:www.javascriptstuff.com/react-starter-projects/
+
 sql server 2012 key:
 
 MICROSOFT SQL SERVER 2012 ENTERPRISE CORE 版（企业版）

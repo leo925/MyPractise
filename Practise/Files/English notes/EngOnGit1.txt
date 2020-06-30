@@ -127,7 +127,9 @@ As with (**)any war, there are winners and losers. That is also the case with(**
  get only 2 days of work a week.
  live in a room of three storey building.=>I live in an apartment of 22 storey building.
  he helped his team to the top of its league
-
+ I have a broken link
+the default settings created by the project template that we used to create OdeToFood will only allow static files to 
+be served (***) from the file system if they live inside of this wwwroot folder
 
 
 
