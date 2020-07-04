@@ -12,7 +12,6 @@ const rootElement = document.getElementById('root');
 
 ReactDOM.render(
     <BrowserRouter basename={baseUrl}>
-        <h1> This is my page </h1>
     <App />
   </BrowserRouter>,
   rootElement);
