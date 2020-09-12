@@ -130,7 +130,21 @@ As with (**)any war, there are winners and losers. That is also the case with(**
  I have a broken link
 the default settings created by the project template that we used to create OdeToFood will only allow static files to 
 be served (***) from the file system if they live inside of this wwwroot folder
-
+note the backbone version is choppy,whereas the react version is smooth.
+this(a crib) is three months' rent.
+and don't forget you export default down here at the bottom.(react export command)
+Someone's stepbrother is the son of their stepfather or stepmother. 继兄; 继弟
+we are on a smaller island 2 miles offshore
+he will score the first goal now.
+my dad put you up to this?
+I will hire you at your twice pay here.
+why else would I be here/ what else would we be here for?
+rolling pass，ground pass滚地传球 slide tackle铲球
+I don't know what others thought of me,
+I was kneeling on both knees on the ground, supported on my hands, with my nose almost touching the earth
+The next day he cut out little pieces of wood for the music notes the same as he had for the letters.
+and how had he become what I saw him now in his old age?...
+Then I told her how Vitalis and I had been parted
 
 
 
