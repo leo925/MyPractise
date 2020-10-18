@@ -1,0 +1,7 @@
+﻿ in the second example the string includes quotation marks, and I don't have to escape them because the string is delimited by apostrophes
+ The first parameter to the slice method is the index of the first character you want to take,
+and the second parameter to the slice method is one greater than the index of the last character that you want to take.
+punctuation
+
+
+
