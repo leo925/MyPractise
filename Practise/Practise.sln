@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practise", "Practise\Practise.csproj", "{1939764A-E668-47C4-AA7C-5AFA2DB6EFE7}"
 EndProject
@@ -31,6 +31,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilverlightPractiseInfrastructure", "SilverlightPractiseInfrastructure\SilverlightPractiseInfrastructure.csproj", "{91B92B48-153C-419B-88C8-75FAACF7A49D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1", "Module1\Module1.csproj", "{80E0B00F-2D61-48FC-9E03-5BE67008268C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFPractise", "WPFPractise", "{7072C90A-B3A7-4DA5-B95D-9D2B6A40516A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfPractise", "WpfPractise\WpfPractise.csproj", "{ABBE7933-29E1-460B-999E-3D771A0BB949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{D0677768-0C98-4A11-BC18-053BDDC69E08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +92,14 @@ Global
 		{80E0B00F-2D61-48FC-9E03-5BE67008268C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E0B00F-2D61-48FC-9E03-5BE67008268C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E0B00F-2D61-48FC-9E03-5BE67008268C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBE7933-29E1-460B-999E-3D771A0BB949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBE7933-29E1-460B-999E-3D771A0BB949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBE7933-29E1-460B-999E-3D771A0BB949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBE7933-29E1-460B-999E-3D771A0BB949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0677768-0C98-4A11-BC18-053BDDC69E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0677768-0C98-4A11-BC18-053BDDC69E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0677768-0C98-4A11-BC18-053BDDC69E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0677768-0C98-4A11-BC18-053BDDC69E08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,5 +109,10 @@ Global
 		{F0BBB645-3C09-4C15-87C9-283582E636DD} = {1F9E8DC8-A305-4878-9DEA-344146C372E1}
 		{91B92B48-153C-419B-88C8-75FAACF7A49D} = {1F9E8DC8-A305-4878-9DEA-344146C372E1}
 		{80E0B00F-2D61-48FC-9E03-5BE67008268C} = {1F9E8DC8-A305-4878-9DEA-344146C372E1}
+		{ABBE7933-29E1-460B-999E-3D771A0BB949} = {7072C90A-B3A7-4DA5-B95D-9D2B6A40516A}
+		{D0677768-0C98-4A11-BC18-053BDDC69E08} = {7072C90A-B3A7-4DA5-B95D-9D2B6A40516A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3824985F-5A47-4BFF-8D05-F85AE62EEAA9}
 	EndGlobalSection
 EndGlobal
