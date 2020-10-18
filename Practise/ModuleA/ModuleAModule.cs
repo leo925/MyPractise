@@ -29,13 +29,12 @@ namespace ModuleA
             var view1 = containerProvider.Resolve<ViewA>();
             region.Add(view1);
 
-            var view2 = containerProvider.Resolve<ViewA>();
-            view2.Content = new TextBlock() {
-                Text= "hello from view 2"
-            };
-            region.Add(view2);
-
-            region.Activate(view2);
+            //var view2 = containerProvider.Resolve<ViewA>();
+            //view2.Content = new TextBlock() {
+            //    Text= "hello from view 2"
+            //};
+            //region.Add(view2);
+            //region.Activate(view2);
 
 
         }

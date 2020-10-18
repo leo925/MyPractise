@@ -1,7 +1,10 @@
 ﻿using ModuleA;
+using ModuleA.ViewModels;
+using ModuleA.Views;
 using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Modularity;
+using Prism.Mvvm;
 using System;
 using System.Windows;
 using WpfPractise.Views;
@@ -27,6 +30,23 @@ namespace WpfPractise
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
             moduleCatalog.AddModule<ModuleAModule>( InitializationMode.WhenAvailable);
+        }
+
+        protected override void ConfigureViewModelLocator()
+        {
+            /*
+            base.ConfigureViewModelLocator();
+            ViewModelLocationProvider.Register<ViewA, CustomVMConnectionViewModel>();
+            */
+
+            ViewModelLocationProvider.Register<ViewA>(()=>
+            {
+                return new CustomVMConnectionViewModel()
+                {
+                    Title = "Hello from factory"
+                };
+            });
+
         }
 
     }

@@ -7,17 +7,15 @@ using System.Threading.Tasks;
 
 namespace ModuleA.ViewModels
 {
-    public class ViewAViewModel : BindableBase
+    public class CustomVMConnectionViewModel:BindableBase
     {
-
-        private string _title = "Hello this is from view model.";
+        private string title= "this is from CustomVMConnectionViewModel";
 
         public string Title
         {
-            get { return _title; }
-            set { _title = value; }
+            get { return title; }
+            set { title = value; }
         }
 
-
     }
-} 
+}
