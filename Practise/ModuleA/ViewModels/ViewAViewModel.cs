@@ -11,14 +11,9 @@ namespace ModuleA.ViewModels
     public class ViewAViewModel : BindableBase
     {
         public ViewAViewModel() {
-            ClickCommand = new DelegateCommand(Click, CanClick);
+            ClickCommand = new DelegateCommand(Click).ObservesCanExecute(() => CanExecute);
         }
-
-        private bool CanClick()
-        {
-            return CanExecute;
-        }
-
+         
         private void Click()
         {
             this.Title = "you clicked me";
