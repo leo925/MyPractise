@@ -41,7 +41,7 @@ namespace WpfPractise
 
             ViewModelLocationProvider.Register<ViewA>(()=>
             {
-                return new CustomVMConnectionViewModel()
+                return new ViewAViewModel()
                 {
                     Title = "Hello from factory"
                 };

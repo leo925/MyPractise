@@ -9,7 +9,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
+        <StackPanel>
+            <CheckBox Content="Can Execute" IsChecked="{Binding CanExecute}"></CheckBox>
+            <Button Command="{Binding ClickCommand}">Click me</Button>
         <TextBlock Text="{Binding Title}" HorizontalAlignment="Center" VerticalAlignment="Center"
-                       FontSize="48"> </TextBlock>
+                       FontSize="48"> </TextBlock></StackPanel>
     </Grid>
 </UserControl>
