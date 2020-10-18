@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace ModuleA
 {
@@ -18,8 +19,25 @@ namespace ModuleA
         }
         public void OnInitialized(IContainerProvider containerProvider)
         {
-            _regionManager.RegisterViewWithRegion("ContentRegion", typeof
-                (ViewA));
+            /*view discovery
+            //discovery, with discovery , have no control over creating the view.
+            _regionManager.RegisterViewWithRegion("ContentRegion", typeof(ViewA));
+                */
+
+            //view injection
+            IRegion region = _regionManager.Regions["ContentRegion"];
+            var view1 = containerProvider.Resolve<ViewA>();
+            region.Add(view1);
+
+            var view2 = containerProvider.Resolve<ViewA>();
+            view2.Content = new TextBlock() {
+                Text= "hello from view 2"
+            };
+            region.Add(view2);
+
+            region.Activate(view2);
+
+
         }
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
