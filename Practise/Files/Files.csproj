@@ -53,9 +53,16 @@
     <None Include="notes\.net core\pluralsight .net core 2.x with 2017\.net core 2.x with 2017 pluralsight.docx" />
     <None Include="notes\db\1.docx" />
     <None Include="notes\OneNote\.net core.one" />
+    <None Include="notes\OneNote\bootstrap css.one" />
     <None Include="notes\OneNote\EF.one" />
+    <None Include="notes\OneNote\js\regular expression.one" />
+    <None Include="notes\OneNote\js\打开笔记本.onetoc2" />
+    <None Include="notes\OneNote\Ractjs.one" />
     <None Include="notes\OneNote\study plan.one" />
     <None Include="notes\OneNote\temp.one" />
+    <None Include="notes\OneNote\WPF and Prism.one" />
+    <None Include="notes\OneNote\打开笔记本.onetoc2" />
+    <None Include="notes\OneNote\新分区 1.one" />
     <None Include="Pluralsight\Transcript\ASP.NET Core Fundamentals.docx" />
     <None Include="Pluralsight\Transcript\notes\.net core\pluralsight .net core 2.x with 2017\.net core 2.x with 2017 pluralsight.docx" />
     <None Include="Pluralsight\Transcript\Understanding ASP.NET Core 2.x.docx" />
