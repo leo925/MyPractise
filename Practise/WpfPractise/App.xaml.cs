@@ -1,6 +1,9 @@
 ﻿using ModuleA;
 using ModuleA.ViewModels;
 using ModuleA.Views;
+using ModuleB;
+using ModuleB.ViewModels;
+using ModuleB.Views;
 using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Modularity;
@@ -24,12 +27,19 @@ namespace WpfPractise
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
+            //containerRegistry.RegisterSingleton<IClass, ClassA>();
 
+
+            ViewModelLocationProvider.Register<MessageInput, MessageInputViewModel>();
+
+            ViewModelLocationProvider.Register<MessageList, MessagesViewModel>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
         {
-            moduleCatalog.AddModule<ModuleAModule>( InitializationMode.WhenAvailable);
+            moduleCatalog.AddModule<ModuleAModule>(  );
+
+            moduleCatalog.AddModule<ModuleBModule>( );
         }
 
         protected override void ConfigureViewModelLocator()
@@ -39,13 +49,14 @@ namespace WpfPractise
             ViewModelLocationProvider.Register<ViewA, CustomVMConnectionViewModel>();
             */
 
-            ViewModelLocationProvider.Register<ViewA>(()=>
-            {
-                return new ViewAViewModel()
-                {
-                    Title = "Hello from factory"
-                };
-            });
+            //ViewModelLocationProvider.Register<MessageInput>(()=>
+            //{
+            //    return new MessageInputViewModel()
+            //    {
+                    
+            //    };
+            //});
+
 
         }
 

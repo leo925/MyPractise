@@ -4,6 +4,12 @@
         xmlns:local="clr-namespace:WpfPractise.Views"
         xmlns:prism="http://prismlibrary.com/">
     <Grid>
-        <ContentControl prism:RegionManager.RegionName="ContentRegion"></ContentControl>
+        <!--<ContentControl prism:RegionManager.RegionName="ContentRegion"></ContentControl>-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ContentControl prism:RegionManager.RegionName="MessageInputRegion"></ContentControl>
+        <ContentControl Grid.Column="1" prism:RegionManager.RegionName="MessageListRegion"></ContentControl>
     </Grid>
 </Window>

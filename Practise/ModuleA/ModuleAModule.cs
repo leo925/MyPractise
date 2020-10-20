@@ -24,10 +24,12 @@ namespace ModuleA
             _regionManager.RegisterViewWithRegion("ContentRegion", typeof(ViewA));
                 */
 
-            //view injection
-            IRegion region = _regionManager.Regions["ContentRegion"];
-            var view1 = containerProvider.Resolve<ViewA>();
-            region.Add(view1);
+            ////view injection
+            //IRegion region = _regionManager.Regions["MessageInputRegion"];
+            //var view1 = containerProvider.Resolve<MessageInput>();
+            //region.Add(view1);
+
+            _regionManager.RegisterViewWithRegion("MessageInputRegion", typeof(MessageInput));
 
             //var view2 = containerProvider.Resolve<ViewA>();
             //view2.Content = new TextBlock() {
