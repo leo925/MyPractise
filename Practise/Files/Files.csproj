@@ -54,6 +54,7 @@
     <None Include="notes\db\1.docx" />
     <None Include="notes\OneNote\.net core.one" />
     <None Include="notes\OneNote\bootstrap css.one" />
+    <None Include="notes\OneNote\bootstrap.one" />
     <None Include="notes\OneNote\EF.one" />
     <None Include="notes\OneNote\js\regular expression.one" />
     <None Include="notes\OneNote\js\打开笔记本.onetoc2" />

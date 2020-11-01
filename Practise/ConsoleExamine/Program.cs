@@ -121,6 +121,8 @@ namespace ConsoleExamine
         }
 
     }
+
+
 	//don't have a lot of time, sql , clr, 
 }
 

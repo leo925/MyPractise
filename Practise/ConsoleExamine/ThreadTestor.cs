@@ -7,6 +7,26 @@ using System.Threading.Tasks;
 
 namespace ConsoleExamine
 {
+
+
+    public class A
+    {void Test()
+        { }
+        public  int fib(int i)
+        {
+            if (i == 1 || i == 2)
+            {
+                return 1;
+            }
+            else
+            {
+                return i + fib(i);
+            }
+        }
+    }
+
+
+
     class ThreadTestor
     {
         private object obj = new object();
@@ -27,6 +47,12 @@ namespace ConsoleExamine
            var result=  del.BeginInvoke((o) => { }, null);
 
             Mutex m = new Mutex();
+
+
+            Task t = Task.Run(() => { });
+            t.ContinueWith(r => {
+                Console.WriteLine("good");
+            });
             
         }
 
