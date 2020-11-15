@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WebEFCorePractise.Models;
+using EFWeb.Models;
 
-namespace WebEFCorePractise.Controllers
+namespace EFWeb.Controllers
 {
     public class HomeController : Controller
     {

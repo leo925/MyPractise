@@ -1,6 +1,6 @@
 using System;
 
-namespace WebEFCorePractise.Models
+namespace EFWeb.Models
 {
     public class ErrorViewModel
     {
