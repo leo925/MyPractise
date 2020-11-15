@@ -48,6 +48,7 @@ namespace FirstAspNetCore
                 app.UseHsts();
             }
 
+            app.Use(MyMiddleWare);
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
@@ -58,6 +59,20 @@ namespace FirstAspNetCore
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+        }
+
+        private RequestDelegate MyMiddleWare(RequestDelegate arg)
+        {
+            //return async context =>
+            //{
+            //    await context.Response.WriteAsync("Hello, World!");
+            //};
+            return MiddleWareMethod;
+        }
+
+        private async Task MiddleWareMethod(HttpContext context)
+        {
+            await context.Response.WriteAsync("Hello, World!");
         }
     }
 }
