@@ -10,7 +10,7 @@ namespace BootstrapPractise.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult List()
         {
             return View();
         }

@@ -53,7 +53,7 @@ namespace BootstrapPractise
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=List}/{id?}");
             });
         }
     }
