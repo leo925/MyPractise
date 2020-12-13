@@ -76,10 +76,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EFPractise\EFPractise.csproj">
-      <Project>{cbe8d99c-eb71-4574-a824-71bc577b4310}</Project>
-      <Name>EFPractise</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Models\Models.csproj">
       <Project>{e308ba3c-56f9-4936-b5a6-a2224f609ea5}</Project>
       <Name>Models</Name>
