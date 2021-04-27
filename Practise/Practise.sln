@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30717.126
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practise", "Practise\Practise.csproj", "{1939764A-E668-47C4-AA7C-5AFA2DB6EFE7}"
 EndProject
@@ -52,11 +52,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BootstrapPractise", "Bootst
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FamilyExpense", "FamilyExpense", "{6A11713A-6F31-4C67-ACA2-EEFF132DD6B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseModels", "ExpenseModels\ExpenseModels.csproj", "{8CE2C532-768E-4DF8-B7FE-12A5D5DBA4A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseModels", "ExpenseModels\ExpenseModels.csproj", "{8CE2C532-768E-4DF8-B7FE-12A5D5DBA4A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseData", "ExpenseData\ExpenseData.csproj", "{6ECE85A6-0E10-4CEE-88F7-BFC1C10A37FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseData", "ExpenseData\ExpenseData.csproj", "{6ECE85A6-0E10-4CEE-88F7-BFC1C10A37FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseConsole", "ExpenseConsole\ExpenseConsole.csproj", "{60923D4D-BAFF-47E7-AA31-5278BC680229}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpenseConsole", "ExpenseConsole\ExpenseConsole.csproj", "{60923D4D-BAFF-47E7-AA31-5278BC680229}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TechItemExercise", "TechItemExercise", "{F348E26C-810F-4DE0-BAD3-A09E3E075AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppExercise", "WpfAppExercise\WpfAppExercise.csproj", "{AF4402AF-6588-4276-989F-08277BA3C85D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -144,6 +148,10 @@ Global
 		{60923D4D-BAFF-47E7-AA31-5278BC680229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60923D4D-BAFF-47E7-AA31-5278BC680229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60923D4D-BAFF-47E7-AA31-5278BC680229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4402AF-6588-4276-989F-08277BA3C85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4402AF-6588-4276-989F-08277BA3C85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4402AF-6588-4276-989F-08277BA3C85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4402AF-6588-4276-989F-08277BA3C85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +172,7 @@ Global
 		{8CE2C532-768E-4DF8-B7FE-12A5D5DBA4A3} = {6A11713A-6F31-4C67-ACA2-EEFF132DD6B6}
 		{6ECE85A6-0E10-4CEE-88F7-BFC1C10A37FF} = {6A11713A-6F31-4C67-ACA2-EEFF132DD6B6}
 		{60923D4D-BAFF-47E7-AA31-5278BC680229} = {6A11713A-6F31-4C67-ACA2-EEFF132DD6B6}
+		{AF4402AF-6588-4276-989F-08277BA3C85D} = {F348E26C-810F-4DE0-BAD3-A09E3E075AF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3824985F-5A47-4BFF-8D05-F85AE62EEAA9}

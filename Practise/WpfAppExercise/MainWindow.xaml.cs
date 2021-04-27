@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfAppExercise.exercises;
 
 namespace WpfAppExercise
 {
@@ -23,6 +24,20 @@ namespace WpfAppExercise
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ClrPractise1 p = new ClrPractise1();
+            try
+            {
+
+                p.DoFirstChanceException();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.StackTrace.ToString());
+            }
         }
     }
 }
