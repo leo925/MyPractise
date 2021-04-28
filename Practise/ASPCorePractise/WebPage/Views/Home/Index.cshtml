@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+   this is my page
+</div>
+<script type="text/javascript">
+
+    function Person(name) {
+        this.name = name;
+        this.display= function() {
+            Log(this.name);
+        }
+    }
+
+
+    
+
+    var p1 = Object.create(new Person("Jim"));  //new Person("jim");
+    p1.display();
+   // Log(p1.name);
+    var p2 = new Person("tom");
+    // Log(p2.name);
+    p2.display();
+
+    Log(p1 instanceof Person);
+
+
+
+    function Log(p) {
+
+        console.log(p);
+    }
+
+    
+</script>

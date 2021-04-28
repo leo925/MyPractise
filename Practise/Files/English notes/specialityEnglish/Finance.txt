@@ -1,0 +1,25 @@
+﻿future:When people trade in futures, they buy stocks and shares, commodities such as coffee or oil, 
+or foreign currency at a price that is agreed at the time of purchase for items which are delivered 
+some time in the future. 期货
+In finance, an option is a contract which gives the buyer (the owner or holder of the option) the right,
+but not the obligation, to buy or sell an underlying asset or instrument at a specified strike price prior 
+to or on a specified date.  
+strike price: In finance, the strike price (or exercise price) of an option is the fixed price at which 
+the owner of the option can buy (in the case of a call), or sell (in the case of a put), the underlying security or commodity.
+swap:In finance, a swap is a derivative contract in which one party exchanges or swaps
+是一种金融衍生品（也称为金融衍生工具）
+liquidity/liquid asset:assets in the form of cash (or easily convertible into cash)
+principal and interest本利，本金及利息
+equity financing(股权性融资): a company sells a protion of itself to an outside source.actually, it is selling shares of the company.
+share: a share is a nuit of ownership in a company.
+debt financing(债务融资):borrow some money from an outside source with the promise to repay the principal and interest.
+Securities and Exchange Commission （美）证券交易委员会
+An estate agent is someone who works for a company that sells houses and land for people. 房地产经纪人 ---real estate agent
+interest-bearing: 有息的
+present value, purchasing power, 
+In finance, maturity or maturity date refers to the final payment date of a loan or other financial instrument, 
+at which point the principal (and all remaining interest) is due to be paid.
+ A dividend is the part of a company's profits which is paid to people who own shares in the company. 股息
+
+
+

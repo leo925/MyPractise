@@ -1,0 +1,438 @@
+﻿field / pitch 足球场
+midfield 中场
+backfield 后场
+kickoff circle / center circle 中圈
+halfway line 中线
+touchline / sideline 边线
+goal line 球门线
+end line 底线
+penalty mark （点球）罚球点
+penalty area 禁区（罚球区）
+goal area 小禁区（球门区）
+球队称谓篇
+coach 教练
+head coach 主教练
+football player 足球运动员
+referee 裁判
+lineman 巡边员
+captain / leader 队长
+forward / striker 前锋
+midfielder 前卫
+left midfielder 左前卫
+right midfielder 右前卫
+attacking midfielder 攻击型前卫（前腰）
+defending midfielder 防守型前卫（后腰）
+center forward 中锋
+full back 后卫
+center back 中后卫
+left back 左后卫
+right back 右后卫
+sweeper 清道夫，拖后中卫
+goalkeeper / goalie 守门员
+cheer team 拉拉队
+足球技术篇
+kick-off 开球
+bicycle kick / overhead kick 倒钩球
+chest-high ball 半高球
+corner ball / corner 角球
+goal kick 球门球
+handball 手球
+header 头球
+penalty kick 点球
+place kick 定位球
+own goal 乌龙球
+hat-trick 帽子戏法
+free kick 任意球
+direct free kick 直接任意球
+indirect free kick 间接任意球
+stopping 停球
+chesting 胸部停球
+pass 传球
+short pass 短传
+long pass 长传
+cross pass 横传
+spot pass 球传到位
+consecutive passes 连续传球
+take a pass 接球
+triangular pass 三角传球
+flank pass 边线传球
+lobbing pass 高吊传球
+volley pass 凌空传球
+slide tackle 铲球
+rolling pass / ground pass 地滚球
+flying header 跳起顶球
+clearance kick 解围
+shoot 射门
+close-range shot 近射
+long shot 远射
+offside 越位
+throw-in 掷界外球
+block tackle 正面抢截
+body check 阻挡
+fair charge 合理冲撞
+diving header 鱼跃顶球
+dribbling 盘球，带球
+clean catching （守门员）接高球
+finger-tip save （守门员）托救球
+offside 越位
+deceptive movement 假动作
+break through 突破
+kick-out 踢出界
+足球战术篇
+set the pace 掌握进攻节奏
+ward off an assault 击退一次攻势
+break up an attack 破坏一次攻势
+disorganize the defence 搅乱防守
+total football 全攻全守足球战术
+open football 拉开的足球战术
+off-side trap 越位战术
+wing play 边锋战术
+time wasting tactics 拖延战术
+4-3-3 formation 433阵型
+4-4-2 formation 442阵型
+beat the offside trap 反越位成功
+foul 犯规
+technical foul 技术犯规
+break loose 摆脱
+control the midfield 控制中场
+set a wall 筑人墙
+close-marking defence 盯人防守
+比赛方式篇
+half-time interval 中场休息
+round robin 循环赛
+group round robin 小组循环赛
+extra time 加时赛
+elimination match 淘汰赛
+injury time 伤停补时
+golden goal / sudden death 金球制，突然死亡法
+eighth-final 八分之一决赛
+quarterfinal 四分之一决赛
+semi-final 半决赛
+final match 决赛
+preliminary match 预赛
+one-sided game 一边倒的比赛
+competition regulations 比赛条例
+disqualification 取消比赛资格
+match ban 禁赛命令
+doping test 药检
+draw / sortition 抽签
+send a player off 判罚出场
+red card 红牌
+yellow card 黄牌
+goal 球门，进球数
+draw 平局
+goal drought 进球荒
+ranking 排名（名次）
+ 本回答由提问者推荐
+ 17    评论 分享 举报 收起
+7218161asd 
+2008-04-04
+首发:First round
+欧洲足球赛事:
+European Championship; European Cup 欧洲杯(欧洲锦标赛)
+UEFA Champion League 欧洲冠军联赛
+The UEFA Cup 联盟杯
+Toto Cup托托杯
+UEFA Union of European Football Associations 欧洲足球联合会
+欧洲联赛:
+Italian Seria A 意大利甲级联赛
+Germany Bundes liga 德国甲级联赛
+France Le Chanpionnat 法国甲级联赛
+Spain La Liga ;Primera división de Liga,简称La Liga西班牙甲级联赛
+England Premiership英格兰超级联赛
+Eredivisie 荷兰甲级联赛
+Scottish Premier League 苏格兰超级联赛
+各国杯赛
+COPPA ITALIA 意大利杯
+DFB-Pokal 德国杯
+Copa del Rey 西班牙国王杯
+English Fa Cup Semi-Final 英格兰足总杯（FA: Football Association）
+足球用语：
+后卫: Back
+前卫: Midfielder
+前锋: Forward
+中锋: Striker
+自由人: libero
+中后卫: Center Back
+全能选手: utility player
+守门员: Goalkeeper, Goalie
+左(右)后卫: Left (Right) Back
+清道夫, 拖后中卫: Sweeper
+左(右)前卫: Left (Right) Midfielder
+攻击型前卫, 前腰: Attacking Midfielder
+防守型前卫, 后腰: Defending Midfielder
+足球: football, soccer
+足球场: field, pitch
+中场: midfield
+中圈: kickoff circle，center circle
+中线: halfway line
+边线: touchline
+底线: goal line
+（点球）发球点: penalty mark
+禁区: penalty area
+小禁区: goal area
+开球: Kick-off
+倒钩球: bicycle kick, overhead kick
+半高球: chest-high ball
+角球: corner ball, corner
+球门球: goal kick
+地面球: ground ball, grounder
+手触球: hand ball
+头球: header
+点球: penalty kick
+罚点球: spot kick
+罚任意球: free kick
+胸部停球: chesting
+连续传球: consecutive passes
+鱼跃顶球: diving header
+盘球，带球: dribbling
+（守门员）接高球: clean catching
+边线传球: flank pass
+高吊传球: high lobbing pass
+凌空传球: volley pass
+铲球: tackle
+地滚球: rolling pass, ground pass
+射门: shoot
+贴地射门: grazing shot
+近射: close-range shot
+远射: long drive
+未射中: mishit
+越位: offside
+传球: pass the ball
+接球: take a pass
+球传到位: spot pass
+拦截球: intercept
+掷界外球: throw-in
+红牌: red card
+黄牌 : yellow card
+正面抢截: block tackle
+阻挡: body check
+球门前混战: bullt
+合理冲撞: fair charge
+盯人防守: close-marking defence
+短传: close pass, short pass
+假动作: deceptive movement
+跃起争顶: flying headar
+解围: clearance kick
+摆脱防守: break loose
+搅乱防守: disorganize the defence
+筑人墙: set a wall
+全攻全守足球战术: total football
+拉开的足球战术 : open football
+越位战术: off-side trap
+边锋战术: wing play
+积极的抢射战术: shoot-on-sight tactics
+拖延战术: time wasting tactics
+433阵型: 4-3-3 formation
+442阵型: 4-4-2 formation
+进球荒: goal drought
+反越位成功: beat the offside trap
+判罚出场: send a player off
+中场休息: half time interval
+加时赛 : extra-time
+伤停补时: injury time
+掌握比赛节奏: set the pace
+控救技术: ball playing skill
+场地名称篇
+field / pitch 足球场
+midfield 中场
+backfield 后场
+kickoff circle / center circle 中圈
+halfway line 中线
+touchline / sideline 边线
+goal line 球门线
+end line 底线
+penalty mark （点球）罚球点
+penalty area 禁区（罚球区）
+goal area 小禁区（球门区）
+球队称谓篇
+coach 教练
+head coach 主教练
+football player 足球运动员
+referee 裁判
+lineman 巡边员
+captain / leader 队长
+forward / striker 前锋
+midfielder 前卫
+left midfielder 左前卫
+right midfielder 右前卫
+attacking midfielder 攻击型前卫（前腰）
+defending midfielder 防守型前卫（后腰）
+center forward 中锋
+full back 后卫
+center back 中后卫
+left back 左后卫
+right back 右后卫
+sweeper 清道夫，拖后中卫
+goalkeeper / goalie 守门员
+cheer team 拉拉队
+足球技术篇
+kick-off 开球
+bicycle kick / overhead kick 倒钩球
+chest-high ball 半高球
+corner ball / corner 角球
+goal kick 球门球
+handball 手球
+header 头球
+penalty kick 点球
+place kick 定位球
+own goal 乌龙球
+hat-trick 帽子戏法
+free kick 任意球
+direct free kick 直接任意球
+indirect free kick 间接任意球
+stopping 停球
+chesting 胸部停球
+pass 传球
+short pass 短传
+long pass 长传
+cross pass 横传
+spot pass 球传到位
+consecutive passes 连续传球
+take a pass 接球
+triangular pass 三角传球
+flank pass 边线传球
+lobbing pass 高吊传球
+volley pass 凌空传球
+slide tackle 铲球
+rolling pass / ground pass 地滚球
+flying header 跳起顶球
+clearance kick 解围
+shoot 射门
+close-range shot 近射
+long shot 远射
+offside 越位
+throw-in 掷界外球
+block tackle 正面抢截
+body check 阻挡
+fair charge 合理冲撞
+diving header 鱼跃顶球
+dribbling 盘球，带球
+clean catching （守门员）接高球
+finger-tip save （守门员）托救球
+offside 越位
+deceptive movement 假动作
+break through 突破
+kick-out 踢出界
+足球战术篇
+set the pace 掌握进攻节奏
+ward off an assault 击退一次攻势
+break up an attack 破坏一次攻势
+disorganize the defence 搅乱防守
+total football 全攻全守足球战术
+open football 拉开的足球战术
+off-side trap 越位战术
+wing play 边锋战术
+time wasting tactics 拖延战术
+4-3-3 formation 433阵型
+4-4-2 formation 442阵型
+beat the offside trap 反越位成功
+foul 犯规
+technical foul 技术犯规
+break loose 摆脱
+control the midfield 控制中场
+set a wall 筑人墙
+close-marking defence 盯人防守
+比赛方式篇
+half-time interval 中场休息
+round robin 循环赛
+group round robin 小组循环赛
+extra time 加时赛
+elimination match 淘汰赛
+injury time 伤停补时
+olden goal / sudden death 金球制，突然死亡法
+eighth-final 八分之一决赛
+quarterfinal 四分之一决赛
+semi-final 半决赛
+final match 决赛
+preliminary match 预赛
+one-sided game 一边倒的比赛
+competition regulations 比赛条例
+disqualification 取消比赛资格
+match ban 禁赛命令
+doping test 药检
+draw / sortition 抽签
+send a player off 判罚出场
+red card 红牌
+yellow card 黄牌
+goal 球门，进球数
+draw 平局
+goal drought 进球荒
+ranking 排名（名次）
+
+
+
+
+
+
+
+kick-off 开球
+bicycle kick,overhead kick 倒钩球
+chest-high ball 平胸球
+corner ball,corner 角球
+goal kick 球门球
+ground ball,grounder 地面球
+hand ball 手触球
+header 头球
+penalty kick 点球
+spot kick 罚点球
+free kick 罚任意球
+throw-in 掷界外球
+ball handling 控制球
+block tackle 正面抢截
+body check 身体阻挡
+bullt 球门前混战
+fair charge 合理冲撞
+chesting 胸部挡球
+close-marking defence 钉人防守
+close pass,short pass 短传
+consecutive passes 连续传球
+deceptive movement 假动作
+diving header 鱼跃顶球
+flying headar 跳起顶球
+dribbling 盘球
+finger-tip save （守门员）托救球
+clean catching （守门员）跳球抓好
+flank pass 边线传球
+high lobbing pass 高吊传球
+scissor pass 交叉传球
+volley pass 凌空传球
+triangular pass 三角传球
+rolling pass,ground pass 滚地传球
+slide tackle 铲球
+clearance kick 解除危险的球
+to shoot 射门
+grazing shot 贴地射门
+close-range shot 近射
+long drive 远射
+mis**t 未射中
+offside 越位
+to pass the ball 传球
+to take a pass 接球
+spot pass 球传到位
+to trap 脚底停球
+to intercept 截球
+to break through,to beat 带球过人
+to break loose 摆脱
+to control the midfield 控制中场
+to disorganize the defence 破坏防守
+to fall back 退回
+to set a wall 筑人墙
+to set the pace 掌握进攻节奏
+to ward off an assault 击退一次攻势
+to break up an attack 破坏一次攻势
+ball playing skill 控球技术
+total football 全攻全守足球战术
+open football 拉开的足球战术
+off-side trap 越位战术
+wing play 边锋战术
+shoot-on-sight tactics 积极的抢射战术
+time wasting tactics 拖延战术
+Brazilian formation 巴西阵式,4-2-4 阵式
+four backs system 四后卫制
+four-three-three formation 4-3-3 阵式
+four-two-four formation 4-2-4 阵式
+red card 红牌（表示判罚出场）
+yellow card 黄牌（表示警告）
+
+

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Models.ReaderModel>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Port)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConnectionStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ReaderType)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Port)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConnectionStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReaderType)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new
+               {
+                   id = item.Id
+               }) |
+                @Html.ActionLink("Reviews", "Index", "ReaderReview", new
+               {
+                   id = item.Id
+               }, null) |
+                @Html.ActionLink("Delete", "Delete", new
+               {
+                   id = item.Id
+               })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Models.ReaderModel>
+    <style>
+
+    </style>
+
+@{
+    ViewBag.Title = "readers List";
+    var firstReader = Model.FirstOrDefault();
+}
+
+<h2>@ViewBag.Title   </h2>
+
+<p>@Html.ActionLink("create new","Create")</p>
+
+@if (firstReader != null)
+{
+    <h3>this is the first reader</h3>
+    <span>@firstReader.Name</span>
+}
+
+
+<div>
+    @foreach (var item in Model)
+    {
+     @Html.Partial("_Reader",item)  
+    }
+</div>
+
+
+@section scripts  {
+
+<script>
+    $(document).ready(function () {
+        $(".divReaderItem").hover(function () {
+           
+            $(this).toggleClass("readerHover");
+        }).click(function () {
+            alert("click me:" + $(this).children("#hName").text());
+        });
+ 
+
+
+    });
+</script>
+
+    }

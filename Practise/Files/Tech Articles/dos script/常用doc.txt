@@ -1,0 +1,514 @@
+﻿常见dos命令总结 
+
+常用的内部命令有MD、CD、RD、DIR、PATH、COPY、TYPE、EDIT、REN、DEL、CLS、VER、DATE、TIME、PROMPT。
+常用的外部命令有DELTREE、FORMAT、DISKCOPY、LABEL、VOL、SYS、XCOPY、FC、ATTRIB、MEM、TREE。
+切换到其他盘符D：
+1．MD——建立子目录
+功能：创建新的子目录
+类型：内部命令ü
+格式：MD[盘符：][路径名]〈子目录名〉
+FOR 1：
+C:\>md y /*---建立y子目录---*/
+
+2．CD——改变当前目录
+功能：显示当前目录ü
+类型：内部命令ü
+格式：CD[盘符：][路径名][子目录名]
+说明：CD命令不能改变当前所在的盘，CD..退回到上一级目录，CD\表示返回到当前盘的目录下，CD无参数时显示当前目录名。
+FOR 2：
+C:\>cd y /*---显示当前目录y---*/
+
+3．RD——删除子目录命令
+功能：从指定的磁盘删除了目录。
+类型：内部命令ü
+格式：RD[盘符：][路径名][子目录名]
+FOR 3：
+C:\>rd y
+
+4．DIR——显示磁盘目录命令
+功能：显示磁盘目录的内容。
+类型：内部命令ü
+格式：DIR [盘符][路径][/P][/W]
+FOR 4：
+C:\>dir y
+
+5．PATH——路径设置命令
+功能：设备可执行文件的搜索路径，只对文件有效。
+类型：内部命令ü
+格式：PATH[盘符1]目录[路径名1]{[；盘符2：]，〈目录路径名2〉…}
+FOR 5：
+C:\>path
+PATH=C:\WINDOWS;C:\WINDOWS\COMMAND;C:\PROGRAMFILES\MTS
+6．COPY文件复制命令
+ü 功能：拷贝一个或多个文件到指定盘上。
+类型：内部命令ü
+格式：COPYü [源盘][路径]〈源文件名〉[目标盘][路径][目标文件名]
+FOR 6_1：
+C:\>copy yyy.txt yyy
+1 file(s) copied
+C:\yyy>dir yyy
+YYY TXT 8 11-23-03 19:21 /*---现在用DIR命令查看复制的情况---*/
+说明： 如果是将多个文件复制到一个新的文件，命令是这样的COPY [源盘][路径]〈源文件A〉+[源盘][路径]〈源文件B〉[目标盘][路径][目标文件名]
+FOR 6_2：
+C:\>copy x.txt+y.txt xy.t
+x.txt
+y.txt
+1 file(s) copied
+
+7．TYPE——显示文件内容命令
+功能：显示ASCII码文件的内容。ü
+类型：内部命令。ü
+ü 格式：TYPE[盘符：][路径]〈文件名〉
+FOR 7：
+C:\>trpe yyy.txt /*---假设C盘目录下存在yyy.txt文件---*/
+
+8．EDIT——编辑文件内容命令
+1.功能：编辑ASCII文件的内容，也可建立一个新文件。
+2.类型：内部命令。
+3. EDIT[盘符：][路径]〈文件名〉
+说明： EDIT即可以编辑ASCII文件的内容，也可以新建立一个文件，他们的扩展名命名方式也很灵活，比如.txt、.bat,甚至可以编辑.c、.bas的格式。
+FOR 8_1：
+C:\>edit /*进入编辑模式*/
+FOR 8_2：
+C:\>edit yyy.txt /*---编辑yyy.txt文件的内容，如果要选择支持中文格式，应该安装UCDOS---*/
+
+9．REN——文件改名命令
+ü 功能：更改文件名称
+类型：内部命令ü
+格式：REN[盘符：][路径]〈旧文件名〉〈新文件名〉ü
+FOR 9：
+C:\>ren yyy.txt cly.txt
+
+10．DEL——删除文件命令
+功能：删除指定的文件。ü
+类型：内部命令ü
+ü 格式：DEL[盘符：][路径]〈文件名〉[/P]
+说明：选用/P参数，系统在删除前询问是否真要删除该文件，若不使用这个参数，则自动删除。
+
+11．CLS——清屏幕命令
+ü 功能：清除屏幕上的所有显示，光标置于屏幕左上角。
+类型：内部命令ü
+格式：CLSü
+FOR 11：
+C:\>CLS
+
+12．VER查看系统版本号命令
+功能：显示当前系统版本号ü
+类型：内部命令ü
+ü 格式：VER
+FOR 12：
+C:\>VER
+Windows 98 [Version 4.10.2222] /*---当前系统的版本号---*/
+
+13．DATA日期设置命令
+功能：设置或显示系统日期。ü
+类型：内部命令ü
+ü 格式：DATE[mm—dd—yy]
+FOR 13：
+C:\>DATE
+Current date is Sun 11-23-2
+Enter new date (mm-dd-yy): /*---提示你输入新的日期---*/
+
+14．TIME系统时钟设置命令
+功能：设置或显示系统时期。ü
+类型：内部命令ü
+ü 格式：TIME[hh：mm：ss：xx]
+FOR 14：
+C:\>time
+Current time is 22:49:28.81
+Enter new time:
+
+15．PROMPT：更改命令提示符
+ü 功能：改变DOS系统提示符的风格。
+补充：
+1. dir 
+dir是英文单词directory(目录）的缩写，主要用来显示一个目录下的文件和子目录。 
+[格式] dir [盘符][路径] 
+2.MD--建立目录 
+它的格式为"MD [盘符][路径]"，例如"MD TEMP"。 
+3.RD--删除目录 
+格式为"RD [盘符][路径]"。 
+4.CD--进入指定目录 
+格式为" CD [路径]"，例如"CD HAPPY 
+5.COPY--拷贝文件 
+格式为"COPY [源目录或文件] [目的目录或文件 
+6.DEL--删除文件 
+格式为"DEL [盘符][路径][文件名] [参数]" 
+7.REN--改名 
+格式为"REN [原名] [现名] 
+8.TYPE--显示文本文件 
+格式为"TYPE [文件名]" 
+9.discopy--磁盘复制 
+[格式] diskcopy 源驱动器名 目的驱动器名 
+10.deltree--删除目录树 
+[格式] [C:][path]DELTREE [C1:][path1] [[C2:][path2] […]] 
+11. mem--查看你的计算机内存有多少，以及内存的使用情况。 
+[格式] 直接键入mem命令 
+12.chkdsk--检查你的磁盘的使用情况。 
+[格式] chkdsk 磁盘名 
+13.cls--清除显示器屏幕上的内容，使DOS提示符到屏幕左上角。 
+[格式] cls 
+14.time--显示和设置DOS的系统时间 
+[格式] time [hh[:mm[:ss[.cc]]] 
+15.FORMAT（Format.COM）--格式化命令 
+格式为"FORMAT [盘符] [参数]"，例如："FORMAT A: /S"。它有两个常见的参数： 
+/Q：进行快速格式化； 
+/S：完成格式化，并将系统引导文件拷贝到该磁盘。 
+16.FDISK（Fdisk.EXE）--分区命令
+uname 显示版本信息（同win2K的 ver） 
+dir 显示当前目录文件,ls -al 显示包括隐藏文件（同win2K的 dir） 
+pwd 查询当前所在的目录位置 
+cd cd　..回到上一层目录，注意cd 与..之间有空格。cd　/返回到根目录。 
+cat 文件名 查看文件内容 
+cat >abc.txt 往abc.txt文件中写上内容。 
+more 文件名 以一页一页的方式显示一个文本文件。 
+cp 复制文件 
+mv 移动文件 
+rm 文件名 删除文件，rm -a 目录名删除目录及子目录 
+mkdir 目录名 建立目录 
+rmdir 删除子目录，目录内没有文档。 
+chmod 设定档案或目录的存取权限 
+grep 在档案中查找字符串 
+diff 档案文件比较 
+find 档案搜寻 
+date 现在的日期、时间 
+who 查询目前和你使用同一台机器的人以及Login时间地点 
+w 查询目前上机者的详细资料 
+whoami 查看自己的帐号名称 
+groups 查看某人的Group 
+passwd 更改密码 
+history 查看自己下过的命令 
+ps 显示进程状态 
+kill 停止某进程 
+gcc 黑客通常用它来编译C语言写的文件 
+su 权限转换为指定使用者 
+telnet IP telnet连接对方主机（同win2K），当出现bash$时就说明连接成功。 
+ftp ftp连接上某服务器（同win2K）
+网络命令大全 
+compmgmt.msc计 算机管理 
+net stop messenger 停止信使服务 
+conf 启动netmeeting 
+dvdplay DVD播放器 
+charmap 启动字符映射表 
+diskmgmt.msc 磁盘管理实用程序 
+calc 启动计算器 
+dfrg.msc 磁盘碎片整理程序 
+chkdsk.exe Chkdsk磁盘检查 
+devmgmt.msc 设备管理器 
+regsvr32 /u *.dll 停止dll文件运行 
+drwtsn32 系统医生 
+dxdiag 检查DirectX信息 
+regedt32 注册表编辑器 
+Msconfig.exe 系统配置实用程序 
+rsop.msc 组策略结果集 
+mem.exe 显示内存使用情况 
+regedit.exe 注册表 
+winchat XP自带局域网聊天 
+progman 程序管理器 
+winmsd 系统信息 
+perfmon.msc 计算机性能监测程序 
+winver 检查Windows版本 
+sfc /scannow 扫描错误并复原 
+taskmgr 任务管理器（2000／xp／2003） 
+gpedit.msc 组策略 
+sndrec32 录音机 
+Nslookup IP地址侦测器 
+explorer 打开资源管理器 
+logoff 注销命令 
+tsshutdn 60秒倒计时关机命令 
+lusrmgr.msc 本机用户和组 
+services.msc 本地服务设置 
+oobe/msoobe /a 检查XP是否激活 
+notepad 打开记事本 
+cleanmgr 垃圾整理 
+net start messenger 开始信使服务 
+
+
+windows运行命令全集 
+
+
+winver检查Windows版本 
+dxdiag检查DirectX信息 
+mem.exe显示内存使用情况 
+Sndvol32音量控制程序 
+sfc.exe系统文件检查器 
+gpedit.msc 组策略 
+regedit.exe 注册表 
+Msconfig.exe 系统配置实用程序 
+cmd.exe CMD命令提示符 
+chkdsk.exe Chkdsk磁盘检查 
+mem.exe显示内存使用情况 
+gpedit.msc 组策略 
+regedit.exe 注册表 
+Msconfig.exe 系统配置实用程序 
+cmd.exe CMD命令提示符 
+services.msc 服务 
+lusrmgr.msc 本地账户管理 
+drwtsn32 系统医生 
+cleanmgr 垃圾整理 
+iexpress 木马捆绑工具，系统自带 
+mmc 控制台 
+dcpromo 活动目录安装 
+ntbackup 系统备份和还原 
+rononce -p 15秒关机 
+taskmgr 任务管理器 
+conf 启动netmeeting 
+devmgmt.msc 设备管理器 
+diskmgmt.msc NT的磁盘管理器 
+compmgmt.msc 计算机管理 
+winchat 局域网聊天 
+dvdplay DVD播放器 
+mplayer2 简易widnows media player 
+mspaint 画图板 
+nslookup 网络管理的工具 
+syskey 系统加密，一旦加密就不能解开，保护windows xp系统的双重密码 
+wupdmgr WIDNOWS UPDATE 
+Clipbrd 剪贴板查看器 
+Odbcad32 ODBC数据源管理器 
+Nslookup IP地址侦测器
+CMD命令大全
+有关某个命令的详细信息，请键入 HELP 命令名
+
+
+XP.CMD命令大全
+
+
+有关某个命令的详细信息，请键入 HELP 命令名
+ASSOC 显示或修改文件扩展名关联。
+AT 计划在计算机上运行的命令和程序。
+ATTRIB 显示或更改文件属性。
+BREAK 设置或清除扩展式 CTRL+C 检查。
+CACLS 显示或修改文件的访问控制列表(ACLs)。
+CALL 从另一个批处理程序调用这一个。
+CD 显示当前目录的名称或将其更改。
+CHCP 显示或设置活动代码页数。
+CHDIR 显示当前目录的名称或将其更改。
+CHKDSK 检查磁盘并显示状态报告。
+CHKNTFS 显示或修改启动时间磁盘检查。
+CLS 清除屏幕。
+CMD 打开另一个 Windows 命令解释程序窗口。
+COLOR 设置默认控制台前景和背景颜色。
+COMP 比较两个或两套文件的内容。
+COMPACT 显示或更改 NTFS 分区上文件的压缩。
+CONVERT 将 FAT 卷转换成 NTFS。您不能转换
+当前驱动器。
+COPY 将至少一个文件复制到另一个位置。
+DATE 显示或设置日期。
+DEL 删除至少一个文件。
+DIR 显示一个目录中的文件和子目录。
+DISKCOMP 比较两个软盘的内容。
+DISKCOPY 将一个软盘的内容复制到另一个软盘。
+DOSKEY 编辑命令行、调用 Windows 命令并创建宏。
+ECHO 显示消息，或将命令回显打开或关上。
+ENDLOCAL 结束批文件中环境更改的本地化。
+ERASE 删除至少一个文件。
+EXIT 退出 CMD.EXE 程序(命令解释程序)。
+FC 比较两个或两套文件，并显示
+不同处。
+FIND 在文件中搜索文字字符串。
+FINDSTR 在文件中搜索字符串。
+FOR 为一套文件中的每个文件运行一个指定的命令。
+FORMAT 格式化磁盘，以便跟 Windows 使用。
+FTYPE 显示或修改用于文件扩展名关联的文件类型。
+GOTO 将 Windows 命令解释程序指向批处理程序
+中某个标明的行。
+GRAFTABL 启用 Windows 来以图像模式显示
+扩展字符集。
+HELP 提供 Windows 命令的帮助信息。
+IF 执行批处理程序中的条件性处理。
+LABEL 创建、更改或删除磁盘的卷标。
+MD 创建目录。
+MKDIR 创建目录。
+MODE 配置系统设备。
+MORE 一次显示一个结果屏幕。
+MOVE 将文件从一个目录移到另一个目录。
+PATH 显示或设置可执行文件的搜索路径。
+PAUSE 暂停批文件的处理并显示消息。
+POPD 还原 PUSHD 保存的当前目录的上一个值。
+PRINT 打印文本文件。
+PROMPT 更改 Windows 命令提示符。
+PUSHD 保存当前目录，然后对其进行更改。
+RD 删除目录。
+RECOVER 从有问题的磁盘恢复可读信息。
+REM 记录批文件或 CONFIG.SYS 中的注释。
+REN 重命名文件。
+RENAME 重命名文件。
+REPLACE 替换文件。
+RMDIR 删除目录。
+SET 显示、设置或删除 Windows 环境变量。
+SETLOCAL 开始批文件中环境更改的本地化。
+SHIFT 更换批文件中可替换参数的位置。
+SORT 对输入进行分类。
+START 启动另一个窗口来运行指定的程序或命令。
+SUBST 将路径跟一个驱动器号关联。
+TIME 显示或设置系统时间。
+TITLE 设置 CMD.EXE 会话的窗口标题。
+TREE 以图形模式显示驱动器或路径的目录结构。
+TYPE 显示文本文件的内容。
+VER 显示 Windows 版本。
+VERIFY 告诉 Windows 是否验证文件是否已正确
+写入磁盘。
+VOL 显示磁盘卷标和序列号。
+XCOPY 复制文件和目录树。
+
+
+appwiz.cpl------------添加删除程序
+
+control userpasswords2--------用户帐户设置
+
+cleanmgr-------垃圾整理
+
+CMD--------------命令提示符可以当作是 Windows 的一个附件，Ping，Convert 这些不能在图形环境下 使用的功能要借助它来完成。
+
+cmd------jview察看Java虚拟机版本。
+
+
+command.com------调用的则是系统内置的 NTVDM，一个 DOS虚拟机。它完全是一个类似 Virtual PC 的 虚拟环境，和系统本身联系不大。当我们在命令提示符下运行 DOS 程序时，实际上也 是自动转移到 NTVDM虚拟机下，和 CMD 本身没什么关系。
+
+
+calc-----------启动计算器
+
+chkdsk.exe-----Chkdsk磁盘检查
+
+compmgmt.msc---计算机管理
+
+conf-----------启动 netmeeting
+
+control userpasswords2-----User Account 权限设置
+
+devmgmt.msc--- 设备管理器
+
+diskmgmt.msc---磁盘管理实用程序
+
+dfrg.msc-------磁盘碎片整理程序
+
+drwtsn32------ 系统医生
+
+dvdplay--------启动Media Player
+
+dxdiag-----------DirectX Diagnostic Tool
+
+gpedit.msc-------组策略编辑器
+
+gpupdate /target:computer /force 强制刷新组策略
+
+eventvwr.exe-----事件查看器
+
+explorer-------打开资源管理器
+
+logoff---------注销命令
+
+lusrmgr.msc----本机用户和组
+
+msinfo32---------系统信息
+
+msconfig---------系统配置实用程序
+
+net start (servicename)----启动该服务
+
+net stop (servicename)-----停止该服务
+
+notepad--------打开记事本
+
+nusrmgr.cpl-------同control userpasswords，打开用户帐户控制面板
+
+Nslookup-------IP地址侦测器
+
+oobe/msoobe /a----检查XP是否激活
+
+perfmon.msc----计算机性能监测程序
+
+progman--------程序管理器
+
+regedit----------注册表编辑器
+
+regedt32-------注册表编辑器
+
+regsvr32 /u *.dll----停止dll文件运行
+
+route print------查看路由表 
+
+rononce -p ----15秒关机
+
+rsop.msc-------组策略结果集
+
+rundll32.exe rundll32.exe %Systemroot%System32shimgvw.dll,ImageView_Fullscreen----启动一个空白的Windows 图片和传真查看器
+
+secpol.msc--------本地安全策略
+
+services.msc---本地服务设置
+
+sfc /scannow-----启动系统文件检查器
+
+sndrec32-------录音机
+
+taskmgr-----任务管理器（适用于2000／xp／2003）
+
+tsshutdn-------60秒倒计时关机命令
+
+winchat--------XP自带局域网聊天
+
+winmsd---------系统信息
+
+winver-----显示About Windows 窗口
+
+wupdmgr-----------Windows Update
+注册表
+什么是注册表？ 
+从Windows 95开始，Microsoft在Windows中引入了注册表（英文为REGISTRY）的概念（实际上原来在Windows NT中已有此概念）。注册表是Windows 95及Windows 98的核心数据库，表中存放着各种参数，直接控制着Windows的启动、硬件驱动程序的装载以及一些Windows应用程序运行的正常与否，如果该注册表由于鞭种原因受到了破坏，轻者使Windows的启动过程出现异常，重者可能会导致整个Windows系统的完全瘫痪。因此正确地认识、修改、及时地备份以及有问题时恢复注册表，对Windows用户来说就显得非常重要了。 
+
+★如何打开注册表？（在修复注册表前请备份） 
+点“开始”→运行→输入“regedit”→确定 
+
+★一、注册表的结构划分及相互关系 
+WINDOWS的注册表有六大根键，相当于一个硬盘被分成了六个分区。 
+在“运行”对话框中输入RegEdit，然后单击“确定”按钮，则可以运行注册表编辑器。 
+
+Windows 98中文版的注册表Registry(System.dat、User.dat、Config.pol)的数据组织结构。 
+注册表的根键共六个。这些根键都是大写的,并以HKEY_为前缀;这种命令约定是以Win32 API的Registry函数的关键字的符号变量为基础的。 
+虽然在注册表中，六个根键看上去处于一种并列的地位，彼此毫无关系。但事实上，HKEY_CLASSES_ROOT和HKEY_CURRENT_CONFIG中存放的信息都是HKEY_LOCAL_MACHINE中存放的信息的一部分，而HKEY_CURRENT_USER中存放的信息只是HKEY_USERS存放的信息的一部分。 
+HKEY_LOCAL_MACHINE包括HKEY_CLASSES_ROOT和HKEY_CURRENT_USER中所有的信息。在每次系统启动后，系统就映射出HKEY_CURRENT_USER中的信息，使得用户可以查看和编辑其中的信息。 
+实际上，HKEY_LOCAL_MACHINE\SOFTWARE\Classes就是HKEY_CLASSES_ROOT，为了用户便于查看和编辑，系统专门把它作为一个根键。同理，HKEY_CURRENT_CONFIG\SY-STEM\Current Control就是HKEY_LOCAL_MACHINE\SYSTEM\Current Control。 
+HKEY_USERS中保存了默认用户和当前登录用户的用户信息。HKEY_CURRENT_USER中保存了当前登录用户的用户信息。 
+HKEY_DYN_DATA保存了系统运行时的动态数据，它反映出系统的当前状态，在每次运行时都是不一样的，即便是在同一台机器上。 
+根据上面的分析，注册表中的信息可以分为HKEY_LOCAL_MACHINE和HKEY_USERS两大类，这两大类的详细内容请看后面的介绍。 
+
+★二、六大根键的作用 
+在注册表中，所有的数据都是通过一种树状结构以键和子键的方式组织起来，十分类似于目录结构。每个键都包含了一组特定的信息，每个键的键名都是 和它所包含的信息相关的。如果这个键包含子键，则在注册表编辑器窗口中代表这个键的文件夹的左边将有“＋”符号，以表示在这个文件夹中有更多的内容。如果这个文件夹被用户打开了，那么这个“＋”就会变成“－”。 
+
+1.HKEY_USERS 
+该根键保存了存放在本地计算机口令列表中的用户标识和密码列表。每个用户的预配置信息都存储在HKEY_USERS根键中。HKEY_USERS是远程计算机中访问的根键之一。 
+
+2.HKEY_CURRENT_USER 
+该根键包含本地工作站中存放的当前登录的用户信息,包括用户登录用户名和暂存的密码(注：此密码在输入时是隐藏的)。用户登录Windows 98时，其信息从HKEY_USERS中相应的项拷贝到HKEY_CURRENT_USER中。 
+
+3.HKEY_CURRENT_CONFIG 
+该根键存放着定义当前用户桌面配置(如显示器等)的数据,最后使用的文档列表（MRU）和其他有关当前用户的Windows 98中文版的安装的信息。图5为HKEY_CURRENT_CONFIG子关键字之间的连接情况。 
+
+4.HKEY_CLASSES_ROOT 
+根据在Windows 98中文版中安装的应用程序的扩展名,该根键指明其文件类型的名称。 
+在第一次安装Windows 98中文版时,RTF(Rich Text format)文件与写字板(WordPad)&127;联系起来,但在以后安装了中文Word 6.0后，双击一个RTF文件时，将自动激活Word。存放在SYSTEM.DAT中的HKEY_CLASSES_ROOT，将替代WIN.INI文件中的[Extensions]&127;小节中的设置项,它把应用程序与文件扩展名联系起来,它也替代了Windows 3.x中的Reg.dat文件中的相似的设置项。 
+
+5.HKEY_LOCAL_MACHINE 
+该根键存放本地计算机硬件数据,此根键下的子关键字包括在SYSTEM.DAT中,用来提供HKEY_LOCAL_MACHINE所需的信息,或者在远程计算机中可访问的一组键中。 
+该根键中的许多子键与System.ini文件中设置项类似。图7显示了HKEY_LOCAL_MACHINE根键下的各个子键之间的情况。 
+
+6.HKEY_DYN_DATA 
+该根键存放了系统在运行时动态数据，此数据在每次显示时都是变化的，因此，此根键下的信息没有放在注册表中。图8显示了HKEY_DYN_DATA根键下的各个子键的情况。 
+
+★三、注册表部分重要内容 
+注册表是一个大型数据库Registry。要详细地分析该数据库，不是一两页就能介绍完。我曾经用了半年多时间分析此数据库结构。下面只介绍部分重要内容。 
+
+(一)HKEY_CLASS_ROOT 
+1.HKEY_CLASS_ROOT/Paint.Pricture/DefaultIcon双击窗口右侧的默认字符串，在打开的对话框中删除原来的“键值”，输入%1。重新启动后，在“我的电脑”中打开Windows目录，选择“大图标”，然后你看到的Bmp文件的图标再也不是千篇一律的MSPAINT图标了，而是每个Bmp文件的略图（前提是未安装ACDSee等看图软件）。 
+
+(二)HKEY_CURRENT_USER 
+1.HKEY_CURRENT_USER\Control Panel\Desktop 中新建串值名MenuShowDelay=0 可使“开始”菜单中子菜单的弹出速度提高。 
+2.在HKEY_CURRENT_USER\Control Panel\Deskt-op\WindowsMeterics中新建串值名MinAnimate，值为1启动动画效果开关窗口，值为0取消动画效果。 
+
+（三） HKEY_LOCAL_MACHINE 
+1.HKEY_LOCAL_MACHINE\software\microsoft\windows\currentVersion\explorer\user shell folders 保存个人文件夹、收藏夹的路径。 
+
+2.HKEY_LOCAL_MACHINE\system\currentControl-Set\control\keyboard Layouts 保存键盘使用的语言以及各种中文输入法。 
+
+3.HKEY_LOCAL_MACHINE\software\microsoft\windows\currentVersion\uninstall 保存已安装的Windows应用程序卸载信息

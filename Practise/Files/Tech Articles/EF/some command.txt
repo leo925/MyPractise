@@ -1,0 +1,22 @@
+﻿
+
+Enable-Migrations -Force(if existing, and overwrite) -ContextTypeName MyPractiseDb   =>
+
+Update-Database -Verbose  =>改变db schema
+
+Add-Migration MyPractiseDb   =>添加 initalCreate  file under migration folder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

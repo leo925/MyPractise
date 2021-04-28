@@ -13,6 +13,14 @@ namespace Practise
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute("cuisine", "cuisine/{name}",
+                new
+                {
+                    controller = "Cuisine",//controller(field name) is case insensitive, so is the value of field ("Cuisine")
+                    Action = "search",
+                    name = UrlParameter.Optional
+                });
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

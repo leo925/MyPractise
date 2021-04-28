@@ -1,0 +1,36 @@
+﻿ public static class ConstraintHelper
+    {
+        public static bool IsMeetConstraint(IComparable value, IComparable conditionValue1, IComparable conditionValue2, ConditionOperatorTypes Operator)
+        {
+            if (value == null || conditionValue1 == null || (Operator == ConditionOperatorTypes.Between && conditionValue2 == null))
+                return false;
+
+            if (value.GetType() != conditionValue1.GetType())
+                return false;
+
+            if (conditionValue2 != null && value.GetType() != conditionValue2.GetType())
+                return false;
+
+            switch (Operator)
+            {
+                case ConditionOperatorTypes.LessThan:
+                    return value.CompareTo(conditionValue1) < 0;
+                case ConditionOperatorTypes.LessThanOrEqualTo:
+                    return value.CompareTo(conditionValue1) <= 0;
+                case ConditionOperatorTypes.GreaterThan:
+                    return value.CompareTo(conditionValue1) > 0;
+                case ConditionOperatorTypes.GreaterThanOrEqualTo:
+                    return value.CompareTo(conditionValue1) >= 0;
+                case ConditionOperatorTypes.Equal:
+                    return value.CompareTo(conditionValue1) == 0;
+                case ConditionOperatorTypes.Between:
+                    return value.CompareTo(conditionValue1) >= 0 && value.CompareTo(conditionValue2) <= 0;
+                default:
+                    return false;
+            }
+        }
+    }
+
+
+
+

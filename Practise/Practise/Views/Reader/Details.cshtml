@@ -1,0 +1,58 @@
+﻿@model Models.ReaderModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ReaderModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Port)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Port)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConnectionStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConnectionStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReaderType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReaderType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

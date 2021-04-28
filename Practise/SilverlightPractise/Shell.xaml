@@ -1,0 +1,26 @@
+﻿<navigation:Page x:Class="SilverlightPractise.Shell" 
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           mc:Ignorable="d"
+                 xmlns:infra="clr-namespace:SilverlightPractiseInfrastructure"
+                 xmlns:prisms="http://www.codeplex.com/prism"
+           xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+           Title="Shell Page">
+    <Grid x:Name="LayoutRoot" HorizontalAlignment="Stretch" Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*" MinHeight="200"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ContentControl Grid.Row="0"  prisms:RegionManager.RegionName="HeaderRegion" ></ContentControl>
+        <ContentControl  Grid.Row="1" HorizontalContentAlignment="Stretch"
+                        prisms:RegionManager.RegionName="ContentRegion" HorizontalAlignment="Stretch"  >
+
+        </ContentControl>
+
+    </Grid>
+</navigation:Page>

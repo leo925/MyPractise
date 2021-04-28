@@ -1,0 +1,474 @@
+﻿Most user agents, aka web browsers will not make requests in a serial one by one fashion, instead they can open multiple, parallel, connections to a server.
+Hopefully that will cut the amount of time needed to display the images in half, but it's not always perfect like that.(cut in half).
+So, for example, in IE eight you can now have up to six concurrent connections per host.(up to:达到(某数量、规格等) 多达；直到 );
+a URL cannot restrict the client or the server to a specific type of technology. (restrict to)
+
+If you have too many connections open it can saturate (浸透，使湿透；使饱和，使充满) and congest the network,
+If people or things saturate a place or object, they fill it completely so that no more can be added. 使饱和; 使充满
+If someone or something is saturated, they become extremely wet. 使湿透
+In the early days of the web
+That(persistent connection) leaves the browser with an already open socket it can use to continue making requests to the server, without the overhead(*) of opening a new socket.
+they typically reduce memory usage, reduce CPU usage, reduce network congestion, reduce latency, they generally improve the response time of a page, but like everything in software there is always a downside.
+And likewise, when the application creates the HTTP response message, the server also has a chance to interact with that message on the way out.
+For example, a server knows that the client supports gzip compression, because a client can advertise that fact through an accept encoding header in the HTTP request.
+client:Accept-Encoding: gzip, deflate  server:Content-Encoding: gzip  or Content-Encoding: compress  or Content-Encoding: deflate
+each request response transaction is independent of any previous or future transaction.
+the viewstate is included in the post to the server which can recreate the Web form just like it was when it last left the server by deserializing that value 
+HTTPs requires the server to have a cryptographic  [,krɪptə'græfɪk]  certificate
+cryptograph: ['krɪptəʊɡrɑːf] 密码，密文
+cryptography [krɪp'tɑgrəfi] 密码学；密码使用法
+First of all, all traffic over HTTPs is encrypted in the request and the response. That includes the HTTP headers and the message body and basically everything except the host name. That means that the URL 
+path and the URL query string is encrypted as well as all cookies. So HTTPs prevents session high jacking because no eavesdroppers can inspect a message and steal a cookie.
+Now a browser can use that certificate to validate that it is truly talking to the server that it thinks it's talking to. 
+HTTPs traffic is also impossible to cache in a public cache because once a message is encrypted, it's intended for(*) a single user.
+transport layer security  = TLS  /  Secure Sockets Layer=SSL
+And now this is the last module of the course. I hope you enjoyed the material and that you were able to take away an in-depth（*） knowledge of HTTP and how it works.
+there is a complementary(*) attribute called tear down ( setup in UT) 
+So in building one web page like that a browser will typically make multiple HTTP requests to retrieve all the resources needed for that one page to display properly in the browser. 
+I can even take that link and hand it to someone else and if they follow that link they, too, will be taken to that particular spot so that this particular section of the resource appears on the page instead of starting at the very top of the page 
+If you've been following along so far, then you'd be able to look at this URL and know that it has a scheme, which is HTTP, and that's required; a host name called host, that's also required;
+a port of 8,080; a URL path called path; a query string, q equals query; and finally a fragment.
+A URL should be as easy to communicate through email as it is to put on a billboard or a bumper sticker(*) or a business card. 
+A bumper sticker is a small piece of paper or plastic with words or pictures on it, designed for sticking onto the back of your car. It usually has a political, religious, or humorous message. 保险杠贴纸
+guidepost , guide map,   road sign , 意思:查bing图片
+the space character is considered unsafe because spaces are hard to read. They can mistakenly(*) appear/disappear when a URL is in printed form.
+Other unsafe characters include the pound sign because it's used to delimit a fragment. That doesn't mean that you cannot use a pound sign in a URL; 
+--it just means that the pound sign can only be used in its reserved(*) position which is to delimit a fragment.
+Another unsafe character is the caret because it isn't always transmitted correctly through the network.
+case insensitive:不区分大小写   lower/upper case alphabet
+20 is the hexadecimal value for the space character in the US ASCII character set.
+so a percent encoding is basically taking that hexadecimal value, putting a percent in front and then replacing a character in the URL with that percent encoded value.
+On the service side, you should run dynamically created URLs through the encoding algorithm just in case one of the unsafe characters will appear in the URL. 
+In order for a host to properly serve a resource and in order for the client to properly display a resource
+Demarcate, delimit, we should demarcate our responsibility
+**scale:（有关比例的用法）：a miniature garden, with little pagodas [pə'ɡodə](佛)塔 and bridges all to scale. 
+ …一个盆景，里面的小宝塔和小桥也都是按比例制作的。
+ instead of relying on fluid columns to scale(按比例缩放??) the imiages for you.
+ golden ratio/ golden mean ; you have to think about sth like golden mean.
+ you want your textual content to be inviting(******诱人的；有魅力的 and not turn away(把…拒之门外) readers.
+  If you turn someone away, you do not allow them to enter your country, home, or other place. 把…拒之门外
+  screen reader:屏幕阅读器
+  if it can find some data text (data-loading-text='saving') to substitute into(**) the button
+today , I learned queue number, house fund, traffic restriciton based on the last digit of license plate numbers.
+he was convicted of murder and scentenced to life imprisonment
+--ltrim and rtrim get rid of leading spaces and trailing spaces
+trailing wheel = rear wheel
+typically, you  pass in the string you want to look inside(***) of and then the string you're looking  for, in sql , it's backwards(**),   
+because that's typically in the adventure works database what that would indicate
+--so if i am doing a select where I got a colunm that's not inside of the aggreate where i am gonna get 
+back every single row for that column and i've got an aggregate which is going to give me back 
+one row , that poses a little bit of problem for sql , it doesn't know how to handle it , 
+building on(****) the commands and techniques learned up to this point , I will show you
+last, I'll wrap up the course with ideas for you to continue your learning.
+if you don't know powershell, and sose does,you may be up against them when you are looking for a job 
+that is looking for alpha numeric characters
+scrum is unequivocal [,ʌnɪ'kwɪvəkl]  mean that it is completely clear and very firm. 明确的
+off-the-shelf tax accounting software 现成的，不用定制的
+after the limit we set is hit(****)(hit the limit), this setting controls how many minutes we stay in that state until recyling the pool
+I might not truely be getting the answer I expect, the exact same thing will hold true(**) if I do an average.
+sales people more than 30% under their quota???????????
+(sql having) so that's how I can limit to just specific groups.
+*************
+category           sub category   product   total
+null			null			null		123132
+clothing		null			null		123132
+clothing		bit-shorts		null		888
+=>and you will notice there's a null, what that is doing is that is showing us the total for every 
+single bit-shouts inside of clothing regardless of product type  
+keep it in mind that ties(***),if you use rank, will skip to next number
+trunc is equal to delete leave off(***) where statement.
+(table valued function):and then you your select statement immediately thereafter(**其后).
+there are very few  reasons not to enable compression as it gives us a nice performance boost with very few downsides
+dynamic compression may use a lot of CPU power(*), especially under high load(**)
+we config them to be archived after they are x days old.
+some non-traditional locale [lo'kæl]
+He has devised a process for making gold wires which neither corrode nor oxidize. 
+ An oxide is a compound of oxygen and another chemical element. 氧化物
+ waxberry  杨梅  almond  ['ɑːmənd] 杏仁
+ stroller , trolley
+ Dena was enchanted by the house. (another meaning: 施魔法于)
+ 蒂纳被这幢房子给迷住了.
+ it's a full-blown production-ready web server like iis
+ medium 五成熟；rare一成/medium rare三成/medium五成/medium well七成/well-done是全熟。
+ he clammed up:拒不开口
+ Lift the Limit :  now the limit/limitation is lifted
+ there's full-blown(***) production-ready web server like iis
+ I will leave the strong tag out when the threshold isn't met  =>else { <td>@model.total</td>}
+I swap(***) the static caption with viewbag caption.
+Note that when the parameter consists of multiple words with camelCasing, you write them in the tag with 
+dashes between the words.(<xxx>stats-caption='caption'</xxx>)
+the calling party( 一方) must know the implementation details of the web api,
+The smell of sawdust and glue pervaded(** 弥漫) the factory. 
+hand-made  , chinese-made
+As with (**)any war, there are winners and losers. That is also the case with(**) the trade war between China and the United States.
+ companies affected by high tariffs are looking to(**指望) manufacture their products elsewhere
+ xxx right ater the tarrifs went in place(**)
+ pediatrics  [,pidi'ætrɪks] 小儿科  pediatrician [,pidɪə'trɪʃən]儿科医生
+ aerobic [eə'rəʊbɪk] exercise 
+ Quartz writes that while America is one of the richest countries in the world, it also has one of the biggest 
+ -divides between the wealthy and the poor. 
+ sensor faucet 
+ during registration(DI) you can determine what the lifetime should be of the instance
+ rather than(**) specifying a calss, the UseStartup method is given the name of the assembly that it should use.
+ when you load configuration data from a platfrom-specific file, the settings override any existing data with the same names.
+ (****)the set of views to which a tag helper is applied depends on where the @addTagHelper expression is used.
+ string interpolation  =>  string str= $ "{myFood} is so good"
+ 1 em is the sizein pixels of the base fonts letter “M”
+ you would certainly like to obtain as high a price as possible whereas the purchaser would like to pay as little as possible.
+ --倒数:
+ the second to last:倒数第二   the second row to last
+ the last but one/two：倒数第二/三  we sit in the last row but 4 我们坐在倒数第五排。
+ to what folder we/it download the file, what will be the filename format which we download....
+ ones place, ones digit, tens place, tens digit.....
+ work up a sweat:忙得满头大汗 
+ (football): play in Egypt's second division(***乙级联赛；乙级队) <==> top division
+ cost one's job: 害某人丢了工作 
+ football league was shut down.(歇业,停工，关闭)  <==> lockdown
+ get only 2 days of work a week.
+ live in a room of three storey building.=>I live in an apartment of 22 storey building.
+ he helped his team to the top of its league
+ I have a broken link
+the default settings created by the project template that we used to create OdeToFood will only allow static files to 
+be served (***) from the file system if they live inside of this wwwroot folder
+note the backbone version is choppy,whereas the react version is smooth.
+this(a crib) is three months' rent.
+and don't forget you export default down here at the bottom.(react export command)
+Someone's stepbrother is the son of their stepfather or stepmother. 继兄; 继弟
+we are on a smaller island 2 miles offshore
+he will score the first goal now.
+my dad put you up to this?
+I will hire you at your twice pay here.
+why else would I be here/ what else would we be here for?
+rolling pass，ground pass滚地传球 slide tackle铲球
+I don't know what others thought of me,
+I was kneeling on both knees on the ground, supported on my hands, with my nose almost touching the earth
+The next day he cut out little pieces of wood for the music notes the same as he had for the letters.
+and how had he become what I saw him now in his old age?...
+Then I told her how Vitalis and I had been parted
+
+
+
+
+
+
+****************************************老人与海****************************************
+
+ he always went down to help him carry either the coiled lines or the gaff and harpoon and the sail that was furled around the mast.
+  When you furl something made of fabric such as an umbrella, sail, or flag, you roll or fold it up because it is not going to be used. 卷起; 叠起
+  An attempt was made to furl the headsail. 
+
+****************************************老人与海 end****************************************
+
+
+*****the big picture
+see the html that this page is made of.
+this is a ready-made(*) product you can use to create web application.
+(vertical-align:middle)it tells the browser to vertically align the image in the middle.
+you can nest(*) things like this : div p { color:blue}
+
+*********
+html fundamentals:
+We could also append a named anchor on to the H ref for another page and navigate into that page to the named anchor. 
+So if we follow(** see definition below) a link to this named anchor then we should come to this terminology section. 
+If you follow a path, route, or set of signs, you go somewhere using the path, route, or signs to direct you. 沿着…走
+So what I'm doing is saying take me to that page and further take me down into the named anchor within that particular page
+If I go back and change this(TH) to a TD in here, you'll see it just shows up left justified(*左对齐).
+
+. You can see that's going to show up now and you'll notice the way these things are lining up(对齐 see below). So we have a row in the heading and we have two different table headers,
+so we've got two columns and then in the footer we have a row, we just have the one column and so you'll notice down here that adds flowing underneath the first column of the headers
+and then this second column is standing out here all in(网上查，on one's one:独立的/地) its own. 
+*If you line one thing up with another, or one thing lines up with another, the first thing is moved into its correct position in relation to the second. You can also say that two things line up, or are lined up. 与…对齐; 对齐
+We've got our table with some rows in it, but not everything's going to fit(*) nicely. We've seen that our table footer for example had that one simple column and it was
+always going to be left justified(*) and, and always lined up(*) with those first columns
+
+mvc 4
+The first time that you launch Visual Studio, it might take a little extra time to perform some initialization. But every start-up(startup **) after this will be considerably faster.
+There is no file extensions present(*).
+** adapt to
+make div width adapt automatically to contents 
+
+We also have a meta view port tag by default and this is important for mobile devices. You can think of this as an instruction for how the page should render. So, without this meta tag,
+a mobile browser will assume that your page needs over 900 pixels to display properly. So, it will zoom out to fit all of the content on the screen. But because it's so zoomed out, 
+the user cannot work with the site until they zoom in. But with this tag in place, we are telling a mobile browser that our site will adapt to(*) the width of the device. 
+So, please don't assume anything about how many pixels we need. 
+I want to close the browser and return to Visual Studio to start poking around(随意探索;闲逛) inside of this project.
+Three of these folders have a special significance
+The ASP.NET MVC framework derives its name from the model view controller design pattern.
+A stimulus is something that encourages activity in people or things. 刺激物
+A controller is a software component that will be the target for some external stimulus(*). In the case of a web application that external stimulus(*) is usually an incoming HTTP request.
+That isolation that you achieve with the MVC pattern makes it easy to maintain and change your application moving forward because the code inside of each of these pieces is very focused and easier to understand.
+I do want to point out that the MVC design pattern doesn't dictate what type of data access you use.
+There is no large obstructions here that try to shield you from knowing things like what HTTP verb is being used to place a request.
+A tripod /ˈtraɪpɒd/  is a stand with three legs that is used to support something such as a camera or a telescope. 三脚架
+A stand is an object or piece of furniture that is designed for supporting or holding a particular kind of thing. 托架
+The teapot came with(come with/go with 感觉 有配对的意思) a stand to catch the drips.
+
+And that was just intended to(是用来) simulate some sort of data access. 
+div, by default is going to be treated as a block level container and it's going to render on its own next kind of logical line or space in the document. 
+You can see that IAS gives me the warning that SSL is not enabled and credentials will be sent in clear(*) text,So for that reason basic authentication is rarely used without secure HTTP                       
+You can allow access to all anonymous users or restrict access that the only specific users or groups can access a particular file or directory
+one security concern around session identifiers is how they can open up(* see below) the possibility of someone high jacking some other user's session.
+If something opens up opportunities or possibilities, or if they open up, they are created. 提供 (机会); (机会、可能性) 出现                        
+When specifying sizes, CSS offers a wide array of measurements(**量度制). 
+you'll first have to pick between absolute or relative units.
+A unit of measurement is a fixed standard quantity, length, or weight that is used for measuring things. The quart, the inch, and the ounce are all units. (计量用的) 单位                        
+Some of these property values are set using dedicated keywords                            
+The background color, by the way, is specified in hexadecimal rgb format                        
+For now I'll just tell you that that(padding) particular setting will push the content of a web page further away from the edge of the containing window by 10 pixels
+This site provides a table allowing you to cross reference(***) specific CSS features against different versions of IE, Chrome, Safari, Opera, and Firefox. 
+It's important to understand a little bit about the specifications because they do evolve and one of the unfortunate characteristics of CSS is that you'll find varying support among the different browsers.
+my definition list for terminology is down here lower and you can't actually see it when we're on the top of the page
+probably had a mismatch on my casing(大小写) there. 
+now we get squares off to the side(list prefix)
+piling the snow off to the side to allow me to drive out of the barn                        
+we can nest those Ordered and Unordered Lists to give us those sublists as well.
+notice that I have spacing here so that the first and last lines are indented(****)                       
+select list items that the mouse is currently hovering over.                    
+And also it's a little bit ugly to have both the black border on the bottom of a list item and also an underline under the hyperlink.                
+If I wanted to get rid of that what I could say is that the anchor tags inside of a list item should have a text-decoration of none as opposed to underline, 
+you'll first have to pick between absolute or relative units.          
+Relative units, like percentages or the keywords larger or smaller or ems, they allow you set a font size based on some baseline(**)
+A baseline is a value or starting point on a scale with which other values can be compared. (价值的)基准
+h1 tag is going to be well beyond(**远远超过) 1.2ems.
+we can see that versionInfo = actually is on a different line than the line that ends here with a semicolon.
+But web browsers generally don't respect(**有考虑;关心,的意思) things like tabs and new lines and carriage returns inside of HTML code.
+What they're trying to do is take that text and get /as much of it on one line/  as possible.
+[my scentences]:what we are going to is take those apples and eat / as many of them today / as possible.
+You can say with all due respect when you are politely disagreeing with someone or criticizing them. 请恕我冒犯礼貌
+letter-spacing: When I refresh you can see that all of the letters have been pushed apart.
+word-spacing: which is the space between words and you can see that 'using' and 'FileVersionInfo' are now much further apart than they were by default.
+If I refresh you can see how it spaced some of those sentences out, 
+space out:(使)间隔开，(在…中间)拉开间隔：;加宽(字或行之间) 的距离 =>(this     is     my        book)
+text-align:justify: so that the right edge of the text is always/ as close to the margin /as possible
+line-height: let's try 2.2ems, you can see how those lines move apart
+top 20 pixels, left 50 pixels:  what it's going to do is move down an additional 20 pixels and left an additional 50 pixels from where it should have been
+
+There are certain properties that we could set on that parent div or on the parent body that will flow through and be inherited by all of the children underneath that element.
+it doesn't make the whole page bounce up and down because the space is still there to display it when it comes back on. 
+not only does it not render, but there's also no space there to render it in. 
+Inline elements are elements like span, they don't create more vertical space unless they're forced to. 
+Block elements always sit on top of each other by default.
+Well I'd have to take the width of the list element content, which is 150 pixels, I'd have to remember that there's a left border of 10 pixels, that puts us at(**) 160.                        
+Technically they will overlap until one of the margins touches the border of the other element, meaning you'll always have a margin that is the maximum
+-- amount of the bottom and top margins that are meeting.
+Understanding how to size and arrange these boxes is a large step towards understanding web design with CSS.
+Each paragraph or div we create will appear underneath the previous div or paragraph. That's what we call the flow of a document, elements just flow downward. 
+we have quite a bit of padding that is pushing the content inwards away from the border. 
+should have a text-decoration of none as opposed to underline
+*****the width setting is no longer in effect. We have some elements displaying that are obviously less than 150 pixels and this is because you cannot set the width of an inline element. They are going to expand so that all their content fits inside in the padding and the border, but that's it. If we wanted these elements to be inline, but still have block characteristics like being able to set the width, that's another display setting, which is inline-block. 
+they display inline and will stretch across the page until you run out of space and then they'll bounce down to the next line.                              
+****traffic restrictions based on the last digit of license plate numbers                                                 
+A floating element can shift to the left or to the right of a line and then allow content to flow along beside it.
+If a group of factory workers, nurses, or other people work shifts, they work for a set(规定的；固执的) period before being replaced by another group,
+--so that there is always a group working. Each of these set periods is called a shift.You can also use shift to refer to a group of workers who work together on a particular shift.                         
+Dave had to work a 12-hour shift yesterday.   early/late/night shift  I am on the early shift tomorrow
+
+That would move the div(A) to the left side of the line and will allow another div to float up(**) and appear to the right of that div(A)                        
+what if I wanted to move additional content up beside the image  
+move as far left as you can / the image moves as far to the right as it can 
+give this  margin to the right of 5 pixels. That'll move the text away a little bit. 
+And what would happen if I said, clear just on the right side? The paragraph would come back up because it's only looking to clear things that have been floated to the right
+now you see that the two have reversed(**) themselves.
+If you reverse the positions or functions of two things, you change them so that each thing has the position or function that the other one had. 调换 (位置、功能)
+He reversed the position of the two stamps./  reverse the order /the car is in reverse/....
+what's the one thousandth of / five thousandths of 100?
+When you row, you sit in a boat and make it move through(**) the water by using oars(*). If you row someone somewhere, you take them there in a boat, using oars. 划船运送; 划船
+on credit(赊账):with an arrangement to pay later.
+A saw is a tool for cutting wood, which has a blade with sharp teeth along one edge. Some saws are pushed backward and forward by hand, and others are powered by electricity. 锯
+A carriage is one of the separate, long sections of a train that carries passengers. 火车车厢
+Carriage is the cost of transporting or delivering goods. 运输费用
+A compartment is one of the separate spaces into which a railway carriage(**) is divided. 火车车厢
+Dip each apple in the syrup['sɪrəp] until thickly coated.
+in broad daylight(光天化日)/ by daylight(白天)
+A defendant is a person who has been accused of breaking the law and is being tried in court. 被告
+A plaintiff is a person who brings a legal case against someone in a court of law. 原告
+be sparate=live apart: 分居
+ If someone boasts about something that they have done or that they own, they talk about it very proudly, in a way that other people may find irritating or offensive.
+ curve ball: a ball pitched in a curving path so as to make it more difficult to hit 使其很难被击打的弧线球   / banana kick
+  A pad of paper is a number of pieces of paper attached together along the top or the side, so that each piece can be torn off when it has been used. 便笺簿  
+  mouse pad
+   a person or animal curls into a ball, they move into a position in which their body makes a rounded shape. 蜷作一团
+If one thing envelops ['envələʊp] another, it covers or surrounds it completely. 包裹住(像快递包裹)
+A lodge is a house or hotel in the country or in the mountains where people stay on holiday, especially when they want to hunt or fish. (乡野中的度假) 屋舍; 旅馆
+ If an object lodges somewhere, it becomes stuck there. 卡住   
+ "How do you stick together with someone through 38 years -- not to mention the sickness?即使不说癌症的那些日子，你怎么可以和一个人生活38年毫无厌倦呢
+  If you dismiss something from your mind, you stop thinking about it. 不再考虑  (解雇；解散)
+I dismissed the problem from my mind.
+arcade game  街机游戏  arcade: An arcade is a place where you can play games on machines which work when you put money in them. 游戏厅
+A video arcade(*) is a place where you can play video games on machines which work when you put money in them. 电子游戏室
+grind, grind your teeth, grind stone
+Excess is used to describe amounts that are greater than what is needed, allowed, or usual. 过量的(有多余 的意思 redundant)
+Something that is superfluous(excess) is unnecessary or is no longer needed. 多余的
+After cooking the fish, pour off any excess fat.
+While a moderate(*) amount of stress can be beneficial, too much stress can exhaust you. 适当的压力可能有益，而压力过大会让你筋疲力尽
+straight 异性恋 <==> A homosexual[,homə'sɛkʃuəl] relationship is a sexual relationship between people of the same sex. 同性恋的
+I will avenge the murder of my friend / avenge a grave insult
+I will take revenge (on you!!!)/  I will revenge on you/ I will revenge myself on you/ I will revenge for ... 
+If you insure yourself or your property, you pay money to an insurance company so that, if you become ill or if your property is damaged or stolen, the company will pay you a sum of money. 为…投保; 投保
+insure my house/car
+Certainty is the state of being definite or of having no doubts at all about something. 确定
+I have told them with absolute certainty there'll be no change of policy.
+Certainty is the fact that something is certain to happen. 必然的事  ...become a certainty :已成必然
+elsewhere: they were born elsewhere.
+go abroad/ welcome aboard
+The sidewalks are bustling with people. 两侧的人行道上人来人往。
+Bustle is busy, noisy activity.n. 忙碌; 喧嚣
+spinach, celery,   lettuce , mushroom,cucumber, pumpkin,cauliflower, broccoli,onion,  garlic,garlic shoot,ginger , chinese onion(大葱),
+shallot([ʃə'lɑt]大/小葱,google上图是大葱,不是很明确),chinese chives( [tʃaɪvz] 韭菜)
+a round vegetable with thin green leaves eaten raw in salads,   eat it raw...
+Please join me in congratulating Evan on his new role.
+I can wear flip flops(**人字拖) at office
+If you are referring to pants that are longer than shorts but not as long as trousers we call it capri pants or 3/4(three quarter pants)
+Capri pants (also known as three quarter pants, capris, crop pants....) are pants that are longer than shorts but are not as long as trousers.
+ They typically come down to between knee and calf(小牛；小腿**) or ankle length.
+ image carousel ['kærə'sɛl] 旋转木马；行李传送带
+ typography [taɪ'pɑgrəfi] n. 排印；[印刷] 活版印刷术；印刷格式   calligraphy   美 [kə'lɪɡrəfi]  n. 书法；笔迹
+ so you can see clearly the column and the space or the gutter, as(***) it's commonly called in the design world
+ and the text is rearranging and re-laying itself on the screen, because it doesn't have as much horizontal width as it did before 
+ we want it to look good in landscape-mode 横向方式  相反的是:portrait mode 肖像模式;纵向模式
+and when they rotate the tablet 90 degree (****) to look at it in protrait mode(**), we want it to look good too 
+a lot of content is now off to the right that forces the user to scroll, pan(**平移) or zoom
+you should have good  work ethic
+I want to show you some adddional variations(**) on button group(A variation on something is the same 
+thing presented in a slightly different form. (某一事物) 略有变化的形式)
+bootstrap navigation:it does revolve around  an unordered list of menu items
+ If you say that one thing revolves around another thing, you mean that the second thing is the main feature or focus of the first thing. 以…为中心
+  (***)when i scroll down the page, sth that is statically positioned scrolls off (**)the top of the page, 
+A “breadcrumb” (or “breadcrumb trail”) is a type of secondary navigation scheme that reveals the user’s location in a website or Web application.
+many(navbar,paniation) of them revolve around the use of lists
+the idea here is that there is structure, element and values that are needed for just about(**几乎，差不多)  every html5 page
+... with different bg color, so it calls attention (***引起注意/引起注意) to itself
+turning point/ tipping point:转折点
+phonetic [fə'nɛtɪk] symbol ：音标
+. A double room will have one large bed whereas a twin room will have two separate beds. This is the main difference between double and twin room.
+your name has just slipped my mind
+i lost half of  my money in the stock market crash
+I’m in a lot of debt.
+Yeah, you know, I’ve got credit card bills, car payments, I’ve got to pay my mortgage; and on top of all that, I have to pay my son’s college tuition.
+non-stop flight:直达
+paper ticket  / e-ticket
+make seat assignments during your booking
+to qualify for （**）the discount rate, you need to stay over (过夜）a saturday.
+
+
+
+
+---------javascript fundamentals begin
+
+Generally you can just put some code in a file and run it, and in the case of JavaScript, the file that you put code in is typically a web page, though not always.
+ despite that syntax it's not got a lot in common with Java,
+Nearly every computer in the world has a JavaScript interpreter
+exercise a little bit of caution
+I'd say maybe 1000 balls is pretty much using up all the resources on my machine, 
+tt's been awhile since I've done any Java programming(有一段时间没写java了), but I understand that JavaScript comments work the same as Java comments
+single line comment is just a line of text beginning with two forward slash characters
+It's also possible to do multiline comments. The starting character is forward slash star.Everything from there until star forward slash is considered to be part of the comment.
+In a previous module I talked about JavaScript variables and their weakly typed nature. Variables are declared with the var keyword and don't have a type until a value is assigned to the variable, and at that point the type is inferred from the value.
+this can introduce some subtle and unintended behaviors
+Global variables should be avoided because they introduce coupling between parts of your application that access the shared global variable,
+One important thing to note about null is that when it's used in a Boolean expression(***) it evaluates to false
+One of the most common reasons to encounter undefined is when a non-existent object property is requested. 
+The same thing holds for(** 适用 ) numbers as well.                  
+if we call toString on a regular expression and this is the regular expression literal notation(**)
+(***)The reason this is bad is it introduces a whole class of bugs including this one here that I've included for an example where I'm testing 
+--whether the empty string is equal to the number 0
+so we'd expect this output here "undefined evaluates to false," which we can see(***) happens.
+(********) we're looping through every item within the arguments object.  /  loop through each item
+it behaves like an array in that it's indexable(**) like an array,
+The == and != operators do type coercion.
+ If I change one of those objects it's not reflected in the other.
+ . When an exception is thrown, execution stops at that point and control is passed up the call stack until the exception is handled or until the top of the call stack is reached.
+ (E): If the catch block is given an argument, the value of that argument will be set to the exception object that was given to the throw statement. 
+ (e): A finally block can also be attached to the try/catch block, and it's used to guarantee execution of a set of statements.
+ (e):One of the most common reasons to encounter undefined is when a non-existent object property is requested.
+  One quirk(怪事; 趣事) that can throw off(使犯错误；使产生错觉；使迷惑) beginners is that when using the object literal notation that we've previously discussed you 
+  --have to remember that properties are assigned using this colon syntax, not using equals.
+  He had an error but he was receptive(对新思想或建议) 乐于接受的 to correction.
+  chic: [ʃɪk]  chick ornaments    boutique  A boutique is a small shop that sells fashionable/chic clothes, shoes, or jewellery.
+  in other words if the browser is 3000 px wide, I want it to stay flush right(右对齐) or flush left and expand the columns so they takes up space, 
+ a span12 column would be 100% width while span1 would be around 6%  or so(大约，左右)
+   
+
+
+---------javascript fundamentals  end 
+
+-----------------------css posiitoning starts------------------
+fixed:
+abolute:  we have divContainer whose position is default(static), and divInside, if divInside 's position is absolute, and top is 50px; it is moved 50 px from top relative to window ;
+if divContainer's position is also absolute, divInside is 50 px from top relative to divContainer.
+         when with position absolute and bottom 0, it's moving it 0 pixel from the bottom of the window, not from the bottom of its original position
+relative: with relative position, the tag is not being taken out of document flow;and the orginal space is maintained
+*** if the container div 's position is set to absolute/relative(没有试fix), and the inner div 's position is absolute, the inner div responds to container instead of the window
+static:
+
+
+
+--------------------------------css posiitoning end  -------------------------------
+
+Unlike applying padding or margin when the paragraph moves, it's not going to try to push anything out of its way, it's literally just going to jump and sit on top of the other thing.
+Muggy weather is unpleasantly warm and damp. (天气) 闷热而潮湿的
+The voltage of an electrical current is its force measured in volts. 电压
+An ampere is a unit used for measuring electric current. The abbreviation amp is also used. 安培   
+Could you give me a couple of fives for this ten-dollar bill/note?
+A place that is bustling or bustling with people or activity is full of people who are very busy or lively. 熙熙攘攘的
+He carelessly trod the lady beetle underfoot.
+speed hump
+Coordination is the ability to use the different parts of your body together efficiently. (身体各部位的) 协调能力
+I really want to push this part, this content area, down 115 pixels
+make it into a header that spans across both columns across the top. 
+even if the user scrolls the window down,                      
+Static positioning stacks up elements one after the other down the page. 
+
+The for statement consists of three parts after the for keyword. There's the loop initializer, which is run before the for statement; a condition, which is checked every time that
+the for statement is going to start a new iteration, and if the value is true then the block of the for statement is executed again, if it's false then the for statement is finished;
+and the incrementer, which is a statement that is run on every iteration. 
+             
+
+
+end
+
+
+-----------------------building application with asp.net mvc 4  and get started with EF 5
+you can also come ascross(*偶然碰到) a situation you want to display something that is not part of you model(layout),this frequently comes up(发生) with your layout view
+It's(layout view) used on pages that display restaurant reviews but it will also be used on pages that display restaurants or allow a user to register and log in.
+ And all of those other scenarios, they do not involve restaurant reviews. So I cannot strongly type this layout view to a particular model.
+ can I have it initially populate some data for me into that database
+ migrations are a feature of EF that allow you to configure database schemas with c sharp code, seed you database with c#
+ and migrations can track changes that you're making in your entity classes.
+ web browers tend to bring everything else to a halt when they encounter a script tag.
+ and it(data migration) can keep the database schema in sync with the changes that you make in your c# code.
+ (validation) there's nothing that constrains(**) the rating to any sort of  scale(**).
+ there's also nothing restricts them from entering a body with 1000 characters
+
+ Vary by * to cache for every permutation(  ['pɝmjʊ'teʃən] *) of all parameters.
+Vary by 'none' to always cache the same content
+Vary by 'name' to cache for every value of name parameter 
+
+(**)These configuration settings then are inherited downwards and the configuration in effect for your application is a combination of all the configuration files. 
+(**e.g, under views folder, we have web.config)And we can even inside of our own application have web.config files that override settings for a specific directory.
+
+EF------------
+that's not related to query, but the startup cost(**) of using entity framework in the application
+another drawback to include is that you can't limit or sort the related data, it's all or nothing, using projection to eagerloading can help you get around that.
+
+ -----------------------building application with asp.net mvc 4   end
+
+
+ ----------------------------------------------asp.net core 2.x
+
+ a transient lifetime means a new instance of the type is created every time it is asked for
+ a scoped lifetime means the instance will live untill the web request is completely handled.
+ singleton lifetime means once an instance is created the same instance will be supplied every time untill the app closes. 
+
+
+
+
+
+
+
+
+
+
+
+
+

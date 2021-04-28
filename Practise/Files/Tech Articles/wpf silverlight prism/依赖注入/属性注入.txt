@@ -1,0 +1,46 @@
+﻿就是Unity容器解析对象时，为属性赋值，有操作权限要Public修饰属性。属性注入方式和构造函数注入类似，只需在需要注入的属性上增加一个Dependency特性，Dependency指定一个注册名称name参数用来指定注入对象的名称，属性注入也是伴随着类型初始化时注入的，在解析时自动注入，所以解析时跟以前一样。代码修改如下，在ToClass属性上增加了Dependency特性，来表示这个属性需要注入：
+1
+
+ public class QlinStudent : IStudent
+    {        
+            public string Name { get; set; }
+ 
+        [Dependency("ec")]        
+        public IClass ToClass { get; set; } 
+                
+        public void ShowInfo()
+        {
+            Console.WriteLine("{0}就读班级：{1}", Name, ToClass.ClassName);
+        }
+    }
+
+代码方式如下：
+
+IUnityContainer container =  UnityHelper.GetIUnityContainer();
+container.RegisterType<IClass, EcClass>("ec");         
+container.RegisterType<IStudent, QlinStudent>();
+IStudent splitClass = container.Resolve<IStudent>();
+splitClass.ShowInfo();
+
+配置文件方式，依赖的<dependency name="ec1" name值 可指定注册时注册的名称：
+
+<unity xmlns="http://schemas.microsoft.com/practices/2010/unity">
+    <!--引用命名空间-->
+    <namespace name="ConsoleApplication1.UnityDemo.Constructor4" />
+    <!--引用程序集-->
+    <assembly name="ConsoleApplication1" />
+    <!--容器-->
+    <container name="FirstClass">
+      <!--映射关系-->
+      <register type="IClass"  mapTo="CbClass">      
+      </register>
+      <register type="IClass" name="ec1" mapTo="EcClass">
+        <property name="ClassName" propertyType="System.String" value="电商051" />
+      </register>
+      <register type="IStudent"  mapTo="QlinStudent">
+        <property name="ToClass">
+          <dependency name="ec1" type="EcClass"/>
+        </property>
+      </register>
+    </container>
+  </unity>

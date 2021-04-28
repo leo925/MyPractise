@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MyPractiseDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Participants">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="nvarchar(max)" />
+          <Property Name="LastName" Type="nvarchar(max)" />
+          <Property Name="Age" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ReaderDetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Owner" Type="int" Nullable="false" />
+          <Property Name="Des" Type="nvarchar(max)" />
+          <Property Name="ReaderId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ReaderModels">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="IP" Type="nvarchar(max)" />
+          <Property Name="Port" Type="int" Nullable="false" />
+          <Property Name="ConnectionStatus" Type="int" Nullable="false" />
+          <Property Name="ReaderType" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="ReaderReviewModels">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Rating" Type="int" Nullable="false" />
+          <Property Name="Content" Type="nvarchar" MaxLength="1024" />
+          <Property Name="ReaderId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Registrations">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ParticipantId" Type="int" Nullable="false" />
+          <Property Name="EventId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="XEvents">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EventName" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK_dbo_ReaderReviewModels_dbo_ReaderModels_ReaderId">
+          <End Role="ReaderModels" Type="Self.ReaderModels" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ReaderReviewModels" Type="Self.ReaderReviewModels" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ReaderModels">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ReaderReviewModels">
+              <PropertyRef Name="ReaderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Registrations_dbo_Participants_ParticipantId">
+          <End Role="Participants" Type="Self.Participants" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Registrations" Type="Self.Registrations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participants">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Registrations">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Registrations_dbo_XEvents_EventId">
+          <End Role="XEvents" Type="Self.XEvents" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="Registrations" Type="Self.Registrations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="XEvents">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Registrations">
+              <PropertyRef Name="EventId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="MyPractiseDBModelStoreContainer">
+          <EntitySet Name="Participants" EntityType="Self.Participants" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ReaderDetails" EntityType="Self.ReaderDetails" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ReaderModels" EntityType="Self.ReaderModels" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ReaderReviewModels" EntityType="Self.ReaderReviewModels" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Registrations" EntityType="Self.Registrations" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="XEvents" EntityType="Self.XEvents" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_dbo_ReaderReviewModels_dbo_ReaderModels_ReaderId" Association="Self.FK_dbo_ReaderReviewModels_dbo_ReaderModels_ReaderId">
+            <End Role="ReaderModels" EntitySet="ReaderModels" />
+            <End Role="ReaderReviewModels" EntitySet="ReaderReviewModels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Registrations_dbo_Participants_ParticipantId" Association="Self.FK_dbo_Registrations_dbo_Participants_ParticipantId">
+            <End Role="Participants" EntitySet="Participants" />
+            <End Role="Registrations" EntitySet="Registrations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Registrations_dbo_XEvents_EventId" Association="Self.FK_dbo_Registrations_dbo_XEvents_EventId">
+            <End Role="XEvents" EntitySet="XEvents" />
+            <End Role="Registrations" EntitySet="Registrations" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MyPractiseDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ReaderDetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Owner" Type="Int32" Nullable="false" />
+          <Property Name="Dess" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ReaderId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="ReaderModels" Relationship="MyPractiseDBModel.FK_ReaderDetails_ReaderModels" FromRole="ReaderDetails" ToRole="ReaderModels" />
+        </EntityType>
+        <EntityType Name="ReaderModels">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ReaderName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="IP" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Port" Type="Int32" Nullable="false" />
+          <Property Name="ConnectionStatus" Type="Int32" Nullable="false" />
+          <Property Name="ReaderType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="ReaderDetails" Relationship="MyPractiseDBModel.FK_ReaderDetails_ReaderModels" FromRole="ReaderModels" ToRole="ReaderDetails" />
+          <NavigationProperty Name="ReaderReviewModels" Relationship="MyPractiseDBModel.FK_dbo_ReaderReviewModels_dbo_ReaderModels_ReaderId" FromRole="ReaderModels" ToRole="ReaderReviewModel" />
+        </EntityType>
+        <EntityContainer Name="MyPractiseDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ReaderDetails" EntityType="Self.ReaderDetails" />
+          <EntitySet Name="ReaderModels" EntityType="Self.ReaderModels" />
+          <AssociationSet Name="FK_ReaderDetails_ReaderModels" Association="MyPractiseDBModel.FK_ReaderDetails_ReaderModels">
+            <End Role="ReaderModels" EntitySet="ReaderModels" />
+            <End Role="ReaderDetails" EntitySet="ReaderDetails" />
+          </AssociationSet>
+          <EntitySet Name="Participants" EntityType="MyPractiseDBModel.Participant" />
+          <EntitySet Name="ReaderReviewModels" EntityType="MyPractiseDBModel.ReaderReviewModel" />
+          <EntitySet Name="Registrations" EntityType="MyPractiseDBModel.Registration" />
+          <EntitySet Name="XEvents" EntityType="MyPractiseDBModel.XEvent" />
+          <AssociationSet Name="FK_dbo_Registrations_dbo_Participants_ParticipantId" Association="MyPractiseDBModel.FK_dbo_Registrations_dbo_Participants_ParticipantId">
+            <End Role="Participant" EntitySet="Participants" />
+            <End Role="Registration" EntitySet="Registrations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_ReaderReviewModels_dbo_ReaderModels_ReaderId" Association="MyPractiseDBModel.FK_dbo_ReaderReviewModels_dbo_ReaderModels_ReaderId">
+            <End Role="ReaderModels" EntitySet="ReaderModels" />
+            <End Role="ReaderReviewModel" EntitySet="ReaderReviewModels" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_Registrations_dbo_XEvents_EventId" Association="MyPractiseDBModel.FK_dbo_Registrations_dbo_XEvents_EventId">
+            <End Role="XEvent" EntitySet="XEvents" />
+            <End Role="Registration" EntitySet="Registrations" />
+          </AssociationSet>
+        </EntityContainer>
+        <Association Name="FK_ReaderDetails_ReaderModels">
+          <End Type="MyPractiseDBModel.ReaderModels" Role="ReaderModels" Multiplicity="1" />
+          <End Type="MyPractiseDBModel.ReaderDetails" Role="ReaderDetails" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ReaderModels">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ReaderDetails">
+              <PropertyRef Name="ReaderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Participant">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LastName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Age" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Registrations" Relationship="MyPractiseDBModel.FK_dbo_Registrations_dbo_Participants_ParticipantId" FromRole="Participant" ToRole="Registration" />
+        </EntityType>
+        <EntityType Name="ReaderReviewModel">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Rating" Type="Int32" Nullable="false" />
+          <Property Name="Content" Type="String" MaxLength="1024" FixedLength="false" Unicode="true" />
+          <Property Name="ReaderId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="ReaderModel" Relationship="MyPractiseDBModel.FK_dbo_ReaderReviewModels_dbo_ReaderModels_ReaderId" FromRole="ReaderReviewModel" ToRole="ReaderModels" />
+        </EntityType>
+        <EntityType Name="Registration">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ParticipantId" Type="Int32" Nullable="false" />
+          <Property Name="EventId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Participant" Relationship="MyPractiseDBModel.FK_dbo_Registrations_dbo_Participants_ParticipantId" FromRole="Registration" ToRole="Participant" />
+          <NavigationProperty Name="XEvent" Relationship="MyPractiseDBModel.FK_dbo_Registrations_dbo_XEvents_EventId" FromRole="Registration" ToRole="XEvent" />
+        </EntityType>
+        <EntityType Name="XEvent">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EventName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Registrations" Relationship="MyPractiseDBModel.FK_dbo_Registrations_dbo_XEvents_EventId" FromRole="XEvent" ToRole="Registration" />
+        </EntityType>
+        <Association Name="FK_dbo_Registrations_dbo_Participants_ParticipantId">
+          <End Type="MyPractiseDBModel.Participant" Role="Participant" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="MyPractiseDBModel.Registration" Role="Registration" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participant">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Registration">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_ReaderReviewModels_dbo_ReaderModels_ReaderId">
+          <End Type="MyPractiseDBModel.ReaderModels" Role="ReaderModels" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="MyPractiseDBModel.ReaderReviewModel" Role="ReaderReviewModel" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ReaderModels">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ReaderReviewModel">
+              <PropertyRef Name="ReaderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_Registrations_dbo_XEvents_EventId">
+          <End Type="MyPractiseDBModel.XEvent" Role="XEvent" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="MyPractiseDBModel.Registration" Role="Registration" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="XEvent">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Registration">
+              <PropertyRef Name="EventId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="MyPractiseDBModelStoreContainer" CdmEntityContainer="MyPractiseDBEntities">
+          <EntitySetMapping Name="ReaderDetails">
+            <EntityTypeMapping TypeName="MyPractiseDBModel.ReaderDetails">
+              <MappingFragment StoreEntitySet="ReaderDetails">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Owner" ColumnName="Owner" />
+                <ScalarProperty Name="Dess" ColumnName="Des" />
+                <ScalarProperty Name="ReaderId" ColumnName="ReaderId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ReaderModels">
+            <EntityTypeMapping TypeName="MyPractiseDBModel.ReaderModels">
+              <MappingFragment StoreEntitySet="ReaderModels">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="ReaderName" ColumnName="Name" />
+                <ScalarProperty Name="IP" ColumnName="IP" />
+                <ScalarProperty Name="Port" ColumnName="Port" />
+                <ScalarProperty Name="ConnectionStatus" ColumnName="ConnectionStatus" />
+                <ScalarProperty Name="ReaderType" ColumnName="ReaderType" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Participants">
+            <EntityTypeMapping TypeName="MyPractiseDBModel.Participant">
+              <MappingFragment StoreEntitySet="Participants">
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ReaderReviewModels">
+            <EntityTypeMapping TypeName="MyPractiseDBModel.ReaderReviewModel">
+              <MappingFragment StoreEntitySet="ReaderReviewModels">
+                <ScalarProperty Name="ReaderId" ColumnName="ReaderId" />
+                <ScalarProperty Name="Content" ColumnName="Content" />
+                <ScalarProperty Name="Rating" ColumnName="Rating" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Registrations">
+            <EntityTypeMapping TypeName="MyPractiseDBModel.Registration">
+              <MappingFragment StoreEntitySet="Registrations">
+                <ScalarProperty Name="EventId" ColumnName="EventId" />
+                <ScalarProperty Name="ParticipantId" ColumnName="ParticipantId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="XEvents">
+            <EntityTypeMapping TypeName="MyPractiseDBModel.XEvent">
+              <MappingFragment StoreEntitySet="XEvents">
+                <ScalarProperty Name="EventName" ColumnName="EventName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

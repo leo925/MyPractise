@@ -1,0 +1,120 @@
+﻿
+
+
+@{
+    ViewBag.Title = "Search";
+}
+<form method="post" enctype="multipart/form-data">
+    <h2>Search</h2>
+    <div>
+        <input type="button" id="btnGetData" value="get data" />
+    </div>
+    <div>
+        <div class="blue" leo-with="100">this is the div1</div>
+        <div id="div2" title="div2" class="red">this is the div2</div>
+        <div id="div3" title="div">
+            this is the div3
+            <div id="div31" title="tdiv3">
+                inner div
+            </div>
+        </div>
+        <div id="div4" leo-with>this is the div4</div>
+        <div id="div5">this is the div4</div>
+    </div>
+    <input type="text" id="input1" />
+    <input type="text" id="input2" />
+    <input type="submit" value="act" id="btnAct" style="height:20px;" />
+    <div class="classX">please mouse over me</div>
+    <table id="mytable">
+      <thead>
+          <tr>
+              <th>col1</th>
+              <th>col2</th>
+              <th>col3</th>
+          </tr>
+      </thead>
+        <tbody>
+            <tr>
+                <td>11</td><td>12</td><td>13</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <input type="button" value="add a row" id="btnAddRow" style="height:20px;width:120px"/>
+    </div>
+    <div>
+        below is from load function
+        <div id="divLoad">
+
+        </div>
+    </div>
+    <div> download please click</div>
+    @Html.ActionLink("please click to download", "search", new
+{
+    name = "file"
+})
+
+
+</form>
+
+@if (IsPost)
+{
+
+}
+
+@section scripts{
+
+    <style type="text/css">
+        .blue {
+            background-color:blue;
+        }
+
+         .red {
+            background-color:red;
+        }
+    </style>
+
+<script type="text/javascript">
+    //javascript practise
+
+    $.extend({
+        MyAdd: function (a, b) {
+            return a + b;
+        }
+    })
+
+    $.fn.extend({
+        TheType: function () {
+            return typeof this  ;
+        }
+    })
+    
+    $(document).ready(function () {
+        //$.ajaxSettings.async = false;
+        //$.getJSON("http://localhost:58350/api/readers", function (data, status, xhr) {
+        //    console.log(data);
+        //    $.each(data, function (i, d) {
+
+        //        console.log(d.Id + "   " + d["Name"]);
+        //    });
+        //});
+        //console.log("call ed ajax111222211");
+
+
+        //$.post("http://localhost:58350/api/readers", { Id: 4, Name:"newReader"}, function (data) {
+        //    console.log("post success:"+data);
+        //});
+
+        
+        $("#btnGetData").click(function () {
+            console.log("call get data");
+            $.get("getdata", function (d, status, xhr) {
+                console.log(d.Name);
+            },'json');
+        });
+
+    });
+
+   
+</script>
+}

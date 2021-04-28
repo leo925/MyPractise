@@ -1,0 +1,159 @@
+﻿Eng 6
+A setback is an event that delays your progress or reverses some of the progress that you have made. 挫折; 倒退
+(Richel pursade jill to live off the mone he earn, when Jill go shopping)one little set back is ok.
+live off(以…为食料；靠…生活；)  the money that you earn
+on the house:(由店家或团体组织等)免费招待；免费赠送
+If something is bought, sold, or done for a particular amount of money, that amount of money is its price. 以 (某数量的钱)
+sold their house for about 1.4 million dollars.
+Customers can subscribe to the service for a monthly fee of US$ 10 per user and month (注意for)
+with our chequing account, you can have unlimited daily transactions for a small monthly fee:(注意的用法)
+empty promise:假意的允诺，无诚意的许诺
+I am gonna get some groceries in the grocery store/grocer's .
+vacuum the house/floor,  vacuum cleaner
+we penalize him with a （big)demerit record:记(大)过 
+in orbit在轨道上；在轨道上运行；[俚语]飘飘然
+earth orbit 地球轨道
+Bedding is sheets, blankets, and covers that are used on beds. 床上用品 bedding bag:被套 quilt cover
+crib: baby bed
+commend/kəˈmɛnd/(表扬):I commended her for that action.
+commendable [kə'mɛndəbl]:值得表扬的
+The other banks are going to be very eager to help, provided that they see that he has a specific plan.
+如果他有一个具体的计划，其他的银行才会非常渴望提供资助 
+provided:. 假如；倘若       
+Poland  ['pəulənd] 波兰   Polish:'pəʊlɪʃ 波兰的；波兰人的；波兰语的；n 波兰人
+He tried to play down(贬低) my part in the work and play up(突出；强调) his own.
+and the second notation, string2, encloses the string in apostrophes (**[ə'pɑstrəfi].
+An apostrophe is the mark ' when it is written to indicate that one or more letters have been left out of a word, as in "isn't" and "we'll." 
+It is also added to nouns to form possessives, as in "Mike's car." 撇号
+If you enclose(**还有包装的意思 ) something with a letter, you put it in the same envelope as the letter. (随信) 附上
+I have enclosed a cheque for £100. 
+you can see in the first example because the string is enclosed in quotation marks I'm able to include an apostrophe in the string without escaping,
+and in the second example the string includes quotation marks, and I don't have to escape them because the string is delimited by apostrophes. 
+Escape sequences(**) are used to represent certain special characters within string literals and character literals.
+JavaScript string escape sequences begin with the backslash character
+Unicode characters can be included by using \u and then the code representing the character
+search term(**): Computers. a word or other term used to electronically retrieve data, Web pages, or other information from files, databases, etc.: 
+When you search the shopping website, ads relating to your search terms will appear along with your search results.
+The first parameter to the slice method is the index of the first character you want to take,
+and the second parameter to the slice method is one greater than the index of the last character that you want to take.
+小数： decimal， or decimal fraction
+A decimal is a fraction that is written in the form of a dot followed by one or more numbers which represent tenths, hundredths, and so on: for example, .5, .51, .517. 小数
+tenth, hundredth: 小数点后第一, 二位  
+JavaScript provides the standard numerical operators ... multiplication,division, and modulus(取模),    22 %(读mod)  3   
+The other alternative to avoid this problem of inexact decimal fractions is to work with whole numbers. This is commonly used when working with money. 
+Instead of working with parts of dollars, instead we convert everything into cents.
+When you write a regular expression, most characters match themselves(***). There's also a thing called character classes(**character class), which is where a special character or
+set of characters is used to match certain groups such as backslash lowercase W will match any word character,
+Square brackets is used to denote a set of characters.(like [a-z])
+The dot character matches any character, and curly braces are quantifiers.  quantifier:语法学】数量词(如 eight, ten, much, many, few)
+The backslash character escapes special characters,
+So, you can see it's come out(**come out) bold because of the strong tags. 
+we see the text highlighted. It's leaving off(**refer to You dao) the strong tags.
+ we can use this square bracket notation to access array elements by their position in the array beginning at 0 for the first element
+ the array literal syntax is the square brackets with items in between(*****).
+ There's a global function called eval that interprets strings of JavaScript code.
+A logarithm tells you what power a base number must be raised to in order to produce a given value
+punctuation marks: comma , colon : semicolon  ;   full stop/period .  exclamation mark  !  question mark  ?  quotation marks/double quotes " 
+apostrophe  '  backtick `(differ from ')  dash - tilde ~   plus mark +  minus mark -     at sign @  backslash \    vertical bar |    ampersand  &
+asterisk  *   square brackets []  parentheses  ()  curly braces {}   logical operator || && !    caret  ^   pound sign #
+negation mark :  !(in c#) 
+("cat"==="cat") the same thing holds for(适用) numbers as well.,    16===16 is true
+ A window is a glass-covered opening above a counter, for example, in a bank, post office, train station, or museum, which the person serving you sits behind. (银行、邮局、火车站、博物馆等提供服务的) 窗口
+ ticket window:售票窗口
+Using 120 hours [for each stage of English fluency] is a rather traditional approach to course book learning(**)
+(js)All function returns true when the function given to all returns true for each item in the source array.
+ but you should normally use the aforementioned(*) approach.
+ strict equality === , strict inequality  !==  , 
+ normal equality convert values of different types before comparing them as with strict equality
+ if both values have the same type, then the following assertions hold(**):  undefined===undefined   ;  null ===null;
+ logical operators: && ,||,!  
+ short circuiting:the second operand is not evaluated if the first operand already determines the result.   'abc' || 123  => abc  ; true || console.log("hello!")
+ exponent: 2(指数3, 3 is the exponent)=8     calculate 3 to the power of 2  ,  raise 4 to the power of 3(I made up)
+ with number literals , the dot for accessing a property must be distinguished from the decimal dot.
+ double quotes(*) are used exclusively(**) for strings in some lanuages(jave,c);
+ Hibernation [,haɪbɚ'neʃən] is similar to regular shutdown but without the unnecessary hassle(v/n:麻烦) of terminating all open applications. 
+you have a very high(***) chance of becoming fluent in the language
+trekking through the jungles.(Craby, it seems 'elephant trekking')
+draw lots:抽签  lottery: Type of gambling in which winners are chosen by drawing of lots(***),  
+the most common regulation is prohibition/,prəʊhɪ'bɪʃ(ə)n/ of sale to minors(****)
+The Shanghai Metro system is the world's largest rapid transit system by route length.
+Zhangjiang Tram(*) :张江有道电车
+The Shanghai Metro system is the world's largest rapid transit system by route length totaling 644 kilometres. It is the second largest by number of stations with 393 stations on 16 lines.
+It ranks second in the world by annual ridership with 3.53 billion rides delivered in 2017. The daily ridership record was set at 12.355 million on March 23, 2018.[2] Over 10 million people use the system
+on an average workday(???).
+The operating hours(**) for most Shanghai metro stations starts between 5:00 to 6:00 in the morning and ends between 22:30 to 23:00
+The busiest station in Shanghai Metro system is People's Square station (Lines 1, 2 and 8). As the interchange station for three lines, it is extremely crowded during peak hours(**). 
+It remains busy during the rest of the day as it is located near major shopping and tourist destinations such as East Nanjing Road, a pedestrian street, as well as the Shanghai Museum, People's Park,
+the Shanghai Grand Theatre and Yan'an Park on People's Square. It has the second largest number of exits (totalling 17) in the stations of the metro system.
+Like many other metro systems in the world (Shanghai Metro) uses a distance-based fare system.
+Single-Journey(**) tickets can be purchased from ticket vending machines(**), and at some stations, at a ticket window. Single-ride(**) tickets are embedded with RFID contactless(**) chips. 
+When entering the system riders tap(**) the ticket against a scanner above the turnstile, and on exit they insert the ticket into a slot where it is stored and recycled.
+*****A turnstile['tɝnstaɪl], also called a baffle gate or turnstyle, is a form of gate which allows one person to pass at a time. It can also be made so as to enforce one-way(**) traffic of people, 
+and in addition, it can restrict passage only to people who insert a coin, a ticket, a pass, or similar. Thus a turnstile can be used in the case of paid access
+(sometimes called a faregate or ticket barrier when used for this purpose), for example to access public transport, a pay toilet, or to restrict access to authorized people, 
+for example in the lobby of an office building.
+compete in the tournament phase(vs. qualification phase) for the title at venues(***) within the host nation(s) over a period of about a month.
+If a person or team wins a particular title(***), they win a sports competition that is held regularly. Usually a person keeps a title until someone else defeats them. (体育比赛的) 冠军
+(brail....)The other World Cup winners are Germany and Italy, with four titles each
+the cumulative audience of all matches of the 2006 World Cup was estimated to be 26.29 billion with an estimated 715.1 million people watching the final match, a ninth of the entire population of the planet
+There are two stages: the group stage followed by the knockout(KO) stage.
+Each group plays a round-robin tournament, in which each team is scheduled for three matches against other teams(every team) in the same group
+A round-robin is a sports competition in which each player or team plays against every other player or team. 循环赛
+The last round(*) of matches of each group is scheduled at the same time to preserve fairness among all four teams
+The top two teams from each group advance to the knockout stage. Points are used to rank the teams within a group
+Since 1994, three points have been awarded for a win, one for a draw and none for a loss 
+***football pitch/field
+The longer sides are called touchlines. The other opposing sides are called the goal lines.
+The corners of the pitch are marked by corner flags.
+attempted to standardise the size of the football pitch for international matches and set the official dimensions of a pitch to 105 m long by 68 m wide.[5]
+Although the term goal line is often taken to mean only that part of the line between the goalposts, in fact it refers to the complete line at either end of the pitch, from one corner flag to the other
+Goals are placed at the centre of each goal-line.These consist of two upright posts placed equidistant from the corner flagposts, joined at the top by a horizontal crossbar.
+The inner edges of the posts must be 7.32 metres (8 yd) apart, and the lower edge of the crossbar must be 2.44 metres (8 ft) above the ground
+Rules regarding the shape of goalposts and crossbars are somewhat more lenient(**)
+but they must conform to a shape that does not pose(***) a threat to players.
+own goal:
+(** a very logn sentence)A goal may, however, be ruled illegal (and void by the referee) if the player who scored or a member of his team commits an offence under any of the laws 
+--between the time the ball was previously out of play and the goal being scored. 
+The pitch is typically made of turf(***) (grass) or artificial turf, although amateur and recreational teams often play on dirt fields.
+It's convenient because you don't have to think about the type of the numbers that you're working with, but there's a tradeoff(**权衡；折衷；) because decimal fractions are not exact. 
+The number type also has a handy(**) method toFixed, which returns the number fix(fixed??) to n decimal places.
+people often prefer a well-thought-out answer to a rushed one.
+but expecting the same standards from yourself when speaking in a foreign language may not be very realistic.
+you can find tag by id, sometimes, you want to check a specific attribute for a value, and then find that(tags) based on the value
+next up(接下来) in the our tour of jquery selectors is selecting input 
+we'll take it up a notch(*更上一层) in this module.
+we'll go into a bit of detail there.
+(juqery each , second parameter) it also pass you the actual element that it's looping through
+you kind of get an equivalent of what a for loop would do
+(json) it wasn't leveraged untill serveral years ago.
+bring to the table  提供（好处，利益） => what Jquery brings to the table is ......
+(we've seen how to work with event short cut...)but behind the secnes these are actually delegating (**)to on
+remain vigilant /ˈvɪdʒɪlənt/, use caution and report all suspicious activity to xxx
+bare the feet/ with bare feet/  a barefoot boy
+get stuck in traffic
+Procrastination  [pro,kræstə'neʃən] is the thief of time. 拖延就是浪费时间
+ If a person or animal is in quarantine, they are being kept separate from other people or animals for a set period of time, 
+ -usually because they have or may have a disease that could spread. 隔离
+
+The extreme raining weather will be continuing for several days based on the weather forecast:
+Friendly remind from Facilities:
+1.	The building management office might still need some time to repair the office leakage points 
+2.	Please reach Facilities hotline 7001 if you found any leakage points nearby your desk, or met any problems in IFS building/office
+如因办公室/大厦的漏水问题影响您的日常办公，或在您的办公桌附近发现任何漏水点，请及时拨打办公室热线：7001通知设施管理部门
+3.	Remember to shut down and unplug all your devices every day before work off, in case devices damage caused by leakage
+请在每日下班前关闭所有电子设备并拔除电源，以防止漏水造成设备损坏
+4.	Be aware of falling objects: DO NOT place any stuff on the windows, in case the windows are blown by wind.
+高空坠物风险提示：请勿在窗台放置任何物品，以防止窗户被风吹开，进而造成高空坠物
+5.	Stay away from any billboards and power supply boxes when you are outside
+当您在户外时，请远离广告牌灯箱及电箱设备
+
+If you bid for something that is being sold, you offer to pay a particular amount of money for it. 出价;招标
+招标(invitation to tender) 
+
+V-I 不及物动词 If a company tenders for something, it makes a formal offer to supply goods or do a job for a particular price. 投标
+N-VAR 有变体名词 A tender is a formal offer to supply goods or to do a particular job, and a statement of the price that you or your company will charge.
+ If a contract is put out to tender, formal offers are invited. If a company wins a tender, their offer is accepted. 投标
+  A rule of thumb is a rule or principle that you follow which is not based on exact calculations, but rather(***) on experience. 经验法则
+--you will see that this one(this html file) actually has the body and the head and the html tag stripped out(***)
+or you can load the related data after the fact:事后
+

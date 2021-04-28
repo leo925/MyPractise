@@ -29,3 +29,144 @@
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
 </div>
+<script>
+
+    var foo="bar" ;
+    //let and var
+    $(function () {
+        log(foo) ;
+        Bar() ;
+        log(foo) ;
+    });
+
+    function Bar()
+    {
+        var foo="Baz"
+        log(foo)  ;
+    }
+
+    function Baz(foo)
+    {
+        foo="Bam" ;
+        bam="yay" ;
+    }
+
+
+
+//above : tests for advanced js
+    function TestThis()
+    {
+        var t= this ===window;
+        log(t) ;//true
+        //work with object
+        let obj={
+            number:1,
+            GetNumber:function(){
+                return this.number;
+            }
+        }
+        log( obj.GetNumber());//out put 1
+    }
+
+    //IIFE   have the function work in isolation
+    function TestClosure()
+    {
+        var Counter=(function(){
+            let c=0 ;
+            return function(a)
+            {
+                c=c+a   ;
+                console.log(c);
+            }
+        })();
+
+        Counter(0) ;
+        Counter(1) ;
+        Counter(1) ;
+    }
+
+    function TestCodeBlockScope()
+    {
+        if(1===1)
+        {
+            var v1=1;
+            let l1=2;
+        }
+        console.log(v1)  ; //********works, var will hoist a declaration
+        console.log(l1)  ;//*******error, let won't hoist a declaration
+    }
+
+    function TestFunctionScope()
+    {
+        let l1=1;
+        var v1=2;
+        var fun2=function(){
+            console.log(l1,v1);//output 1, undefined,   'var v1=3' is hosted partly, 'var v1' is hoisted, but the instantiation is not
+            var v1=3;
+        } 
+        fun2();
+        console.log(l1,v1);//out put 1,2, the origional values
+    }
+
+    function TestType()
+    {//findings:   5 primitives: number, string, boolean, undefined,null(typeof(null) return object) and object  => totally, 6 types
+        var t=typeof(1.111);//number
+        console.log(t) ;
+        t=typeof(true);//boolean
+        console.log(t) ;
+        t=typeof('abc');//string
+        console.log(t) ;
+        t=typeof(function(){});//function
+        console.log(t) ;
+        t=typeof(null);//object
+        console.log(t) ;
+        t=typeof({});//object
+        console.log(t) ;
+        t=typeof([1,2]);//object
+        console.log(t) 
+    }
+
+    function TestSpreadArray()
+    {
+        let cards=[1,2,3]  ;
+        Spread(...cards) ;
+    }
+    function Spread(a,b,c)
+    {
+        console.log(a,b,c) ;
+    }
+
+    function TestDestructuringArray()
+    {
+        var cards = [1, 2, 4];
+        let [c1,...c2]=cards;
+        console.log(c1,c2);
+    }
+
+    function TestVarAndLet()
+    {
+        //findings: the let and var could cause different scope, one is function scoped, the other is block scoped
+        var tip = 10;
+        if (true)
+        {
+            var tip2 = 20;
+            let tip3 = 11;
+            const dd = 10;
+        }
+        console.log(tip2);
+        console.log(dd);
+       
+    }
+
+    function log( a)
+    {
+        console.log(a) ;
+    }
+
+    function testWebSocket()
+    { 
+       
+    }
+
+</script>
+
