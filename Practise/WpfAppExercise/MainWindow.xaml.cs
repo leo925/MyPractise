@@ -28,6 +28,8 @@ namespace WpfAppExercise
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Task<int> t = new Task<int>(n => { return (int)n * 10; }, 10);
+
             ClrPractise1 p = new ClrPractise1();
             try
             {
